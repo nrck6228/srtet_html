@@ -15,6 +15,8 @@ const mix = require('laravel-mix');
 //     .postCss('resources/css/app.css', 'public/css', [
 //         //
 //     ]);
-mix.sass('resources/sass/app.scss', 'public/css')
+mix.sass('resources/sass/global.scss', 'public/css')
     .copy('resources/fonts', 'public/fonts')
-    .copy('resources/assets', 'public/assets');
+    .copy('resources/assets', 'public/assets')
+    .copy('resources/js', 'public/js')
+    .copy('node_modules/slick-carousel/slick', 'public/slick');

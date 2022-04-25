@@ -1,5 +1,5 @@
 {
-    "/css/app.css": "/css/app.css",
+    "/css/global.css": "/css/global.css",
     "/fonts/psl094pro.woff": "/fonts/psl094pro.woff",
     "/fonts/psl094pro.woff2": "/fonts/psl094pro.woff2",
     "/fonts/psl095pro.woff": "/fonts/psl095pro.woff",
@@ -7,5 +7,19 @@
     "/fonts/psl096pro.woff": "/fonts/psl096pro.woff",
     "/fonts/psl096pro.woff2": "/fonts/psl096pro.woff2",
     "/fonts/psl097pro.woff": "/fonts/psl097pro.woff",
-    "/fonts/psl097pro.woff2": "/fonts/psl097pro.woff2"
+    "/fonts/psl097pro.woff2": "/fonts/psl097pro.woff2",
+    "/js/app.js": "/js/app.js",
+    "/js/bootstrap.js": "/js/bootstrap.js",
+    "/js/slick.js": "/js/slick.js",
+    "/slick/ajax-loader.gif": "/slick/ajax-loader.gif",
+    "/slick/config.rb": "/slick/config.rb",
+    "/slick/slick-theme.css": "/slick/slick-theme.css",
+    "/slick/slick-theme.less": "/slick/slick-theme.less",
+    "/slick/slick-theme.scss": "/slick/slick-theme.scss",
+    "/slick/slick.css": "/slick/slick.css",
+    "/slick/slick.js": "/slick/slick.js",
+    "/slick/slick.less": "/slick/slick.less",
+    "/slick/slick.min.js": "/slick/slick.min.js",
+    "/slick/slick.scss": "/slick/slick.scss",
+    "/js/function.js": "/js/function.js"
 }
