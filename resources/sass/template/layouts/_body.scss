@@ -1,0 +1,39 @@
+body{
+    scroll-behavior: smooth;
+    font-family: 'psl_kittithada';
+    font-weight: bold;
+    overflow: hidden;
+}
+
+// Preloader
+.loading--page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    
+    .counter {
+        text-align: center;
+
+        h2{
+            font-size: 3.75rem;
+
+            &.abs {
+                position: absolute;
+                top: 0;
+                width: 100%;
+            }
+        }
+
+        p{
+            font-size: 2.5rem;
+            color: $red;
+        }
+    }
+
+    .counter{
+        position: relative;
+        min-width: 200px;
+    }
+}

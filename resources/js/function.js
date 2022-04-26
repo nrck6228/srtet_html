@@ -3,7 +3,7 @@ $(window).on('load',function(){
     var c = 0;
     var i = setInterval(function () {
         $(".loading--page .counter h2").html(c + "%");
-        $(".loading--page .counter hr").css("width", c + "%");
+        // $(".loading--page .counter hr").css("width", c + "%");
 
         counter++;
         c++;
@@ -12,5 +12,5 @@ $(window).on('load',function(){
             clearInterval(i);
             $('.loading--page').fadeOut('slow');
         }
-    }, 10);
+    }, 20);
 });

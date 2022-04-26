@@ -1,0 +1,555 @@
+// deck
+.card-deck {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+
+    .card {
+        flex-grow: 1;
+        flex-shrink: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+@each $name,
+$breakpoint in $grid-breakpoints {
+
+    @media (min-width: $breakpoint) {
+
+        .card-deck {
+            .card {
+                flex-basis: calc(#{100/map-get($card-deck-breakpoint, $name)}% - #{$grid-gutter-width});
+                flex: 0 0 calc(#{100/map-get($card-deck-breakpoint, $name)}% - #{$grid-gutter-width});
+                max-width: calc(#{100/map-get($card-deck-breakpoint, $name)}% - #{$grid-gutter-width});
+            }
+            &.card-deck--two {
+                .card {
+                    flex-basis: calc(#{100/map-get($card-deck--two-breakpoint, $name)}% - #{$grid-gutter-width});
+                    flex: 0 0 calc(#{100/map-get($card-deck--two-breakpoint, $name)}% - #{$grid-gutter-width});
+                    max-width: calc(#{100/map-get($card-deck--two-breakpoint, $name)}% - #{$grid-gutter-width});
+                }
+            }
+            &.card-deck--three {
+                .card {
+                    flex-basis: calc(#{100/map-get($card-deck--three-breakpoint, $name)}% - #{$grid-gutter-width});
+                    flex: 0 0 calc(#{100/map-get($card-deck--three-breakpoint, $name)}% - #{$grid-gutter-width});
+                    max-width: calc(#{100/map-get($card-deck--three-breakpoint, $name)}% - #{$grid-gutter-width});
+                }
+            }
+        }
+    }
+}
+
+a.card,
+a.card:hover {
+    text-decoration: none
+}
+
+a.card:focus {
+    outline: 0
+}
+
+.card {
+    border: 0;
+    border-radius: 0;
+    position: relative;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.card,
+.card__figure {
+    overflow: hidden
+}
+
+.card .card__zoom-in {
+    overflow: hidden;
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out, -webkit-transform .3s ease-out
+}
+
+.card:hover .card__zoom-in {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05)
+}
+
+.card-deck--cards-1>.card {
+    flex: 0 0 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-right: 0;
+    margin-left: 0
+}
+  
+.card-deck--cards-2>.card {
+    flex: 0 0 calc(50% - 30px);
+    flex-basis: calc(50% - 30px);
+    max-width: calc(50% - 30px);
+    margin-right: 15px;
+    margin-left: 15px
+}
+  
+.card-deck--cards-3>.card {
+    flex: 0 0 calc(33.33333% - 30px);
+    flex-basis: calc(33.33333% - 30px);
+    max-width: calc(33.33333% - 30px);
+    margin-right: 15px;
+    margin-left: 15px
+}
+
+.card-deck--cards-4>.card {
+    flex: 0 0 calc(25% - 30px);
+    flex-basis: calc(25% - 30px);
+    max-width: calc(25% - 30px);
+    margin-right: 15px;
+    margin-left: 15px
+}
+
+.card-deck--cards-5>.card {
+    flex: 0 0 calc(20% - 30px);
+    flex-basis: calc(20% - 30px);
+    max-width: calc(20% - 30px);
+    margin-right: 15px;
+    margin-left: 15px
+}
+
+.card-deck--cards-6>.card {
+    flex: 0 0 calc(16.66667% - 30px);
+    flex-basis: calc(16.66667% - 30px);
+    max-width: calc(16.66667% - 30px);
+    margin-right: 15px;
+    margin-left: 15px
+}
+
+@media(min-width:576px) {
+    .card-deck--cards-sm-1>.card {
+        flex: 0 0 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-right: 0;
+        margin-left: 0
+    }
+    .card-deck--cards-sm-2>.card {
+        flex: 0 0 calc(50% - 30px);
+        flex-basis: calc(50% - 30px);
+        max-width: calc(50% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+    .card-deck--cards-sm-3>.card {
+        flex: 0 0 calc(33.33333% - 30px);
+        flex-basis: calc(33.33333% - 30px);
+        max-width: calc(33.33333% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+    .card-deck--cards-sm-4>.card {
+        flex: 0 0 calc(25% - 30px);
+        flex-basis: calc(25% - 30px);
+        max-width: calc(25% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+    .card-deck--cards-sm-5>.card {
+        flex: 0 0 calc(20% - 30px);
+        flex-basis: calc(20% - 30px);
+        max-width: calc(20% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+    .card-deck--cards-sm-6>.card {
+        flex: 0 0 calc(16.66667% - 30px);
+        flex-basis: calc(16.66667% - 30px);
+        max-width: calc(16.66667% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+}
+
+@media(min-width:768px) {
+    .card-deck--cards-md-1>.card {
+        flex: 0 0 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-right: 0;
+        margin-left: 0
+    }
+    .card-deck--cards-md-2>.card {
+        flex: 0 0 calc(50% - 30px);
+        flex-basis: calc(50% - 30px);
+        max-width: calc(50% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+    .card-deck--cards-md-3>.card {
+        flex: 0 0 calc(33.33333% - 30px);
+        flex-basis: calc(33.33333% - 30px);
+        max-width: calc(33.33333% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+    .card-deck--cards-md-4>.card {
+        flex: 0 0 calc(25% - 30px);
+        flex-basis: calc(25% - 30px);
+        max-width: calc(25% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+    .card-deck--cards-md-5>.card {
+        flex: 0 0 calc(20% - 30px);
+        flex-basis: calc(20% - 30px);
+        max-width: calc(20% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+    .card-deck--cards-md-6>.card {
+        flex: 0 0 calc(16.66667% - 30px);
+        flex-basis: calc(16.66667% - 30px);
+        max-width: calc(16.66667% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+}
+
+@media(min-width:992px) {
+    .card-deck--cards-lg-1>.card {
+        flex: 0 0 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-right: 0;
+        margin-left: 0
+    }
+    .card-deck--cards-lg-2>.card {
+        flex: 0 0 calc(50% - 30px);
+        flex-basis: calc(50% - 30px);
+        max-width: calc(50% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+    .card-deck--cards-lg-3>.card {
+        flex: 0 0 calc(33.33333% - 30px);
+        flex-basis: calc(33.33333% - 30px);
+        max-width: calc(33.33333% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+    .card-deck--cards-lg-4>.card {
+        flex: 0 0 calc(25% - 30px);
+        flex-basis: calc(25% - 30px);
+        max-width: calc(25% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+    .card-deck--cards-lg-5>.card {
+        flex: 0 0 calc(20% - 30px);
+        flex-basis: calc(20% - 30px);
+        max-width: calc(20% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+    .card-deck--cards-lg-6>.card {
+        flex: 0 0 calc(16.66667% - 30px);
+        flex-basis: calc(16.66667% - 30px);
+        max-width: calc(16.66667% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+}
+
+@media(min-width:1200px) {
+    .card-deck--cards-xl-1>.card {
+        flex: 0 0 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-right: 0;
+        margin-left: 0
+    }
+    .card-deck--cards-xl-2>.card {
+        flex: 0 0 calc(50% - 30px);
+        flex-basis: calc(50% - 30px);
+        max-width: calc(50% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+    .card-deck--cards-xl-3>.card {
+        flex: 0 0 calc(33.33333% - 30px);
+        flex-basis: calc(33.33333% - 30px);
+        max-width: calc(33.33333% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+    .card-deck--cards-xl-4>.card {
+        flex: 0 0 calc(25% - 30px);
+        flex-basis: calc(25% - 30px);
+        max-width: calc(25% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+    .card-deck--cards-xl-5>.card {
+        flex: 0 0 calc(20% - 30px);
+        flex-basis: calc(20% - 30px);
+        max-width: calc(20% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+    .card-deck--cards-xl-6>.card {
+        flex: 0 0 calc(16.66667% - 30px);
+        flex-basis: calc(16.66667% - 30px);
+        max-width: calc(16.66667% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+}
+
+@media(min-width:1560px) {
+    .card-deck--cards-xxl-1>.card {
+        flex: 0 0 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-right: 0;
+        margin-left: 0
+    }
+    .card-deck--cards-xxl-2>.card {
+        flex: 0 0 calc(50% - 30px);
+        flex-basis: calc(50% - 30px);
+        max-width: calc(50% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+    .card-deck--cards-xxl-3>.card {
+        flex: 0 0 calc(33.33333% - 30px);
+        flex-basis: calc(33.33333% - 30px);
+        max-width: calc(33.33333% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+    .card-deck--cards-xxl-4>.card {
+        flex: 0 0 calc(25% - 30px);
+        flex-basis: calc(25% - 30px);
+        max-width: calc(25% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+    .card-deck--cards-xxl-5>.card {
+        flex: 0 0 calc(20% - 30px);
+        flex-basis: calc(20% - 30px);
+        max-width: calc(20% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+    .card-deck--cards-xxl-6>.card {
+        flex: 0 0 calc(16.66667% - 30px);
+        flex-basis: calc(16.66667% - 30px);
+        max-width: calc(16.66667% - 30px);
+        margin-right: 15px;
+        margin-left: 15px
+    }
+}
+
+.card-deck .card {
+    margin-bottom: 45px
+}
+
+.card-group--cards-1>.card {
+    flex: 0 0 100%;
+    flex-basis: 100%;
+    max-width: 100%
+}
+
+.card-group--cards-2>.card {
+    flex: 0 0 50%;
+    flex-basis: 50%;
+    max-width: 50%
+}
+
+.card-group--cards-3>.card {
+    flex: 0 0 33.33333%;
+    flex-basis: 33.33333%;
+    max-width: 33.33333%
+}
+
+.card-group--cards-4>.card {
+    flex: 0 0 25%;
+    flex-basis: 25%;
+    max-width: 25%
+}
+
+.card-group--cards-5>.card {
+    flex: 0 0 20%;
+    flex-basis: 20%;
+    max-width: 20%
+}
+
+.card-group--cards-6>.card {
+    flex: 0 0 16.66667%;
+    flex-basis: 16.66667%;
+    max-width: 16.66667%
+}
+
+@media(min-width:576px) {
+    .card-group--cards-sm-1>.card {
+        flex: 0 0 100%;
+        flex-basis: 100%;
+        max-width: 100%
+    }
+    .card-group--cards-sm-2>.card {
+        flex: 0 0 50%;
+        flex-basis: 50%;
+        max-width: 50%
+    }
+    .card-group--cards-sm-3>.card {
+        flex: 0 0 33.33333%;
+        flex-basis: 33.33333%;
+        max-width: 33.33333%
+    }
+    .card-group--cards-sm-4>.card {
+        flex: 0 0 25%;
+        flex-basis: 25%;
+        max-width: 25%
+    }
+    .card-group--cards-sm-5>.card {
+        flex: 0 0 20%;
+        flex-basis: 20%;
+        max-width: 20%
+    }
+    .card-group--cards-sm-6>.card {
+        flex: 0 0 16.66667%;
+        flex-basis: 16.66667%;
+        max-width: 16.66667%
+    }
+}
+
+@media(min-width:768px) {
+    .card-group--cards-md-1>.card {
+        flex: 0 0 100%;
+        flex-basis: 100%;
+        max-width: 100%
+    }
+    .card-group--cards-md-2>.card {
+        flex: 0 0 50%;
+        flex-basis: 50%;
+        max-width: 50%
+    }
+    .card-group--cards-md-3>.card {
+        flex: 0 0 33.33333%;
+        flex-basis: 33.33333%;
+        max-width: 33.33333%
+    }
+    .card-group--cards-md-4>.card {
+        flex: 0 0 25%;
+        flex-basis: 25%;
+        max-width: 25%
+    }
+    .card-group--cards-md-5>.card {
+        flex: 0 0 20%;
+        flex-basis: 20%;
+        max-width: 20%
+    }
+    .card-group--cards-md-6>.card {
+        flex: 0 0 16.66667%;
+        flex-basis: 16.66667%;
+        max-width: 16.66667%
+    }
+}
+
+@media(min-width:992px) {
+    .card-group--cards-lg-1>.card {
+        flex: 0 0 100%;
+        flex-basis: 100%;
+        max-width: 100%
+    }
+    .card-group--cards-lg-2>.card {
+        flex: 0 0 50%;
+        flex-basis: 50%;
+        max-width: 50%
+    }
+    .card-group--cards-lg-3>.card {
+        flex: 0 0 33.33333%;
+        flex-basis: 33.33333%;
+        max-width: 33.33333%
+    }
+    .card-group--cards-lg-4>.card {
+        flex: 0 0 25%;
+        flex-basis: 25%;
+        max-width: 25%
+    }
+    .card-group--cards-lg-5>.card {
+        flex: 0 0 20%;
+        flex-basis: 20%;
+        max-width: 20%
+    }
+    .card-group--cards-lg-6>.card {
+        flex: 0 0 16.66667%;
+        flex-basis: 16.66667%;
+        max-width: 16.66667%
+    }
+}
+
+@media(min-width:1200px) {
+    .card-group--cards-xl-1>.card {
+        flex: 0 0 100%;
+        flex-basis: 100%;
+        max-width: 100%
+    }
+    .card-group--cards-xl-2>.card {
+        flex: 0 0 50%;
+        flex-basis: 50%;
+        max-width: 50%
+    }
+    .card-group--cards-xl-3>.card {
+        flex: 0 0 33.33333%;
+        flex-basis: 33.33333%;
+        max-width: 33.33333%
+    }
+    .card-group--cards-xl-4>.card {
+        flex: 0 0 25%;
+        flex-basis: 25%;
+        max-width: 25%
+    }
+    .card-group--cards-xl-5>.card {
+        flex: 0 0 20%;
+        flex-basis: 20%;
+        max-width: 20%
+    }
+    .card-group--cards-xl-6>.card {
+        flex: 0 0 16.66667%;
+        flex-basis: 16.66667%;
+        max-width: 16.66667%
+    }
+}
+
+@media(min-width:1560px) {
+    .card-group--cards-xxl-1>.card {
+        flex: 0 0 100%;
+        flex-basis: 100%;
+        max-width: 100%
+    }
+    .card-group--cards-xxl-2>.card {
+        flex: 0 0 50%;
+        flex-basis: 50%;
+        max-width: 50%
+    }
+    .card-group--cards-xxl-3>.card {
+        flex: 0 0 33.33333%;
+        flex-basis: 33.33333%;
+        max-width: 33.33333%
+    }
+    .card-group--cards-xxl-4>.card {
+        flex: 0 0 25%;
+        flex-basis: 25%;
+        max-width: 25%
+    }
+    .card-group--cards-xxl-5>.card {
+        flex: 0 0 20%;
+        flex-basis: 20%;
+        max-width: 20%
+    }
+    .card-group--cards-xxl-6>.card {
+        flex: 0 0 16.66667%;
+        flex-basis: 16.66667%;
+        max-width: 16.66667%
+    }
+}
