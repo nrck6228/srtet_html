@@ -14,3 +14,11 @@ $(window).on('load',function(){
         }
     }, 20);
 });
+
+$(".hamburger").click(function(){
+    $(this).toggleClass("is-active");
+    // $(".header--mobile").toggleClass("header--mobile__open");
+    $(".mobile--nav").toggleClass("mobile--nav__open");
+
+    $("body").toggleClass('open-menu');
+}); 
