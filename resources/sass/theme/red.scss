@@ -1,0 +1,65 @@
+$red:                   #BC1320;
+$black:                 #000000;
+$white:                 #FFFFFF;
+$gray:                  #4d4d4d;
+$darkgray:              #333;
+
+$colors: ();
+$colors: map-merge((
+  "red":                 $red,
+  "black":               $black,
+  "white":               $white,
+  "gray":                $gray,
+  "darkgray":            $darkgray
+), $colors);
+
+// Preloader
+.loading--page {
+    background: #0d0d0d;
+
+    .counter {
+
+        h2{
+            color: white;
+        }
+
+        p{
+            color: $red;
+        }
+    }
+}
+
+.home--slider{
+    .slider--banner{
+        //overwrite slick
+        .slick-dots{
+            li{
+
+                button{
+                    background-color: $gray;
+
+                    &:before{
+                        display: none;
+                    }
+                }
+
+                &.slick-active{
+                    width: 30px;
+                    height: 15px;
+
+                    button{
+                        background-color: $red;
+                    }
+                }
+            }
+        }
+    }
+
+    .slider__title{
+        color: $red;
+    }
+
+    .slider__text{
+        color: $gray;
+    } 
+}

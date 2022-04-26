@@ -1,4 +1,5 @@
 {
+    "/css/theme/red.css": "/css/theme/red.css",
     "/css/global.css": "/css/global.css",
     "/fonts/psl094pro.woff": "/fonts/psl094pro.woff",
     "/fonts/psl094pro.woff2": "/fonts/psl094pro.woff2",
@@ -10,6 +11,7 @@
     "/fonts/psl097pro.woff2": "/fonts/psl097pro.woff2",
     "/js/app.js": "/js/app.js",
     "/js/bootstrap.js": "/js/bootstrap.js",
+    "/js/function.js": "/js/function.js",
     "/js/slick.js": "/js/slick.js",
     "/slick/ajax-loader.gif": "/slick/ajax-loader.gif",
     "/slick/config.rb": "/slick/config.rb",
@@ -20,6 +22,5 @@
     "/slick/slick.js": "/slick/slick.js",
     "/slick/slick.less": "/slick/slick.less",
     "/slick/slick.min.js": "/slick/slick.min.js",
-    "/slick/slick.scss": "/slick/slick.scss",
-    "/js/function.js": "/js/function.js"
+    "/slick/slick.scss": "/slick/slick.scss"
 }

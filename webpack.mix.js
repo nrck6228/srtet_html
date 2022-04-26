@@ -11,11 +11,25 @@ const mix = require('laravel-mix');
  |
  */
 
-// mix.js('resources/js/app.js', 'public/js')
-//     .postCss('resources/css/app.css', 'public/css', [
-//         //
-//     ]);
+mix.webpackConfig({
+    stats: {
+        hash: true,
+        version: true,
+        timings: true,
+        children: true,
+        errors: true,
+        errorDetails: true,
+        warnings: true,
+        chunks: true,
+        modules: false,
+        reasons: true,
+        source: true,
+        publicPath: true,
+    }
+});
+
 mix.sass('resources/sass/global.scss', 'public/css')
+    .sass('resources/sass/theme/red.scss', 'public/css/theme')
     .copy('resources/fonts', 'public/fonts')
     .copy('resources/assets', 'public/assets')
     .copy('resources/js', 'public/js')

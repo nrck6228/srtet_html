@@ -1,0 +1,104 @@
+.hero--slider{
+    .slider--banner{
+
+        //overwrite slick
+        .slick-dots{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            right: 30px;
+            bottom: 30px;
+            width: auto;
+            text-align: right;
+
+            li{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                button{
+                    width: 15px;
+                    height: 15px;
+                    padding: 0;
+                    border-radius: 15px;
+                    background-color: $gray;
+
+                    &:before{
+                        display: none;
+                    }
+                }
+
+                &.slick-active{
+                    width: 30px;
+                    height: 15px;
+
+                    button{
+                        width: 30px;
+                        height: 15px;
+                        padding: 0;
+                        border-radius: 15px;
+                        background-color: $red;
+                    }
+                }
+            }
+        }
+
+        .slick-active{
+            .slider__title{
+                animation: heroBannerFadeInUp 1.5s;
+            }
+
+            .slider__text{
+                animation: heroBannerFadeInUp 2s;
+            }
+        }
+    }
+
+    .slider__item{
+        position: relative;
+        display: block;
+        overflow: hidden;
+    }
+
+    .slider__image{
+        width: 100%;
+        height: auto;
+    }
+
+    .slider__content{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%);
+        width: auto;
+        padding: 25px;      
+    }
+
+    .slider__title{
+        font-weight: bold;
+        color: $red;
+        // text-shadow: 0px 3px 5px rgb(0 0 0 / 45%);
+    }
+
+    .slider__text{
+        font-weight: bold;
+        color: $gray;
+        // text-shadow: 0px 3px 5px rgb(0 0 0 / 45%);
+    } 
+
+    @include media-breakpoint-up(lg) {
+        .slider__content{
+            padding: 25px 50px;   
+        }
+
+        .slider__title{
+            font-size: 5rem;
+            line-height: 6rem;
+        }
+    
+        .slider__text{
+            font-size: 3.125rem;
+            line-height: 3.75rem;
+        } 
+    }
+}

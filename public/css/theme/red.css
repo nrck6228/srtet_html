@@ -1,0 +1,29 @@
+.loading--page {
+  background: #0d0d0d;
+}
+.loading--page .counter h2 {
+  color: white;
+}
+.loading--page .counter p {
+  color: #BC1320;
+}
+
+.home--slider .slider--banner .slick-dots li button {
+  background-color: #4d4d4d;
+}
+.home--slider .slider--banner .slick-dots li button:before {
+  display: none;
+}
+.home--slider .slider--banner .slick-dots li.slick-active {
+  width: 30px;
+  height: 15px;
+}
+.home--slider .slider--banner .slick-dots li.slick-active button {
+  background-color: #BC1320;
+}
+.home--slider .slider__title {
+  color: #BC1320;
+}
+.home--slider .slider__text {
+  color: #4d4d4d;
+}

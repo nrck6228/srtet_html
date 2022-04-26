@@ -9,18 +9,10 @@
         @include('include._start')
     </head>
     <body>
-        <!-- <div class="loading--page">
-            <div class="counter">
-                <p>รถไฟฟ้าสายสีแดง</p>
-                <h2>0%</h2>
-                <hr/>
-            </div>
-        </div> -->
-
         @include('include._header')
 
         <main class="main--wrapper">
-            <article class="home--slider">
+            <article class="hero--slider">
                 <div class="container">
                     <div class="slider--banner">
                         <a href="#" title="" class="slider__item">
