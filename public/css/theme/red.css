@@ -8,6 +8,29 @@
   color: #BC1320;
 }
 
+.header--desktop .navbar--top .list--menu a {
+  color: #4d4d4d;
+}
+.header--desktop .navbar--top .list--menu a:hover {
+  color: #BC1320;
+}
+.header--desktop .navbar--bottom .list--menu .menu__item {
+  color: #4d4d4d;
+}
+.header--desktop .navbar--bottom .list--menu .menu__item:hover {
+  color: #BC1320;
+}
+.header--desktop .navbar--bottom .list--menu .menu__item:after {
+  background-color: #BC1320;
+}
+
+.header--mobile .navbar--top .list--menu a {
+  color: #4d4d4d;
+}
+.header--mobile .navbar--top .list--menu a:hover {
+  color: #BC1320;
+}
+
 .home--slider .slider--banner .slick-dots li button {
   background-color: #4d4d4d;
 }

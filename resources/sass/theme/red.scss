@@ -29,6 +29,52 @@ $colors: map-merge((
     }
 }
 
+.header--desktop{
+    .navbar--top{
+        .list--menu{
+            a{
+                color: $gray;
+    
+                &:hover{
+                    color: $red;
+                }
+            }
+        }
+        
+    }
+    
+    .navbar--bottom{
+        .list--menu{
+            .menu__item{
+                color: $gray;
+
+                &:hover{
+                    color: $red;
+                }
+
+                &:after{
+                    background-color: $red;
+                }
+            }
+        }
+    }
+}
+
+.header--mobile{
+    .navbar--top{
+        .list--menu{
+            a{
+                color: $gray;
+    
+                &:hover{
+                    color: $red;
+                }
+            }
+        }
+        
+    }
+}
+
 .home--slider{
     .slider--banner{
         //overwrite slick
