@@ -54,57 +54,64 @@
 
 }
 
+
 @font-face {
-  font-family: 'icomoon';
-  src:  url('../../../fonts/icomoon.eot?1x2hsg');
-  src:  url('../../../fonts/icomoon.eot?1x2hsg#iefix') format('embedded-opentype'),
-    url('../../../fonts/icomoon.ttf?1x2hsg') format('truetype'),
-    url('../../../fonts/icomoon.woff?1x2hsg') format('woff'),
-    url('../../../fonts/icomoon.svg?1x2hsg#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-angle-down:before {
-  content: "\e900";
-}
-.icon-angle-up:before {
-  content: "\e901";
-}
-.icon-angle-left:before {
-  content: "\e902";
-}
-.icon-angle-right:before {
-  content: "\e903";
-}
-.icon-search:before {
-  content: "\e904";
-}
-.icon-mail:before {
-  content: "\e905";
-}
-.icon-call:before {
-  content: "\e906";
-}
-.icon-location:before {
-  content: "\e907";
-}
+    font-family: 'icomoon';
+    src:  url('../../../fonts/icomoon.eot?qo3suk');
+    src:  url('../../../fonts/icomoon.eot?qo3suk#iefix') format('embedded-opentype'),
+      url('../../../fonts/icomoon.ttf?qo3suk') format('truetype'),
+      url('../../../fonts/icomoon.woff?qo3suk') format('woff'),
+      url('../../../fonts/icomoon.svg?qo3suk#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-arrow-left:before {
+    content: "\e908";
+  }
+  .icon-arrow-right:before {
+    content: "\e909";
+  }
+  .icon-mail:before {
+    content: "\e905";
+  }
+  .icon-call:before {
+    content: "\e906";
+  }
+  .icon-location:before {
+    content: "\e907";
+  }
+  .icon-angle-down:before {
+    content: "\e900";
+  }
+  .icon-angle-up:before {
+    content: "\e901";
+  }
+  .icon-angle-left:before {
+    content: "\e902";
+  }
+  .icon-angle-right:before {
+    content: "\e903";
+  }
+  .icon-search:before {
+    content: "\e904";
+  }
   
 
 $languages: ('en', 'th');

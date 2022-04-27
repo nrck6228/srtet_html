@@ -1,0 +1,51 @@
+.pagination-wrapper{
+    display: flex;
+    justify-content: center;
+    .pagination{
+        .page-item{
+            margin: 0 5px;
+            .page-link{
+                border: none;
+                font-size: 1.625rem;
+                line-height: 1.875rem;
+                font-weight: bold;
+                color: $darkgray;
+                padding: 2px 12px;
+
+                .f-icon{
+                    font-size: 16px;
+                    color: $darkgray;
+                }
+            }
+            &.active{
+                .page-link{
+                    color: $white;
+                }
+            }
+            &.disabled{
+                opacity: 0.5;
+                cursor: not-allowed;
+            }
+            &:hover{
+                .page-link{
+                    color: $white;
+                }
+            }
+
+            &.prev{
+                &:hover{
+                    .page-link{
+                        background-color: inherit;
+                    }
+                }
+            }
+            &.next{
+                &:hover{
+                    .page-link{
+                        background-color: inherit;
+                    }
+                }
+            }
+        }
+    }
+}
