@@ -32,6 +32,18 @@
                         <a href="javascript:void(0)" class="social__icon">
                             <img src="{{ asset('assets/images/icon/facebook.svg')}}" alt="facebook">
                         </a>
+                        <a href="javascript:void(0)" class="social__icon">
+                            <img src="{{ asset('assets/images/icon/twitter.svg')}}" alt="twitter">
+                        </a>
+                        <a href="javascript:void(0)" class="social__icon">
+                            <img src="{{ asset('assets/images/icon/instagram.svg')}}" alt="instagram">
+                        </a>
+                        <a href="javascript:void(0)" class="social__icon">
+                            <img src="{{ asset('assets/images/icon/youtube.svg')}}" alt="youtube">
+                        </a>
+                        <a href="javascript:void(0)" class="social__icon">
+                            <img src="{{ asset('assets/images/icon/tiktok.svg')}}" alt="tiktok">
+                        </a>
                     </div>
                 </div>
             </nav>

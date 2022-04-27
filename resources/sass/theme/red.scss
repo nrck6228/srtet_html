@@ -75,6 +75,32 @@ $colors: map-merge((
     }
 }
 
+.footer--wrapper{
+    .footer--nav{
+        .footer__link{
+            color: $darkgray;
+
+            &:hover{
+                color: $red;
+            }
+        }
+
+        .footer__group{
+            .footer__link{
+                color: $gray;
+
+                &:after{
+                    background-color: $red;
+                }
+
+                &:hover{
+                    color: $red;
+                }
+            }
+        }
+    }
+}
+
 .home--slider{
     .slider--banner{
         //overwrite slick
