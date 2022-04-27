@@ -1,0 +1,57 @@
+.form-filter{
+    margin-bottom: 3rem;
+}
+
+.search__controls{
+    position: relative;
+    &.icon{
+        &__date{
+            .form-control{
+                padding-right: 45px;
+            }
+            &:after{
+                font-family: bootstrap-icons !important;
+                font-style: normal;
+                font-weight: normal !important;
+                font-variant: normal;
+                content: '\F214';
+                font-size: 18px;
+                line-height: 18px;
+                color: #929091;
+                position: absolute;
+                right: 13px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+    .form-control{
+        font-size: 1.625rem;
+        line-height: 1.9375rem;
+        font-weight: bold;
+
+        height: 45px;
+        &:focus{
+            outline: none;
+            box-shadow: none;
+        }
+        
+    }
+    .form-select{
+        font-size: 1.625rem;
+        line-height: 1.9375rem;
+        font-weight: bold;
+
+        height: 45px;
+        option{
+            font-size: 1.375rem;
+            line-height: 1.625rem;
+            font-weight: bold;
+        }
+        &:focus{
+            outline: none;
+            box-shadow: none;
+        }
+        
+    }
+}

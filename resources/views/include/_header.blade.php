@@ -1,10 +1,10 @@
 <!-- Preload -->
-<div class="loading--page">
+<!-- <div class="loading--page">
     <div class="counter">
         <p>รถไฟฟ้าสายสีแดง</p>
         <h2>0%</h2>
     </div>
-</div>
+</div> -->
 <!-- End Preload -->
 
 <header class="header--wrapper">
