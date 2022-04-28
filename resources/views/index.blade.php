@@ -45,12 +45,351 @@
                 </div>
             </article>
 
+            <article class="route--wrapper">
+                <div class="container">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="route-tab" data-bs-toggle="tab" data-bs-target="#route" type="button" role="tab" aria-controls="route" aria-selected="true">เส้นทางการเดินรถ<br>และอัตราค่าโดยสาร</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="time-tab" data-bs-toggle="tab" data-bs-target="#time" type="button" role="tab" aria-controls="time" aria-selected="false">เวลาและความถี่<br>การเดินรถ</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="route" role="tabpanel" aria-labelledby="route-tab">
+                            <div class="map--wrapper">
+                                <div class="title--page">
+                                    <h2 class="page__title">เส้นทางรถไฟฟ้าชานเมืองสายสีแดง</h2>
+                                </div>
+                                <div class="map--figure">
+                                    <a href="javascript:void(0)" class="map__link">
+                                        <img class="w-100" src="{{ asset('assets/images/map/map-01.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="station--wrapper">
+                                <div class="row align-items-stretch">
+                                    <div class="col-lg-8">
+                                        <div class="station--content">
+                                            <div class="station--figure">
+                                                <img class="w-100" src="{{ asset('assets/images/station/bangsur.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                                            </div>
+                                            <div class="station--data">
+                                                <h3 class="h2">
+                                                    สถานีกลางบางซื่อ
+                                                </h3>
+
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <h3>สิ่งอำนวยความสะดวก</h3>
+                                                        <div class="facilities--list">
+                                                            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                                                                <div class="col">
+                                                                    <a href="javascript:void(0)" class="facilities__item" data-bs-toggle="modal" data-bs-target="#facilitiesModal">
+                                                                        <img class="img-fluid" src="{{ asset('assets/images/facilities/escalator.svg')}}" alt="รถไฟฟ้าสายสีแดง">
+                                                                        <p class="h4">
+                                                                            บันไดเลื่อน
+                                                                        </p>
+                                                                    </a>
+                                                                </div>
+
+                                                                <div class="col">
+                                                                    <a href="javascript:void(0)" class="facilities__item">
+                                                                        <img class="img-fluid" src="{{ asset('assets/images/facilities/escalator.svg')}}" alt="รถไฟฟ้าสายสีแดง">
+                                                                        <p class="h4">
+                                                                            บันไดเลื่อน
+                                                                        </p>
+                                                                    </a>
+                                                                </div>
+
+                                                                <div class="col">
+                                                                    <a href="javascript:void(0)" class="facilities__item">
+                                                                        <img class="img-fluid" src="{{ asset('assets/images/facilities/escalator.svg')}}" alt="รถไฟฟ้าสายสีแดง">
+                                                                        <p class="h4">
+                                                                            บันไดเลื่อน
+                                                                        </p>
+                                                                    </a>
+                                                                </div>
+
+                                                                <div class="col">
+                                                                    <a href="javascript:void(0)" class="facilities__item">
+                                                                        <img class="img-fluid" src="{{ asset('assets/images/facilities/escalator.svg')}}" alt="รถไฟฟ้าสายสีแดง">
+                                                                        <p class="h4">
+                                                                            บันไดเลื่อน
+                                                                        </p>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <h3>รายละเอียดทางเข้า - ออก</h3>
+                                                        <ul class="exit--list">
+                                                            <li class="list__item">
+                                                                ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ
+                                                            </li>
+                                                            <li class="list__item">
+                                                                ประตู 2 : SCG สำนักงานใหญ่
+                                                            </li>
+                                                            <li class="list__item">
+                                                                ประตู 3 : BTS จตุจักร , ตลาดนัดจตุจักร
+                                                            </li>
+                                                            <li class="list__item">
+                                                                ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ
+                                                            </li>
+                                                        </ul>
+
+                                                        <a href="#" title="" class="btn btn--primary">รายละเอียดเพิ่มเติม</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4">
+                                        <div class="fare--wrapper">
+                                            <h3 class="h2">
+                                                ค่าโดยสาร
+                                            </h3>
+
+                                            <div class="fare--rate">
+                                                <div class="train--line">
+                                                    <h3>สายบางซื่อ - ตลิ่งชัน /ราคา : </h3>
+                                                    <div class="fare__item">
+                                                        <span class="name">บางช่อน</span>
+                                                        <span class="price">18 บาท</span>
+                                                    </div>
+
+                                                    <div class="fare__item">
+                                                        <span class="name">บางบำหรุ</span>
+                                                        <span class="price">29 บาท</span>
+                                                    </div>
+
+                                                    <div class="fare__item">
+                                                        <span class="name">ตลิ่งชัน</span>
+                                                        <span class="price">35 บาท</span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="train--line">
+                                                    <h3>สายบางซื่อ - รังสิต /ราคา : </h3>
+                                                    <div class="fare__item">
+                                                        <span class="name">จตุจักร</span>
+                                                        <span class="price">16 บาท</span>
+                                                    </div>
+
+                                                    <div class="fare__item">
+                                                        <span class="name">วัดเสมียนนารี</span>
+                                                        <span class="price">19 บาท</span>
+                                                    </div>
+
+                                                    <div class="fare__item">
+                                                        <span class="name">บางเขน</span>
+                                                        <span class="price">20 บาท</span>
+                                                    </div>
+
+                                                    <div class="fare__item">
+                                                        <span class="name">ทุ่งสองห้อง</span>
+                                                        <span class="price">23 บาท</span>
+                                                    </div>
+
+                                                    <div class="fare__item">
+                                                        <span class="name">จตุจักร</span>
+                                                        <span class="price">16 บาท</span>
+                                                    </div>
+
+                                                    <div class="fare__item">
+                                                        <span class="name">วัดเสมียนนารี</span>
+                                                        <span class="price">19 บาท</span>
+                                                    </div>
+
+                                                    <div class="fare__item">
+                                                        <span class="name">บางเขน</span>
+                                                        <span class="price">20 บาท</span>
+                                                    </div>
+
+                                                    <div class="fare__item">
+                                                        <span class="name">ทุ่งสองห้อง</span>
+                                                        <span class="price">23 บาท</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="time" role="tabpanel" aria-labelledby="time-tab">Time</div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="events--wrapper">
+                <div class="container">
+                    <div class="title--page justify-content-between">
+                        <h2 class="page__title">ปฏิทินกิจกรรม</h2>
+
+                        <a href="#nogo" title="เพิ่มเติม" class="page__readmore">
+                            <span class="link__text">
+                                เพิ่มเติม
+                            </span>
+                            <span class="link__icon">
+                                <i class="icon-angle-right"></i>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="content--wrapper">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <figure class="events--figure">
+                                    <img class="img-fluid" src="{{ asset('assets/images/events/demo-01.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                                </figure>
+                            </div>
+
+                            <div class="col-lg-8">
+                                <a href="#" class="events--item">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-3">
+                                            <div class="events__date">
+                                                <div class="start__date">
+                                                    <h2 class="h2">
+                                                        30
+                                                    </h2>
+                                                    <h3 class="h3">
+                                                        เม.ย. 65
+                                                    </h3>
+                                                </div>
+                                                <div class="between__date">
+                                                    -
+                                                </div>
+                                                <div class="end__date">
+                                                    <h2 class="h2">
+                                                        1
+                                                    </h2>
+                                                    <h3 class="h3">
+                                                        พ.ค. 65
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <div class="events__content">
+                                                <h3 class="h3">
+                                                    บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง 
+                                                </h3>
+                                                <p class="h4">
+                                                    บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง สวัสดีปีใหม่ไทยผู้โดยสารเนื่องในโอกาสเทศกาลสงกรานต์ บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง สวัสดีปีใหม่ไทยผู้โดยสารเนื่องในโอกาสเทศกาลสงกรานต์
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </a>
+
+                                <a href="#" class="events--item">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-3">
+                                            <div class="events__date">
+                                                <div class="start__date">
+                                                    <h2 class="h2">
+                                                        11 - 12
+                                                    </h2>
+                                                    <h3 class="h3">
+                                                        เม.ย. 65
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <div class="events__content">
+                                                <h3 class="h3">
+                                                    บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง 
+                                                </h3>
+                                                <p class="h4">
+                                                    บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง สวัสดีปีใหม่ไทยผู้โดยสารเนื่องในโอกาสเทศกาลสงกรานต์ บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง สวัสดีปีใหม่ไทยผู้โดยสารเนื่องในโอกาสเทศกาลสงกรานต์
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="events--item">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-3">
+                                            <div class="events__date">
+                                                <div class="start__date">
+                                                    <h2 class="h2">
+                                                        30
+                                                    </h2>
+                                                    <h3 class="h3">
+                                                        ธ.ค. 65
+                                                    </h3>
+                                                </div>
+                                                <div class="between__date">
+                                                    -
+                                                </div>
+                                                <div class="end__date">
+                                                    <h2 class="h2">
+                                                        1
+                                                    </h2>
+                                                    <h3 class="h3">
+                                                        ม.ค. 66
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <div class="events__content">
+                                                <h3 class="h3">
+                                                    บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง 
+                                                </h3>
+                                                <p class="h4">
+                                                    บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง สวัสดีปีใหม่ไทยผู้โดยสารเนื่องในโอกาสเทศกาลสงกรานต์ บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง สวัสดีปีใหม่ไทยผู้โดยสารเนื่องในโอกาสเทศกาลสงกรานต์
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </a>
+
+                                <a href="#" class="events--item">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-3">
+                                            <div class="events__date">
+                                                <div class="start__date">
+                                                    <h2 class="h2">
+                                                        11 - 12
+                                                    </h2>
+                                                    <h3 class="h3">
+                                                        เม.ย. 65
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <div class="events__content">
+                                                <h3 class="h3">
+                                                    บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง 
+                                                </h3>
+                                                <p class="h4">
+                                                    บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง สวัสดีปีใหม่ไทยผู้โดยสารเนื่องในโอกาสเทศกาลสงกรานต์ บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง สวัสดีปีใหม่ไทยผู้โดยสารเนื่องในโอกาสเทศกาลสงกรานต์
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
             <article class="safeService--wrapper">
                 <div class="container">
-                    <div class="title--block">
-                        <div class="page__title">
-                            <h3>ความปลอดภัยและการบริการ</h3>
-                        </div>
+                    <div class="title--page justify-content-between">
+                        <h2 class="page__title">ความปลอดภัยและการบริการ</h2>
 
                         <a href="#nogo" title="เพิ่มเติม" class="page__readmore">
                             <span class="link__text">
@@ -116,8 +455,48 @@
             </article>
         </main>
 
+        <!-- รายละเอียดสถานี (สิ่งอำนวยความสะดวก) -->
+        <div class="modal fade modal--custom" id="facilitiesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="exampleModalLabel">บันไดเลื่อน</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal--text">
+                            ทางออก 1, 2, 3 และ 4
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         @include('include._footer')
 
         @include('include._script')
+
+        <script>
+            // var mapLink = document.getElementsByClassName("map__link");
+            // var stationWrapper = document.getElementsByClassName("station--wrapper");
+
+            // mapLink.onclick = function (event) { 
+            //     alert('click');
+            //     this.classList.toggle('colorized');
+            // };
+
+            (function() {
+
+                var mapLink = document.querySelector('.map__link');
+                var stationWrapper = document.querySelector('.station--wrapper');
+
+                mapLink.addEventListener('click', function() {
+                
+                    stationWrapper.classList.toggle('show');
+
+                });
+
+            })();
+        </script>
     </body>
 </html>
