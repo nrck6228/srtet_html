@@ -87,35 +87,3 @@
         }
     }
 }
-
-.news--home{
-    position: relative;
-    a{
-        text-decoration: none;
-    }
-    .title--block{
-        .page__readmore{
-            position: absolute;
-            top: 0;
-            right: 0;
-        }
-    }
-    
-    .slick-slide{
-        .card--slide{
-            .card__body{
-                margin: 0 20px;
-            }
-        }
-        &.slick-current{
-            .card--slide{
-                transform: scale(1);
-                .card__body{
-                    .card__desc{
-                        color: $darkgray;
-                    }
-                }
-            }
-        }
-    }
-}
