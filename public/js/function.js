@@ -1,1 +1,0 @@
-$(window).on("load",(function(){var e=0,n=0,o=setInterval((function(){$(".loading--page .counter h2").html(n+"%"),e++,n++,101==e&&(clearInterval(o),$(".loading--page").fadeOut("slow"))}),20)})),$(".hamburger").click((function(){$(this).toggleClass("is-active"),$(".mobile--nav").toggleClass("mobile--nav__open"),$("body").toggleClass("open-menu")}));

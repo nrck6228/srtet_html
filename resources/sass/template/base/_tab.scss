@@ -1,0 +1,64 @@
+.news--home{
+    padding-bottom: 4rem;
+    .nav-tabs{
+        display: flex;
+        justify-content: center;
+
+        border-bottom: none;
+        margin-bottom: 4rem;
+        .nav-link{
+            border: none;
+            border-bottom: 2px solid #C1C1C1;
+
+            color: #C1C1C1;
+            padding: 0 20px;
+
+            &.active{
+                color: $red;
+                border-bottom: 2px solid $red;
+            }
+        }
+    }
+
+    .card-deck{
+        .slick-prev{
+            width: 45px;
+            height: 45px;
+            left: 0;
+    
+            &:before{
+                font-family: 'icomoon' !important;
+                content: "\e902";
+                color: $gray;
+            }
+    
+            &:hover{
+                &:before{
+                    color: $red;
+                }
+            }
+        }
+    
+        .slick-next{
+            width: 45px;
+            height: 45px;
+            right: 0;
+    
+            &:before{
+                font-family: 'icomoon' !important;
+                content: "\e903";
+                color: $gray;
+            }
+    
+            &:hover{
+                &:before{
+                    color: $red;
+                }
+            }
+        }
+
+        .slick-arrow{
+            z-index: 9;
+        }
+    }
+}

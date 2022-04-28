@@ -20,6 +20,7 @@
             &.active{
                 .page-link{
                     color: $white;
+                    background-color: $red;
                 }
             }
             &.disabled{
@@ -29,6 +30,7 @@
             &:hover{
                 .page-link{
                     color: $white;
+                    background-color: $red;
                 }
             }
 
@@ -36,6 +38,9 @@
                 &:hover{
                     .page-link{
                         background-color: inherit;
+                        .f-icon{
+                            color: $red;
+                        }
                     }
                 }
             }
@@ -43,6 +48,18 @@
                 &:hover{
                     .page-link{
                         background-color: inherit;
+                        .f-icon{
+                            color: $red;
+                        }
+                    }
+                }
+            }
+            &.disabled{
+                &:hover{
+                    .page-link{
+                        .f-icon{
+                            color: $darkgray;
+                        }
                     }
                 }
             }
