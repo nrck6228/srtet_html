@@ -38,6 +38,17 @@
                 -webkit-box-orient: vertical;
                 overflow: hidden;
             }
+            .card__desc{
+                padding-top: 10px;
+                font-size: 1.625rem;
+                line-height: 1.875rem;
+                font-weight: bold;
+                color: #929091;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
         }
 
         &:hover{
@@ -92,7 +103,6 @@
     
     .slick-slide{
         .card--slide{
-
             .card__body{
                 margin: 0 20px;
             }
@@ -100,6 +110,11 @@
         &.slick-current{
             .card--slide{
                 transform: scale(1);
+                .card__body{
+                    .card__desc{
+                        color: $darkgray;
+                    }
+                }
             }
         }
     }
