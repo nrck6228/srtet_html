@@ -1,0 +1,33 @@
+.modal--custom{
+    .modal-dialog{
+        animation:opt-animation 0.4s;
+        animation-fill-mode: forwards;
+    }
+
+    .btn-close{
+        transition: all 0.4s ease-in-out;
+        
+        &:hover{
+            color: $red;
+            transform: rotate(360deg);
+        }
+    }
+
+    // .modal--close{
+    //     display: black;
+    //     font-size: 3rem;
+    //     line-height: 3rem;
+    //     color: $darkgray;
+    //     transition: all 0.4s ease-in-out;
+
+    //     &:hover{
+    //         color: $red;
+    //         transform: rotate(360deg);
+    //     }
+    // }
+
+    .modal--text{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+}

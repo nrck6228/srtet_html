@@ -98,20 +98,15 @@ body{
 }
 
 // Page Title
-.title--block{
+.title--page{
     display: flex;
     align-items: center;
     position: relative;
 
-    .page__title{
-        display: flex;
-        align-items: center;
+    margin-bottom: 20px;
 
-        h3{
-            font-weight: bold;
-            font-size: 3.125rem;
-            line-height: 3.75rem;
-        }
+    .page__title{
+        margin: 0;
     }
 
     .page__readmore{

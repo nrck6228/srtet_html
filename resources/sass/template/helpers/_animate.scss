@@ -42,3 +42,8 @@
         transform: translateX(0)
     }
 }
+
+@keyframes opt-animation {
+    0%   { opacity: 0.5; transform: scale(0.75);}
+    100% { opacity: 1; transform: scale(1);}
+}
