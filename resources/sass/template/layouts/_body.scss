@@ -100,8 +100,8 @@ body{
 // Page Title
 .title--block{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    position: relative;
 
     .page__title{
         display: flex;

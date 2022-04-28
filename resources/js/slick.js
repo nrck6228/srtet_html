@@ -66,4 +66,17 @@ $(document).ready(function(){
             },
         ],
     });
+
+
+    $('.news--slider').slick({
+        centerMode: true,
+        centerPadding: '20px',
+        slidesToShow: 3,
+    });
+
+
+    $('button[data-bs-toggle="tab"]').on('shown.bs.tab', function() {   
+        $('.tab-content .tab-pane').find('.news--slider').slick('refresh');
+        console.log('tab')
+    })
 });
