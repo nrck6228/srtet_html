@@ -207,52 +207,81 @@
                                 <div class="item">
                                     <a href="" class="card--slide card--news">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-news-home1.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
                                             <div class="card__title">
-                                                เมื่อพบเจอ บุคคลต้องสงสัย แจ้งทางเจ้าหน้าที่ได้ทันที
+                                                วันจักรี
                                             </div>
+                                            <p class="card__desc">
+                                                เป็นวันระลึกถึงมหาจักรีบรมราชวงศ์ ที่พระพุทธยอดฟ้าจุฬาโลกมหาราช (รัชกาลที่ ๑) เสด็จขึ้นครองราชย์เป็นกษัตริย์พระองค์แรกแห่งราชวงศ์จักรี
+                                            </p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="item">
                                     <a href="" class="card--slide card--news">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news2.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-news-home2.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
                                             <div class="card__title">
-                                                เมื่อพบเจอ บุคคลต้องสงสัย แจ้งทางเจ้าหน้าที่ได้ทันที
+                                                วันคล้ายวันประสูติ ทูลกระหม่อมหญิง อุบลรัตน์ราชกัญญา สิริวัฒนาพรรณวดี
                                             </div>
+                                            <p class="card__desc">
+                                                ขอพระองค์ทรงพระเจริญ ควรมิควรแล้วแต่จะโปรดเกล้าโปรดกระหม่อม
+                                            </p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="item">
                                     <a href="" class="card--slide card--news">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news3.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-news-home3.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
                                             <div class="card__title">
-                                                เมื่อพบเจอ บุคคลต้องสงสัย แจ้งทางเจ้าหน้าที่ได้ทันที
+                                                วันคล้ายวันพระราชสมภพ สมเด็จพระกนิษฐาธิราชเจ้า กรมสมเด็จ ...
                                             </div>
+                                            <p class="card__desc">
+                                                ด้วยเกล้าด้วยกระหม่อม ข้าพระพุทธเจ้า คณะผู้บริหาร และพนักงาน บริษัท
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="" class="card--slide card--news">
+                                        <div class="card__figure">
+                                            <img src="{{ asset('assets/images/news/img-news-home2.png')}}" alt="ข่าว">
+                                        </div>
+                                        <div class="card__body">
+                                            <div class="card__date">5 เมษายน 2565</div>
+                                            <div class="card__title">
+                                                วันคล้ายวันประสูติ ทูลกระหม่อมหญิง อุบลรัตน์ราชกัญญา สิริวัฒนาพรรณวดี
+                                            </div>
+                                            <p class="card__desc">
+                                                ขอพระองค์ทรงพระเจริญ ควรมิควรแล้วแต่จะโปรดเกล้าโปรดกระหม่อม
+                                            </p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="item">
                                     <a href="" class="card--slide card--news">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news4.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-news-home3.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
                                             <div class="card__title">
-                                                เมื่อพบเจอ บุคคลต้องสงสัย แจ้งทางเจ้าหน้าที่ได้ทันที
+                                                วันคล้ายวันพระราชสมภพ สมเด็จพระกนิษฐาธิราชเจ้า กรมสมเด็จ ...
                                             </div>
+                                            <p class="card__desc">
+                                                ด้วยเกล้าด้วยกระหม่อม ข้าพระพุทธเจ้า คณะผู้บริหาร และพนักงาน บริษัท
+                                            </p>
                                         </div>
                                     </a>
                                 </div>
@@ -263,52 +292,81 @@
                                 <div class="item">
                                     <a href="" class="card--slide card--news">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-news-home1.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
                                             <div class="card__title">
-                                                เมื่อพบเจอ บุคคลต้องสงสัย แจ้งทางเจ้าหน้าที่ได้ทันที
+                                                วันจักรี
                                             </div>
+                                            <p class="card__desc">
+                                                เป็นวันระลึกถึงมหาจักรีบรมราชวงศ์ ที่พระพุทธยอดฟ้าจุฬาโลกมหาราช (รัชกาลที่ ๑) เสด็จขึ้นครองราชย์เป็นกษัตริย์พระองค์แรกแห่งราชวงศ์จักรี
+                                            </p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="item">
                                     <a href="" class="card--slide card--news">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news2.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-news-home2.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
                                             <div class="card__title">
-                                                เมื่อพบเจอ บุคคลต้องสงสัย แจ้งทางเจ้าหน้าที่ได้ทันที
+                                                วันคล้ายวันประสูติ ทูลกระหม่อมหญิง อุบลรัตน์ราชกัญญา สิริวัฒนาพรรณวดี
                                             </div>
+                                            <p class="card__desc">
+                                                ขอพระองค์ทรงพระเจริญ ควรมิควรแล้วแต่จะโปรดเกล้าโปรดกระหม่อม
+                                            </p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="item">
                                     <a href="" class="card--slide card--news">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news3.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-news-home3.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
                                             <div class="card__title">
-                                                เมื่อพบเจอ บุคคลต้องสงสัย แจ้งทางเจ้าหน้าที่ได้ทันที
+                                                วันคล้ายวันพระราชสมภพ สมเด็จพระกนิษฐาธิราชเจ้า กรมสมเด็จ ...
                                             </div>
+                                            <p class="card__desc">
+                                                ด้วยเกล้าด้วยกระหม่อม ข้าพระพุทธเจ้า คณะผู้บริหาร และพนักงาน บริษัท
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="" class="card--slide card--news">
+                                        <div class="card__figure">
+                                            <img src="{{ asset('assets/images/news/img-news-home2.png')}}" alt="ข่าว">
+                                        </div>
+                                        <div class="card__body">
+                                            <div class="card__date">5 เมษายน 2565</div>
+                                            <div class="card__title">
+                                                วันคล้ายวันประสูติ ทูลกระหม่อมหญิง อุบลรัตน์ราชกัญญา สิริวัฒนาพรรณวดี
+                                            </div>
+                                            <p class="card__desc">
+                                                ขอพระองค์ทรงพระเจริญ ควรมิควรแล้วแต่จะโปรดเกล้าโปรดกระหม่อม
+                                            </p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="item">
                                     <a href="" class="card--slide card--news">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news4.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-news-home3.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
                                             <div class="card__title">
-                                                เมื่อพบเจอ บุคคลต้องสงสัย แจ้งทางเจ้าหน้าที่ได้ทันที
+                                                วันคล้ายวันพระราชสมภพ สมเด็จพระกนิษฐาธิราชเจ้า กรมสมเด็จ ...
                                             </div>
+                                            <p class="card__desc">
+                                                ด้วยเกล้าด้วยกระหม่อม ข้าพระพุทธเจ้า คณะผู้บริหาร และพนักงาน บริษัท
+                                            </p>
                                         </div>
                                     </a>
                                 </div>
@@ -319,52 +377,81 @@
                                 <div class="item">
                                     <a href="" class="card--slide card--news">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-news-home1.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
                                             <div class="card__title">
-                                                เมื่อพบเจอ บุคคลต้องสงสัย แจ้งทางเจ้าหน้าที่ได้ทันที
+                                                วันจักรี
                                             </div>
+                                            <p class="card__desc">
+                                                เป็นวันระลึกถึงมหาจักรีบรมราชวงศ์ ที่พระพุทธยอดฟ้าจุฬาโลกมหาราช (รัชกาลที่ ๑) เสด็จขึ้นครองราชย์เป็นกษัตริย์พระองค์แรกแห่งราชวงศ์จักรี
+                                            </p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="item">
                                     <a href="" class="card--slide card--news">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news2.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-news-home2.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
                                             <div class="card__title">
-                                                เมื่อพบเจอ บุคคลต้องสงสัย แจ้งทางเจ้าหน้าที่ได้ทันที
+                                                วันคล้ายวันประสูติ ทูลกระหม่อมหญิง อุบลรัตน์ราชกัญญา สิริวัฒนาพรรณวดี
                                             </div>
+                                            <p class="card__desc">
+                                                ขอพระองค์ทรงพระเจริญ ควรมิควรแล้วแต่จะโปรดเกล้าโปรดกระหม่อม
+                                            </p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="item">
                                     <a href="" class="card--slide card--news">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news3.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-news-home3.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
                                             <div class="card__title">
-                                                เมื่อพบเจอ บุคคลต้องสงสัย แจ้งทางเจ้าหน้าที่ได้ทันที
+                                                วันคล้ายวันพระราชสมภพ สมเด็จพระกนิษฐาธิราชเจ้า กรมสมเด็จ ...
                                             </div>
+                                            <p class="card__desc">
+                                                ด้วยเกล้าด้วยกระหม่อม ข้าพระพุทธเจ้า คณะผู้บริหาร และพนักงาน บริษัท
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="" class="card--slide card--news">
+                                        <div class="card__figure">
+                                            <img src="{{ asset('assets/images/news/img-news-home2.png')}}" alt="ข่าว">
+                                        </div>
+                                        <div class="card__body">
+                                            <div class="card__date">5 เมษายน 2565</div>
+                                            <div class="card__title">
+                                                วันคล้ายวันประสูติ ทูลกระหม่อมหญิง อุบลรัตน์ราชกัญญา สิริวัฒนาพรรณวดี
+                                            </div>
+                                            <p class="card__desc">
+                                                ขอพระองค์ทรงพระเจริญ ควรมิควรแล้วแต่จะโปรดเกล้าโปรดกระหม่อม
+                                            </p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="item">
                                     <a href="" class="card--slide card--news">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news4.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-news-home3.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
                                             <div class="card__title">
-                                                เมื่อพบเจอ บุคคลต้องสงสัย แจ้งทางเจ้าหน้าที่ได้ทันที
+                                                วันคล้ายวันพระราชสมภพ สมเด็จพระกนิษฐาธิราชเจ้า กรมสมเด็จ ...
                                             </div>
+                                            <p class="card__desc">
+                                                ด้วยเกล้าด้วยกระหม่อม ข้าพระพุทธเจ้า คณะผู้บริหาร และพนักงาน บริษัท
+                                            </p>
                                         </div>
                                     </a>
                                 </div>
