@@ -113,6 +113,21 @@ a.text--link{
     }
 }
 
+.page--content{
+    .group__icon{
+
+        a{
+            .icon{
+                color: $color-primary;
+            }
+
+            .text{
+                color: $darkgray;
+            }
+        }
+    }
+}
+
 .view--count{
     span{
         color: $color-primary;

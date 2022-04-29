@@ -18,6 +18,8 @@
     "/js/bootstrap.js": "/js/bootstrap.js",
     "/js/function.js": "/js/function.js",
     "/js/slick.js": "/js/slick.js",
+    "/spotlight/spotlight.min.css": "/spotlight/spotlight.min.css",
+    "/spotlight/spotlight.min.js": "/spotlight/spotlight.min.js",
     "/slick/ajax-loader.gif": "/slick/ajax-loader.gif",
     "/slick/config.rb": "/slick/config.rb",
     "/slick/slick-theme.css": "/slick/slick-theme.css",

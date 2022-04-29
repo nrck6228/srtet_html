@@ -33,4 +33,5 @@ mix.sass('resources/sass/global.scss', 'public/css')
     .copy('resources/fonts', 'public/fonts')
     .copy('resources/assets', 'public/assets')
     .copy('resources/js', 'public/js')
+    .copy('resources/spotlight', 'public/spotlight')
     .copy('node_modules/slick-carousel/slick', 'public/slick');

@@ -36,5 +36,7 @@
         <script type="text/javascript" src="{{ mix('/js/function.js') }}"></script>
 
         @stack('script-slick')
+
+        @stack('script-spotlight')
     </body>
 </html>
