@@ -37,6 +37,8 @@
 
         @stack('script-slick')
 
+
         @stack('script-spotlight')
+
     </body>
 </html>

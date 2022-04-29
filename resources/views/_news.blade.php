@@ -54,7 +54,9 @@
 
         <article class="news--wrapper">
             <div class="container">
-                <h2 class="title-page mb-4">ข่าวสาร</h2>
+                <div class="title--page justify-content-center">
+                    <h2 class="page__title text--primary">ข่าวสาร</h2>
+                </div>
 
                 <div class="form-filter">
                     <div class="row">

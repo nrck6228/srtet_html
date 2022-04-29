@@ -42,4 +42,9 @@ Route::get('/facilities', function () {
     return View::make('_facilities');
 });
 
+Route::get('/newsdetail', function () {
+    return View::make('_newsdetail');
+});
+
+
 
