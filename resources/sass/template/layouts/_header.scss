@@ -72,58 +72,55 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
+
+            margin: 0;
         }
     }
     
     .navbar--bottom{
-        // background-color: $red;
-
+        .nav-item{
+            margin: 0 20px;
+        }
         .nav-link{
-            padding: 0.5rem 20px;
+            position: relative;
+            padding: 5px 0;
             font-weight: bold;
             font-size: 1.625rem;
             line-height: 1.875rem;
-            // color: white;
-        }
+            text-align: center;
 
-        .dropdown-toggle{
-            &:after{
-                display: none;
+            &:before{
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                height: 3px;
+                width: 0;
+                background-color: white;
+                transition: all .4s ease-in-out;
+            }
+
+            &:hover{
+                &:before{
+                    width: 100%;
+                }
+            }
+
+            &.show{
+                &:before{
+                    width: 100%;
+                }
+            }
+
+            &.dropdown-toggle{
+                &:after{
+                    display: none;
+                }
             }
         }
         
         .dropdown-menu{
             border-radius: 0;
-        }
-
-        .list--menu{
-            display: block;
-
-            .menu__item{
-                position: relative;
-                font-weight: bold;
-                font-size: 1.375rem;
-                line-height: 1.875rem;
-                text-decoration: none;
-
-                &:after{
-                    position: absolute;
-                    left: 0;
-                    bottom: 0;
-                    height: 2px;
-                    width: 0;
-                    content: '';
-                    display: block;
-                    transition: 0.5s;
-                }
-
-                &:hover{
-                    
-                    &:after{
-                        width: 50px;
-                    }
-                }
-            }
         }
 
         // Assigning the above animation to all dropdown menus
@@ -135,12 +132,45 @@
         }
 
         // Mega Menu adjustments
-        .nav-item.dropdown.dropdown-mega{
+        .dropdown--navbar{
             position: static;
+
             .dropdown-menu{
                 width: 100%;
                 top: auto;
                 left: 0;
+            }
+
+            .dropdown-nav{
+                margin: 0;
+                padding: 0 30px;
+                column-count: 3;
+            }
+
+            .dropdown-item {
+                padding-bottom: 10px;
+                
+                break-inside: avoid;
+                page-break-inside: avoid;
+
+                display: block;
+                width: 100%;
+                padding: 0.25rem 1.5rem;
+                clear: both;
+                text-align: inherit;
+                white-space: normal;
+                background-color: transparent;
+                border: 0;
+            }
+
+            a.dropdown-link {
+                text-decoration: none;
+                padding: 0;
+                display: inline-block;
+                font-weight: bold;
+                font-size: 1.375rem;
+                line-height: 1.875rem;
+                transition: all 0.4s ease-in-out;
             }
         }
     }

@@ -33,34 +33,8 @@
 
         @include('include._footer')
 
-        
-        
         <script type="text/javascript" src="{{ mix('/js/function.js') }}"></script>
 
         @stack('script-slick')
-
-        
-        <script>
-            // var mapLink = document.getElementsByClassName("map__link");
-            // var stationWrapper = document.getElementsByClassName("station--wrapper");
-
-            // mapLink.onclick = function (event) { 
-            //     alert('click');
-            //     this.classList.toggle('colorized');
-            // };
-
-            (function() {
-
-                var mapLink = document.querySelector('.map__link');
-                var stationWrapper = document.querySelector('.station--wrapper');
-
-                mapLink.addEventListener('click', function() {
-                
-                    stationWrapper.classList.toggle('show');
-
-                });
-
-            })();
-        </script>
     </body>
 </html>

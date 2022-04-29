@@ -49,10 +49,6 @@
     &__contact{
         margin-bottom: 30px;
 
-        .title{
-            color: $red;
-        }
-
         .contact--block{
             display: flex;
             justify-content: flex-start;
@@ -80,12 +76,8 @@
                 font-weight: bold;
                 font-size: 1.375rem;
                 line-height: 1.875rem;
-                color: $gray;
                 text-decoration: none;
-
-                &:hover{
-                    color: $red;
-                }
+                transition: all 0.4s ease-in-out;
             }
         }
 
@@ -93,6 +85,8 @@
             display: flex;
             justify-content: flex-start;
             align-items: center;
+
+            margin: 0;
 
             span{
                 font-weight: bold;

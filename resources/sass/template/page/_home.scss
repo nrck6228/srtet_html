@@ -1,10 +1,10 @@
-.hero--wrapper{
+.home--hero{
     display: block;
     position: relative;
     margin-bottom: 2rem;
 }
 
-.route--wrapper{
+.home--route{
     display: block;
     position: relative;
     margin-bottom: 2rem;
@@ -25,8 +25,7 @@
 .station--wrapper{
     position: relative;
     padding: 0;
-    background-color: white;
-    border: 2px solid $red;
+    border: 2px solid transparent;
     border-radius: 8px;
     display: none;
 
@@ -43,8 +42,6 @@
         width: 0;
         position: absolute;
         pointer-events: none;
-        border-color: rgba(136, 183, 213, 0);
-        border-bottom-color: $red;
         border-width: 15px;
         margin-left: -15px;
     }
@@ -120,10 +117,7 @@
     height: 100%;
     padding: 1.5rem 0.5rem 1.5rem 1.5rem;
     margin-left: 1px;
-    color: white;
-    background-color: $red;
-    // border-top-right-radius: 8px;
-    // border-bottom-right-radius: 8px;
+    
 }
 
 .fare--rate{
@@ -174,7 +168,7 @@
     }
 }
 
-.events--wrapper{
+.home--events{
     display: block;
     position: relative;
     margin-bottom: 2rem;
@@ -316,7 +310,7 @@
     // }
 }
 
-.news--home{
+.home--news{
     position: relative;
     padding-bottom: 4rem;
 

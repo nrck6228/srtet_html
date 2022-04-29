@@ -147,7 +147,7 @@
         <div class="container">
             <div class="row row-cols-1 row-cols-lg-2">
                 <div class="col order-lg-last">
-                    <h3 class="title">
+                    <h3 class="title text--primary">
                         พันธมิตร : 
                     </h3>
                     <div class="partner--slider">
@@ -184,7 +184,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <h3 class="title">
+                    <h3 class="title text--primary">
                         รถไฟฟ้าสายสีแดง : 
                     </h3>
                     <div class="row">
