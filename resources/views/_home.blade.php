@@ -58,7 +58,7 @@
                             </div>
                             <div class="map--figure">
                                 <a href="javascript:void(0)" class="map__link">
-                                    <img class="w-100" src="{{ asset('assets/images/map/map-01.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                                    <img class="w-100" src="{{ asset('assets/images/map/img-demo-01.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
                                 </a>
                             </div>
                         </div>
