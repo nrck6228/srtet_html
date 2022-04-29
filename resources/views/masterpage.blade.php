@@ -38,7 +38,6 @@
         <script type="text/javascript" src="{{ mix('/js/function.js') }}"></script>
 
         @stack('script-slick')
-
         
         <script>
             // var mapLink = document.getElementsByClassName("map__link");

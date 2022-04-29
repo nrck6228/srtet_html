@@ -30,4 +30,9 @@ Route::get('/news', function () {
     return View::make('_news');
 });
 
+Route::get('/newsdetail', function () {
+    return View::make('_newsdetail');
+});
+
+
 
