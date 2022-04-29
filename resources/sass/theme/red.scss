@@ -1,137 +1,222 @@
-$red:                   #BC1320;
-$black:                 #000000;
-$white:                 #FFFFFF;
+$color-primary:         #BC1320;
 $gray:                  #4d4d4d;
 $darkgray:              #333;
 
 $colors: ();
 $colors: map-merge((
-  "red":                 $red,
-  "black":               $black,
-  "white":               $white,
+  "red":                 $color-primary,
   "gray":                $gray,
   "darkgray":            $darkgray
 ), $colors);
 
-// Preloader
-.loading--page {
-    background: #0d0d0d;
 
-    .counter {
+.text--primary{
+    color: $color-primary !important;
+}
 
-        h2{
+a.text--primary{
+    color: $color-primary !important;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+
+    &:hover{
+        color: black !important;
+    }
+}
+
+a.text--link{
+    color: $darkgray !important;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+
+    &:hover{
+        color: $color-primary !important;
+    }
+}
+
+.bg--primary{
+    color: white;
+    background-color: $color-primary;
+    transition: all 0.4s ease-in-out;
+
+    a{
+        color: white;
+
+        &:hover, &:focus{
             color: white;
         }
-
-        p{
-            color: $red;
-        }
     }
 }
 
-.header--desktop{
-    .navbar--top{
-        .list--menu{
-            a{
-                color: $gray;
-    
-                &:hover{
-                    color: $red;
-                }
-            }
-        }
-        
+.btn--primary{
+    color: white;
+    background-color: $color-primary;
+
+    &:hover{
+        color: white;
+        background-color: black;
     }
-    
-    .navbar--bottom{
-        .list--menu{
-            .menu__item{
-                color: $gray;
+}
 
-                &:hover{
-                    color: $red;
-                }
+.nav-tabs--primary{
+    .nav-link{
+        color: white;
+        background-color: rgba($color: $darkgray, $alpha: 0.3);
 
-                &:after{
-                    background-color: $red;
-                }
+        &:hover{
+            color: white;
+            background-color: $color-primary;
+        }
+
+        &.active{
+            color: white;
+            background-color: $color-primary;
+
+            &:after{
+                border-color: rgba(136, 183, 213, 0);
+                border-top-color: $color-primary;
             }
         }
     }
 }
 
-.header--mobile{
-    .navbar--top{
-        .list--menu{
-            a{
-                color: $gray;
-    
-                &:hover{
-                    color: $red;
-                }
-            }
-        }
-        
-    }
-}
+.nav-tabs--secondary{
+    .nav-link{
+        color: #C1C1C1;
+        border-bottom: 2px solid #C1C1C1;
 
-.footer--wrapper{
-    .footer--nav{
-        .footer__link{
+        &:hover{
             color: $darkgray;
-
-            &:hover{
-                color: $red;
-            }
+            border-color: $darkgray;
         }
 
-        .footer__group{
-            .footer__link{
-                color: $gray;
-
-                &:after{
-                    background-color: $red;
-                }
-
-                &:hover{
-                    color: $red;
-                }
-            }
+        &.active{
+            color: $color-primary;
+            border-color: $color-primary;
+            background-color: transparent;
         }
     }
 }
 
-.home--slider{
-    .slider--banner{
-        //overwrite slick
-        .slick-dots{
-            li{
+// Preloader
+// .loading--page {
+//     background: #0d0d0d;
 
-                button{
-                    background-color: $gray;
+//     .counter {
 
-                    &:before{
-                        display: none;
-                    }
-                }
+//         h2{
+//             color: white;
+//         }
 
-                &.slick-active{
-                    width: 30px;
-                    height: 15px;
+//         p{
+//             color: $color-primary;
+//         }
+//     }
+// }
 
-                    button{
-                        background-color: $red;
-                    }
-                }
-            }
-        }
-    }
+// .header--desktop{
+//     .navbar--top{
+//         .list--menu{
+//             a{
+//                 color: $gray;
+    
+//                 &:hover{
+//                     color: $color-primary;
+//                 }
+//             }
+//         }
+        
+//     }
+    
+//     .navbar--bottom{
+//         .list--menu{
+//             .menu__item{
+//                 color: $gray;
 
-    .slider__title{
-        color: $red;
-    }
+//                 &:hover{
+//                     color: $color-primary;
+//                 }
 
-    .slider__text{
-        color: $gray;
-    } 
-}
+//                 &:after{
+//                     background-color: $color-primary;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// .header--mobile{
+//     .navbar--top{
+//         .list--menu{
+//             a{
+//                 color: $gray;
+    
+//                 &:hover{
+//                     color: $color-primary;
+//                 }
+//             }
+//         }
+        
+//     }
+// }
+
+// .footer--wrapper{
+//     .footer--nav{
+//         .footer__link{
+//             color: $darkgray;
+
+//             &:hover{
+//                 color: $color-primary;
+//             }
+//         }
+
+//         .footer__group{
+//             .footer__link{
+//                 color: $gray;
+
+//                 &:after{
+//                     background-color: $color-primary;
+//                 }
+
+//                 &:hover{
+//                     color: $color-primary;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// .home--slider{
+//     .slider--banner{
+//         //overwrite slick
+//         .slick-dots{
+//             li{
+
+//                 button{
+//                     background-color: $gray;
+
+//                     &:before{
+//                         display: none;
+//                     }
+//                 }
+
+//                 &.slick-active{
+//                     width: 30px;
+//                     height: 15px;
+
+//                     button{
+//                         background-color: $color-primary;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+
+//     .slider__title{
+//         color: $color-primary;
+//     }
+
+//     .slider__text{
+//         color: $gray;
+//     } 
+// }

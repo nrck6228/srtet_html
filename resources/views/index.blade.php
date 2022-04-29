@@ -47,7 +47,7 @@
 
             <article class="route--wrapper">
                 <div class="container">
-                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <ul class="nav nav-tabs nav-tabs--primary" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active" id="route-tab" data-bs-toggle="tab" data-bs-target="#route" type="button" role="tab" aria-controls="route" aria-selected="true">เส้นทางการเดินรถ<br>และอัตราค่าโดยสาร</button>
                         </li>
@@ -395,7 +395,7 @@
                                 <i class="icon-angle-right"></i>
                             </span>
                         </a>
-                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <ul class="nav nav-tabs nav-tabs--secondary" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link h3 active" id="tab_1" data-bs-toggle="tab" data-bs-target="#nav-tab_1" type="button" role="tab" aria-controls="nav-tab_1" aria-selected="true">กิจกรรมการตลาด</button>
                             </li>
@@ -410,11 +410,11 @@
                     
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="nav-tab_1" role="tabpanel" aria-labelledby="tab_1">
-                            <div class="card-deck news--slider">
+                            <div class="news--slider">
                                 <div class="item">
-                                    <a href="" class="card--slide card--news">
+                                    <a href="" class="card--news-slide">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news-home1.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-demo-01.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
@@ -428,9 +428,9 @@
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="" class="card--slide card--news">
+                                    <a href="" class="card--news-slide">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news-home2.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-demo-02.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
@@ -444,9 +444,9 @@
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="" class="card--slide card--news">
+                                    <a href="" class="card--news-slide">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news-home3.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-demo-03.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
@@ -461,9 +461,9 @@
                                 </div>
 
                                 <div class="item">
-                                    <a href="" class="card--slide card--news">
+                                    <a href="" class="card--news-slide">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news-home2.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-demo-02.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
@@ -477,9 +477,9 @@
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="" class="card--slide card--news">
+                                    <a href="" class="card--news-slide">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news-home3.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-demo-03.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
@@ -497,9 +497,9 @@
                         <div class="tab-pane fade" id="nav-tab_2" role="tabpanel" aria-labelledby="tab_2">
                             <div class="card-deck news--slider">
                                 <div class="item">
-                                    <a href="" class="card--slide card--news">
+                                    <a href="" class="card--news-slide">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news-home1.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-demo-01.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
@@ -513,9 +513,9 @@
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="" class="card--slide card--news">
+                                    <a href="" class="card--news-slide">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news-home2.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-demo-02.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
@@ -529,9 +529,9 @@
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="" class="card--slide card--news">
+                                    <a href="" class="card--news-slide">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news-home3.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-demo-03.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
@@ -546,9 +546,9 @@
                                 </div>
 
                                 <div class="item">
-                                    <a href="" class="card--slide card--news">
+                                    <a href="" class="card--news-slide">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news-home2.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-demo-02.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
@@ -562,9 +562,9 @@
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="" class="card--slide card--news">
+                                    <a href="" class="card--news-slide">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news-home3.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-demo-03.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
@@ -582,9 +582,9 @@
                         <div class="tab-pane fade" id="nav-tab_3" role="tabpanel" aria-labelledby="tab_3">
                             <div class="card-deck news--slider">
                                 <div class="item">
-                                    <a href="" class="card--slide card--news">
+                                    <a href="" class="card--news-slide">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news-home1.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-demo-01.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
@@ -598,9 +598,9 @@
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="" class="card--slide card--news">
+                                    <a href="" class="card--news-slide">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news-home2.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-demo-02.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
@@ -614,9 +614,9 @@
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="" class="card--slide card--news">
+                                    <a href="" class="card--news-slide">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news-home3.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-demo-03.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
@@ -631,9 +631,9 @@
                                 </div>
 
                                 <div class="item">
-                                    <a href="" class="card--slide card--news">
+                                    <a href="" class="card--news-slide">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news-home2.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-demo-02.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>
@@ -647,9 +647,9 @@
                                     </a>
                                 </div>
                                 <div class="item">
-                                    <a href="" class="card--slide card--news">
+                                    <a href="" class="card--news-slide">
                                         <div class="card__figure">
-                                            <img src="{{ asset('assets/images/news/img-news-home3.png')}}" alt="ข่าว">
+                                            <img src="{{ asset('assets/images/news/img-demo-03.png')}}" alt="ข่าว">
                                         </div>
                                         <div class="card__body">
                                             <div class="card__date">5 เมษายน 2565</div>

@@ -20,13 +20,3 @@
 
     transition: all 0.4s ease-in-out;
 }
-
-.btn--primary{
-    color: white;
-    background-color: $red;
-
-    &:hover{
-        color: white;
-        background-color: black;
-    }
-}

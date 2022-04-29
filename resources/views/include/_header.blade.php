@@ -16,17 +16,17 @@
                 </a>
                 <div class="list--menu">
                     <div class="font--block">
-                        <a href="javascript:void(0)" id="downFont">A-</a>
-                        <a href="javascript:void(0)" id="regularFont">A</a>
-                        <a href="javascript:void(0)" id="upFont">A+</a>
+                        <a href="javascript:void(0)" class="text--link" id="downFont">A-</a>
+                        <a href="javascript:void(0)" class="text--link" id="regularFont">A</a>
+                        <a href="javascript:void(0)" class="text--link" id="upFont">A+</a>
                     </div>
                     <div class="search--block">
-                        <a href="javascript:void(0)" id="topSearch">
+                        <a href="javascript:void(0)" class="text--link" id="topSearch">
                             <i class="icon-search"></i>
                         </a>
                     </div>
                     <div class="language--block">
-                        <a href="javascript:void(0)" id="topLang">EN</a>
+                        <a href="javascript:void(0)" class="text--link" id="topLang">EN</a>
                     </div>
                     <div class="social--block">
                         <a href="javascript:void(0)" class="social__icon">
@@ -50,7 +50,7 @@
         </div>
 
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar--bottom">
+            <nav class="navbar navbar-expand-lg navbar--bottom bg--primary">
                 <div class="collapse navbar-collapse" id="navbar-content">
                     <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -63,19 +63,19 @@
                                     <div class="container">
                                         <div class="row row-cols-md-2 row-cols-lg-4">
                                             <div class="col mb-3">
-                                                <a href="#" title="" class="menu__item">เกี่ยวกับเรา</a>
+                                                <a href="#" title="" class="menu__item text--link">เกี่ยวกับเรา</a>
                                             </div>
                                             <div class="col mb-3">
-                                                <a href="#" title="" class="menu__item">เกี่ยวกับเรา</a>
+                                                <a href="#" title="" class="menu__item text--link">เกี่ยวกับเรา</a>
                                             </div>
                                             <div class="col mb-3">
-                                                <a href="#" title="" class="menu__item">เกี่ยวกับเรา</a>
+                                                <a href="#" title="" class="menu__item text--link">เกี่ยวกับเรา</a>
                                             </div>
                                             <div class="col mb-3">
-                                                <a href="#" title="" class="menu__item">เกี่ยวกับเรา</a>
+                                                <a href="#" title="" class="menu__item text--link">เกี่ยวกับเรา</a>
                                             </div>
                                             <div class="col mb-3">
-                                                <a href="#" title="" class="menu__item">เกี่ยวกับเรา</a>
+                                                <a href="#" title="" class="menu__item text--link">เกี่ยวกับเรา</a>
                                             </div>
                                         </div>
                                     </div>

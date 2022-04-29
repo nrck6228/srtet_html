@@ -76,14 +76,14 @@
     }
     
     .navbar--bottom{
-        background-color: $red;
+        // background-color: $red;
 
         .nav-link{
             padding: 0.5rem 20px;
             font-weight: bold;
             font-size: 1.625rem;
             line-height: 1.875rem;
-            color: white;
+            // color: white;
         }
 
         .dropdown-toggle{
@@ -97,6 +97,8 @@
         }
 
         .list--menu{
+            display: block;
+
             .menu__item{
                 position: relative;
                 font-weight: bold;
@@ -116,6 +118,7 @@
                 }
 
                 &:hover{
+                    
                     &:after{
                         width: 50px;
                     }
