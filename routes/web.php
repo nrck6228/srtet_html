@@ -17,11 +17,17 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/', function () {
-    return view('index');
+// Route::get('/', function () {
+//     return view('index');
+// });
+
+Route::get('/home', function()
+{
+    return View::make('_home');
 });
 
 Route::get('/news', function () {
-    return view('news');
+    return View::make('_news');
 });
+
 
