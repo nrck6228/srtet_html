@@ -45,7 +45,7 @@
                 </div>
             </article>
 
-            <article class="route--wrapper">
+            <article class="home--route">
                 <div class="container">
                     <ul class="nav nav-tabs nav-tabs--primary" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
@@ -225,7 +225,7 @@
                 </div>
             </article>
 
-            <article class="events--wrapper">
+            <article class="home--events">
                 <div class="container">
                     <div class="title--page justify-content-between">
                         <h2 class="page__title">ปฏิทินกิจกรรม</h2>
@@ -386,7 +386,7 @@
                 </div>
             </article>
 
-            <article class="news--home">
+            <article class="home--news">
                 <div class="container">
                     <div class="title--page justify-content-center">
                         <a href="/news" title="เพิ่มเติม" class="page__readmore">
@@ -668,7 +668,7 @@
                 </div>
             </article>
 
-            <article class="safeService--wrapper">
+            <article class="home--service">
                 <div class="container">
                     <div class="title--page justify-content-between">
                         <h2 class="page__title">ความปลอดภัยและการบริการ</h2>

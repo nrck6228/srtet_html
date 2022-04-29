@@ -7,7 +7,7 @@
 @section('contentpage')
 
     <main class="main--wrapper">
-        <article class="hero--wrapper">
+        <article class="home--hero">
             <div class="container">
                 <div class="hero--slider">
                     <a href="#" title="" class="slider__item">
@@ -40,7 +40,7 @@
             </div>
         </article>
 
-        <article class="route--wrapper">
+        <article class="home--route">
             <div class="container">
                 <ul class="nav nav-tabs nav-tabs--primary" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
@@ -215,12 +215,21 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="time" role="tabpanel" aria-labelledby="time-tab">Time</div>
+                    <div class="tab-pane fade" id="time" role="tabpanel" aria-labelledby="time-tab">
+                        <div class="map--wrapper">
+                            <div class="title--page">
+                                <h2 class="page__title">คู่มือรถไฟฟ้าชานเมืองสายสีแดง</h2>
+                            </div>
+                            <div class="map--figure">
+                                <img class="w-100" src="{{ asset('assets/images/map/img-demo-02.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </article>
 
-        <article class="events--wrapper">
+        <article class="home--events">
             <div class="container">
                 <div class="title--page justify-content-between">
                     <h2 class="page__title">ปฏิทินกิจกรรม</h2>
@@ -381,7 +390,7 @@
             </div>
         </article>
 
-        <article class="news--home">
+        <article class="home--news">
             <div class="container">
                 <div class="title--page justify-content-center">
                     <a href="/news" title="เพิ่มเติม" class="page__readmore">
@@ -663,7 +672,7 @@
             </div>
         </article>
 
-        <article class="safeService--wrapper">
+        <article class="home--service">
             <div class="container">
                 <div class="title--page justify-content-between">
                     <h2 class="page__title">ความปลอดภัยและการบริการ</h2>
@@ -749,6 +758,20 @@
         </div>
     </div>
 
+    <script>
+        (function() {
+
+            var mapLink = document.querySelector('.map__link');
+            var stationWrapper = document.querySelector('.station--wrapper');
+
+            mapLink.addEventListener('click', function() {
+            
+                stationWrapper.classList.toggle('show');
+
+            });
+
+        })();
+    </script>
 
 @endsection
 
