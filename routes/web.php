@@ -30,6 +30,10 @@ Route::get('/vision-mission', function () {
     return View::make('_vision-mission');
 });
 
+Route::get('/organization-chart', function () {
+    return View::make('_organization-chart');
+});
+
 Route::get('/news', function () {
     return View::make('_news');
 });
