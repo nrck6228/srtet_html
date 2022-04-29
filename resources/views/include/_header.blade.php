@@ -11,7 +11,7 @@
     <div class="header--desktop d-none d-lg-block">
         <div class="container">
             <nav class="navbar navbar--top">
-                <a class="navbar__brand" href="/home">
+                <a class="navbar__brand" href="/">
                     <img src="{{ asset('assets/images/logo.jpg')}}" alt="SRTET" class="logo">
                 </a>
                 <div class="list--menu">
