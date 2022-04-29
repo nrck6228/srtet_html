@@ -1,14 +1,183 @@
-.card{
-    &--news{
-        .card__pin{
-            font-size: 1.375rem;
-            line-height: 1.625rem;
-            color: $white;
-            background-color: $red;
-            padding: 5px 15px;
-            position: absolute;
-            left: 20px;
+// .card{
+//     &--news{
+//         .card__pin{
+//             font-size: 1.375rem;
+//             line-height: 1.625rem;
+//             color: $white;
+//             background-color: $red;
+//             padding: 5px 15px;
+//             position: absolute;
+//             left: 20px;
             
+//         }
+
+//         .card__body{
+//             padding-top: 1rem;
+//             padding-left: 15px;
+//             padding-right: 15px;
+//             padding-bottom: 1.5rem;
+//             border-left: 1px solid transparent;
+//             border-right: 1px solid transparent;
+//             border-bottom: 1px solid transparent;
+
+//             position: relative;
+//             transition: all 0.4s ease-in-out;
+//             .card__date{
+//                 font-size: 1.625rem;
+//                 line-height: 1.875rem;
+//                 font-weight: bold;
+//                 color: $red;
+//             }
+//             .card__title{
+//                 font-size: 1.625rem;
+//                 line-height: 1.875rem;
+//                 font-weight: bold;
+//                 color: $darkgray;
+        
+//                 display: -webkit-box;
+//                 -webkit-line-clamp: 2;
+//                 -webkit-box-orient: vertical;
+//                 overflow: hidden;
+//             }
+//             .card__desc{
+//                 padding-top: 10px;
+//                 font-size: 1.625rem;
+//                 line-height: 1.875rem;
+//                 font-weight: bold;
+//                 color: #929091;
+//                 display: -webkit-box;
+//                 -webkit-line-clamp: 2;
+//                 -webkit-box-orient: vertical;
+//                 overflow: hidden;
+//             }
+//         }
+
+//         &:hover{
+//             .card__body{
+//                 border-left: 1px solid $red;
+//                 border-right: 1px solid $red;
+//                 border-bottom: 1px solid $red;
+//                 &:before{
+//                     content: "";
+//                     display: inline-block;
+//                     width: 0;
+//                     height: 0;
+//                     border-style: solid;
+//                     border-width: 0 15px 20px 15px;
+//                     border-color: transparent transparent $red transparent;
+//                     position: absolute;
+//                     bottom: 0;
+//                     left: 0;
+//                     right: 0;
+//                     margin: auto;
+//                 }
+//             }
+//         }
+//     }
+
+//     &--slide{
+//         max-width: 100%;
+//         display: block;
+//         margin: 0 20px;
+//         transform: scale(0.9);
+//         transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+//         .card__figure{
+//             box-shadow: 0px 3px 6px rgb(0 0 0 / 15%);
+
+//             img{
+//                 width: 100%;
+//             }
+//         }
+//     }
+// }
+
+.card--news{
+    .card__pin{
+        font-size: 1.375rem;
+        line-height: 1.625rem;
+        color: $white;
+        background-color: $red;
+        padding: 5px 15px;
+        position: absolute;
+        left: 20px;
+        
+    }
+
+    .card__body{
+        padding-top: 1rem;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 1.5rem;
+        border-left: 1px solid transparent;
+        border-right: 1px solid transparent;
+        border-bottom: 1px solid transparent;
+
+        position: relative;
+        transition: all 0.4s ease-in-out;
+        .card__date{
+            font-size: 1.625rem;
+            line-height: 1.875rem;
+            font-weight: bold;
+            color: $red;
+        }
+        .card__title{
+            font-size: 1.625rem;
+            line-height: 1.875rem;
+            font-weight: bold;
+            color: $darkgray;
+    
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .card__desc{
+            padding-top: 10px;
+            font-size: 1.625rem;
+            line-height: 1.875rem;
+            font-weight: bold;
+            color: #929091;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+    }
+
+    &:hover{
+        .card__body{
+            border-left: 1px solid $red;
+            border-right: 1px solid $red;
+            border-bottom: 1px solid $red;
+            &:before{
+                content: "";
+                display: inline-block;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 0 15px 20px 15px;
+                border-color: transparent transparent $red transparent;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+            }
+        }
+    }
+
+    &-slide{
+        max-width: 100%;
+        display: block;
+        margin: 0 20px;
+        transform: scale(0.9);
+        transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+        .card__figure{
+            box-shadow: 0px 3px 6px rgb(0 0 0 / 15%);
+
+            img{
+                width: 100%;
+            }
         }
 
         .card__body{
@@ -16,11 +185,12 @@
             padding-left: 15px;
             padding-right: 15px;
             padding-bottom: 1.5rem;
-            border-left: 1px solid $white;
-            border-right: 1px solid $white;
-            border-bottom: 1px solid $white;
-
+            border-left: 1px solid transparent;
+            border-right: 1px solid transparent;
+            border-bottom: 1px solid transparent;
+    
             position: relative;
+            transition: all 0.4s ease-in-out;
             .card__date{
                 font-size: 1.625rem;
                 line-height: 1.875rem;
@@ -50,7 +220,7 @@
                 overflow: hidden;
             }
         }
-
+    
         &:hover{
             .card__body{
                 border-left: 1px solid $red;
@@ -70,19 +240,6 @@
                     right: 0;
                     margin: auto;
                 }
-            }
-        }
-    }
-
-    &--slide{
-        max-width: 100%;
-        display: block;
-        margin: 0 20px;
-        transform: scale(0.9);
-        transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
-        .card__figure{
-            img{
-                width: 100%;
             }
         }
     }
