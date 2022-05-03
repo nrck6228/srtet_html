@@ -82,7 +82,7 @@
                             </div>
                         </div>
                         <div class="col-md-2 col-sm-6 col-12">
-                            <button type="button" class="btn btn--primary">ค้นหา</button>
+                            <button type="button" class="btn btn--primary"><span>ค้นหา</span></button>
                         </div>
                     </div>
                 </div>
