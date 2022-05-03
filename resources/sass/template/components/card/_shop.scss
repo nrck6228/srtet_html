@@ -1,0 +1,49 @@
+.card--shop{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .card__figure{
+        img{
+            width: 100%;
+        }
+    }
+    .card__body{
+        padding-top: 1rem;
+        padding-left: 15px;
+        padding-right: 15px;
+        // padding-bottom: 1.5rem;
+        // border-left: 1px solid transparent;
+        // border-right: 1px solid transparent;
+        // border-bottom: 1px solid transparent;
+
+        position: relative;
+        transition: all 0.4s ease-in-out;
+
+        border: 1px solid #929091;
+        .card__name{
+            font-size: 1.625rem;
+            line-height: 1.875rem;
+            font-weight: bold;
+            color: $red;
+        }
+        .card__type{
+            padding-top: 10px;
+            font-size: 1.625rem;
+            line-height: 1.875rem;
+            font-weight: bold;
+            color: $darkgray;
+            margin-bottom: 1rem;
+        }
+        .card__station{
+            padding-top: 10px;
+            font-size: 1.625rem;
+            line-height: 1.875rem;
+            font-weight: bold;
+            color: $darkgray;
+        }
+    }
+
+    @media only screen and (max-width: 1199px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

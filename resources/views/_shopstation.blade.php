@@ -45,8 +45,8 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">หน้าแรก</a></li>
-                        <li class="breadcrumb-item"><a href="#">ข่าวสารและกิจกรรม</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">ข่าวสาร</li>
+                        <li class="breadcrumb-item"><a href="#">บริการลูกค้า</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">ร้านค้าต่างๆ ประจำสถานี</li>
                     </ol>
                 </nav>
             </div>
@@ -55,31 +55,36 @@
         <article class="news--wrapper">
             <div class="container">
                 <div class="title--page justify-content-center">
-                    <h2 class="page__title text--primary">ข่าวสาร</h2>
+                    <h2 class="page__title text--primary">ร้านค้าต่างๆ ประจำสถานี</h2>
                 </div>
 
                 <div class="form-filter">
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-12">
                             <div class="search__controls">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>Open this select menu</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
+                                <input type="text" class="form-control" placeholder="คำค้นหา">
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-12">
+                            <div class="search__controls">
+                                <select class="form-select" aria-label="เลือกประเภทร้านค้า">
+                                    <option selected>เลือกประเภทร้านค้า</option>
+                                    <option value="1">ประเภท 1</option>
+                                    <option value="2">ประเภท 2</option>
+                                    <option value="3">ประเภท 3</option>
                                 </select>
                             </div>
                             
                         </div>
                         <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls icon icon__date">
-                                <input type="text" class="form-control start-date" placeholder="วันที่เริ่มต้น">
+                            <div class="search__controls">
+                                <select class="form-select" aria-label="สถานี">
+                                    <option value="1" selected>สถานี 1</option>
+                                    <option value="2">สถานี 2</option>
+                                    <option value="3">สถานี 3</option>
+                                </select>
                             </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls icon icon__date">
-                                <input type="text" class="form-control end-date" placeholder="วันที่สิ้นสุด">
-                            </div>
+                            
                         </div>
                         <div class="col-md-2 col-sm-6 col-12">
                             <button type="button" class="btn btn--primary">ค้นหา</button>
@@ -88,68 +93,53 @@
                 </div>
                 
 
-                <div class="card-deck">
-                    <a href="" class="card card--news">
-                        <div class="card__pin">New</div>
+                <div class="card-deck card-deck--cards-1 card-deck--cards-sm-2">
+                    <a href="" class="card card--shop">
                         <div class="card__figure">
-                            <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="ข่าว">
+                            <img src="{{ asset('assets/images/shop/img-bank-scb.png')}}" alt="bank">
                         </div>
                         <div class="card__body">
-                            <div class="card__date">6 เมษายน 2565</div>
-                            <div class="card__title">
-                                พบกับงานงานสัปดาห์หนังสือแห่งชาติครั้งที่ 50
+                            <div class="card__name">ธนาคารไทยพาณิชย์</div>
+                            <div class="card__type">
+                                ประเภทร้านค้า : ธนาคาร/ศูนย์แลกเปลี่ยนเงินตราต่างประเทศ
+                            </div>
+                            <div class="card__station">
+                                สถานี : บางซื่อ
                             </div>
                         </div>
                     </a>
 
-                    <a href="" class="card card--news">
+                    <a href="" class="card card--shop">
                         <div class="card__figure">
-                            <img src="{{ asset('assets/images/news/img-news2.png')}}" alt="ข่าว">
+                            <img src="{{ asset('assets/images/shop/img-bank-scb.png')}}" alt="bank">
                         </div>
                         <div class="card__body">
-                            <div class="card__date">5 เมษายน 2565</div>
-                            <div class="card__title">
-                                เมื่อพบเจอ บุคคลต้องสงสัย แจ้งทางเจ้าหน้าที่ได้ทันที
+                            <div class="card__name">ธนาคารไทยพาณิชย์</div>
+                            <div class="card__type">
+                                ประเภทร้านค้า : ธนาคาร/ศูนย์แลกเปลี่ยนเงินตราต่างประเทศ
+                            </div>
+                            <div class="card__station">
+                                สถานี : บางซื่อ
                             </div>
                         </div>
                     </a>
 
-                    <a href="" class="card card--news">
+                    <a href="" class="card card--shop">
                         <div class="card__figure">
-                            <img src="{{ asset('assets/images/news/img-news3.png')}}" alt="ข่าว">
+                            <img src="{{ asset('assets/images/shop/img-bank-scb.png')}}" alt="bank">
                         </div>
                         <div class="card__body">
-                            <div class="card__date">2 เมษายน 2565</div>
-                            <div class="card__title">
-                                ข้อปฏิบัติของผู้ป่วยโควิด เมื่อแยกกักตัวที่บ้าน
+                            <div class="card__name">ธนาคารไทยพาณิชย์</div>
+                            <div class="card__type">
+                                ประเภทร้านค้า : ธนาคาร/ศูนย์แลกเปลี่ยนเงินตราต่างประเทศ
                             </div>
-                        </div>
-                    </a>
-
-                    <a href="" class="card card--news">
-                        <div class="card__figure">
-                            <img src="{{ asset('assets/images/news/img-news4.png')}}" alt="ข่าว">
-                        </div>
-                        <div class="card__body">
-                            <div class="card__date">1 เมษายน 2565</div>
-                            <div class="card__title">
-                                7 ขั้นตอนควรทำ เมื่อตรวจ ATK ขึ้น 2 ขีด
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="" class="card card--news">
-                        <div class="card__figure">
-                            <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="ข่าว">
-                        </div>
-                        <div class="card__body">
-                            <div class="card__date">5 เมษายน 2565</div>
-                            <div class="card__title">
-                                กรณีเหตุฉุกเฉิน ภายในขบวนรถไฟฟ้า
+                            <div class="card__station">
+                                สถานี : บางซื่อ
                             </div>
                         </div>
                     </a>
                 </div>
+                
 
                 <div class="pagination-wrapper">
                     <nav aria-label="Page navigation example">
