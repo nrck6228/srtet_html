@@ -91,6 +91,9 @@
                                     <li class="dropdown-item">
                                         <a href="/facilities" title="สิ่งอำนวยความสะดวก" class="dropdown-link">สิ่งอำนวยความสะดวก</a>
                                     </li>
+                                    <li class="dropdown-item">
+                                        <a href="/shopstation" title="ร้านค้าต่างๆ ประจำสถานี" class="dropdown-link">ร้านค้าต่างๆ ประจำสถานี</a>
+                                    </li>
                                 </ul>
                             </div>
                         </li>
