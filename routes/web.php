@@ -46,5 +46,9 @@ Route::get('/newsdetail', function () {
     return View::make('_newsdetail');
 });
 
+Route::get('/shopstation', function () {
+    return View::make('_shopstation');
+});
+
 
 
