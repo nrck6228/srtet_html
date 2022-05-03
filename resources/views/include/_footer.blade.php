@@ -2,11 +2,11 @@
     <div class="footer--wrapper">
         <div class="container">
             <div class="accordion accordion--primary" id="accordionFooter">
-                <div data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1" class="accordion__title">
+                <div data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1" class="accordion__title">
                     <i class="more-less icon-angle-down"></i>
                     ข้อมูลราชการ
                 </div>
-                <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="collapse-1" data-bs-parent="#accordionFooter">
+                <div id="collapse-1" class="accordion-collapse collapse" aria-labelledby="collapse-1" data-bs-parent="#accordionFooter">
                     <div class="gov--slider">
                         <a href="#" title="" class="slider__item">
                             <div class="slider__figure">
