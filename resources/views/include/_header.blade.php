@@ -8,7 +8,7 @@
 <!-- End Preload -->
 
 <header class="header--wrapper">
-    <div class="header--desktop d-none d-lg-block">
+    <div class="d-none d-lg-block header--desktop">
         <div class="container">
             <nav class="navbar navbar--top">
                 <a class="navbar__brand" href="/">
@@ -54,16 +54,16 @@
                 <div class="collapse navbar-collapse" id="navbar-content">
                     <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/home">หน้าหลัก</a>
+                            <a class="nav-link active" aria-current="page" href="/">หน้าหลัก</a>
                         </li>
 
                         <li class="nav-item dropdown dropdown--navbar">
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">เกี่ยวกับเรา</a>
                             <div class="dropdown-menu">
                                 <ul class="dropdown-nav">
-                                    <li class="dropdown-item">
+                                    <!-- <li class="dropdown-item">
                                         <a href="/history" title="ประวัติความเป็นมา" class="dropdown-link">ประวัติความเป็นมา</a>
-                                    </li>
+                                    </li> -->
 
                                     <li class="dropdown-item">
                                         <a href="/vision-mission" title="วิสัยทัศน์ พันธกิจ" class="dropdown-link">วิสัยทัศน์ พันธกิจ</a>
@@ -77,9 +77,9 @@
                                         <a href="/executive" title="ทำเนียบผู้บริหารระดับสูง" class="dropdown-link">ทำเนียบผู้บริหารระดับสูง</a>
                                     </li>
 
-                                    <li class="dropdown-item">
+                                    <!-- <li class="dropdown-item">
                                         <a href="/responsible" title="หน่วยงานที่รับผิดชอบ" class="dropdown-link">หน่วยงานที่รับผิดชอบ</a>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </div>
                         </li>
@@ -94,13 +94,30 @@
                                 </ul>
                             </div>
                         </li>
+
+                        <li class="nav-item dropdown dropdown--navbar">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">กำหนดเวลาเดินรถ</a>
+                            <div class="dropdown-menu">
+                                <ul class="dropdown-nav">
+                                    <li class="dropdown-item">
+                                        <a href="/ticket-information" title="การออกตั๋วโดยสาร" class="dropdown-link">การออกตั๋วโดยสาร</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="/fare-information" title="อัตราค่าโดยสาร" class="dropdown-link">อัตราค่าโดยสาร</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="/route-information" title="อัตราค่าโดยสาร" class="dropdown-link">แผนที่สถานีรถไฟฟ้า</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </nav>
         </div>
     </div>
 
-    <div class="header--mobile d-block d-lg-none">
+    <div class="d-block d-lg-none header--mobile">
         <div class="container">
             <nav class="navbar navbar--top">
                 <a class="navbar__brand" href="#">

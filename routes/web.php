@@ -34,16 +34,32 @@ Route::get('/organization-chart', function () {
     return View::make('_organization-chart');
 });
 
-Route::get('/news', function () {
-    return View::make('_news');
+Route::get('/executive', function () {
+    return View::make('_executive');
+});
+
+Route::get('/ticket-information', function () {
+    return View::make('_ticket-information');
+});
+
+Route::get('/fare-information', function () {
+    return View::make('_fare-information');
+});
+
+Route::get('/route-information', function () {
+    return View::make('_route-information');
 });
 
 Route::get('/facilities', function () {
     return View::make('_facilities');
 });
 
-Route::get('/newsdetail', function () {
-    return View::make('_newsdetail');
+Route::get('/news', function () {
+    return View::make('_news');
+});
+
+Route::get('/news-detail', function () {
+    return View::make('_news-detail');
 });
 
 

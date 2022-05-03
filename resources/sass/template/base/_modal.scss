@@ -13,6 +13,69 @@
         }
     }
 
+    .modal--close{
+        padding: 0;
+
+        // min-width: 80px;
+        // height: 45px;
+        // background-color: $red;
+
+        outline: none;
+        border: none;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        transition: all 0.4s ease-in-out;
+
+        .btn--close{
+            position: relative;
+            width: 80px;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $red;
+            
+            transition: all 0.4s ease-in-out;
+
+            span{
+                position: relative;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                font-size: 1.625rem;
+                line-height: 1.875rem;
+                color: white;
+                padding: 0 0.25rem;
+
+                i{
+                    font-size: 1rem;
+                    margin: 0 0 0 0.5rem; 
+                }
+            }
+
+            &:before{
+                content: '';
+                width: 0;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: $darkgray;
+                transition: width 0.4s ease-in-out;
+            }
+
+            &:hover{
+                &:before{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
     // .modal--close{
     //     display: black;
     //     font-size: 3rem;

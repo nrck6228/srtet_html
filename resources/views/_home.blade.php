@@ -12,7 +12,8 @@
                 <div class="hero--slider">
                     <a href="#" title="" class="slider__item">
                         <div class="slider__figure">
-                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-desktop.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                            <!-- image dimension 1320*580px -->
+                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-demo-home.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
                         </div>
                         <div class="slider__content">
                             <h2 class="slider__title">
@@ -25,7 +26,7 @@
                     </a>
                     <a href="#" title="" class="slider__item">
                         <div class="slider__figure">
-                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-desktop.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-demo-home.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
                         </div>
                         <div class="slider__content">
                             <h2 class="slider__title">
@@ -135,7 +136,9 @@
                                                         </li>
                                                     </ul>
 
-                                                    <a href="#" title="" class="btn btn--primary">รายละเอียดเพิ่มเติม</a>
+                                                    <a href="#" title="" class="btn btn--primary">
+                                                        <span>รายละเอียดเพิ่มเติม</span>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
@@ -747,7 +750,11 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h3 class="modal-title" id="exampleModalLabel">บันไดเลื่อน</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="modal--close" data-bs-dismiss="modal" aria-label="Close">
+                        <div class="btn--close">
+                            <span>ปิด <i class="icon-close"></i></span>
+                        </div>
+                    </button>
                 </div>
                 <div class="modal-body">
                     <div class="modal--text">
