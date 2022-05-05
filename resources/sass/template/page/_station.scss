@@ -1,0 +1,178 @@
+.station--wrapper{
+    .body--content{
+        .content__gallery{
+            .gallery__for{
+                margin-bottom: 15px;
+                .item{
+                    img{
+                        width: 100%;
+                        max-width: 100%;
+                    }
+                }
+            }
+
+            .gallery__nav{
+                padding-right: 60px;
+                .item{
+                    width: 150px;
+                    height: 150px;
+                    margin-right: 20px;
+                    img{
+                        width: 100%;
+                        max-width: 100%;
+                    }
+                }
+
+                .slick-arrow{
+                    width: 45px;
+                    height: 45px;
+                    border-radius: 50px;
+                    background-color: $gray;
+                    transition: all 0.4s ease-in-out;
+
+                    &:hover{
+                        background-color: $red;
+                    }
+                }
+
+                .slick-prev{
+                    left: auto;
+                    right: 0;
+                    top: auto;
+                    bottom: 0;
+            
+                    &:before{
+                        font-family: 'icomoon' !important;
+                        font-size: 1rem;
+                        content: "\e902";
+                        color: white;
+                        opacity: 1;
+                    }
+            
+                    &:hover{
+                        &:before{
+                            color: white;
+                        }
+                    }
+                }
+            
+                .slick-next{
+                    right: 0;
+                    top: 45px;
+            
+                    &:before{
+                        font-family: 'icomoon' !important;
+                        font-size: 1rem;
+                        content: "\e903";
+                        color: white;
+                        opacity: 1;
+                    }
+            
+                    &:hover{
+                        &:before{
+                            color: white;
+                        }
+                    }
+                }
+        
+                .slick-arrow{
+                    z-index: 9;
+                }
+            }
+        }
+    }
+    
+    .station--figure{
+        display: block;
+    }
+    
+    .station--data{
+        display: block;
+    
+        .h2{
+            margin-bottom: 2rem;
+        }
+
+        .location--data{
+            margin-bottom: 2rem;
+
+            .data__label{
+                position: relative;
+                font-size: 1.5rem;
+                line-height: 1.5rem;
+
+                &:after{
+                    content: ':';
+                    color: $red;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+            }
+
+            .data__text{
+                font-size: 1.5rem;
+                line-height: 1.5rem;
+            }
+        }
+    
+        .facilities--list{
+            display: block;
+            margin-bottom: 2rem;
+    
+            .facilities__item{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+    
+                width: 100%;
+                height: auto;
+                padding: 1rem;
+                margin-bottom: 15px;
+    
+                color: black;
+                text-align: center;
+                text-decoration: none;
+                border: 1px solid transparent;
+                transition: all 0.4s ease-in-out;
+
+                img{
+                    max-width: 64px;
+                    transition: all 0.4s ease-in-out;
+                }
+    
+                &:hover{
+                    color: $red;
+                    border-color: $red;
+
+                    img{
+                        transform: translateY(-5px);
+                    }
+                }
+            }
+        }
+    
+        .exit--list{
+            list-style: none;
+            padding: 0;
+            margin: 0 0 1rem 0;
+    
+            li{
+                position: relative;
+                font-size: 1.5rem;
+                line-height: 1.5rem;
+                margin-bottom: 10px;
+    
+                &:before{
+                    font-family: 'icomoon' !important;
+                    content: "\e90a";
+                    font-size: 0.75rem;
+                    color: $red;
+                    display: inline-block;
+                    transform: rotate(90deg);
+                }
+            }
+        }
+    }
+}

@@ -39,6 +39,8 @@ body{
 
 // Accordion
 .accordion--primary{
+    margin-bottom: 2rem;
+
     .accordion__title{
         position: relative;
         display: block;
@@ -51,10 +53,10 @@ body{
         text-decoration: none;
         text-transform: uppercase;
         cursor: pointer;
-        background-color: rgba($color: #929091, $alpha: 0.1);
+        background-color: rgba($color: $gray, $alpha: 0.1);
   
         &:hover{
-            background-color: rgba($color: #929091, $alpha: 0.5);
+            background-color: rgba($color: $gray, $alpha: 0.5);
         }
     
         &[aria-expanded='true']{
@@ -71,6 +73,67 @@ body{
         padding: 32px;
         margin-bottom: 5px;
         background-color: #E5E9ED;
+    }
+  
+    .more-less {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translate(0, -50%);
+        color: $darkgray;
+        font-size: 0.5rem;
+    }
+  
+    // @media (max-width: 767.98px){
+    //     .accordion__title{
+    //         padding: 15px 45px 15px 15px;
+    //     }
+    
+    //     .accordion__body{
+    //         padding: 15px;
+    //     }
+    
+    //     .more-less {
+    //         right: 15px;
+    //     }
+    // }
+}
+
+.accordion--white{
+    margin-bottom: 2rem;
+    
+    .accordion__title{
+        position: relative;
+        display: block;
+        padding: 15px 45px 15px 15px;
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-size: 1.625rem;
+        line-height: 1.875rem;
+        color: $darkgray;
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer;
+        background-color: rgba($color: $gray, $alpha: 0.1);
+  
+        &:hover{
+            background-color: rgba($color: $gray, $alpha: 0.5);
+        }
+    
+        &[aria-expanded='true']{
+            color: $red !important;
+            background-color: white !important;
+    
+            .more-less {
+            color: $red !important;
+            }
+        }
+    }
+    
+    .accordion-collapse{
+        padding: 1rem;
+        margin-bottom: 5px;
+        background-color: white;
     }
   
     .more-less {

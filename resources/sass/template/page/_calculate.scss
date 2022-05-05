@@ -1,0 +1,181 @@
+.calculated--wrapper{
+    display: block;
+    position: relative;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    background-color: rgba($color: #929091, $alpha: 0.1);
+
+    .station--route{
+        display: block;
+        position: relative;
+        margin-bottom: 2rem;
+        
+        .route--box{
+            position: relative;
+        }
+
+        .box--info{
+            font-weight: bold;
+            font-size: 1.625rem;
+            line-height: 1.875rem;
+            color: $red;
+    
+            display: flex;
+            justify-content: center;
+
+            width: 100%;
+    
+            span{
+                color: $gray;
+            }
+
+            &__time{
+                font-weight: bold;
+                font-size: 1.625rem;
+                line-height: 1.875rem;
+                color: $red;
+        
+                display: flex;
+                justify-content: center;
+
+                position: absolute;
+                left: 50%;
+                bottom: 15px;
+                transform: translate(-50%, 0);
+
+                width: 100%;
+
+                span{
+                    color: $gray;
+                }
+            }
+        }
+
+        .route--info{
+            margin: 0 auto;
+            padding: 0 0 3rem;
+            list-style: none;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .route--step {
+            text-align: left;
+            position: relative;
+            width: 100%;
+            height: 40px;
+        
+            &:before {
+                content: "";
+                height: 0.5rem;
+                background-color: $red;
+                position: absolute;
+                z-index: 1;
+                width: 100%;
+                left: 2px;
+                top: 50%;
+                transform: translateY(-50%);
+                transition: all .4s ease-out;
+            }
+        
+            &:nth-child(2){
+                text-align: right;
+        
+                &:before{
+                    left: auto;
+                    right: 2px;
+                }
+            }
+        }
+        
+        .step__point {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-color: $red;
+            border-radius: 50%;
+            border: 5px solid $red;
+            padding: 0.5em;
+            max-width: 100%;
+            z-index: 10;
+            position: relative;
+            transition: all .25s ease-out;
+        
+            &--end{
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                background-color: white;
+                border-radius: 50%;
+                border: 5px solid $red;
+                padding: 0.5em;
+                max-width: 100%;
+                z-index: 10;
+                position: relative;
+                transition: all .25s ease-out;
+            }
+        }
+        
+        .step__label {
+            display: block;
+            text-transform: uppercase;
+            color: $darkgray;
+            position: absolute;
+            width: 100%;
+            font-weight: bold;
+            font-size: 1.625rem;
+            line-height: 1.875rem;
+            transition: all .25s ease-out;
+            
+            //Add your breakpoint to turn off
+            //the labels when you need it.
+        }
+    }
+
+    .remark--route{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-top: 1rem;
+        
+        @include media-breakpoint-down(md){
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .remark__left{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            font-weight: bold;
+            font-size: 1.625rem;
+            line-height: 1.875rem;
+            color: $gray;
+
+            .point{
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                background-color: white;
+                border-radius: 50%;
+                border: 5px solid $red;
+                padding: 0.5rem;
+                margin: 0 0.5rem;
+                max-width: 100%;
+                z-index: 10;
+                position: relative;
+                transition: all .25s ease-out;
+            }
+        }
+
+        .remark__right{
+            font-weight: bold;
+            font-size: 1.625rem;
+            line-height: 1.875rem;
+            color: $gray;
+        }
+    }
+}
