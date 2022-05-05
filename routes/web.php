@@ -66,5 +66,10 @@ Route::get('/shopstation', function () {
     return View::make('_shopstation');
 });
 
+Route::get('/vote', function () {
+    return View::make('_vote');
+});
+
+
 
 

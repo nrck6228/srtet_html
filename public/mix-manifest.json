@@ -16,6 +16,7 @@
     "/fonts/selection.json": "/fonts/selection.json",
     "/js/app.js": "/js/app.js",
     "/js/bootstrap.js": "/js/bootstrap.js",
+    "/js/datepicker.js": "/js/datepicker.js",
     "/js/function.js": "/js/function.js",
     "/js/slick.js": "/js/slick.js",
     "/spotlight/spotlight.min.css": "/spotlight/spotlight.min.css",
@@ -29,5 +30,9 @@
     "/slick/slick.js": "/slick/slick.js",
     "/slick/slick.less": "/slick/slick.less",
     "/slick/slick.min.js": "/slick/slick.min.js",
-    "/slick/slick.scss": "/slick/slick.scss"
+    "/slick/slick.scss": "/slick/slick.scss",
+    "/datepicker/bootstrap-datepicker-thai.js": "/datepicker/bootstrap-datepicker-thai.js",
+    "/datepicker/bootstrap-datepicker.js": "/datepicker/bootstrap-datepicker.js",
+    "/datepicker/bootstrap-datepicker.th.js": "/datepicker/bootstrap-datepicker.th.js",
+    "/datepicker/datepicker.css": "/datepicker/datepicker.css"
 }

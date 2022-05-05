@@ -1,0 +1,71 @@
+.vote--wrapper{
+    .card-group{
+        margin-bottom: 40px;
+    }
+    .card--vote{
+        border: 1px solid #DEDDDE !important;
+        padding: 15px;
+        margin-bottom: 15px;
+        .card__title{
+            font-size: 1.625rem;
+            line-height: 1.875rem;
+            font-weight: bold;
+            color: $darkgray;
+        }
+        .card__progressbar{
+            margin-top: 15px;
+            margin-bottom: 15px;
+            .progress-bar{
+                &.bg-progress{
+                    background-color: $darkgray;
+                }
+            }
+        }
+        .card__result{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .result__people--vote{
+                font-size: 1.375rem;
+                line-height: 1.625rem;
+                font-weight: bold;
+                color: #929091;
+            }
+            .result__people--join{
+                font-size: 1.375rem;
+                line-height: 1.625rem;
+                font-weight: bold;
+                color: #929091;
+                .f-icon{
+                    font-size: 14px;
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        &:hover{
+            border: 1px solid $red !important;
+            .card__title{
+                color: $red
+            }
+            .card__progressbar{
+                .progress-bar{
+                    &.bg-progress{
+                        background-color: $red;
+                    }
+                }
+            }
+            .card__result{
+                .result__people--vote{
+                    color: $darkgray;
+                }
+                .result__people--join{
+                    color: $darkgray;
+                    span{
+                        color: $red;
+                    }
+                }
+            }
+        }
+    }
+}
