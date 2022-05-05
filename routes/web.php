@@ -46,8 +46,16 @@ Route::get('/fare-information', function () {
     return View::make('_fare-information');
 });
 
+Route::get('/fare-calculated', function () {
+    return View::make('_fare-calculated');
+});
+
 Route::get('/route-information', function () {
     return View::make('_route-information');
+});
+
+Route::get('/station-information', function () {
+    return View::make('_station-information');
 });
 
 Route::get('/facilities', function () {

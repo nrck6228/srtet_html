@@ -109,7 +109,13 @@
                                         <a href="/fare-information" title="อัตราค่าโดยสาร" class="dropdown-link">อัตราค่าโดยสาร</a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a href="/route-information" title="อัตราค่าโดยสาร" class="dropdown-link">แผนที่สถานีรถไฟฟ้า</a>
+                                        <a href="/route-information" title="แผนที่สถานีรถไฟฟ้า" class="dropdown-link">แผนที่สถานีรถไฟฟ้า</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="/station-information" title="ข้อมูลสถานีรถไฟฟ้า" class="dropdown-link">ข้อมูลสถานีรถไฟฟ้า</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="/fare-calculated" title="คำนวณค่าโดยสารและเวลาเดินทาง" class="dropdown-link">คำนวณค่าโดยสารและเวลาเดินทาง</a>
                                     </li>
                                 </ul>
                             </div>
@@ -149,25 +155,69 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/">หน้าหลัก</a>
                         </li>
+
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="javascript:void(0);" id="menuAbout" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">เกี่ยวกับเรา</a>
-                            <ul class="dropdown-menu" aria-labelledby="menuAbout">
-                                <li>
-                                    <a href="#" class="dropdown-item" target="_self">
-                                        เกี่ยวกับเรา
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="dropdown-item" target="_self">
-                                        เกี่ยวกับเรา
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="dropdown-item" target="_self">
-                                        เกี่ยวกับเรา
-                                    </a>
-                                </li>
-                            </ul>
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">เกี่ยวกับเรา</a>
+                            <div class="dropdown-menu">
+                                <ul class="dropdown-nav">
+                                    <!-- <li class="dropdown-item">
+                                        <a href="/history" title="ประวัติความเป็นมา" class="dropdown-link">ประวัติความเป็นมา</a>
+                                    </li> -->
+
+                                    <li class="dropdown-item">
+                                        <a href="/vision-mission" title="วิสัยทัศน์ พันธกิจ" class="dropdown-link">วิสัยทัศน์ พันธกิจ</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/organization-chart" title="โครงสร้างหน่วยงาน ผู้บริหาร อำนาจหน้าที่" class="dropdown-link">โครงสร้างหน่วยงาน ผู้บริหาร อำนาจหน้าที่</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/executive" title="ทำเนียบผู้บริหารระดับสูง" class="dropdown-link">ทำเนียบผู้บริหารระดับสูง</a>
+                                    </li>
+
+                                    <!-- <li class="dropdown-item">
+                                        <a href="/responsible" title="หน่วยงานที่รับผิดชอบ" class="dropdown-link">หน่วยงานที่รับผิดชอบ</a>
+                                    </li> -->
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown dropdown--navbar">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">บริการลูกค้า</a>
+                            <div class="dropdown-menu">
+                                <ul class="dropdown-nav">
+                                    <li class="dropdown-item">
+                                        <a href="/facilities" title="สิ่งอำนวยความสะดวก" class="dropdown-link">สิ่งอำนวยความสะดวก</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="/shopstation" title="ร้านค้าต่างๆ ประจำสถานี" class="dropdown-link">ร้านค้าต่างๆ ประจำสถานี</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown dropdown--navbar">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">กำหนดเวลาเดินรถ</a>
+                            <div class="dropdown-menu">
+                                <ul class="dropdown-nav">
+                                    <li class="dropdown-item">
+                                        <a href="/ticket-information" title="การออกตั๋วโดยสาร" class="dropdown-link">การออกตั๋วโดยสาร</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="/fare-information" title="อัตราค่าโดยสาร" class="dropdown-link">อัตราค่าโดยสาร</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="/route-information" title="แผนที่สถานีรถไฟฟ้า" class="dropdown-link">แผนที่สถานีรถไฟฟ้า</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="/station-information" title="ข้อมูลสถานีรถไฟฟ้า" class="dropdown-link">ข้อมูลสถานีรถไฟฟ้า</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="/fare-calculated" title="คำนวณค่าโดยสารและเวลาเดินทาง" class="dropdown-link">คำนวณค่าโดยสารและเวลาเดินทาง</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
                     </ul>
                 </div>

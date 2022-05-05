@@ -105,21 +105,6 @@ a.text--link{
     }
 }
 
-.station--wrapper{
-    border-color: $color-primary;
-    background-color: white;
-
-    &:after{
-        border-color: rgba(136, 183, 213, 0);
-        border-bottom-color: $color-primary;
-    }
-
-    .fare--wrapper{
-        color: white;
-        background-color: $color-primary;
-    }
-}
-
 .page--content{
     .group__icon{
 
@@ -152,6 +137,23 @@ a.text--link{
                     transform: translateX(20px);
                 }
             }
+        }
+    }
+}
+
+.home--route{
+    .station--wrapper{
+        border-color: $color-primary;
+        background-color: white;
+    
+        &:after{
+            border-color: rgba(136, 183, 213, 0);
+            border-bottom-color: $color-primary;
+        }
+    
+        .fare--wrapper{
+            color: white;
+            background-color: $color-primary;
         }
     }
 }
