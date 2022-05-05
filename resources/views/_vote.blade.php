@@ -45,32 +45,21 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">หน้าแรก</a></li>
-                        <li class="breadcrumb-item"><a href="#">ข่าวสารและกิจกรรม</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">ข่าวสาร</li>
+                        <li class="breadcrumb-item"><a href="#">บริการลูกค้า</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Vote/Poll</li>
                     </ol>
                 </nav>
             </div>
         </div>
 
-        <article class="news--wrapper">
+        <article class="vote--wrapper">
             <div class="container">
                 <div class="title--page justify-content-center">
-                    <h2 class="page__title text--primary">ข่าวสาร</h2>
+                    <h2 class="page__title text--primary">Vote/Poll</h2>
                 </div>
 
                 <div class="form-filter">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>Open this select menu</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-                            </div>
-                            
-                        </div>
                         <div class="col-md-3 col-sm-6 col-12">
                             <div class="search__controls icon icon__date">
                                 <input type="text" class="form-control start-date datepicker" placeholder="วันที่เริ่มต้น">
@@ -88,64 +77,43 @@
                 </div>
                 
 
-                <div class="card-deck">
-                    <a href="" class="card card--news">
-                        <div class="card__pin">New</div>
-                        <div class="card__figure">
-                            <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="ข่าว">
+                <div class="card-group card-group--cards-1">
+
+                    <a href="" class="card card--vote">
+                        <div class="card__title">ท่านพึงพอใจเว็บไซต์นี้หรือไม่</div>
+                        <div class="card__progressbar progress" style="height: 5px;">
+                            <div class="progress-bar bg-progress" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <div class="card__body">
-                            <div class="card__date">6 เมษายน 2565</div>
-                            <div class="card__title">
-                                พบกับงานงานสัปดาห์หนังสือแห่งชาติครั้งที่ 50
+                        <div class="card__result">
+                            <div class="result__people--vote">155 คน ร่วมโหวต (25%)</div>
+                            <div class="result__people--join">
+                                <i class="f-icon icon-eye"></i><span>350</span> คน
                             </div>
                         </div>
                     </a>
 
-                    <a href="" class="card card--news">
-                        <div class="card__figure">
-                            <img src="{{ asset('assets/images/news/img-news2.png')}}" alt="ข่าว">
+                    <a href="" class="card card--vote">
+                        <div class="card__title">ท่านพึงพอใจเว็บไซต์นี้หรือไม่</div>
+                        <div class="card__progressbar progress" style="height: 5px;">
+                            <div class="progress-bar bg-progress" role="progressbar" style="width: 76%;" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <div class="card__body">
-                            <div class="card__date">5 เมษายน 2565</div>
-                            <div class="card__title">
-                                เมื่อพบเจอ บุคคลต้องสงสัย แจ้งทางเจ้าหน้าที่ได้ทันที
+                        <div class="card__result">
+                            <div class="result__people--vote">155 คน ร่วมโหวต (76%)</div>
+                            <div class="result__people--join">
+                                <i class="f-icon icon-eye"></i><span>350</span> คน
                             </div>
                         </div>
                     </a>
 
-                    <a href="" class="card card--news">
-                        <div class="card__figure">
-                            <img src="{{ asset('assets/images/news/img-news3.png')}}" alt="ข่าว">
+                    <a href="" class="card card--vote">
+                        <div class="card__title">ท่านพึงพอใจเว็บไซต์นี้หรือไม่</div>
+                        <div class="card__progressbar progress" style="height: 5px;">
+                            <div class="progress-bar bg-progress" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <div class="card__body">
-                            <div class="card__date">2 เมษายน 2565</div>
-                            <div class="card__title">
-                                ข้อปฏิบัติของผู้ป่วยโควิด เมื่อแยกกักตัวที่บ้าน
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="" class="card card--news">
-                        <div class="card__figure">
-                            <img src="{{ asset('assets/images/news/img-news4.png')}}" alt="ข่าว">
-                        </div>
-                        <div class="card__body">
-                            <div class="card__date">1 เมษายน 2565</div>
-                            <div class="card__title">
-                                7 ขั้นตอนควรทำ เมื่อตรวจ ATK ขึ้น 2 ขีด
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="" class="card card--news">
-                        <div class="card__figure">
-                            <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="ข่าว">
-                        </div>
-                        <div class="card__body">
-                            <div class="card__date">5 เมษายน 2565</div>
-                            <div class="card__title">
-                                กรณีเหตุฉุกเฉิน ภายในขบวนรถไฟฟ้า
+                        <div class="card__result">
+                            <div class="result__people--vote">155 คน ร่วมโหวต (10%)</div>
+                            <div class="result__people--join">
+                                <i class="f-icon icon-eye"></i><span>350</span> คน
                             </div>
                         </div>
                     </a>
