@@ -120,6 +120,17 @@
                                 </ul>
                             </div>
                         </li>
+
+                        <li class="nav-item dropdown dropdown--navbar">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">ข่าวสารและกิจกรรม</a>
+                            <div class="dropdown-menu">
+                                <ul class="dropdown-nav">
+                                    <li class="dropdown-item">
+                                        <a href="/news" title="ข่าวสาร" class="dropdown-link">ข่าวสาร</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -215,6 +226,17 @@
                                     </li>
                                     <li class="dropdown-item">
                                         <a href="/fare-calculated" title="คำนวณค่าโดยสารและเวลาเดินทาง" class="dropdown-link">คำนวณค่าโดยสารและเวลาเดินทาง</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown dropdown--navbar">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">ข่าวสารและกิจกรรม</a>
+                            <div class="dropdown-menu">
+                                <ul class="dropdown-nav">
+                                    <li class="dropdown-item">
+                                        <a href="/news" title="ข่าวสาร" class="dropdown-link">ข่าวสาร</a>
                                     </li>
                                 </ul>
                             </div>

@@ -58,6 +58,14 @@ Route::get('/station-information', function () {
     return View::make('_station-information');
 });
 
+Route::get('/bangsur-station', function () {
+    return View::make('_bangsur-station');
+});
+
+Route::get('/chatuchak-station', function () {
+    return View::make('_chatuchak-station');
+});
+
 Route::get('/facilities', function () {
     return View::make('_facilities');
 });

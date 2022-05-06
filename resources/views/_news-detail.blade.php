@@ -107,6 +107,7 @@
                             </div>
                         </div>
                     </div>
+                    
                     <div class="content__text">
                         พบกับกิจกรรมที่น่าสนใจในงานตลอด 12 วัน นอกจากหนังสือหลากหลายสำนักพิมพ์ 
                         และนิทรรศการให้ผู้ร่วมงานสัมผัสประสบการณ์ความรู้หลากหลายรูปแบบ สำหรับแฟนๆหนังสือ #ห้ามพลาด!!! ชวนเพื่อนๆมาเดินเลือกชมเลือกซื้อหนังสือน่าอ่าน กิจกรรมสนุกๆแต่ละบูธ นิทรรศการ และกิจกรรมต่างๆมากมายบนเวที... บนพื้นที่กว้างขวาง เดินทางสะดวก ไม่แออัด ณ สถานีกลางบางซื่อ
@@ -135,11 +136,14 @@
                         พบกับกิจกรรมที่น่าสนใจในงานตลอด 12 วัน นอกจากหนังสือหลากหลายสำนักพิมพ์ 
                         และนิทรรศการให้ผู้ร่วมงานสัมผัสประสบการณ์ความรู้หลากหลายรูปแบบ สำหรับแฟนๆหนังสือ #ห้ามพลาด!!! ชวนเพื่อนๆมาเดินเลือกชมเลือกซื้อหนังสือน่าอ่าน กิจกรรมสนุกๆแต่ละบูธ นิทรรศการ และกิจกรรมต่างๆมากมายบนเวที... บนพื้นที่กว้างขวาง เดินทางสะดวก ไม่แออัด ณ สถานีกลางบางซื่อ
                         <br><br>
-                        <iframe src="https://www.youtube.com/embed/VrDD2GSNs_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!-- <iframe src="https://www.youtube.com/embed/VrDD2GSNs_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                    </div>
+
+                    <div class="content__media">
+                        <iframe class="embed-player slide-media" width="980" height="520" src="https://www.youtube.com/embed/VrDD2GSNs_I" frameborder="0" allowfullscreen></iframe> 
                     </div>
                 </div>
-                
-
+            
                 <div class="row row-cols-1 row-cols-md-2 justify-content-between">
                     <div class="col">
                         <div class="view--count">
@@ -171,8 +175,6 @@
             </div>
         </article>
     </main>
-
-
 @endsection
 
 @push('script-slick')

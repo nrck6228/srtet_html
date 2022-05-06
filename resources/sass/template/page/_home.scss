@@ -19,6 +19,54 @@
         background-color: white;
         border-radius: 8px;
         box-shadow: 0px 3px 6px rgb(0 0 0 / 15%);
+
+        // แผนที่เส้นทาง
+        #mapRoute{
+            width: 100%;
+            min-height: 1px;
+            height: 472px;
+        }
+
+        .map--svg{
+            position: relative;
+
+            svg, img{
+                pointer-events: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+
+        .map--svg--img{
+            backface-visibility: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .map--base{
+            img{
+                opacity: 1;
+            }
+        }   
+
+        .station--base{
+            g{
+                cursor: auto;
+                pointer-events: none;
+            }
+
+            g[link] {
+                cursor: pointer;
+                pointer-events: auto;
+            }
+        }
+
+        //แผนที่เส้นทาง Mobile
+        .map--base-mobile{
+            margin-bottom: 2rem;
+        }
     }
     
     .station--wrapper{
@@ -26,6 +74,8 @@
         padding: 0;
         border: 2px solid transparent;
         border-radius: 8px;
+        transition: all 0.4s ease-in-out;
+        
         display: none;
     
         &.show{
@@ -400,4 +450,11 @@
             z-index: 9;
         }
     }
+}
+
+#img_container{
+    position: absolute !important;
+    width: 50px;
+    height: 50px;
+    z-index: 99;
 }
