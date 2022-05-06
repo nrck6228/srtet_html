@@ -9,34 +9,37 @@
     <main class="main--wrapper">
         <article class="home--hero">
             <div class="container">
-                <div class="hero--slider">
-                    <a href="#" title="" class="slider__item">
-                        <div class="slider__figure">
-                            <!-- image dimension 1320*580px -->
-                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-demo-home.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
-                        </div>
-                        <div class="slider__content">
-                            <h2 class="slider__title">
+                <div class="main--slider">
+                    <div class="item video">
+                        <video class="slide-video slide-media" loop muted preload="metadata" poster="">
+                            <source src="https://player.vimeo.com/external/138504815.sd.mp4?s=8a71ff38f08ec81efe50d35915afd426765a7526&profile_id=112" type="video/mp4" />
+                        </video>
+                        <div class="caption">
+                            <h2 class="caption__title">
                                 รถไฟฟ้าสายสีแดง
                             </h2>
-                            <h3 class="slider__text">
+                            <h3 class="caption__text">
                                 ยกระดับคุณภาพชีวิตชานเมือง
                             </h3>
                         </div>
-                    </a>
-                    <a href="#" title="" class="slider__item">
-                        <div class="slider__figure">
-                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-demo-home.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
-                        </div>
-                        <div class="slider__content">
-                            <h2 class="slider__title">
-                                รถไฟฟ้าสายสีแดง
-                            </h2>
-                            <h3 class="slider__text">
-                                ยกระดับคุณภาพชีวิตชานเมือง
-                            </h3>
-                        </div>
-                    </a>
+                    </div>
+
+                    <div class="item image">
+                        <a href="https://www.google.co.th" title="รถไฟฟ้าสายสีแดง" target="_blank" class="slide-link">
+                            <div class="slide-image slide-media" style="background-image:url('{{ asset('assets/images/hero/banner-demo-home.jpg')}}');">
+                                <img data-lazy="{{ asset('assets/images/hero/banner-demo-home.jpg')}}" class="image-entity" />
+                            </div>
+                            <figcaption class="caption">
+                                <h2 class="caption__title">
+                                    รถไฟฟ้าสายสีแดง
+                                </h2>
+                                <h3 class="caption__text">
+                                    ยกระดับคุณภาพชีวิตชานเมือง
+                                </h3>
+                            </figcaption>
+                        </a>
+                    </div>
+                    
                 </div>
             </div>
         </article>
@@ -72,19 +75,19 @@
                                             <img class="w-100" src="{{ asset('assets/images/station/bangsur.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
                                         </div>
                                         <div class="station--data">
-                                            <h3 class="h2">
+                                            <h3 class="data__title">
                                                 สถานีกลางบางซื่อ
                                             </h3>
 
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <h3>สิ่งอำนวยความสะดวก</h3>
+                                                    <h3 class="data__subtitle">สิ่งอำนวยความสะดวก</h3>
                                                     <div class="facilities--list">
                                                         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
                                                             <div class="col">
                                                                 <a href="javascript:void(0)" class="facilities__item" data-bs-toggle="modal" data-bs-target="#facilitiesModal">
                                                                     <img class="img-fluid" src="{{ asset('assets/images/facilities/escalator.svg')}}" alt="รถไฟฟ้าสายสีแดง">
-                                                                    <p class="h4">
+                                                                    <p>
                                                                         บันไดเลื่อน
                                                                     </p>
                                                                 </a>
@@ -93,7 +96,7 @@
                                                             <div class="col">
                                                                 <a href="javascript:void(0)" class="facilities__item">
                                                                     <img class="img-fluid" src="{{ asset('assets/images/facilities/escalator.svg')}}" alt="รถไฟฟ้าสายสีแดง">
-                                                                    <p class="h4">
+                                                                    <p>
                                                                         บันไดเลื่อน
                                                                     </p>
                                                                 </a>
@@ -102,7 +105,7 @@
                                                             <div class="col">
                                                                 <a href="javascript:void(0)" class="facilities__item">
                                                                     <img class="img-fluid" src="{{ asset('assets/images/facilities/escalator.svg')}}" alt="รถไฟฟ้าสายสีแดง">
-                                                                    <p class="h4">
+                                                                    <p>
                                                                         บันไดเลื่อน
                                                                     </p>
                                                                 </a>
@@ -111,7 +114,7 @@
                                                             <div class="col">
                                                                 <a href="javascript:void(0)" class="facilities__item">
                                                                     <img class="img-fluid" src="{{ asset('assets/images/facilities/escalator.svg')}}" alt="รถไฟฟ้าสายสีแดง">
-                                                                    <p class="h4">
+                                                                    <p>
                                                                         บันไดเลื่อน
                                                                     </p>
                                                                 </a>
@@ -120,7 +123,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <h3>รายละเอียดทางเข้า - ออก</h3>
+                                                    <h3 class="data__subtitle">รายละเอียดทางเข้า - ออก</h3>
                                                     <ul class="exit--list">
                                                         <li class="list__item">
                                                             ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ
@@ -404,13 +407,13 @@
                     </a>
                     <ul class="nav nav-tabs nav-tabs--secondary" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link h3 active" id="tab_1" data-bs-toggle="tab" data-bs-target="#nav-tab_1" type="button" role="tab" aria-controls="nav-tab_1" aria-selected="true">กิจกรรมการตลาด</button>
+                            <button class="nav-link active" id="tab_1" data-bs-toggle="tab" data-bs-target="#nav-tab_1" type="button" role="tab" aria-controls="nav-tab_1" aria-selected="true">กิจกรรมการตลาด</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link h3" id="tab_2" data-bs-toggle="tab" data-bs-target="#nav-tab_2" type="button" role="tab" aria-controls="nav-tab_2" aria-selected="false">ข่าวประชาสัมพันธ์</button>
+                            <button class="nav-link" id="tab_2" data-bs-toggle="tab" data-bs-target="#nav-tab_2" type="button" role="tab" aria-controls="nav-tab_2" aria-selected="false">ข่าวประชาสัมพันธ์</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link h3" id="tab_3" data-bs-toggle="tab" data-bs-target="#nav-tab_3" type="button" role="tab" aria-controls="nav-tab_3" aria-selected="false">ข้อปฏิบัติการใช้งาน</button>
+                            <button class="nav-link" id="tab_3" data-bs-toggle="tab" data-bs-target="#nav-tab_3" type="button" role="tab" aria-controls="nav-tab_3" aria-selected="false">ข้อปฏิบัติการใช้งาน</button>
                         </li>
                     </ul>
                 </div>
@@ -696,7 +699,7 @@
                             <img class="slider__image" src="{{ asset('assets/images/slider/service/question-and-answer.svg')}}" alt="รถไฟฟ้าสายสีแดง">
                         </div>
                         <div class="slider__content">
-                            <p class="h3 slider__text">คำถามที่พบบ่อย</p>
+                            <p class="slider__text">คำถามที่พบบ่อย</p>
                         </div>
                     </a>
                     <a href="#" title="" class="slider__item">
@@ -704,7 +707,7 @@
                             <img class="slider__image" src="{{ asset('assets/images/slider/service/guide-book.svg')}}" alt="รถไฟฟ้าสายสีแดง">
                         </div>
                         <div class="slider__content">
-                            <p class="h3 slider__text">ข้อปฏิบัติขณะใช้รถไฟฟ้า</p>
+                            <p class="slider__text">ข้อปฏิบัติขณะใช้รถไฟฟ้า</p>
                         </div>
                     </a>
                     <a href="#" title="" class="slider__item">
@@ -712,7 +715,7 @@
                             <img class="slider__image" src="{{ asset('assets/images/slider/service/questions.svg')}}" alt="รถไฟฟ้าสายสีแดง">
                         </div>
                         <div class="slider__content">
-                            <p class="h3 slider__text">ขั้นตอนการใช้งาน RTV</p>
+                            <p class="slider__text">ขั้นตอนการใช้งาน RTV</p>
                         </div>
                     </a>
                     <a href="#" title="" class="slider__item">
@@ -720,7 +723,7 @@
                             <img class="slider__image" src="{{ asset('assets/images/slider/service/alert.svg')}}" alt="รถไฟฟ้าสายสีแดง">
                         </div>
                         <div class="slider__content">
-                            <p class="h3 slider__text">กรณีฉุกเฉิน</p>
+                            <p class="slider__text">กรณีฉุกเฉิน</p>
                         </div>
                     </a>
                     <a href="#" title="" class="slider__item">
@@ -728,7 +731,7 @@
                             <img class="slider__image" src="{{ asset('assets/images/slider/service/questions.svg')}}" alt="รถไฟฟ้าสายสีแดง">
                         </div>
                         <div class="slider__content">
-                            <p class="h3 slider__text">ขั้นตอนการใช้งาน RTV</p>
+                            <p class="slider__text">ขั้นตอนการใช้งาน RTV</p>
                         </div>
                     </a>
                     <a href="#" title="" class="slider__item">
@@ -736,7 +739,7 @@
                             <img class="slider__image" src="{{ asset('assets/images/slider/service/guide-book.svg')}}" alt="รถไฟฟ้าสายสีแดง">
                         </div>
                         <div class="slider__content">
-                            <p class="h3 slider__text">ข้อปฏิบัติขณะใช้รถไฟฟ้า</p>
+                            <p class="slider__text">ข้อปฏิบัติขณะใช้รถไฟฟ้า</p>
                         </div>
                     </a>
                 </div>
@@ -778,6 +781,152 @@
             });
 
         })();
+    </script>
+
+    <script>
+        var slideWrapper = $(".main--slider"),
+            iframes = slideWrapper.find('.embed-player'),
+            lazyImages = slideWrapper.find('.slide-image'),
+            lazyCounter = 0;
+
+        // POST commands to YouTube or Vimeo API
+        function postMessageToPlayer(player, command){
+        if (player == null || command == null) return;
+        player.contentWindow.postMessage(JSON.stringify(command), "*");
+        }
+
+        // When the slide is changing
+        function playPauseVideo(slick, control){
+        var currentSlide, slideType, startTime, player, video;
+
+        currentSlide = slick.find(".slick-current");
+        slideType = currentSlide.attr("class").split(" ")[1];
+        player = currentSlide.find("iframe").get(0);
+        startTime = currentSlide.data("video-start");
+
+        if (slideType === "vimeo") {
+            switch (control) {
+            case "play":
+                if ((startTime != null && startTime > 0 ) && !currentSlide.hasClass('started')) {
+                currentSlide.addClass('started');
+                postMessageToPlayer(player, {
+                    "method": "setCurrentTime",
+                    "value" : startTime
+                });
+                }
+                postMessageToPlayer(player, {
+                "method": "play",
+                "value" : 1
+                });
+                break;
+            case "pause":
+                postMessageToPlayer(player, {
+                "method": "pause",
+                "value": 1
+                });
+                break;
+            }
+        } else if (slideType === "youtube") {
+            switch (control) {
+            case "play":
+                postMessageToPlayer(player, {
+                "event": "command",
+                "func": "mute"
+                });
+                postMessageToPlayer(player, {
+                "event": "command",
+                "func": "playVideo"
+                });
+                break;
+            case "pause":
+                postMessageToPlayer(player, {
+                "event": "command",
+                "func": "pauseVideo"
+                });
+                break;
+            }
+        } else if (slideType === "video") {
+            video = currentSlide.children("video").get(0);
+            if (video != null) {
+            if (control === "play"){
+                video.play();
+            } else {
+                video.pause();
+            }
+            }
+        }
+        }
+
+        // Resize player
+        function resizePlayer(iframes, ratio) {
+        if (!iframes[0]) return;
+        var win = $(".main--slider"),
+            width = win.width(),
+            playerWidth,
+            height = win.height(),
+            playerHeight,
+            ratio = ratio || 16/9;
+
+        iframes.each(function(){
+            var current = $(this);
+            if (width / ratio < height) {
+            playerWidth = Math.ceil(height * ratio);
+            current.width(playerWidth).height(height).css({
+                left: (width - playerWidth) / 2,
+                top: 0
+                });
+            } else {
+            playerHeight = Math.ceil(width / ratio);
+            current.width(width).height(playerHeight).css({
+                left: 0,
+                top: (height - playerHeight) / 2
+            });
+            }
+        });
+        }
+
+        // DOM Ready
+        $(function() {
+        // Initialize
+        slideWrapper.on("init", function(slick){
+            slick = $(slick.currentTarget);
+            setTimeout(function(){
+            playPauseVideo(slick,"play");
+            }, 1000);
+            resizePlayer(iframes, 16/9);
+        });
+        slideWrapper.on("beforeChange", function(event, slick) {
+            slick = $(slick.$slider);
+            playPauseVideo(slick,"pause");
+        });
+        slideWrapper.on("afterChange", function(event, slick) {
+            slick = $(slick.$slider);
+            playPauseVideo(slick,"play");
+        });
+        slideWrapper.on("lazyLoaded", function(event, slick, image, imageSource) {
+            lazyCounter++;
+            if (lazyCounter === lazyImages.length){
+            lazyImages.addClass('show');
+            // slideWrapper.slick("slickPlay");
+            }
+        });
+
+        //start the slider
+        slideWrapper.slick({
+            // fade:true,
+            autoplaySpeed:4000,
+            lazyLoad:"progressive",
+            speed:600,
+            arrows:false,
+            dots:true,
+            cssEase:"cubic-bezier(0.87, 0.03, 0.41, 0.9)"
+        });
+        });
+
+        // Resize event
+        $(window).on("resize.slickVideoPlayer", function(){  
+        resizePlayer(iframes, 16/9);
+        });
     </script>
 
 @endsection

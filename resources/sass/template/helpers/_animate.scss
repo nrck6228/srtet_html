@@ -47,3 +47,20 @@
     0%   { opacity: 0.5; transform: scale(0.75);}
     100% { opacity: 1; transform: scale(1);}
 }
+
+@keyframes blurIn {
+    from {
+        filter:blur(15px);
+    }
+    to {
+        filter:blur(0);
+    }
+}
+@keyframes blurOut {
+    from {
+        filter:blur(0);
+    }
+    to {
+        filter:blur(15px);
+    }
+}
