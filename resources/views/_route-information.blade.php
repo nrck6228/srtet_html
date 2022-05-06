@@ -46,165 +46,65 @@
                 </div>
 
                 <div class="map--wrapper">
-                    <div class="map--figure">
-                        <a href="javascript:void(0)" class="map__link">
-                            <img class="w-100" src="{{ asset('assets/images/map/img-demo-01.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
-                        </a>
+                    <div id="mapRoute" class="d-none d-lg-block map--figure">
+                        <div class="map--svg">
+                            <div class="map--svg--img">
+                                <div class="map--base">
+                                    <img src="{{ asset('assets/images/map/img-demo-01.jpg')}}" alt="รถไฟฟ้าสายสีแดง" width="1232" height="472">
+                                </div>
+                                <div class="station--base">
+                                    <svg version="1.1" id="stationsSvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1232" height="472" viewBox="0 0 1232 472" enable-background="new 0 0 1232 472" xml:space="preserve">
+                                        <title>สถานี</title>
+                                        <g id="redLine" class="stations">
+                                            <g>
+                                                <g id="station1" class="station__position" link="link" onclick="window.location.href='/bangsur-station';">
+                                                    <rect x="60" y="185" opacity="1" fill="#000" width="50" height="50"></rect>
+                                                </g>
+
+                                                <g id="station2" class="station__position" link="link" onclick="window.location.href='/chatuchak-station';">
+                                                    <rect x="180" y="140" opacity="1" fill="#000" width="50" height="50"></rect>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-block d-lg-none map--figure">
+                        <div class="map--base-mobile">
+                            <a href="{{ asset('assets/images/map/img-demo-01.jpg')}}" title="รถไฟฟ้าสายสีแดง" data-title="false" class="spotlight">
+                                <img src="{{ asset('assets/images/map/img-demo-01.jpg')}}" alt="รถไฟฟ้าสายสีแดง" class="w-100">
+                            </a>
+                        </div>
+
+                        <div class="form-filter">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="search__controls">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected>-- สถานี --</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>    
+                                </div>
+                                <div class="col-md-2 col-sm-6 col-12">
+                                    <button type="button" class="btn btn--primary"><span>ค้นหา</span></button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="station--wrapper">
-                    <div class="row align-items-stretch">
-                        <div class="col-lg-8">
-                            <div class="station--content">
-                                <div class="station--figure">
-                                    <img class="w-100" src="{{ asset('assets/images/station/bangsur.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
-                                </div>
-                                <div class="station--data">
-                                    <h3 class="h2">
-                                        สถานีกลางบางซื่อ
-                                    </h3>
-
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <h3>สิ่งอำนวยความสะดวก</h3>
-                                            <div class="facilities--list">
-                                                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
-                                                    <div class="col">
-                                                        <a href="javascript:void(0)" class="facilities__item" data-bs-toggle="modal" data-bs-target="#facilitiesModal">
-                                                            <img class="img-fluid" src="{{ asset('assets/images/facilities/escalator.svg')}}" alt="รถไฟฟ้าสายสีแดง">
-                                                            <p class="h4">
-                                                                บันไดเลื่อน
-                                                            </p>
-                                                        </a>
-                                                    </div>
-
-                                                    <div class="col">
-                                                        <a href="javascript:void(0)" class="facilities__item">
-                                                            <img class="img-fluid" src="{{ asset('assets/images/facilities/escalator.svg')}}" alt="รถไฟฟ้าสายสีแดง">
-                                                            <p class="h4">
-                                                                บันไดเลื่อน
-                                                            </p>
-                                                        </a>
-                                                    </div>
-
-                                                    <div class="col">
-                                                        <a href="javascript:void(0)" class="facilities__item">
-                                                            <img class="img-fluid" src="{{ asset('assets/images/facilities/escalator.svg')}}" alt="รถไฟฟ้าสายสีแดง">
-                                                            <p class="h4">
-                                                                บันไดเลื่อน
-                                                            </p>
-                                                        </a>
-                                                    </div>
-
-                                                    <div class="col">
-                                                        <a href="javascript:void(0)" class="facilities__item">
-                                                            <img class="img-fluid" src="{{ asset('assets/images/facilities/escalator.svg')}}" alt="รถไฟฟ้าสายสีแดง">
-                                                            <p class="h4">
-                                                                บันไดเลื่อน
-                                                            </p>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <h3>รายละเอียดทางเข้า - ออก</h3>
-                                            <ul class="exit--list">
-                                                <li class="list__item">
-                                                    ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ
-                                                </li>
-                                                <li class="list__item">
-                                                    ประตู 2 : SCG สำนักงานใหญ่
-                                                </li>
-                                                <li class="list__item">
-                                                    ประตู 3 : BTS จตุจักร , ตลาดนัดจตุจักร
-                                                </li>
-                                                <li class="list__item">
-                                                    ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ
-                                                </li>
-                                            </ul>
-
-                                            <a href="#" title="" class="btn btn--primary">
-                                                <span>รายละเอียดเพิ่มเติม</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="fare--wrapper">
-                                <h3 class="h2">
-                                    ค่าโดยสาร
-                                </h3>
-
-                                <div class="fare--rate">
-                                    <div class="train--line">
-                                        <h3>สายบางซื่อ - ตลิ่งชัน /ราคา : </h3>
-                                        <div class="fare__item">
-                                            <span class="name">บางช่อน</span>
-                                            <span class="price">18 บาท</span>
-                                        </div>
-
-                                        <div class="fare__item">
-                                            <span class="name">บางบำหรุ</span>
-                                            <span class="price">29 บาท</span>
-                                        </div>
-
-                                        <div class="fare__item">
-                                            <span class="name">ตลิ่งชัน</span>
-                                            <span class="price">35 บาท</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="train--line">
-                                        <h3>สายบางซื่อ - รังสิต /ราคา : </h3>
-                                        <div class="fare__item">
-                                            <span class="name">จตุจักร</span>
-                                            <span class="price">16 บาท</span>
-                                        </div>
-
-                                        <div class="fare__item">
-                                            <span class="name">วัดเสมียนนารี</span>
-                                            <span class="price">19 บาท</span>
-                                        </div>
-
-                                        <div class="fare__item">
-                                            <span class="name">บางเขน</span>
-                                            <span class="price">20 บาท</span>
-                                        </div>
-
-                                        <div class="fare__item">
-                                            <span class="name">ทุ่งสองห้อง</span>
-                                            <span class="price">23 บาท</span>
-                                        </div>
-
-                                        <div class="fare__item">
-                                            <span class="name">จตุจักร</span>
-                                            <span class="price">16 บาท</span>
-                                        </div>
-
-                                        <div class="fare__item">
-                                            <span class="name">วัดเสมียนนารี</span>
-                                            <span class="price">19 บาท</span>
-                                        </div>
-
-                                        <div class="fare__item">
-                                            <span class="name">บางเขน</span>
-                                            <span class="price">20 บาท</span>
-                                        </div>
-
-                                        <div class="fare__item">
-                                            <span class="name">ทุ่งสองห้อง</span>
-                                            <span class="price">23 บาท</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <!-- get position example -->
+                <div style="display: none">
+                    <div id="img_container"></div>
+                    <canvas id="canvas" width="1232" height="472" style="background-image: url('{{ asset('assets/images/map/img-demo-01.jpg')}}'); background-size: cover;"></canvas>
+                    <input type="text" name="MouseX" id="coor_x">
+                    <input type="text" name="MouseY" id="coor_y">
                 </div>
             </div>
         </article>
@@ -214,22 +114,36 @@
     </main>
 
     <script>
-        (function() {
+        function relMouseCoords(event) {
+            var totalOffsetX = 0;
+            var totalOffsetY = 0;
+            var canvasX = 0;
+            var canvasY = 0;
+            var currentElement = this;
 
-            var mapLink = document.querySelector('.map__link');
-            var stationWrapper = document.querySelector('.station--wrapper');
+            do {
+                totalOffsetX += currentElement.offsetLeft;
+                totalOffsetY += currentElement.offsetTop;
+            }
+            while (currentElement = currentElement.offsetParent)
 
-            mapLink.addEventListener('click', function() {
-            
-                stationWrapper.classList.toggle('show');
+            canvasX = event.pageX - totalOffsetX;
+            canvasY = event.pageY - totalOffsetY;
+            console.log("x: " + canvasX + " y: " + canvasY);
+            return { x: canvasX, y: canvasY }
+        }
+        HTMLCanvasElement.prototype.relMouseCoords = relMouseCoords;
 
-                $("html,body").animate({
-                    scrollTop: $(stationWrapper).offset().top - 135
-                }, 500);
-            });
+        document.getElementById("canvas").onclick = function (event) {
+            //Console.log('123456');
+            var coords = canvas.relMouseCoords(event);
+            document.getElementById("coor_x").value = coords.x - 25;
+            document.getElementById("coor_y").value = coords.y - 25;
 
-        })();
-    </script>
+            var img = $('<div style="background-color: #000000; width: 100%; height: 100%;"></div>');
+            $("#img_container").html(img).offset({ top: event.pageY - 25, left: event.pageX - 25 });
+        }
+    </script>   
 @endsection
 
 @push('script-slick')
@@ -239,4 +153,11 @@
     <!-- Slick JS  -->
     <script type="text/javascript" src="{{ mix('/slick/slick.min.js') }}"></script>
     <script type="text/javascript" src="{{ mix('/js/slick.js') }}"></script>
+@endpush
+
+@push('script-spotlight')
+    <!-- spotlight CSS  -->
+    <link rel="stylesheet" href="{{ mix('/spotlight/spotlight.min.css') }}"/>
+    <!-- spotlight JS  -->
+    <script type="text/javascript" src="{{ mix('/spotlight/spotlight.min.js') }}"></script>
 @endpush

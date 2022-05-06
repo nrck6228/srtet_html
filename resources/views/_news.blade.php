@@ -89,7 +89,7 @@
                 
 
                 <div class="card-deck">
-                    <a href="" class="card card--news">
+                    <a href="/news-detail" class="card card--news">
                         <div class="card__pin">New</div>
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="ข่าว">
@@ -102,7 +102,7 @@
                         </div>
                     </a>
 
-                    <a href="" class="card card--news">
+                    <a href="/news-detail" class="card card--news">
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news2.png')}}" alt="ข่าว">
                         </div>
@@ -114,7 +114,7 @@
                         </div>
                     </a>
 
-                    <a href="" class="card card--news">
+                    <a href="/news-detail" class="card card--news">
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news3.png')}}" alt="ข่าว">
                         </div>
@@ -126,7 +126,7 @@
                         </div>
                     </a>
 
-                    <a href="" class="card card--news">
+                    <a href="/news-detail" class="card card--news">
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news4.png')}}" alt="ข่าว">
                         </div>
@@ -138,7 +138,7 @@
                         </div>
                     </a>
 
-                    <a href="" class="card card--news">
+                    <a href="/news-detail" class="card card--news">
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="ข่าว">
                         </div>
