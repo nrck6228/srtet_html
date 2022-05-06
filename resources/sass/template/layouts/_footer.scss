@@ -23,7 +23,8 @@
 
             .footer__link{
                 position: relative;
-                font-size: 1.375rem;
+                font-weight: bold;
+                font-size: 1.5rem;
                 line-height: 1.875rem;
 
                 &:after{
@@ -49,6 +50,12 @@
     &__contact{
         margin-bottom: 2rem;
 
+        .title{
+            font-weight: bold;
+            font-size: 1.625rem;
+            line-height: 1.875rem;
+        }
+
         .contact--block{
             display: flex;
             justify-content: flex-start;
@@ -58,7 +65,7 @@
 
             .content__icon{
                 margin-top: 5px;
-                font-size: 1.375rem;
+                font-size: 1.5rem;
                 line-height: 1.875rem;
                 color: $red;
             }
@@ -66,7 +73,7 @@
             span.content__text{
                 padding: 0 10px 0 10px;
                 font-weight: bold;
-                font-size: 1.375rem;
+                font-size: 1.5rem;
                 line-height: 1.875rem;
                 color: $gray;
             }
@@ -74,7 +81,7 @@
             a.content__text{
                 padding: 0 10px 0 10px;
                 font-weight: bold;
-                font-size: 1.375rem;
+                font-size: 1.5rem;
                 line-height: 1.875rem;
                 text-decoration: none;
                 transition: all 0.4s ease-in-out;
@@ -90,7 +97,7 @@
 
             span{
                 font-weight: bold;
-                font-size: 1.375rem;
+                font-size: 1.5rem;
                 line-height: 1.5rem;
             }
 
@@ -100,8 +107,8 @@
                 padding: 5px;
                 margin: 0 5px;
                 font-weight: bold;
-                font-size: 1.375rem;
-                line-height: 1.5rem;
+                font-size: 1.5rem;
+                line-height: 1.875rem;
                 text-decoration: none;
                 transition: all .3s ease-in-out;
     
@@ -121,8 +128,8 @@
             height: 50px;
 
             font-weight: bold;
-            font-size: 1.325rem;
-            line-height: 1.325rem;
+            font-size: 1.25rem;
+            line-height: 1.625rem;
             color: white;
             background-color: $red;
         }

@@ -52,13 +52,20 @@
     
     .station--figure{
         display: block;
+        margin-bottom: 1rem;
     }
     
     .station--data{
         display: block;
     
-        .h2{
-            color: $red;
+        .data__title { 
+            font-size: 2.25rem;
+            line-height: 2.25rem
+        }
+
+        .data__subtitle{
+            font-size: 1.625rem;
+            line-height: 2.25rem
         }
     
         .facilities--list{
@@ -79,6 +86,11 @@
                 text-decoration: none;
                 border: 1px solid transparent;
                 transition: all 0.4s ease-in-out;
+
+                p{
+                    font-size: 1.5rem;
+                    line-height: 1.875rem;
+                }
     
                 &:hover{
                     color: $red;
@@ -90,7 +102,7 @@
         .exit--list{
             list-style: none;
             padding: 0;
-            margin: 0 0 20px 0;
+            margin: 0 0 2rem 0;
     
             li{
                 position: relative;
@@ -218,22 +230,22 @@
         .between__date{
             padding: 0 10px;
             font-weight: bold;
-            font-size: 3.75rem;
-            line-height: 3.75rem;
+            font-size: 2.5rem;
+            line-height: 2.5rem;
             color: $darkgray;
         }
 
         .h2{
             margin: 0;
-            font-size: 3.75rem;
-            line-height: 2rem;
+            font-size: 2.5rem;
+            line-height: 2.5rem;
             color: $darkgray;
         }
 
         .h3{
             margin: 0;
-            font-size: 2rem;
-            line-height: 2rem;
+            font-size: 1.875rem;
+            line-height: 2.5rem;
             color: $darkgray;
         }
     }
@@ -248,6 +260,8 @@
             overflow: hidden;
             text-overflow: ellipsis;
 
+            font-size: 1.625rem;
+            line-height: 1.875rem;
             color: $darkgray;
         }
 
@@ -260,6 +274,8 @@
             overflow: hidden;
             text-overflow: ellipsis;
             
+            font-size: 1.5rem;
+            line-height: 1.875rem;
             color: $gray;
         }
     }
