@@ -86,6 +86,10 @@ Route::get('/vote', function () {
     return View::make('_vote');
 });
 
+Route::get('/vote-detail', function () {
+    return View::make('_vote-detail');
+});
+
 
 
 
