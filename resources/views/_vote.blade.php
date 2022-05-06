@@ -1,6 +1,6 @@
 @extends('masterpage')
 
-@section('title', 'ข่าวสารและกิจกรรม')
+@section('title', 'Vote/Poll')
 @section('keywords', 'รถไฟฟ้าสายสีแดง')
 @section('description', 'รถไฟฟ้าสายสีแดง')
 
