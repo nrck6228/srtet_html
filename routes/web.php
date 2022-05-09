@@ -90,6 +90,10 @@ Route::get('/vote', function () {
     return View::make('_vote');
 });
 
+Route::get('/vote-detail', function () {
+    return View::make('_vote-detail');
+});
+
 Route::get('/procument', function () {
     return View::make('_procument');
 });
