@@ -1,9 +1,9 @@
 .calculated--wrapper{
     display: block;
     position: relative;
-    padding: 1.5rem;
+    padding: 2rem 1.5rem;
     margin-bottom: 2rem;
-    background-color: rgba($color: #929091, $alpha: 0.1);
+    background-color: rgba($color: $gray, $alpha: 0.1);
 
     .station--route{
         display: block;
