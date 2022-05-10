@@ -1,6 +1,6 @@
 @extends('masterpage')
 
-@section('title', 'Vote/Poll')
+@section('title', 'แบบสำรวจ Online')
 @section('keywords', 'รถไฟฟ้าสายสีแดง')
 @section('description', 'รถไฟฟ้าสายสีแดง')
 
@@ -12,7 +12,20 @@
                 <div class="hero--slider">
                     <a href="#" title="" class="slider__item">
                         <div class="slider__figure">
-                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-demo-services.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-desktop.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                        </div>
+                        <div class="slider__content">
+                            <h2 class="slider__title">
+                                รถไฟฟ้าสายสีแดง
+                            </h2>
+                            <h3 class="slider__text">
+                                ยกระดับคุณภาพชีวิตชานเมือง
+                            </h3>
+                        </div>
+                    </a>
+                    <a href="#" title="" class="slider__item">
+                        <div class="slider__figure">
+                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-desktop.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
                         </div>
                         <div class="slider__content">
                             <h2 class="slider__title">
@@ -33,7 +46,7 @@
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">หน้าแรก</a></li>
                         <li class="breadcrumb-item"><a href="#">บริการลูกค้า</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Vote/Poll</li>
+                        <li class="breadcrumb-item active" aria-current="page">แบบสำรวจ Online</li>
                     </ol>
                 </nav>
             </div>
@@ -42,7 +55,7 @@
         <article class="vote--wrapper">
             <div class="container">
                 <div class="title--page justify-content-center">
-                    <h2 class="page__title text--primary mb-4">Vote/Poll</h2>
+                    <h2 class="page__title text--primary mb-4">แบบสำรวจ Online</h2>
                 </div>
 
                 <div class="form-group mb-4">
@@ -142,16 +155,3 @@
     <script type="text/javascript" src="{{ mix('/js/slick.js') }}"></script>
 @endpush
 
-
-@push('script-datepicker')
-    <!-- Datepicker CSS  -->
-    <link rel="stylesheet" href="{{ mix('/datepicker/datepicker.css') }}"/>
-    <!-- Datepicker JS  -->
-    <script type="text/javascript" src="{{ mix('/datepicker/bootstrap-datepicker.js') }}"></script>
-    <script type="text/javascript" src="{{ mix('/datepicker/bootstrap-datepicker-thai.js') }}"></script>
-    <script type="text/javascript" src="{{ mix('/datepicker/bootstrap-datepicker.th.js') }}"></script>
-
-    <script type="text/javascript" src="{{ mix('/js/datepicker.js') }}"></script>
-
-
-@endpush

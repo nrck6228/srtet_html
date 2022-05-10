@@ -98,8 +98,13 @@ Route::get('/procument', function () {
     return View::make('_procument');
 });
 
+Route::get('/survey', function () {
+    return View::make('_survey');
+});
 
-
+Route::get('/survey-detail', function () {
+    return View::make('_survey-detail');
+});
 
 
 

@@ -81,7 +81,7 @@
                             <div class="block-vote-total">
                                 <div class="title__ans">จำนวนผลโหวต</div>
                                     <div class="volume__vote--circle">
-                                        <div class="progress" data-percentage="55">
+                                        <div class="progress--circle" data-percentage="55">
                                             <span class="progress-left">
                                                 <span class="progress-bar"></span>
                                             </span>
@@ -136,11 +136,4 @@
 @endpush
 
 
-@push('script-recaptcha')
-    <script src="https://www.google.com/recaptcha/api.js"></script>
-    <script>
-        function onSubmit(token) {
-            document.getElementById("demo-form").submit();
-        }
-    </script>
-@endpush
+
