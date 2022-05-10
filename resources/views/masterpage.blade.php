@@ -41,5 +41,7 @@
 
         @stack('script-datepicker')
 
+        @stack('script-recaptcha')
+
     </body>
 </html>

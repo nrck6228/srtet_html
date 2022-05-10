@@ -1,3 +1,10 @@
+.btn-group{
+    .btn{
+        margin: 0 20px;
+    }
+}
+
+
 .btn:focus, .btn.focus {
     outline: 0;
     -webkit-box-shadow: none;
@@ -46,4 +53,8 @@
         border-radius: .25rem;
         transition: width 0.4s ease-in-out;
     }
+}
+
+.btn--gray{
+    background-color: #929091;
 }

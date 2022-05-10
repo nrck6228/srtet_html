@@ -303,3 +303,18 @@ body{
         justify-content: flex-start;
     }
 }
+
+
+.verify--wrapper{
+    text-align: center;
+    margin-bottom: 2rem;
+    .title--verify{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        font-weight: bold;
+        color: $darkgray;
+    }
+    .captcha--verify{
+        margin: 2rem 0;
+    }
+}
