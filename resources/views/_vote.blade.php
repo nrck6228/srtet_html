@@ -12,20 +12,7 @@
                 <div class="hero--slider">
                     <a href="#" title="" class="slider__item">
                         <div class="slider__figure">
-                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-desktop.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
-                        </div>
-                        <div class="slider__content">
-                            <h2 class="slider__title">
-                                รถไฟฟ้าสายสีแดง
-                            </h2>
-                            <h3 class="slider__text">
-                                ยกระดับคุณภาพชีวิตชานเมือง
-                            </h3>
-                        </div>
-                    </a>
-                    <a href="#" title="" class="slider__item">
-                        <div class="slider__figure">
-                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-desktop.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-demo-services.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
                         </div>
                         <div class="slider__content">
                             <h2 class="slider__title">

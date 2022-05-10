@@ -13,6 +13,11 @@ $(window).on('load',function(){
             $('.loading--page').fadeOut('slow');
         }
     }, 20);
+
+    const current_element = document.getElementById('NavBar');
+    const clonearea = document.getElementById('collapseMobileNav');
+    const clone = current_element.cloneNode(true);
+    clonearea.appendChild(clone);
 });
 
 // scroll animated logo
@@ -32,9 +37,6 @@ $(".hamburger").click(function(){
 
     $("body").toggleClass('open-menu');
 }); 
-
-
-
 
 // Home-->News(Tab)
 $("#tab_1").click(function(){

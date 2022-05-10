@@ -12,7 +12,7 @@
                 <div class="hero--slider">
                     <a href="#" title="" class="slider__item">
                         <div class="slider__figure">
-                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-desktop.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-demo-services.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
                         </div>
                         <div class="slider__content">
                             <h2 class="slider__title">
@@ -122,35 +122,7 @@
                 </div>
             </div>
 
-            <div class="container">
-                <div class="row row-cols-1 row-cols-md-2 justify-content-between">
-                    <div class="col">
-                        <div class="view--count">
-                            จำนวนผู้เข้าชม : <span>39068</span> คน
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="social--block">
-                            <span>แชร์ :</span>
-                            <a href="javascript:void(0)" class="social__icon">
-                                <img src="{{ asset('assets/images/icon/facebook.svg')}}" alt="facebook">
-                            </a>
-                            <a href="javascript:void(0)" class="social__icon">
-                                <img src="{{ asset('assets/images/icon/twitter.svg')}}" alt="twitter">
-                            </a>
-                            <a href="javascript:void(0)" class="social__icon">
-                                <img src="{{ asset('assets/images/icon/instagram.svg')}}" alt="instagram">
-                            </a>
-                            <a href="javascript:void(0)" class="social__icon">
-                                <img src="{{ asset('assets/images/icon/youtube.svg')}}" alt="youtube">
-                            </a>
-                            <a href="javascript:void(0)" class="social__icon">
-                                <img src="{{ asset('assets/images/icon/tiktok.svg')}}" alt="tiktok">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @include('include._social')
         </article>
     </main>
 
