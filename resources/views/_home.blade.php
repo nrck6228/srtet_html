@@ -175,6 +175,7 @@
                                                 </div>
                                                 <div class="col-md-6">
                                                     <h3 class="data__subtitle">รายละเอียดทางเข้า - ออก</h3>
+
                                                     <ul class="exit--list">
                                                         <li class="list__item">
                                                             ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ
@@ -799,11 +800,11 @@
     </main>
 
     <!-- รายละเอียดสถานี (สิ่งอำนวยความสะดวก) -->
-    <div class="modal fade modal--custom" id="facilitiesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade modal--custom modal--md" id="facilitiesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">บันไดเลื่อน</h5>
+                    <h3 class="modal-title" id="exampleModalLabel">ไตเติ้ล</h5>
                     <button type="button" class="modal--close" data-bs-dismiss="modal" aria-label="Close">
                         <div class="btn--close">
                             <span>ปิด <i class="icon-close"></i></span>
@@ -811,8 +812,36 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <div class="modal--text">
-                        ทางออก 1, 2, 3 และ 4
+                    <div class="modal--content">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="modal__figure">
+                                    <img class="img-fluid" src="{{ asset('assets/images/station/img-demo-01.webp')}}" alt="รถไฟฟ้าสายสีแดง">
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="modal__text">  
+                                    <h3>
+                                    จุดเชื่อมต่อ
+                                    </h3>
+                                    
+                                    <ul class="modal--list">
+                                        <li class="list__item">
+                                            ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ
+                                        </li>
+                                        <li class="list__item">
+                                            ประตู 2 : SCG สำนักงานใหญ่
+                                        </li>
+                                        <li class="list__item">
+                                            ประตู 3 : BTS จตุจักร , ตลาดนัดจตุจักร
+                                        </li>
+                                        <li class="list__item">
+                                            ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

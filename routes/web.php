@@ -46,6 +46,10 @@ Route::get('/fare-information', function () {
     return View::make('_fare-information');
 });
 
+Route::get('/fare-table', function () {
+    return View::make('_fare-table');
+});
+
 Route::get('/fare-calculated', function () {
     return View::make('_fare-calculated');
 });
@@ -89,6 +93,12 @@ Route::get('/vote', function () {
 Route::get('/vote-detail', function () {
     return View::make('_vote-detail');
 });
+
+Route::get('/procument', function () {
+    return View::make('_procument');
+});
+
+
 
 
 

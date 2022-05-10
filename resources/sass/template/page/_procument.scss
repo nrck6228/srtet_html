@@ -1,0 +1,79 @@
+.procument--wrapper{
+    .procument--order{
+        position: relative;
+        width: 150px;
+    }
+    .procument--name{
+        position: relative;
+        display: block;
+        width: 500px;
+        margin-bottom: 1rem;
+        color: $darkgray;
+        text-decoration: none;
+        transition: all 0.4s ease-in-out;
+
+        &:hover{
+            color: $red;
+        }
+    }
+    .procument--view{
+        position: relative;
+        font-size: 1.25rem;
+        line-height: 1.625rem;
+        color: $gray;
+
+        &:before{
+            font-family: 'icomoon' !important;
+            content: "\e90e";
+            font-size: 0.5rem;
+            color: $gray;
+            display: inline-block;
+        }
+    }
+
+    .table--primary{
+        > table{
+            > tbody{
+                > tr{
+                    &:nth-child(even){
+                        > td{
+                            background-color: rgba($color: $gray, $alpha: 0.2);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .remark--procument{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        .remark{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            margin-bottom: 0.5rem;
+
+            font-weight: bold;
+            font-size: 1.25rem;
+            line-height: 1.625rem;
+            color: $darkgray;
+
+            span{
+                color: $red;
+            }
+
+            i{
+                margin: 0 0.5rem;
+                font-size: 0.5rem;
+            }
+        }
+    }
+
+    .list--primary{
+        width: 250px;
+    }
+}

@@ -103,6 +103,9 @@
                             <div class="dropdown-menu">
                                 <ul class="dropdown-nav">
                                     <li class="dropdown-item">
+                                        <a href="/fare-table" title="ข้อมูลกำหนดเวลาเดินรถ" class="dropdown-link">ข้อมูลกำหนดเวลาเดินรถ</a>
+                                    </li>
+                                    <li class="dropdown-item">
                                         <a href="/ticket-information" title="การออกตั๋วโดยสาร" class="dropdown-link">การออกตั๋วโดยสาร</a>
                                     </li>
                                     <li class="dropdown-item">
@@ -130,6 +133,10 @@
                                     </li>
                                 </ul>
                             </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/procument">จัดซื้อจัดจ้าง</a>
                         </li>
                     </ul>
                 </div>
@@ -213,6 +220,9 @@
                             <div class="dropdown-menu">
                                 <ul class="dropdown-nav">
                                     <li class="dropdown-item">
+                                        <a href="/fare-table" title="ข้อมูลกำหนดเวลาเดินรถ" class="dropdown-link">ข้อมูลกำหนดเวลาเดินรถ</a>
+                                    </li>
+                                    <li class="dropdown-item">
                                         <a href="/ticket-information" title="การออกตั๋วโดยสาร" class="dropdown-link">การออกตั๋วโดยสาร</a>
                                     </li>
                                     <li class="dropdown-item">
@@ -240,6 +250,10 @@
                                     </li>
                                 </ul>
                             </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/procument">จัดซื้อจัดจ้าง</a>
                         </li>
                     </ul>
                 </div>

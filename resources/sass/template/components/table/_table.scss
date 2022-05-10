@@ -1,5 +1,5 @@
 .table-responsive{
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 
     &::-webkit-scrollbar-track
     {
@@ -8,7 +8,7 @@
     &::-webkit-scrollbar
     {
         // width: 2px;
-        height: 5px;
+        height: 4px;
         background-color: rgba($color: $gray, $alpha: 0.5);
     }
     &::-webkit-scrollbar-thumb
@@ -41,7 +41,7 @@
         > thead{
             > tr{
                 th, td{
-                    padding: 0.5rem 2rem;
+                    padding: 1rem 1.5rem;
                     text-align: center;
                     font-size: 1.625rem;
                     line-height: 1.875rem;
@@ -54,10 +54,8 @@
 
         > tbody{
             > tr{
-                background-color: rgba($color: $gray, $alpha: 0.2);
-
                 > td{
-                    padding: 0.5rem 2rem;
+                    padding: 0.5rem 1rem;
                     text-align: center;
                     font-weight: bold;
                     font-size: 1.5rem;
@@ -80,7 +78,7 @@
                 > th{
                     width: 150px;
                     height: auto;
-                    padding: 0.5rem 2rem;
+                    padding: 1rem 1.5rem;
                     text-align: center;
                     font-size: 1.625rem;
                     line-height: 1.875rem;
@@ -173,7 +171,7 @@
         > thead{
             > tr {
                 > th{
-                    padding: 0.5rem 2rem;
+                    padding: 1rem 1.5rem;
                     text-align: center;
                     font-size: 1.625rem;
                     line-height: 1.875rem;
@@ -203,7 +201,7 @@
                 background-color: white;    
 
                 > td{
-                    padding: 0.5rem 2rem;
+                    padding: 1rem 1.5rem;
                     text-align: center;
                     font-weight: bold;
                     font-size: 1.5rem;

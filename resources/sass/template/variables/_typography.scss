@@ -82,6 +82,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-cancel-circle:before {
+  content: "\e90f";
+}
+.icon-edit:before {
+  content: "\e910";
+}
+.icon-user-circle:before {
+  content: "\e911";
+}
 .icon-eye:before {
   content: "\e90e";
 }

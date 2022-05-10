@@ -135,6 +135,10 @@
             justify-content: center;
             align-items: center;
 
+            &:only-child {
+                display: none;
+            }
+
             button{
                 width: 15px;
                 height: 15px;
@@ -242,6 +246,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
+
+            &:only-child {
+                display: none;
+            }
 
             button{
                 width: 15px;
