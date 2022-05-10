@@ -62,7 +62,7 @@
                 
                 <div class="block-vote">
                     <div class="row">
-                        <div class="col-md-9">
+                        <div class="col-lg-9 col-md-8">
                             <div class="block-vote-choice">
                                 <div class="title__ans">คำตอบ</div>
                                 <div class="choice__ans--wrapper">
@@ -89,18 +89,76 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="col-lg-3 col-md-4">
+                            <div class="block-vote-total">
+                                <div class="title__ans">จำนวนผลโหวต</div>
+                                    <div class="volume__vote--circle">
+                                        <div class="progress" data-percentage="55">
+                                            <span class="progress-left">
+                                                <span class="progress-bar"></span>
+                                            </span>
+                                            <span class="progress-right">
+                                                <span class="progress-bar"></span>
+                                            </span>
+                                            <div class="progress-value">
+                                                <div>
+                                                    155<br>
+                                                    <span>
+                                                        ผู้โหวต
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class="volume__vote--text">(55% จากจำนวนผู้เข้าชมทั้งหมด)</div>
+                            </div>
+                        </div>
                     </div>
                     
                     
-
-                    <div class="block-vote-total">
-
-                    </div>
                 </div>
 
                 
+                <div class="verify--wrapper">
+                    <div class="title--verify">กรุณายืนยันตัวตน</div>
+                    <div class="captcha--verify">
+                        Captcha
+                    </div>
 
+                    <div class="btn-group">
+                        <a href="/vote" class="btn btn--gray"><span>ย้อนกลับ</span></a>
+                        <button class="btn btn--primary"><span>ส่งคำตอบ</span></button>
+                    </div>
+                </div>
 
+                <div class="row row-cols-1 row-cols-md-2 justify-content-between">
+                    <div class="col">
+                        <div class="view--count">
+                            จำนวนผู้เข้าชม : <span>39068</span> คน
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="social--block">
+                            <span>แชร์ :</span>
+                            <a href="javascript:void(0)" class="social__icon">
+                                <img src="http://127.0.0.1:8000/assets/images/icon/facebook.svg" alt="facebook">
+                            </a>
+                            <a href="javascript:void(0)" class="social__icon">
+                                <img src="http://127.0.0.1:8000/assets/images/icon/twitter.svg" alt="twitter">
+                            </a>
+                            <a href="javascript:void(0)" class="social__icon">
+                                <img src="http://127.0.0.1:8000/assets/images/icon/instagram.svg" alt="instagram">
+                            </a>
+                            <a href="javascript:void(0)" class="social__icon">
+                                <img src="http://127.0.0.1:8000/assets/images/icon/youtube.svg" alt="youtube">
+                            </a>
+                            <a href="javascript:void(0)" class="social__icon">
+                                <img src="http://127.0.0.1:8000/assets/images/icon/tiktok.svg" alt="tiktok">
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
 
             </div>
@@ -118,4 +176,14 @@
     <!-- Slick JS  -->
     <script type="text/javascript" src="{{ mix('/slick/slick.min.js') }}"></script>
     <script type="text/javascript" src="{{ mix('/js/slick.js') }}"></script>
+@endpush
+
+
+@push('script-recaptcha')
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script>
+        function onSubmit(token) {
+            document.getElementById("demo-form").submit();
+        }
+    </script>
 @endpush
