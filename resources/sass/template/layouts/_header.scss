@@ -42,7 +42,7 @@
                 font-size: 1.375rem;
                 line-height: 1.5rem;
                 text-decoration: none;
-                transition: all .3s ease-in-out;
+                transition: all 0.4s ease-in-out;
     
                 &:hover{
                     transform: translateY(-3px)
@@ -231,25 +231,36 @@
             align-items: center;
     
             a{
-                display: block;
+                display: flex;
+                align-items: center;
                 padding: 5px;
                 margin: 0 5px;
                 font-weight: bold;
-                font-size: 1.5rem;
+                font-size: 1.875rem;
                 line-height: 1.875rem;
                 text-decoration: none;
-                transition: all 0.4s ease-in;
+                transition: all 0.4s ease-in-out;
     
                 &:hover{
-                    transform: translateY(-5px)
+                    transform: translateY(-3px)
                 }
             }
         }
-
+    
+        .font--block{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    
         .search--block{
             display: flex;
             justify-content: space-around;
             align-items: center;
+
+            a{
+                font-size: 1rem;
+            }
         }
     
         .language--block{
@@ -306,14 +317,14 @@
         width: 100%;
         height: 0;
         padding: 0;
-        transition: all .3s ease-in-out;
+        transition: all 0.4s ease-in-out;
         background-color: white;
         overflow: hidden;
 
         &__open{
             top: 60px;
             height: calc( 100vh - 60px);
-            transition: all .3s ease-in-out;
+            transition: all 0.4s ease-in-out;
             overflow-y: auto;
         }
 
@@ -427,6 +438,44 @@
                         }
                     }
                 }
+            }
+
+            .list--menu{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                padding: 15px;
+        
+                a{
+                    display: flex;
+                    align-items: center;
+                    padding: 5px;
+                    margin: 0 5px;
+                    font-weight: bold;
+                    font-size: 1.875rem;
+                    line-height: 1.875rem;
+                    text-decoration: none;
+                    transition: all 0.4s ease-in-out;
+        
+                    &:hover{
+                        transform: translateY(-3px)
+                    }
+                }
+            }
+
+            .font--block{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+        
+            .social--block{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+    
+                margin: 0;
             }
         }
     }

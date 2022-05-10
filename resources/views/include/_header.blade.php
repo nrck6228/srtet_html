@@ -94,6 +94,9 @@
                                     <li class="dropdown-item">
                                         <a href="/shopstation" title="ร้านค้าต่างๆ ประจำสถานี" class="dropdown-link">ร้านค้าต่างๆ ประจำสถานี</a>
                                     </li>
+                                    <li class="dropdown-item">
+                                        <a href="/vote" title="Vote / Poll" class="dropdown-link">Vote / Poll</a>
+                                    </li>
                                 </ul>
                             </div>
                         </li>
@@ -152,10 +155,12 @@
                 </a>
                 <div class="list--menu">
                     <div class="search--block">
-                        <a href="javascript:void(0)" id="mobileSearch">Search</a>
+                        <a href="javascript:void(0)" class="text--link" id="mobileSearch">
+                            <i class="icon-search"></i>
+                        </a>
                     </div>
                     <div class="language--block">
-                        <a href="javascript:void(0)" id="mobileLang">EN</a>
+                        <a href="javascript:void(0)" class="text--link" id="mobileLang">EN</a>
                     </div>
                     <div class="hamburger" data-bs-toggle="collapse" data-bs-target="#collapseMobileNav" role="button" aria-expanded="false" aria-controls="collapseMobileNav">
                         <span class="line"></span>
@@ -168,94 +173,33 @@
 
         <div class="mobile--nav">
             <nav class="navbar">
-                <div class="collapse" id="collapseMobileNav">                         
-                    <ul class="navbar-nav" id="NavBarMobile">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/">หน้าหลัก</a>
-                        </li>
+                <div class="collapse" id="collapseMobileNav">
+                    <div class="list--menu">
+                        <div class="font--block">
+                            <a href="javascript:void(0)" class="text--link" id="downFont">A-</a>
+                            <a href="javascript:void(0)" class="text--link" id="regularFont">A</a>
+                            <a href="javascript:void(0)" class="text--link" id="upFont">A+</a>
+                        </div>
+                        <div class="social--block">
+                            <a href="javascript:void(0)" class="social__icon">
+                                <img src="{{ asset('assets/images/icon/facebook.svg')}}" alt="facebook">
+                            </a>
+                            <a href="javascript:void(0)" class="social__icon">
+                                <img src="{{ asset('assets/images/icon/twitter.svg')}}" alt="twitter">
+                            </a>
+                            <a href="javascript:void(0)" class="social__icon">
+                                <img src="{{ asset('assets/images/icon/instagram.svg')}}" alt="instagram">
+                            </a>
+                            <a href="javascript:void(0)" class="social__icon">
+                                <img src="{{ asset('assets/images/icon/youtube.svg')}}" alt="youtube">
+                            </a>
+                            <a href="javascript:void(0)" class="social__icon">
+                                <img src="{{ asset('assets/images/icon/tiktok.svg')}}" alt="tiktok">
+                            </a>
+                        </div>
+                    </div>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">เกี่ยวกับเรา</a>
-                            <div class="dropdown-menu">
-                                <ul class="dropdown-nav">
-                                    <!-- <li class="dropdown-item">
-                                        <a href="/history" title="ประวัติความเป็นมา" class="dropdown-link">ประวัติความเป็นมา</a>
-                                    </li> -->
-
-                                    <li class="dropdown-item">
-                                        <a href="/vision-mission" title="วิสัยทัศน์ พันธกิจ" class="dropdown-link">วิสัยทัศน์ พันธกิจ</a>
-                                    </li>
-
-                                    <li class="dropdown-item">
-                                        <a href="/organization-chart" title="โครงสร้างหน่วยงาน ผู้บริหาร อำนาจหน้าที่" class="dropdown-link">โครงสร้างหน่วยงาน ผู้บริหาร อำนาจหน้าที่</a>
-                                    </li>
-
-                                    <li class="dropdown-item">
-                                        <a href="/executive" title="ทำเนียบผู้บริหารระดับสูง" class="dropdown-link">ทำเนียบผู้บริหารระดับสูง</a>
-                                    </li>
-
-                                    <!-- <li class="dropdown-item">
-                                        <a href="/responsible" title="หน่วยงานที่รับผิดชอบ" class="dropdown-link">หน่วยงานที่รับผิดชอบ</a>
-                                    </li> -->
-                                </ul>
-                            </div>
-                        </li>
-
-                        <li class="nav-item dropdown dropdown--navbar">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">บริการลูกค้า</a>
-                            <div class="dropdown-menu">
-                                <ul class="dropdown-nav">
-                                    <li class="dropdown-item">
-                                        <a href="/facilities" title="สิ่งอำนวยความสะดวก" class="dropdown-link">สิ่งอำนวยความสะดวก</a>
-                                    </li>
-                                    <li class="dropdown-item">
-                                        <a href="/shopstation" title="ร้านค้าต่างๆ ประจำสถานี" class="dropdown-link">ร้านค้าต่างๆ ประจำสถานี</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-
-                        <li class="nav-item dropdown dropdown--navbar">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">กำหนดเวลาเดินรถ</a>
-                            <div class="dropdown-menu">
-                                <ul class="dropdown-nav">
-                                    <li class="dropdown-item">
-                                        <a href="/fare-table" title="ข้อมูลกำหนดเวลาเดินรถ" class="dropdown-link">ข้อมูลกำหนดเวลาเดินรถ</a>
-                                    </li>
-                                    <li class="dropdown-item">
-                                        <a href="/ticket-information" title="การออกตั๋วโดยสาร" class="dropdown-link">การออกตั๋วโดยสาร</a>
-                                    </li>
-                                    <li class="dropdown-item">
-                                        <a href="/fare-information" title="อัตราค่าโดยสาร" class="dropdown-link">อัตราค่าโดยสาร</a>
-                                    </li>
-                                    <li class="dropdown-item">
-                                        <a href="/route-information" title="แผนที่สถานีรถไฟฟ้า" class="dropdown-link">แผนที่สถานีรถไฟฟ้า</a>
-                                    </li>
-                                    <li class="dropdown-item">
-                                        <a href="/station-information" title="ข้อมูลสถานีรถไฟฟ้า" class="dropdown-link">ข้อมูลสถานีรถไฟฟ้า</a>
-                                    </li>
-                                    <li class="dropdown-item">
-                                        <a href="/fare-calculated" title="คำนวณค่าโดยสารและเวลาเดินทาง" class="dropdown-link">คำนวณค่าโดยสารและเวลาเดินทาง</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-
-                        <li class="nav-item dropdown dropdown--navbar">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">ข่าวสารและกิจกรรม</a>
-                            <div class="dropdown-menu">
-                                <ul class="dropdown-nav">
-                                    <li class="dropdown-item">
-                                        <a href="/news" title="ข่าวสาร" class="dropdown-link">ข่าวสาร</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="/procument">จัดซื้อจัดจ้าง</a>
-                        </li>
-                    </ul>
+                    <!-- Clone child html from #NavBar -->
                 </div>
             </nav>
         </div>

@@ -12,7 +12,7 @@
                 <div class="hero--slider">
                     <a href="#" title="" class="slider__item">
                         <div class="slider__figure">
-                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-desktop.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-demo-route.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
                         </div>
                         <div class="slider__content">
                             <h2 class="slider__title">
@@ -25,7 +25,7 @@
                     </a>
                     <a href="#" title="" class="slider__item">
                         <div class="slider__figure">
-                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-desktop.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-demo-route.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
                         </div>
                         <div class="slider__content">
                             <h2 class="slider__title">
@@ -177,28 +177,25 @@
                                         </div>
                                     </div>
 
-                                    <h3 class="h3">รายละเอียดทางเข้า - ออก</h3>
-                                    <ul class="exit--list">
-                                        <li class="list__item">
-                                            ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ
-                                        </li>
-                                        <li class="list__item">
-                                            ประตู 2 : SCG สำนักงานใหญ่
-                                        </li>
-                                        <li class="list__item">
-                                            ประตู 3 : BTS จตุจักร , ตลาดนัดจตุจักร
-                                        </li>
-                                        <li class="list__item">
-                                            ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ
-                                        </li>
-                                    </ul>
+                                    <div class="text--editor">
+                                        <div class="ck-content">
+                                            <h3>รายละเอียดทางเข้า - ออก</h3>
+                                            <ul>
+                                                <li>ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ</li>
+                                                <li>ประตู 2 : SCG สำนักงานใหญ่</li>
+                                                <li>ประตู 3 : BTS จตุจักร , ตลาดนัดจตุจักร</li>
+                                                <li>ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ</li>
+                                            </ul>
+                                        </div>
+                                    </div>
 
                                     <a href="/fare-information" title="" class="btn btn--primary mb-4">
                                         <span>อัตราค่าโดยสาร</span>
                                     </a>
 
-                                    <h3>สิ่งอำนวยความสะดวก</h3>
                                     <div class="facilities--list">
+                                        <h3>สิ่งอำนวยความสะดวก</h3>
+
                                         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
                                             <div class="col">
                                                 <a href="javascript:void(0)" class="facilities__item" data-bs-toggle="modal" data-bs-target="#facilitiesModal">
@@ -243,40 +240,62 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="row row-cols-1 row-cols-md-2 justify-content-between">
-                    <div class="col">
-                        <div class="view--count">
-                            จำนวนผู้เข้าชม : <span>39068</span> คน
+            @include('include._social')
+        </article>
+
+        @include('include._services')
+    </main>
+
+    <!-- รายละเอียดสถานี (สิ่งอำนวยความสะดวก) -->
+    <div class="modal fade modal--custom modal--md" id="facilitiesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">ไตเติ้ล</h5>
+                    <button type="button" class="modal--close" data-bs-dismiss="modal" aria-label="Close">
+                        <div class="btn--close">
+                            <span>ปิด <i class="icon-close"></i></span>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="social--block">
-                            <span>แชร์ :</span>
-                            <a href="javascript:void(0)" class="social__icon">
-                                <img src="{{ asset('assets/images/icon/facebook.svg')}}" alt="facebook">
-                            </a>
-                            <a href="javascript:void(0)" class="social__icon">
-                                <img src="{{ asset('assets/images/icon/twitter.svg')}}" alt="twitter">
-                            </a>
-                            <a href="javascript:void(0)" class="social__icon">
-                                <img src="{{ asset('assets/images/icon/instagram.svg')}}" alt="instagram">
-                            </a>
-                            <a href="javascript:void(0)" class="social__icon">
-                                <img src="{{ asset('assets/images/icon/youtube.svg')}}" alt="youtube">
-                            </a>
-                            <a href="javascript:void(0)" class="social__icon">
-                                <img src="{{ asset('assets/images/icon/tiktok.svg')}}" alt="tiktok">
-                            </a>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal--content">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="modal__figure">
+                                    <img class="img-fluid" src="{{ asset('assets/images/station/img-demo-01.webp')}}" alt="รถไฟฟ้าสายสีแดง">
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="modal__text">  
+                                    <h3>
+                                    จุดเชื่อมต่อ
+                                    </h3>
+                                    
+                                    <ul class="modal--list">
+                                        <li class="list__item">
+                                            ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ
+                                        </li>
+                                        <li class="list__item">
+                                            ประตู 2 : SCG สำนักงานใหญ่
+                                        </li>
+                                        <li class="list__item">
+                                            ประตู 3 : BTS จตุจักร , ตลาดนัดจตุจักร
+                                        </li>
+                                        <li class="list__item">
+                                            ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
             </div>
-        </article>
-    </main>
-
-
+        </div>
+    </div>
 @endsection
 
 @push('script-slick')
