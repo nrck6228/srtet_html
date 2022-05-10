@@ -13,7 +13,7 @@
         align-items: center;
 
         width: auto;
-        height: 80px;
+        height: 70px;
         padding: 0;
 
         transition: all 0.4s ease-in-out;
@@ -82,6 +82,8 @@
     }
     
     .navbar--bottom{
+        height: 40px;
+
         .nav-item{
             margin: 0 20px;
         }
@@ -90,7 +92,7 @@
             padding: 5px 0;
             font-weight: bold;
             font-size: 1.625rem;
-            line-height: 1.875rem;
+            line-height: 1.75rem;
             text-align: center;
 
             &:before{

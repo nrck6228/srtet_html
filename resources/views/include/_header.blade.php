@@ -52,7 +52,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar--bottom bg--primary">
                 <div class="collapse navbar-collapse" id="navbar-content">
-                    <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav" id="NavBar">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="/">หน้าหลัก</a>
                         </li>
@@ -169,7 +169,7 @@
         <div class="mobile--nav">
             <nav class="navbar">
                 <div class="collapse" id="collapseMobileNav">                         
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav" id="NavBarMobile">
                         <li class="nav-item">
                             <a class="nav-link" href="/">หน้าหลัก</a>
                         </li>
