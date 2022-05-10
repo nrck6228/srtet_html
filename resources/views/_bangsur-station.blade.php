@@ -12,7 +12,7 @@
                 <div class="hero--slider">
                     <a href="#" title="" class="slider__item">
                         <div class="slider__figure">
-                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-desktop.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-demo-route.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
                         </div>
                         <div class="slider__content">
                             <h2 class="slider__title">
@@ -25,7 +25,7 @@
                     </a>
                     <a href="#" title="" class="slider__item">
                         <div class="slider__figure">
-                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-desktop.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-demo-route.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
                         </div>
                         <div class="slider__content">
                             <h2 class="slider__title">
@@ -192,6 +192,21 @@
                                             ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ
                                         </li>
                                     </ul>
+
+                                    <!-- <ul>
+                                        <li>
+                                            ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ
+                                        </li>
+                                        <li>
+                                            ประตู 2 : SCG สำนักงานใหญ่
+                                        </li>
+                                        <li>
+                                            ประตู 3 : BTS จตุจักร , ตลาดนัดจตุจักร
+                                        </li>
+                                        <li>
+                                            ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ
+                                        </li>
+                                    </ul> -->
 
                                     <a href="/fare-information" title="" class="btn btn--primary mb-4">
                                         <span>อัตราค่าโดยสาร</span>
