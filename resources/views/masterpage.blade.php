@@ -38,10 +38,6 @@
         @stack('script-slick')
 
         @stack('script-spotlight')
-
-        @stack('script-datepicker')
-
-        @stack('script-recaptcha')
-
+        
     </body>
 </html>

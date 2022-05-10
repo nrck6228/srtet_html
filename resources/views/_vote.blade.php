@@ -55,10 +55,10 @@
         <article class="vote--wrapper">
             <div class="container">
                 <div class="title--page justify-content-center">
-                    <h2 class="page__title text--primary">Vote/Poll</h2>
+                    <h2 class="page__title text--primary mb-4">Vote/Poll</h2>
                 </div>
 
-                <div class="form-filter">
+                <div class="form-group mb-4">
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-12">
                             <div class="search__controls icon icon__date">
