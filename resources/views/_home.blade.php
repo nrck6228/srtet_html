@@ -174,22 +174,17 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <h3 class="data__subtitle">รายละเอียดทางเข้า - ออก</h3>
-
-                                                    <ul class="exit--list">
-                                                        <li class="list__item">
-                                                            ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ
-                                                        </li>
-                                                        <li class="list__item">
-                                                            ประตู 2 : SCG สำนักงานใหญ่
-                                                        </li>
-                                                        <li class="list__item">
-                                                            ประตู 3 : BTS จตุจักร , ตลาดนัดจตุจักร
-                                                        </li>
-                                                        <li class="list__item">
-                                                            ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ
-                                                        </li>
-                                                    </ul>
+                                                    <div class="text--editor">
+                                                        <div class="ck-content">
+                                                            <h3>รายละเอียดทางเข้า - ออก</h3>
+                                                            <ul>
+                                                                <li>ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ</li>
+                                                                <li>ประตู 2 : SCG สำนักงานใหญ่</li>
+                                                                <li>ประตู 3 : BTS จตุจักร , ตลาดนัดจตุจักร</li>
+                                                                <li>ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
 
                                                     <a href="/bangsur-station" title="รายละเอียดเพิ่มเติม" class="btn btn--primary">
                                                         <span>รายละเอียดเพิ่มเติม</span>

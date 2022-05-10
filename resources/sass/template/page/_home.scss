@@ -158,28 +158,6 @@
                 }
             }
         }
-    
-        .exit--list{
-            list-style: none;
-            padding: 0;
-            margin: 0 0 2rem 0;
-    
-            li{
-                position: relative;
-                font-size: 1.5rem;
-                line-height: 1.5rem;
-                margin-bottom: 10px;
-    
-                &:before{
-                    font-family: 'icomoon' !important;
-                    content: "\e90a";
-                    font-size: 0.75rem;
-                    color: $red;
-                    display: inline-block;
-                    transform: rotate(90deg);
-                }
-            }
-        }
     }
     
     .fare--wrapper{
@@ -477,11 +455,4 @@
             z-index: 9;
         }
     }
-}
-
-#img_container{
-    position: absolute !important;
-    width: 50px;
-    height: 50px;
-    z-index: 99;
 }

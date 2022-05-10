@@ -177,43 +177,25 @@
                                         </div>
                                     </div>
 
-                                    <h3 class="h3">รายละเอียดทางเข้า - ออก</h3>
-                                    <ul class="exit--list">
-                                        <li class="list__item">
-                                            ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ
-                                        </li>
-                                        <li class="list__item">
-                                            ประตู 2 : SCG สำนักงานใหญ่
-                                        </li>
-                                        <li class="list__item">
-                                            ประตู 3 : BTS จตุจักร , ตลาดนัดจตุจักร
-                                        </li>
-                                        <li class="list__item">
-                                            ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ
-                                        </li>
-                                    </ul>
-
-                                    <!-- <ul>
-                                        <li>
-                                            ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ
-                                        </li>
-                                        <li>
-                                            ประตู 2 : SCG สำนักงานใหญ่
-                                        </li>
-                                        <li>
-                                            ประตู 3 : BTS จตุจักร , ตลาดนัดจตุจักร
-                                        </li>
-                                        <li>
-                                            ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ
-                                        </li>
-                                    </ul> -->
+                                    <div class="text--editor">
+                                        <div class="ck-content">
+                                            <h3>รายละเอียดทางเข้า - ออก</h3>
+                                            <ul>
+                                                <li>ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ</li>
+                                                <li>ประตู 2 : SCG สำนักงานใหญ่</li>
+                                                <li>ประตู 3 : BTS จตุจักร , ตลาดนัดจตุจักร</li>
+                                                <li>ประตู 1 : สถานีขนส่ง บขส. , MRT บางซื่อ</li>
+                                            </ul>
+                                        </div>
+                                    </div>
 
                                     <a href="/fare-information" title="" class="btn btn--primary mb-4">
                                         <span>อัตราค่าโดยสาร</span>
                                     </a>
 
-                                    <h3>สิ่งอำนวยความสะดวก</h3>
                                     <div class="facilities--list">
+                                        <h3>สิ่งอำนวยความสะดวก</h3>
+
                                         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
                                             <div class="col">
                                                 <a href="javascript:void(0)" class="facilities__item" data-bs-toggle="modal" data-bs-target="#facilitiesModal">
