@@ -258,7 +258,30 @@
             </div>
         </div>
     </div>
+
+    <div class="backtotop">
+        <div class="totop">
+            <i class="icon-arrow-left"></i>
+        </div>
+    </div>
 </footer>
+
+<!-- <div class="consent--banner">
+    <div class="container">
+        <div class="consent--banner__inner">
+            <div class="consent--banner__copy">
+                <div class="consent--banner__header">THIS WEBSITE USES COOKIES</div>
+                <div class="consent--banner__description">We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. You consent to our cookies if you continue to use our website.</div>
+            </div>
+
+            <div class="consent--banner__actions">
+                <button type="button" class="btn btn--primary btn--agree"><span>Got it!</span></button>
+                <button type="button" class="btn btn--gray btn--decline"><span>Decline</span></button>
+            </div>
+        </div>
+    </div>
+</div> -->
+
 
 <!-- addition script for current page -->
 <script>
@@ -277,4 +300,43 @@
         }, 500);
         $(".gov--slider").slick("refresh");
     }));
+
+    function scrollToTop() {
+        verticalOffset = typeof (verticalOffset) != 'undefined' ? verticalOffset : 0;
+        element = $('body');
+        offset = element.offset();
+        offsetTop = offset.top;
+        $('html, body').animate({ scrollTop: offsetTop }, 500, 'linear');
+    }; 
+
+    $(function () {
+        $(document).on('scroll', function () {
+            if ($(window).scrollTop() > 200) {
+                $('.backtotop .totop').addClass('show');
+            } else {
+                $('.backtotop .totop').removeClass('show');
+            }
+        });
+
+        $('.backtotop .totop').on('click', scrollToTop);
+    });
+
+</script>
+
+<script>
+    const cookieContainer = document.querySelector(".consent--banner");
+    const agreeBtn = document.querySelector(".btn--agree");
+    const declineBtn = document.querySelector(".btn--decline");
+
+    // setTimeout(() => {
+    //     cookieContainer.classList.remove("hide");
+    // }, 1000);
+
+    agreeBtn.addEventListener("click", () => {
+        cookieContainer.classList.add("agree");
+    });
+
+    declineBtn.addEventListener("click", () => {
+        cookieContainer.classList.add("decline");
+    });
 </script>

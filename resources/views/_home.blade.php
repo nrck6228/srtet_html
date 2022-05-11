@@ -10,7 +10,7 @@
         <article class="home--hero">
             <div class="container">
                 <div class="main--slider">
-                    <div class="item video">
+                    <!-- <div class="item video">
                         <video class="slide-video slide-media" loop muted preload="metadata" poster="">
                             <source src="https://player.vimeo.com/external/138504815.sd.mp4?s=8a71ff38f08ec81efe50d35915afd426765a7526&profile_id=112" type="video/mp4" />
                         </video>
@@ -22,7 +22,7 @@
                                 ยกระดับคุณภาพชีวิตชานเมือง
                             </h3>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="item image">
                         <a href="https://www.google.co.th" title="รถไฟฟ้าสายสีแดง" target="_blank" class="slide-link">
@@ -40,6 +40,21 @@
                         </a>
                     </div>
                     
+                    <div class="item image">
+                        <a href="https://www.google.co.th" title="รถไฟฟ้าสายสีแดง" target="_blank" class="slide-link">
+                            <div class="slide-image slide-media" style="background-image:url('{{ asset('assets/images/hero/banner-demo-home.jpg')}}');">
+                                <img data-lazy="{{ asset('assets/images/hero/banner-demo-home.jpg')}}" class="image-entity" />
+                            </div>
+                            <figcaption class="caption">
+                                <h2 class="caption__title">
+                                    รถไฟฟ้าสายสีแดง
+                                </h2>
+                                <h3 class="caption__text">
+                                    ยกระดับคุณภาพชีวิตชานเมือง
+                                </h3>
+                            </figcaption>
+                        </a>
+                    </div>
                 </div>
             </div>
         </article>
@@ -60,12 +75,13 @@
                             <div class="title--page">
                                 <h2 class="page__title">เส้นทางรถไฟฟ้าชานเมืองสายสีแดง</h2>
                             </div>
-                            <!-- <div class="map--figure">
-                                <a href="javascript:void(0)" class="map__link">
+                            <div class="map--figure">
+                                <a href="javascript:void(0)" class="map__link station__position">
                                     <img class="w-100" src="{{ asset('assets/images/map/img-demo-01.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
                                 </a>
-                            </div> -->
-                            <div id="mapRoute" class="d-none d-lg-block map--figure">
+                            </div>
+                            
+                            <!-- <div id="mapRoute" class="d-none d-lg-block map--figure">
                                 <div class="map--svg">
                                     <div class="map--svg--img">
                                         <div class="map--base">
@@ -89,7 +105,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
                             <div class="d-block d-lg-none map--figure">
                                 <div class="map--base-mobile">

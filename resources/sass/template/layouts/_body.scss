@@ -50,11 +50,14 @@ html, body{
 
     .accordion__title{
         position: relative;
-        display: block;
-        padding: 15px 45px 15px 15px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 40px;
+        padding: 0 45px 0 15px;
         margin-bottom: 5px;
         font-weight: bold;
-        font-size: 1.625rem;
+        font-size: 1.5rem;
         line-height: 1.875rem;
         color: $darkgray;
         text-decoration: none;
@@ -364,6 +367,8 @@ html, body{
 
 //Text Editor Style
 .text--editor{
+    clear: both;
+    overflow: hidden;
     /*
     * CKEditor 5 (v34.0.0) content styles.
     * Generated on Mon, 09 May 2022 10:49:49 GMT.
@@ -814,4 +819,70 @@ html, body{
     width: 50px;
     height: 50px;
     z-index: 99;
+}
+
+.responsive--tabs {
+    position: relative;
+
+    .nav-tabs {
+        display: none;
+    }
+
+    .card-header{
+        padding: 1rem;
+        margin: 0;
+        font-weight: bold;
+        font-size: 1.625rem;
+        line-height: 1.875rem;
+        color: white;
+        border: none;
+        border-radius: 0;
+        transition: all 0.4s ease-in-out;
+
+        &:hover{
+            background-color: $darkgray;
+        }
+
+        &[aria-expanded="true"]{
+            position: relative;
+
+            &:after{
+                top: 100%;
+                left: 50px;
+                border: solid transparent;
+                content: "";
+                height: 0;
+                width: 0;
+                position: absolute;
+                pointer-events: none;
+                border-width: 10px;
+                margin-left: -10px;
+            }
+        }
+    }
+
+    @include media-breakpoint-up(lg){
+        .nav-tabs {
+            display: flex;
+        }
+
+        .card {
+            border: none;
+
+            .card-header {
+                display: none;
+            }
+
+            .collapse {
+                display: block;
+            }
+        }
+    }
+
+    @include media-breakpoint-down(lg) {
+        .tab-pane {
+            display: block !important;
+            opacity: 1;
+        }
+    }
 }
