@@ -49,12 +49,12 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-12">
                             <div class="search__controls icon icon__date">
-                                <input type="text" class="form-control start-date datepicker" placeholder="วันที่เริ่มต้น">
+                                <input type="text" id="start_date" class="form-control start-date" placeholder="วันที่เริ่มต้น">
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6 col-12">
                             <div class="search__controls icon icon__date">
-                                <input type="text" class="form-control end-date" placeholder="วันที่สิ้นสุด">
+                                <input type="text" id="end_date" class="form-control end-date" placeholder="วันที่สิ้นสุด">
                             </div>
                         </div>
                         <div class="col-md-2 col-sm-6 col-12">
@@ -125,6 +125,8 @@
                         </ul>
                     </nav>
                 </div>
+
+                @include('include._social')
             </div>
         </article>
 
@@ -144,14 +146,39 @@
 
 
 @push('script-datepicker')
-    <!-- Datepicker CSS  -->
-    <link rel="stylesheet" href="{{ mix('/datepicker/datepicker.css') }}"/>
-    <!-- Datepicker JS  -->
-    <script type="text/javascript" src="{{ mix('/datepicker/bootstrap-datepicker.js') }}"></script>
-    <script type="text/javascript" src="{{ mix('/datepicker/bootstrap-datepicker-thai.js') }}"></script>
-    <script type="text/javascript" src="{{ mix('/datepicker/bootstrap-datepicker.th.js') }}"></script>
 
-    <script type="text/javascript" src="{{ mix('/js/datepicker.js') }}"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/i18n/datepicker-th.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/i18n/datepicker-en.js"></script>
+
+    <script>
+
+        $.datepicker.setDefaults( $.datepicker.regional[ "th" ] );
+        var currentDate = new Date();
+
+        currentDate.setYear(currentDate.getFullYear() + 543);
+        
+        $("#start_date").datepicker({
+            changeMonth: true,
+            changeYear: true,
+            yearRange: '+443:+543',//TH
+            //yearRange: '-80:+0',//EN
+            dateFormat: 'dd/mm/yy',
+            
+        });
+        $('#start_date').datepicker("setDate",currentDate );
+
+        $("#end_date").datepicker({
+            changeMonth: true,
+            changeYear: true,
+            yearRange: '+443:+543',//TH
+            //yearRange: '-80:+0',//EN
+            dateFormat: 'dd/mm/yy',
+        });
+        $('#end_date').datepicker("setDate",currentDate );
+    </script>
 
 
 @endpush

@@ -1,0 +1,28 @@
+.ui-widget{
+    font-family: 'psl_kittithada' !important;
+}
+
+.ui-datepicker{
+    .ui-datepicker-title{
+        select{
+            font-family: 'psl_kittithada' !important;
+            font-size: 18px !important;
+            font-weight: bold !important;
+            option{
+                font-size: 18px !important;
+                font-weight: bold !important;
+            } 
+        }
+    }
+    table{
+        font-size: 17px !important;
+    }
+}
+
+.ui-state-default{
+    font-weight: bold !important;
+}
+.ui-state-active, .ui-widget-content .ui-state-active{
+    border: 1px solid $red !important;
+    background: $red !important;
+}
