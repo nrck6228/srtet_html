@@ -91,19 +91,25 @@
             transition: all 0.3s ease;
             transform: translateY(100%);
 
-            @include media-breakpoint-up(lg) {
+            .caption__title{
+                color: $red;
+            }
+
+            .caption__text{
+                color: $gray;
+            }
+
+            @include media-breakpoint-up(md) {
                 .caption__title{
                     font-weight: bold;
                     font-size: 5rem;
                     line-height: 5rem;
-                    color: $red;
                 }
     
                 .caption__text{
                     font-weight: bold;
                     font-size: 3.125rem;
                     line-height: 3.125rem;
-                    color: $gray;
                 }
             }
         }

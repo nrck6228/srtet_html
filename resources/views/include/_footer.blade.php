@@ -274,7 +274,7 @@
     </div>
 </footer>
 
-<!-- <div class="consent--banner">
+<div class="consent--banner">
     <div class="container">
         <div class="consent--banner__inner">
             <div class="consent--banner__copy">
@@ -288,7 +288,7 @@
             </div>
         </div>
     </div>
-</div> -->
+</div>
 
 
 <!-- addition script for current page -->
