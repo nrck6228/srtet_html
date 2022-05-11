@@ -147,13 +147,17 @@
         <div class="container">
             <div class="row row-cols-1 row-cols-lg-2">
                 <div class="col order-lg-last">
-                    <h3 class="title text--primary">
-                        พันธมิตร : 
+                    <h3 class="title text--primary" style="margin-left: 10px;">
+                        Partner Link : 
                     </h3>
                     <div class="partner--slider">
                         <a href="#" title="" class="slider__item">
                             <div class="slider__figure">
                                 <img class="slider__image" src="{{ asset('assets/images/slider/partner/demo-01.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+
+                                <div class="slider__caption">
+                                    กระทรวงคมนาคม
+                                </div>
                             </div>
                         </a>
                         <a href="#" title="" class="slider__item">
@@ -164,6 +168,10 @@
                         <a href="#" title="" class="slider__item">
                             <div class="slider__figure">
                                 <img class="slider__image" src="{{ asset('assets/images/slider/partner/demo-03.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+
+                                <div class="slider__caption">
+                                    การรถไฟแห่งประเทศไทย
+                                </div>
                             </div>
                         </a>
                         <a href="#" title="" class="slider__item">
