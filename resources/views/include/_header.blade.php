@@ -140,6 +140,14 @@
                                     <li class="dropdown-item">
                                         <a href="/news" title="ข่าวสาร" class="dropdown-link">ข่าวสาร</a>
                                     </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/activity" title="ภาพกิจกรรม" class="dropdown-link">ภาพกิจกรรม</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/lostfound" title="Lost & Found" class="dropdown-link">Lost & Found</a>
+                                    </li>
                                 </ul>
                             </div>
                         </li>
