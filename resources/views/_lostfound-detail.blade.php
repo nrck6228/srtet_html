@@ -1,6 +1,6 @@
 @extends('masterpage')
 
-@section('title', 'ประกาศLost & Found')
+@section('title', 'Lost & Found')
 @section('keywords', 'รถไฟฟ้าสายสีแดง')
 @section('description', 'รถไฟฟ้าสายสีแดง')
 
@@ -46,7 +46,7 @@
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">หน้าแรก</a></li>
                         <li class="breadcrumb-item"><a href="#">ข่าวสารและกิจกรรม</a></li>
-                        <li class="breadcrumb-item"><a href="#">ประกาศLost & Found</a></li>
+                        <li class="breadcrumb-item"><a href="#">Lost & Found</a></li>
                         <li class="breadcrumb-item active" aria-current="page">รายละเอียด</li>
                     </ol>
                 </nav>
