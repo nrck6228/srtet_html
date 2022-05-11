@@ -1,6 +1,6 @@
 @extends('masterpage')
 
-@section('title', 'จัดซื้อจัดจ้าง')
+@section('title', 'รายงานประจำปี ')
 @section('keywords', 'รถไฟฟ้าสายสีแดง')
 @section('description', 'รถไฟฟ้าสายสีแดง')
 
@@ -25,7 +25,7 @@
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">หน้าแรก</a></li>
                         <li class="breadcrumb-item"><a href="#">กำหนดเวลาเดินรถ</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">จัดซื้อจัดจ้าง</li>
+                        <li class="breadcrumb-item active" aria-current="page">รายงานประจำปี </li>
                     </ol>
                 </nav>
             </div>
@@ -34,43 +34,15 @@
         <article class="page--content">
             <div class="container">
                 <div class="title--page justify-content-center">
-                    <h2 class="page__title text--primary">จัดซื้อจัดจ้าง</h2>
+                    <h2 class="page__title text--primary">รายงานประจำปี </h2>
                 </div>
 
                 <div class="form-filter">
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-12">
                             <div class="search__controls">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>แผนการจัดซื้อจัดจ้าง</option>
-                                    <option value="1">แผนการจัดซื้อจัดจ้าง</option>
-                                    <option value="2">แผนการจัดซื้อจัดจ้าง</option>
-                                    <option value="3">แผนการจัดซื้อจัดจ้าง</option>
-                                </select>
-                            </div> 
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls">
-                                <input type="text" class="form-control" placeholder="เลขที่ประกาศ">
+                                <input type="text" class="form-control" placeholder="ชื่อรายงาน">
                             </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls">
-                                <input type="text" class="form-control" placeholder="ชื่อเรื่อง">
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>สถานะ</option>
-                                    <option value="1">สถานะ</option>
-                                    <option value="2">สถานะ</option>
-                                    <option value="3">สถานะ</option>
-                                </select>
-                            </div> 
                         </div>
 
                         <div class="col-md-3 col-sm-6 col-12">
@@ -92,21 +64,6 @@
                 </div>
 
                 <div class="procument--wrapper">
-                    <div class="remark--procument">
-                        <div class="remark">
-                            <span>*</span> หมายเหตุ :
-                        </div>
-                        <div class="remark">
-                            <i class="icon-user-circle"></i> = ดำเนินการหาผู้ประมูล,
-                        </div>
-                        <div class="remark">
-                            <i class="icon-edit"></i> = มีการแก้ไขประกาศ,
-                        </div>
-                        <div class="remark">
-                            <i class="icon-cancel-circle"></i> = ยกเลิกประกาศ
-                        </div>
-                    </div>
-
                     <div class="table-responsive table--primary">
                         <table class="table">
                             <thead>
@@ -115,19 +72,13 @@
                                         ลำดับ
                                     </th>
                                     <th>
-                                        เลขที่ประกาศ
+                                        ชื่อรายงาน
                                     </th>
                                     <th>
-                                        ชื่อเรื่อง
+                                        วันที่
                                     </th>
                                     <th>
-                                        วันที่ประกาศ
-                                    </th>
-                                    <th>
-                                        สถานะ
-                                    </th>
-                                    <th>
-                                        เอกสาร
+                                        ดาวน์โหลด
                                     </th>
                                 </tr>
                             </thead>
@@ -138,34 +89,23 @@
                                         1
                                     </td>
                                     <td class="text-start">
-                                        <p class="procument--order">
-                                            รฟ.ยธ.1530/9/คล.02/2565
-                                        </p>
-                                    </td>
-                                    <td class="text-start">
                                         <a href="/procument-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procument--name">
                                             จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก
                                         </a>
-                                        <p class="procument--view">
-                                            จำนวนผู้เข้าชม 35 คน
-                                        </p>
                                     </td>
                                     <td>
                                         26/04/2565
                                     </td>
-                                    <td>
-                                        <i class="icon-user-circle"></i>
-                                    </td>
                                     <td class="text-start">
                                         <ul class="list--primary">
                                             <li>
-                                                <a href="#nogo" title="เอกสารชี้แจงเพิ่มเติม">เอกสารชี้แจงเพิ่มเติม</a>
+                                                <a href="#nogo" title="เอกสารรายงาน">เอกสารรายงาน 1/3</a>
                                             </li>
                                             <li>
-                                                <a href="#nogo" title="เอกสารประกวดราคา">เอกสารประกวดราคา</a>
+                                                <a href="#nogo" title="เอกสารรายงาน">เอกสารรายงาน 2/3</a>
                                             </li>
                                             <li>
-                                                <a href="#nogo" title="รายละเอียดข้อมูลราคากลาง">รายละเอียดข้อมูลราคากลาง</a>
+                                                <a href="#nogo" title="เอกสารรายงาน">เอกสารรายงาน 3/3</a>
                                             </li>
                                         </ul>
                                     </td>
@@ -176,28 +116,17 @@
                                         2
                                     </td>
                                     <td class="text-start">
-                                        <p class="procument--order">
-                                            รฟ.ยธ.1530/9/คล.02/2565
-                                        </p>
-                                    </td>
-                                    <td class="text-start">
                                         <a href="/procument-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procument--name">
                                             จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก
                                         </a>
-                                        <p class="procument--view">
-                                            จำนวนผู้เข้าชม 35 คน
-                                        </p>
                                     </td>
                                     <td>
                                         26/04/2565
                                     </td>
-                                    <td>
-                                        <i class="icon-edit"></i>
-                                    </td>
                                     <td class="text-start">
                                         <ul class="list--primary">
                                             <li>
-                                                <a href="#nogo" title="เอกสารประกวดราคา">เอกสารประกวดราคา</a>
+                                                <a href="#nogo" title="เอกสารรายงาน">เอกสารรายงาน</a>
                                             </li>
                                         </ul>
                                     </td>
@@ -208,28 +137,17 @@
                                         3
                                     </td>
                                     <td class="text-start">
-                                        <p class="procument--order">
-                                            รฟ.ยธ.1530/9/คล.02/2565
-                                        </p>
-                                    </td>
-                                    <td class="text-start">
                                         <a href="/procument-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procument--name">
                                             จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก
                                         </a>
-                                        <p class="procument--view">
-                                            จำนวนผู้เข้าชม 35 คน
-                                        </p>
                                     </td>
                                     <td>
                                         26/04/2565
                                     </td>
-                                    <td>
-                                        <i class="icon-cancel-circle"></i>
-                                    </td>
                                     <td class="text-start">
                                         <ul class="list--primary">
                                             <li>
-                                                <a href="#nogo" title="เอกสารประกวดราคา">เอกสารประกวดราคา</a>
+                                                <a href="#nogo" title="เอกสารรายงาน">เอกสารรายงาน</a>
                                             </li>
                                         </ul>
                                     </td>
@@ -240,28 +158,17 @@
                                         4
                                     </td>
                                     <td class="text-start">
-                                        <p class="procument--order">
-                                            รฟ.ยธ.1530/9/คล.02/2565
-                                        </p>
-                                    </td>
-                                    <td class="text-start">
                                         <a href="/procument-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procument--name">
                                             จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก
                                         </a>
-                                        <p class="procument--view">
-                                            จำนวนผู้เข้าชม 35 คน
-                                        </p>
                                     </td>
                                     <td>
                                         26/04/2565
                                     </td>
-                                    <td>
-                                        <i class="icon-user-circle"></i>
-                                    </td>
                                     <td class="text-start">
                                         <ul class="list--primary">
                                             <li>
-                                                <a href="#nogo" title="เอกสารประกวดราคา">เอกสารประกวดราคา</a>
+                                                <a href="#nogo" title="เอกสารรายงาน">เอกสารรายงาน</a>
                                             </li>
                                         </ul>
                                     </td>
@@ -272,28 +179,17 @@
                                         5
                                     </td>
                                     <td class="text-start">
-                                        <p class="procument--order">
-                                            รฟ.ยธ.1530/9/คล.02/2565
-                                        </p>
-                                    </td>
-                                    <td class="text-start">
                                         <a href="/procument-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procument--name">
                                             จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก
                                         </a>
-                                        <p class="procument--view">
-                                            จำนวนผู้เข้าชม 35 คน
-                                        </p>
                                     </td>
                                     <td>
                                         26/04/2565
                                     </td>
-                                    <td>
-                                        <i class="icon-user-circle"></i>
-                                    </td>
                                     <td class="text-start">
                                         <ul class="list--primary">
                                             <li>
-                                                <a href="#nogo" title="เอกสารประกวดราคา">เอกสารประกวดราคา</a>
+                                                <a href="#nogo" title="เอกสารรายงาน">เอกสารรายงาน</a>
                                             </li>
                                         </ul>
                                     </td>
@@ -325,15 +221,6 @@
             </div>
         </article>
     </main>
-
-    <script>
-        const scrollContainer = document.querySelector(".table--primary");
-
-        scrollContainer.addEventListener("wheel", (evt) => {
-            evt.preventDefault();
-            scrollContainer.scrollLeft += evt.deltaY;
-        });
-    </script>
 @endsection
 
 @push('script-slick')
