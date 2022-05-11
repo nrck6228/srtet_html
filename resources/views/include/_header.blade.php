@@ -12,7 +12,7 @@
         <div class="container">
             <nav class="navbar navbar--top">
                 <a class="navbar__brand" href="/">
-                    <img src="{{ asset('assets/images/logo.jpg')}}" alt="SRTET" class="logo">
+                    <img src="{{ asset('assets/images/logo.svg')}}" alt="SRTET" class="logo">
                 </a>
                 <div class="list--menu">
                     <div class="font--block">
@@ -157,7 +157,7 @@
         <div class="container">
             <nav class="navbar navbar--top">
                 <a class="navbar__brand" href="#">
-                    <img src="{{ asset('assets/images/logo.jpg')}}" alt="SRTET" class="logo">
+                <img src="{{ asset('assets/images/logo.svg')}}" alt="SRTET" class="logo">
                 </a>
                 <div class="list--menu">
                     <div class="search--block">
