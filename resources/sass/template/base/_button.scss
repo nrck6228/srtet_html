@@ -50,11 +50,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        border-radius: .25rem;
+        border-radius: 0;
         transition: width 0.4s ease-in-out;
     }
-}
-
-.btn--gray{
-    background-color: #929091;
 }

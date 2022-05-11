@@ -65,6 +65,49 @@ a.text--link{
     }
 }
 
+.btn--gray{
+    color: white;
+    background-color: rgba($color: $gray, $alpha: 0.5);
+
+    &:before{
+        background-color: black;   
+    }
+
+    &:hover{
+        color: white;
+
+        &:before{
+            width: 100%;
+        }
+    }
+}
+
+.btn--outline{
+    color: $darkgray;
+    border: 1px solid $darkgray;
+    background-color: transparent;
+
+    span{
+        color: $darkgray;
+    }
+
+    &:before{
+        background-color: black;   
+    }
+
+    &:hover{
+        color: white;
+
+        span{
+            color: white;
+        }
+
+        &:before{
+            width: 100%;
+        }
+    }
+}
+
 .nav-tabs--primary{
     .nav-link{
         color: white;
@@ -116,6 +159,28 @@ a.text--link{
         }
 
         &.active{
+            color: white;
+            background-color: $color-primary;
+
+            &:after{
+                border-color: rgba(136, 183, 213, 0);
+                border-top-color: $color-primary;
+            }
+        }
+    }
+}
+
+.responsive--tabs{
+    .card-header{
+        color: white;
+        background-color: rgba($color: $darkgray, $alpha: 0.3);
+
+        &:hover{
+            color: white;
+            background-color: rgba($color: $darkgray, $alpha: 0.8);
+        }
+
+        &[aria-expanded="true"]{
             color: white;
             background-color: $color-primary;
 

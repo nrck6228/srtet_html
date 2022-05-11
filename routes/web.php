@@ -26,6 +26,10 @@ Route::get('/', function()
     return View::make('_home');
 });
 
+Route::get('/history', function () {
+    return View::make('_history');
+});
+
 Route::get('/vision-mission', function () {
     return View::make('_vision-mission');
 });

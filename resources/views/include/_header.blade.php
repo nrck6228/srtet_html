@@ -28,6 +28,9 @@
                     <div class="language--block">
                         <a href="javascript:void(0)" class="text--link" id="topLang">EN</a>
                     </div>
+                    <div class="callcenter--block">
+                        <a href="tel:1960" class="text--link" id="topCallCenter"><i class="icon-call"></i>&nbsp; Call Center 1960</a>
+                    </div>
                     <div class="social--block">
                         <a href="javascript:void(0)" class="social__icon">
                             <img src="{{ asset('assets/images/icon/facebook.svg')}}" alt="facebook">
@@ -61,9 +64,9 @@
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">เกี่ยวกับเรา</a>
                             <div class="dropdown-menu">
                                 <ul class="dropdown-nav">
-                                    <!-- <li class="dropdown-item">
+                                    <li class="dropdown-item">
                                         <a href="/history" title="ประวัติความเป็นมา" class="dropdown-link">ประวัติความเป็นมา</a>
-                                    </li> -->
+                                    </li>
 
                                     <li class="dropdown-item">
                                         <a href="/vision-mission" title="วิสัยทัศน์ พันธกิจ" class="dropdown-link">วิสัยทัศน์ พันธกิจ</a>
@@ -96,6 +99,9 @@
                                     </li>
                                     <li class="dropdown-item">
                                         <a href="/vote" title="Vote / Poll" class="dropdown-link">Vote / Poll</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="/survey" title="แบบสำรวจออนไลน์" class="dropdown-link">แบบสำรวจออนไลน์</a>
                                     </li>
                                 </ul>
                             </div>
@@ -173,33 +179,39 @@
 
         <div class="mobile--nav">
             <nav class="navbar">
-                <div class="collapse" id="collapseMobileNav">
-                    <div class="list--menu">
-                        <div class="font--block">
-                            <a href="javascript:void(0)" class="text--link" id="downFont">A-</a>
-                            <a href="javascript:void(0)" class="text--link" id="regularFont">A</a>
-                            <a href="javascript:void(0)" class="text--link" id="upFont">A+</a>
-                        </div>
-                        <div class="social--block">
-                            <a href="javascript:void(0)" class="social__icon">
-                                <img src="{{ asset('assets/images/icon/facebook.svg')}}" alt="facebook">
-                            </a>
-                            <a href="javascript:void(0)" class="social__icon">
-                                <img src="{{ asset('assets/images/icon/twitter.svg')}}" alt="twitter">
-                            </a>
-                            <a href="javascript:void(0)" class="social__icon">
-                                <img src="{{ asset('assets/images/icon/instagram.svg')}}" alt="instagram">
-                            </a>
-                            <a href="javascript:void(0)" class="social__icon">
-                                <img src="{{ asset('assets/images/icon/youtube.svg')}}" alt="youtube">
-                            </a>
-                            <a href="javascript:void(0)" class="social__icon">
-                                <img src="{{ asset('assets/images/icon/tiktok.svg')}}" alt="tiktok">
-                            </a>
-                        </div>
+                <div class="list--menu">
+                    <div class="font--block">
+                        <a href="javascript:void(0)" class="text--link" id="downFont">A-</a>
+                        <a href="javascript:void(0)" class="text--link" id="regularFont">A</a>
+                        <a href="javascript:void(0)" class="text--link" id="upFont">A+</a>
                     </div>
+                    <div class="social--block">
+                        <a href="javascript:void(0)" class="social__icon">
+                            <img src="{{ asset('assets/images/icon/facebook.svg')}}" alt="facebook">
+                        </a>
+                        <a href="javascript:void(0)" class="social__icon">
+                            <img src="{{ asset('assets/images/icon/twitter.svg')}}" alt="twitter">
+                        </a>
+                        <a href="javascript:void(0)" class="social__icon">
+                            <img src="{{ asset('assets/images/icon/instagram.svg')}}" alt="instagram">
+                        </a>
+                        <a href="javascript:void(0)" class="social__icon">
+                            <img src="{{ asset('assets/images/icon/youtube.svg')}}" alt="youtube">
+                        </a>
+                        <a href="javascript:void(0)" class="social__icon">
+                            <img src="{{ asset('assets/images/icon/tiktok.svg')}}" alt="tiktok">
+                        </a>
+                    </div>
+                </div>
 
+                <div class="collapse" id="collapseMobileNav">
                     <!-- Clone child html from #NavBar -->
+                </div>
+
+                <div class="list--menu justify-content-center">
+                    <div class="callcenter--block">
+                        <a href="tel:1960" class="text--link" id="topCallCenter"><i class="icon-call"></i>&nbsp; Call Center 1960</a>
+                    </div>
                 </div>
             </nav>
         </div>
