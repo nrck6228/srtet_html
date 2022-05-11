@@ -1,6 +1,6 @@
 @extends('masterpage')
 
-@section('title', 'ข่าวสารและกิจกรรม')
+@section('title', 'ภาพกิจกรรม')
 @section('keywords', 'รถไฟฟ้าสายสีแดง')
 @section('description', 'รถไฟฟ้าสายสีแดง')
 
@@ -14,6 +14,27 @@
                         <div class="slider__figure">
                             <img class="slider__image" src="{{ asset('assets/images/hero/banner-desktop.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
                         </div>
+                        <div class="slider__content">
+                            <h2 class="slider__title">
+                                รถไฟฟ้าสายสีแดง
+                            </h2>
+                            <h3 class="slider__text">
+                                ยกระดับคุณภาพชีวิตชานเมือง
+                            </h3>
+                        </div>
+                    </a>
+                    <a href="#" title="" class="slider__item">
+                        <div class="slider__figure">
+                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-desktop.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                        </div>
+                        <div class="slider__content">
+                            <h2 class="slider__title">
+                                รถไฟฟ้าสายสีแดง
+                            </h2>
+                            <h3 class="slider__text">
+                                ยกระดับคุณภาพชีวิตชานเมือง
+                            </h3>
+                        </div>
                     </a>
                 </div>
             </div>
@@ -25,7 +46,7 @@
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">หน้าแรก</a></li>
                         <li class="breadcrumb-item"><a href="#">ข่าวสารและกิจกรรม</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">ข่าวสาร</li>
+                        <li class="breadcrumb-item active" aria-current="page">ภาพกิจกรรม</li>
                     </ol>
                 </nav>
             </div>
@@ -34,7 +55,7 @@
         <article class="news--wrapper">
             <div class="container">
                 <div class="title--page justify-content-center">
-                    <h2 class="page__title text--primary mb-4">ข่าวสาร</h2>
+                    <h2 class="page__title text--primary mb-4">ภาพกิจกรรม</h2>
                 </div>
 
                 <div class="form-group mb-4">
@@ -42,8 +63,7 @@
                         <div class="col-md-3 col-sm-6 col-12">
                             <div class="search__controls">
                                 <select class="form-select" aria-label="Default select example">
-                                    <option selected>ข่าวสารประชาสัมพันธ์ทั่วไป</option>
-                                    <option value="">ข่าวจากศูนย์</option>
+                                    <option selected>กิจกรรมเพื่อสังคม</option>
                                 </select>
                             </div>
                             
@@ -66,7 +86,7 @@
                 
 
                 <div class="card-deck">
-                    <a href="/news-detail" class="card card--news">
+                    <a href="/activity-detail" class="card card--news">
                         <div class="card__pin">New</div>
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="ข่าว">
@@ -78,7 +98,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="/news-detail" class="card card--news">
+                    <a href="/activity-detail" class="card card--news">
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news2.png')}}" alt="ข่าว">
                         </div>
@@ -89,7 +109,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="/news-detail" class="card card--news">
+                    <a href="/activity-detail" class="card card--news">
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news3.png')}}" alt="ข่าว">
                         </div>
@@ -100,7 +120,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="/news-detail" class="card card--news">
+                    <a href="/activity-detail" class="card card--news">
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news4.png')}}" alt="ข่าว">
                         </div>
@@ -112,7 +132,7 @@
                         </div>
                     </a>
 
-                    <a href="/news-detail" class="card card--news">
+                    <a href="/activity-detail" class="card card--news">
                         <div class="card__pin">New</div>
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="ข่าว">
@@ -124,7 +144,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="/news-detail" class="card card--news">
+                    <a href="/activity-detail" class="card card--news">
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news2.png')}}" alt="ข่าว">
                         </div>
@@ -135,7 +155,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="/news-detail" class="card card--news">
+                    <a href="/activity-detail" class="card card--news">
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news3.png')}}" alt="ข่าว">
                         </div>
@@ -146,7 +166,7 @@
                             </div>
                         </div>
                     </a>
-                    <a href="/news-detail" class="card card--news">
+                    <a href="/activity-detail" class="card card--news">
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news4.png')}}" alt="ข่าว">
                         </div>
