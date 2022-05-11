@@ -14,16 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 // Route::get('/', function () {
-//     return view('welcome');
-// });
-
-// Route::get('/', function () {
 //     return view('index');
 // });
 
 Route::get('/', function()
 {
     return View::make('_home');
+});
+
+Route::get('/welcome', function () {
+    return view('welcome');
 });
 
 Route::get('/history', function () {
@@ -128,6 +128,11 @@ Route::get('/lostfound-detail', function () {
 
 Route::get('/calendar', function () {
     return View::make('_calendar');
+});
+
+Route::get('/report', function () {
+    return View::make('_report');
+
 });
 
 
