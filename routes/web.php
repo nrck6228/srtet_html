@@ -110,5 +110,25 @@ Route::get('/survey-detail', function () {
     return View::make('_survey-detail');
 });
 
+Route::get('/activity', function () {
+    return View::make('_activity');
+});
+
+Route::get('/activity-detail', function () {
+    return View::make('_activity-detail');
+});
+
+Route::get('/lostfound', function () {
+    return View::make('_lostfound');
+});
+
+Route::get('/lostfound-detail', function () {
+    return View::make('_lostfound-detail');
+});
+
+Route::get('/calendar', function () {
+    return View::make('_calendar');
+});
+
 
 
