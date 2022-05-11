@@ -17,6 +17,9 @@
                     font-size: 16px;
                     color: $darkgray;
                 }
+                &:focus{
+                    box-shadow: none;
+                }
             }
             &.active{
                 .page-link{

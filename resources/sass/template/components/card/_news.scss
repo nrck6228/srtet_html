@@ -53,9 +53,9 @@
 
     &:hover{
         .card__body{
-            border-left: 1px solid $red;
-            border-right: 1px solid $red;
-            border-bottom: 1px solid $red;
+            border-left: 2px solid $red;
+            border-right: 2px solid $red;
+            border-bottom: 2px solid $red;
             &:before{
                 content: "";
                 display: inline-block;

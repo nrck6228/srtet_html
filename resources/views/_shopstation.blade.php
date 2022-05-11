@@ -46,7 +46,7 @@
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">หน้าแรก</a></li>
                         <li class="breadcrumb-item"><a href="#">บริการลูกค้า</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">ร้านค้าต่างๆ ประจำสถานี</li>
+                        <li class="breadcrumb-item active" aria-current="page">สิ่งอำนวยความสะดวก</li>
                     </ol>
                 </nav>
             </div>
@@ -55,7 +55,7 @@
         <article class="news--wrapper">
             <div class="container">
                 <div class="title--page justify-content-center">
-                    <h2 class="page__title text--primary">ร้านค้าต่างๆ ประจำสถานี</h2>
+                    <h2 class="page__title text--primary">สิ่งอำนวยความสะดวก</h2>
                 </div>
 
                 <div class="form-filter">
@@ -160,6 +160,8 @@
                         </ul>
                     </nav>
                 </div>
+
+                @include('include._social')
             </div>
         </article>
     </main>

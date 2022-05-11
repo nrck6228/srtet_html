@@ -61,7 +61,7 @@
 
             <div class="form-group mb-4">
                 <form action="">
-                    <h4 class="h4 text-red mb-3">ข้อมูลทั่วไป</h4>
+                    <h3 class="h3 text-red mb-3">ข้อมูลทั่วไป</h3>
                     <div class="group-form">
                         <div class="row">
                             <div class="col-lg-3">
@@ -119,11 +119,11 @@
                         </div>
                     </div>
                     
-                    <h4 class="h4 text-red mb-3">การใช้บริการ รถไฟฟ้าแอร์พอร์ต เรล ลิงก์</h4>
+                    <h3 class="h3 text-red mb-3">การใช้บริการ รถไฟฟ้าแอร์พอร์ต เรล ลิงก์</h3>
                     <div class="group-form">
                         <div class="row">
                             <div class="col-12">
-                                <h4 class="h4 text-darkgray mb-3">การใช้บริการ รถไฟฟ้าแอร์พอร์ต เรล ลิงก์ ต่อสัปดาห์<span class="text-red">*</span> :</h4>
+                                <h3 class="h3 text-darkgray mb-3">การใช้บริการ รถไฟฟ้าแอร์พอร์ต เรล ลิงก์ ต่อสัปดาห์<span class="text-red">*</span> :</h3>
                             </div>
                             <div class="col-lg-3">
                                 <div class="form-check">
@@ -170,7 +170,7 @@
                     <div class="group-form">
                         <div class="row">
                             <div class="col-12">
-                                <h4 class="h4 text-darkgray mb-3">ช่วงเวลาในการใช้บริการรถไฟฟ้าแอร์พอร์ต เรล ลิงก์</h4>
+                                <h3 class="h3 text-darkgray mb-3">ช่วงเวลาในการใช้บริการรถไฟฟ้าแอร์พอร์ต เรล ลิงก์</h3>
                             </div>
                             <div class="col-lg-3">
                                 <div class="form-check">
@@ -241,33 +241,8 @@
                 </div>
             </div>
 
-            <div class="row row-cols-1 row-cols-md-2 justify-content-between">
-                <div class="col">
-                    <div class="view--count">
-                        จำนวนผู้เข้าชม : <span>39068</span> คน
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="social--block">
-                        <span>แชร์ :</span>
-                        <a href="javascript:void(0)" class="social__icon">
-                            <img src="http://127.0.0.1:8000/assets/images/icon/facebook.svg" alt="facebook">
-                        </a>
-                        <a href="javascript:void(0)" class="social__icon">
-                            <img src="http://127.0.0.1:8000/assets/images/icon/twitter.svg" alt="twitter">
-                        </a>
-                        <a href="javascript:void(0)" class="social__icon">
-                            <img src="http://127.0.0.1:8000/assets/images/icon/instagram.svg" alt="instagram">
-                        </a>
-                        <a href="javascript:void(0)" class="social__icon">
-                            <img src="http://127.0.0.1:8000/assets/images/icon/youtube.svg" alt="youtube">
-                        </a>
-                        <a href="javascript:void(0)" class="social__icon">
-                            <img src="http://127.0.0.1:8000/assets/images/icon/tiktok.svg" alt="tiktok">
-                        </a>
-                    </div>
-                </div>
-            </div>
+            @include('include._social')
+
 
             
         </div>

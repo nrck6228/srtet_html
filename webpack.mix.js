@@ -35,4 +35,3 @@ mix.sass('resources/sass/global.scss', 'public/css')
     .copy('resources/js', 'public/js')
     .copy('resources/spotlight', 'public/spotlight')
     .copy('node_modules/slick-carousel/slick', 'public/slick')
-    .copy('resources/datepicker', 'public/datepicker');

@@ -30,24 +30,27 @@
 }
 
 .form-control{
-    font-size: 1.625rem;
+    font-size: 1.5rem;
     line-height: 1.875rem;
     font-weight: bold;
-    color: $red;
+    color: $darkgray;
     height: 40px;
+    border-radius: 0;
+
     &:focus{
         outline: none;
         box-shadow: none;
+        color: $darkgray;
     }
     
 }
 .form-select{
-    font-size: 1.625rem;
+    font-size: 1.5rem;
     line-height: 1.875rem;
     font-weight: bold;
-    color: $red;
+    color: $darkgray;
     height: 40px;
-
+    border-radius: 0;
     option{
         font-size: 1.375rem;
         line-height: 1.625rem;
@@ -94,7 +97,8 @@
         height: 20px;
     }
     .form-check-label{
-        font-size: 1.375rem;
+        font-size: 1.5rem;
+        line-height: 1.7rem;
         font-weight: bold;
         color: $darkgray;
         margin-left: 5px;
@@ -108,7 +112,7 @@
             height: 40px;
             background-color: rgba($color: #929091, $alpha: 0.1);
             .input-group-text{
-                font-size: 1.625rem;
+                font-size: 1.5rem;
                 line-height: 1.875rem;
                 font-weight: bold;
                 color: $darkgray;
