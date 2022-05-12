@@ -153,11 +153,15 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="/procument">จัดซื้อจัดจ้าง</a>
+                            <a class="nav-link" title="จัดซื้อจัดจ้าง" href="/procument">จัดซื้อจัดจ้าง</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="/report">รายงานประจำปี</a>
+                            <a class="nav-link" title="รายงานประจำปี" href="/report">รายงานประจำปี</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" title="ติดต่อเรา" href="/contact">ติดต่อเรา</a>
                         </li>
                     </ul>
                 </div>
