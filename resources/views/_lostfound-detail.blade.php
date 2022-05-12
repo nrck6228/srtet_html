@@ -189,9 +189,11 @@
                         </div>
                     </div>
                 </div>
-            
-                @include('include._social')
 
+            </div>
+
+            <div class="container">
+                @include('include._social')
             </div>
         </article>
     </main>

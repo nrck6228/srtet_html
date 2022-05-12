@@ -386,16 +386,15 @@ html, body{
 .text--editor{
     clear: both;
     overflow: hidden;
+    margin-bottom: 2rem;
+
     /*
     * CKEditor 5 (v34.0.0) content styles.
     * Generated on Mon, 09 May 2022 10:49:49 GMT.
     * For more information, check out https://ckeditor.com/docs/ckeditor5/latest/installation/advanced/content-styles.html
     */
-
     
-
     .ck-content{
-        margin-bottom: 2rem;
         font-size: 1.5rem;
         line-height: 1.625rem;
 
@@ -408,6 +407,13 @@ html, body{
                 list-style-type: none;
                 list-style-image: url('../../../assets/images/icon/icon-polygon-right.svg');
             }
+        }
+
+        ol{
+            padding: 0;
+            margin: 0;
+            list-style-position: inside;
+            position: relative;
         }
     }
 
