@@ -39,12 +39,12 @@ $(".hamburger").click(function(){
 }); 
 
 // Home-->News(Tab)
-$("#tab_1").click(function(){
+$("#tab-A").click(function(){
     $(".page__readmore").attr("href", "/news")
 }); 
-$("#tab_2").click(function(){
-    $(".page__readmore").attr("href", "/news2")
+$("#tab-B").click(function(){
+    $(".page__readmore").attr("href", "/news")
 }); 
-$("#tab_3").click(function(){
-    $(".page__readmore").attr("href", "/news3")
+$("#tab-C").click(function(){
+    $(".page__readmore").attr("href", "/news")
 }); 

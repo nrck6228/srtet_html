@@ -94,9 +94,14 @@ $(document).ready(function(){
         ]
     });
 
-
     $('button[data-bs-toggle="tab"]').on('shown.bs.tab', function() {   
         $('.tab-content .tab-pane').find('.news--slider').slick('refresh');
         console.log('tab')
-    })
+    });
+
+    $('.card-header').on('click', function(e) {
+        console.log('Collapes')
+        $('#content').resize(); // I do not think, you need this.
+        $(".news--slider").slick("refresh");
+    });
 });
