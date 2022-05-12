@@ -119,7 +119,6 @@
                     </a>
                 </div>
                 
-
                 <div class="pagination-wrapper">
                     <nav aria-label="Page navigation example">
                         <ul class="pagination">
@@ -139,7 +138,9 @@
                         </ul>
                     </nav>
                 </div>
+            </div>
 
+            <div class="container">
                 @include('include._social')
             </div>
         </article>

@@ -38,14 +38,12 @@
                     <h2 class="page__title text--primary">วิสัยทัศน์และพันธกิจ</h2>
                 </div>
 
-                <div class="row row-cols-1 row-cols-md-2">
-                    <div class="col">
-                        <div class="content__figure">
-                            <img class="w-100" src="{{ asset('assets/images/about/vision-mission/img-demo-01.png')}}" alt="รถไฟฟ้าสายสีแดง">
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="content__text">
+                <div class="body--content">
+                    <div class="text--editor">
+                        <div class="ck-content">
+                            <figure class="image image_resized image-style-align-left" style="width: 50%;">
+                                <img src="{{ asset('assets/images/about/vision-mission/img-demo-01.png')}}" alt="รถไฟฟ้าสายสีแดง">
+                            </figure>
                             <h3>วิสัยทัศน์</h3>
                             <h4>
                                 “บริษัทฯ มุ่งมั่นเพื่อเป็นผู้นำในการให้บริการเดินรถไฟฟ้าที่มีมาตรฐานในระดับสากล”
@@ -76,12 +74,15 @@
                                     อำนวยความสะดวกในการเชื่อมต่อกับระบบขนส่งอื่นๆ
                                 </li>
                             </ol>
+
                         </div>
                     </div>
                 </div>
             </div>
 
-            @include('include._social')
+            <div class="container">
+                @include('include._social')
+            </div>
         </article>
     </main>
 

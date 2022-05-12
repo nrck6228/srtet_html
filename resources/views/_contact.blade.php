@@ -188,9 +188,7 @@
                     </div>
                 </div>
             </div>
-
             
-
             <div class="verify--wrapper">
                 <div class="title--verify">กรุณายืนยันตัวตน</div>
                 <div class="captcha--verify">

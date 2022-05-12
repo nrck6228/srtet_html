@@ -38,37 +38,41 @@
                     <h2 class="page__title text--primary">ผังโครงสร้างองค์กร</h2>
                 </div>
 
-                <div class="row">
-                    <div class="col-12">
-                        <div class="group__icon">
-                            <a href="{{ asset('assets/images/about/img-organization-chart.png')}}" title="ขยาย" data-title="false" class="spotlight">
-                                <span class="icon">
-                                    <i class="icon-zoom-in"></i>
-                                </span>
-                                <span class="text">
-                                    ขยาย
-                                </span>
-                            </a>
-                            <a href="javascript:void(0)" title="ดาวน์โหลด">
-                                <span class="icon">
-                                    <i class="icon-file-pdf"></i>
-                                </span>
-                                <span class="text">
-                                    ดาวน์โหลด
-                                </span>
-                            </a>
+                <div class="body--content">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="group__icon">
+                                <a href="{{ asset('assets/images/about/img-organization-chart.png')}}" title="ขยาย" data-title="false" class="spotlight">
+                                    <span class="icon">
+                                        <i class="icon-zoom-in"></i>
+                                    </span>
+                                    <span class="text">
+                                        ขยาย
+                                    </span>
+                                </a>
+                                <a href="javascript:void(0)" title="ดาวน์โหลด">
+                                    <span class="icon">
+                                        <i class="icon-file-pdf"></i>
+                                    </span>
+                                    <span class="text">
+                                        ดาวน์โหลด
+                                    </span>
+                                </a>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="col-12">
-                        <div class="content__figure">
-                            <img class="w-100" src="{{ asset('assets/images/about/img-organization-chart.png')}}" alt="รถไฟฟ้าสายสีแดง">
+                        <div class="col-12">
+                            <div class="content__figure">
+                                <img class="w-100" src="{{ asset('assets/images/about/img-organization-chart.png')}}" alt="รถไฟฟ้าสายสีแดง">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            @include('include._social')
+            <div class="container">
+                @include('include._social')
+            </div>
         </article>
     </main>
 

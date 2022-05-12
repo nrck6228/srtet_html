@@ -219,11 +219,10 @@
                     <button class="btn btn--primary"><span>ส่งคำตอบ</span></button>
                 </div>
             </div>
+        </div>
 
+        <div class="container">
             @include('include._social')
-
-
-            
         </div>
     </div>
 
