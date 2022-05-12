@@ -117,8 +117,6 @@
                         </ul>
                     </nav>
                 </div>
-
-                @include('include._social')
             </div>
         </article>
 

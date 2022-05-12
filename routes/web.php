@@ -132,7 +132,10 @@ Route::get('/calendar', function () {
 
 Route::get('/report', function () {
     return View::make('_report');
+});
 
+Route::get('/contact', function () {
+    return View::make('_contact');
 });
 
 

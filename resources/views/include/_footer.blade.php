@@ -274,7 +274,7 @@
     </div>
 </footer>
 
-<div class="consent--banner">
+<div class="consent--banner" style="display: none;">
     <div class="container">
         <div class="consent--banner__inner">
             <div class="consent--banner__copy">
