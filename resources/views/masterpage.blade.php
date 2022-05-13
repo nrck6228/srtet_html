@@ -37,7 +37,7 @@
 
         @stack('script-slick')
 
-        @stack('script-linktab')
+        @stack('script-tab')
 
         @stack('script-spotlight')
 
