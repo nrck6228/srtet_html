@@ -113,6 +113,7 @@
 .form-group{
     .input-group{
         margin-bottom: 20px;
+        flex-direction: column;
         .input-group-prepend{
             height: 40px;
             background-color: rgba($color: #929091, $alpha: 0.1);
@@ -122,36 +123,72 @@
                 font-weight: bold;
                 color: $darkgray;
                 padding: 4px 15px;
-                border-right: none;
+                //border-right: none;
                 border-radius: 0;
                 span{
                     color: $red;
                 }
             }
-        }
-        .form-control{
-            border-left: none;
-        }
-        
-        &.flex-column{
-            .input-group-prepend{
-                .input-group-text{
-                    border: 1px solid #ced4da;
+
+            &.icon{
+                &__date{
+                    .form-control{
+                        padding-right: 45px;
+                    }
+                    &:after{
+                        font-family: bootstrap-icons !important;
+                        font-style: normal;
+                        font-weight: normal !important;
+                        font-variant: normal;
+                        content: '\F214';
+                        font-size: 18px;
+                        line-height: 18px;
+                        color: #929091;
+                        position: absolute;
+                        z-index: 9;
+                        right: 13px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                }
+                &__upload{
+                    .form-control{
+                        padding-right: 45px;
+                    }
+                    &:after{
+                        font-family: bootstrap-icons !important;
+                        font-style: normal;
+                        font-weight: normal !important;
+                        font-variant: normal;
+                        content: '\F358';
+                        font-size: 18px;
+                        line-height: 18px;
+                        color: #929091;
+                        position: absolute;
+                        z-index: 9;
+                        right: 13px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
                 }
             }
-            .form-control{
-                border: 1px solid #ced4da;
-                border-top: none;
-                width: 100%;
-                border-radius: 0;
-                margin-left: 0 !important;
-            }
-            textarea{
-                resize: none;
-                height: 220px;
-            }
-            
         }
+        .form-control{
+            //border-left: none;
+            border-top: none;
+            width: 100%;
+            margin-left: 0 !important;
+        }
+        .form-select{
+            width: 100%;
+            border-top: none;
+            margin-left: 0 !important;
+        }
+        textarea{
+            resize: none;
+            height: 220px;
+        }
+        
     }
 
     .form-check{

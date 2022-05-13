@@ -43,12 +43,14 @@
                     <div class="block--group">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.5880295004977!2d100.53999381488886!3d13.803690699807849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29c6d4772d1b9%3A0x5edf427b40688147!2sBang%20Sue%20Station!5e0!3m2!1sen!2sth!4v1652322048212!5m2!1sen!2sth" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
+                </div>
+                <div class="col-lg-6">
                     <div class="block--group">
                         <h3 class="title text--primary">
                             รถไฟฟ้าสายสีแดง : 
                         </h3>
                         <div class="row">
-                            <div class="col-md-7">
+                            <div class="col-md-12">
                                 <address class="contact--block">
                                     <span class="content__icon">
                                         <i class="icon-location"></i>
@@ -59,9 +61,6 @@
                                         เขตห้วยขวาง กรุงเทพฯ 10320
                                     </span>
                                 </address>
-                            </div>
-
-                            <div class="col-md-5">
                                 <div class="contact--block">
                                     <span class="content__icon">
                                         <i class="icon-call"></i>
@@ -70,7 +69,6 @@
                                         02-308-5600 #0
                                     </a>
                                 </div>
-
                                 <div class="contact--block">
                                     <span class="content__icon">
                                         <i class="icon-mail"></i>
@@ -108,7 +106,10 @@
                         </div> -->
                     </div>
                 </div>
-                <div class="col-lg-6">
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-12">
                     <div class="form-group mb-4">
                         <form action="">
                             <!-- <h3 class="h3 text-red mb-3">ข้อมูลทั่วไป</h3> -->
@@ -175,7 +176,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
-                                        <div class="input-group flex-column">
+                                        <div class="input-group">
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text">รายละเอียด</span>
                                             </div>

@@ -139,4 +139,15 @@ Route::get('/contact', function () {
 });
 
 
+Route::get('/form1', function () {
+    return View::make('career._form_1');
+});
+Route::get('/form2', function () {
+    return View::make('career._form_2');
+});
+Route::get('/form3', function () {
+    return View::make('career._form_3');
+});
+
+
 
