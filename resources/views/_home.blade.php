@@ -324,7 +324,7 @@
                         <div class="col-lg-8">
                             <a href="#" class="events--item">
                                 <div class="row align-items-center">
-                                    <div class="col-lg-3">
+                                    <div class="col-md-3">
                                         <div class="events__date">
                                             <div class="start__date">
                                                 <h2 class="h2">
@@ -347,7 +347,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-9">
+                                    <div class="col-md-8">
                                         <div class="events__content">
                                             <h3 class="h3">
                                                 บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง 
@@ -363,7 +363,7 @@
 
                             <a href="#" class="events--item">
                                 <div class="row align-items-center">
-                                    <div class="col-lg-3">
+                                    <div class="col-md-3">
                                         <div class="events__date">
                                             <div class="start__date">
                                                 <h2 class="h2">
@@ -375,7 +375,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-9">
+                                    <div class="col-md-8">
                                         <div class="events__content">
                                             <h3 class="h3">
                                                 บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง 
@@ -390,7 +390,7 @@
 
                             <a href="#" class="events--item">
                                 <div class="row align-items-center">
-                                    <div class="col-lg-3">
+                                    <div class="col-md-3">
                                         <div class="events__date">
                                             <div class="start__date">
                                                 <h2 class="h2">
@@ -413,7 +413,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-9">
+                                    <div class="col-md-8">
                                         <div class="events__content">
                                             <h3 class="h3">
                                                 บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง 
@@ -429,7 +429,7 @@
 
                             <a href="#" class="events--item">
                                 <div class="row align-items-center">
-                                    <div class="col-lg-3">
+                                    <div class="col-md-3">
                                         <div class="events__date">
                                             <div class="start__date">
                                                 <h2 class="h2">
@@ -441,7 +441,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-9">
+                                    <div class="col-md-8">
                                         <div class="events__content">
                                             <h3 class="h3">
                                                 บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง 
