@@ -876,7 +876,7 @@ html, body{
         }
     }
 
-    @include media-breakpoint-down(lg) {
+    @include media-breakpoint-down(md) {
         .tab-pane {
             display: block !important;
             opacity: 1;
