@@ -32,7 +32,7 @@
             </div>
         </div>
 
-        <article class="news--wrapper">
+        <article class="page--content news--wrapper">
             <div class="container">
                 <div class="title--page justify-content-center">
                     <h2 class="page__title text--primary">ให้หนังสือพาคุณเดินทางสู่อนาคต ที่ใกล้ตากว่าที่คิด</h2>
@@ -168,9 +168,10 @@
                         </div>
                     </div>
                 </div>
-            
-                @include('include._social')
+            </div>
 
+            <div class="container">
+                @include('include._social')
             </div>
         </article>
     </main>

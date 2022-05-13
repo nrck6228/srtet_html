@@ -373,6 +373,12 @@
             position: absolute;
             top: 0;
             right: 0;
+
+            @include media-breakpoint-down(lg){
+                position: relative;
+                top: auto;
+                right: auto;
+            }
         }
     }
 
