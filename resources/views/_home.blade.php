@@ -470,13 +470,13 @@
                     </a>
                     <ul class="nav nav-tabs nav-tabs--secondary" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="tab_1" data-bs-toggle="tab" data-bs-target="#nav-tab_1" type="button" role="tab" aria-controls="nav-tab_1" aria-selected="true">กิจกรรมการตลาด</button>
+                            <button class="nav-link active" id="tab_1" data-link="link_1" data-bs-toggle="tab" data-bs-target="#nav-tab_1" type="button" role="tab" aria-controls="nav-tab_1" aria-selected="true">กิจกรรมการตลาด</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="tab_2" data-bs-toggle="tab" data-bs-target="#nav-tab_2" type="button" role="tab" aria-controls="nav-tab_2" aria-selected="false">ข่าวประชาสัมพันธ์</button>
+                            <button class="nav-link" id="tab_2" data-link="link_2" data-bs-toggle="tab" data-bs-target="#nav-tab_2" type="button" role="tab" aria-controls="nav-tab_2" aria-selected="false">ข่าวประชาสัมพันธ์</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="tab_3" data-bs-toggle="tab" data-bs-target="#nav-tab_3" type="button" role="tab" aria-controls="nav-tab_3" aria-selected="false">ข้อปฏิบัติการใช้งาน</button>
+                            <button class="nav-link" id="tab_3" data-link="link_3" data-bs-toggle="tab" data-bs-target="#nav-tab_3" type="button" role="tab" aria-controls="nav-tab_3" aria-selected="false">ข้อปฏิบัติการใช้งาน</button>
                         </li>
                     </ul>
                 </div>
@@ -1029,4 +1029,25 @@
     <!-- Slick JS  -->
     <script type="text/javascript" src="{{ mix('/slick/slick.min.js') }}"></script>
     <script type="text/javascript" src="{{ mix('/js/slick.js') }}"></script>
+@endpush
+
+@push('script-linktab')
+    <script>
+        // Home-->News(Tab)
+        $("#tab_1").click(function(){
+            let Tablink = $(this).data('link');
+            //console.log(Tablink)
+            $(".page__readmore").attr("href", Tablink)
+        }); 
+        $("#tab_2").click(function(){
+            let Tablink2 = $(this).data('link');
+            //console.log(Tablink2)
+            $(".page__readmore").attr("href", Tablink2)
+        }); 
+        $("#tab_3").click(function(){
+            let Tablink3 = $(this).data('link');
+            //console.log(Tablink3)
+            $(".page__readmore").attr("href", Tablink3)
+        }); 
+    </script>
 @endpush
