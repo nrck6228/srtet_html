@@ -462,10 +462,8 @@
         <article class="home--news">
             <div class="container">
 
-
-
                 <div class="responsive--tabs">
-                    <div class="title--page justify-content-end">
+                    <div class="title--page justify-content-end justify-content-lg-center">
                         <a href="/news" title="เพิ่มเติม" class="page__readmore">
                             <span class="link__text">เพิ่มเติม</span>
                             <span class="link__icon">
@@ -475,13 +473,13 @@
 
                         <ul class="nav nav-tabs nav-tabs--secondary" id="sectionNews" role="tablist">
                             <li class="nav-item">
-                                <button class="nav-link active" id="tab-A" data-bs-toggle="tab" data-bs-target="#pane-A" type="button" role="tab" aria-controls="pane-A" aria-selected="true">กิจกรรมการตลาด</button>
+                                <button class="nav-link active" id="tab-A" data-id="news" data-bs-toggle="tab" data-bs-target="#pane-A" type="button" role="tab" aria-controls="pane-A" aria-selected="true">กิจกรรมการตลาด</button>
                             </li>
                             <li class="nav-item">
-                                <button class="nav-link" id="tab-B" data-bs-toggle="tab" data-bs-target="#pane-B" type="button" role="tab" aria-controls="pane-B" aria-selected="false">ข่าวประชาสัมพันธ์</button>
+                                <button class="nav-link" id="tab-B" data-id="news" data-bs-toggle="tab" data-bs-target="#pane-B" type="button" role="tab" aria-controls="pane-B" aria-selected="false">ข่าวประชาสัมพันธ์</button>
                             </li>
                             <li class="nav-item">
-                                <button class="nav-link" id="tab-C" data-bs-toggle="tab" data-bs-target="#pane-C" type="button" role="tab" aria-controls="pane-C" aria-selected="false">ข้อปฏิบัติการใช้งาน</button>
+                                <button class="nav-link" id="tab-C" data-id="news" data-bs-toggle="tab" data-bs-target="#pane-C" type="button" role="tab" aria-controls="pane-C" aria-selected="false">ข้อปฏิบัติการใช้งาน</button>
                             </li>
                         </ul>
                     </div>
@@ -764,287 +762,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
-                <!-- <div class="title--page justify-content-center">
-                    <a href="/news" title="เพิ่มเติม" class="page__readmore">
-                        <span class="link__text">เพิ่มเติม</span>
-                        <span class="link__icon">
-                            <i class="icon-angle-right"></i>
-                        </span>
-                    </a>
-                    <ul class="nav nav-tabs nav-tabs--secondary" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="tab_1" data-link="link_1" data-bs-toggle="tab" data-bs-target="#nav-tab_1" type="button" role="tab" aria-controls="nav-tab_1" aria-selected="true">กิจกรรมการตลาด</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="tab_2" data-link="link_2" data-bs-toggle="tab" data-bs-target="#nav-tab_2" type="button" role="tab" aria-controls="nav-tab_2" aria-selected="false">ข่าวประชาสัมพันธ์</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="tab_3" data-link="link_3" data-bs-toggle="tab" data-bs-target="#nav-tab_3" type="button" role="tab" aria-controls="nav-tab_3" aria-selected="false">ข้อปฏิบัติการใช้งาน</button>
-                        </li>
-                    </ul>
-                </div>
-                
-                <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-tab_1" role="tabpanel" aria-labelledby="tab_1">
-                        <div class="news--slider">
-                            <div class="item">
-                                <a href="" class="card--news-slide">
-                                    <div class="card__figure">
-                                        <img src="{{ asset('assets/images/news/img-demo-01.png')}}" alt="ข่าว">
-                                    </div>
-                                    <div class="card__body">
-                                        <div class="card__date">5 เมษายน 2565</div>
-                                        <div class="card__title">
-                                            วันจักรี
-                                        </div>
-                                        <p class="card__desc">
-                                            เป็นวันระลึกถึงมหาจักรีบรมราชวงศ์ ที่พระพุทธยอดฟ้าจุฬาโลกมหาราช (รัชกาลที่ ๑) เสด็จขึ้นครองราชย์เป็นกษัตริย์พระองค์แรกแห่งราชวงศ์จักรี
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="" class="card--news-slide">
-                                    <div class="card__figure">
-                                        <img src="{{ asset('assets/images/news/img-demo-02.png')}}" alt="ข่าว">
-                                    </div>
-                                    <div class="card__body">
-                                        <div class="card__date">5 เมษายน 2565</div>
-                                        <div class="card__title">
-                                            วันคล้ายวันประสูติ ทูลกระหม่อมหญิง อุบลรัตน์ราชกัญญา สิริวัฒนาพรรณวดี
-                                        </div>
-                                        <p class="card__desc">
-                                            ขอพระองค์ทรงพระเจริญ ควรมิควรแล้วแต่จะโปรดเกล้าโปรดกระหม่อม
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="" class="card--news-slide">
-                                    <div class="card__figure">
-                                        <img src="{{ asset('assets/images/news/img-demo-03.png')}}" alt="ข่าว">
-                                    </div>
-                                    <div class="card__body">
-                                        <div class="card__date">5 เมษายน 2565</div>
-                                        <div class="card__title">
-                                            วันคล้ายวันพระราชสมภพ สมเด็จพระกนิษฐาธิราชเจ้า กรมสมเด็จ ...
-                                        </div>
-                                        <p class="card__desc">
-                                            ด้วยเกล้าด้วยกระหม่อม ข้าพระพุทธเจ้า คณะผู้บริหาร และพนักงาน บริษัท
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="item">
-                                <a href="" class="card--news-slide">
-                                    <div class="card__figure">
-                                        <img src="{{ asset('assets/images/news/img-demo-02.png')}}" alt="ข่าว">
-                                    </div>
-                                    <div class="card__body">
-                                        <div class="card__date">5 เมษายน 2565</div>
-                                        <div class="card__title">
-                                            วันคล้ายวันประสูติ ทูลกระหม่อมหญิง อุบลรัตน์ราชกัญญา สิริวัฒนาพรรณวดี
-                                        </div>
-                                        <p class="card__desc">
-                                            ขอพระองค์ทรงพระเจริญ ควรมิควรแล้วแต่จะโปรดเกล้าโปรดกระหม่อม
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="" class="card--news-slide">
-                                    <div class="card__figure">
-                                        <img src="{{ asset('assets/images/news/img-demo-03.png')}}" alt="ข่าว">
-                                    </div>
-                                    <div class="card__body">
-                                        <div class="card__date">5 เมษายน 2565</div>
-                                        <div class="card__title">
-                                            วันคล้ายวันพระราชสมภพ สมเด็จพระกนิษฐาธิราชเจ้า กรมสมเด็จ ...
-                                        </div>
-                                        <p class="card__desc">
-                                            ด้วยเกล้าด้วยกระหม่อม ข้าพระพุทธเจ้า คณะผู้บริหาร และพนักงาน บริษัท
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="nav-tab_2" role="tabpanel" aria-labelledby="tab_2">
-                        <div class="card-deck news--slider">
-                            <div class="item">
-                                <a href="" class="card--news-slide">
-                                    <div class="card__figure">
-                                        <img src="{{ asset('assets/images/news/img-demo-01.png')}}" alt="ข่าว">
-                                    </div>
-                                    <div class="card__body">
-                                        <div class="card__date">5 เมษายน 2565</div>
-                                        <div class="card__title">
-                                            วันจักรี
-                                        </div>
-                                        <p class="card__desc">
-                                            เป็นวันระลึกถึงมหาจักรีบรมราชวงศ์ ที่พระพุทธยอดฟ้าจุฬาโลกมหาราช (รัชกาลที่ ๑) เสด็จขึ้นครองราชย์เป็นกษัตริย์พระองค์แรกแห่งราชวงศ์จักรี
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="" class="card--news-slide">
-                                    <div class="card__figure">
-                                        <img src="{{ asset('assets/images/news/img-demo-02.png')}}" alt="ข่าว">
-                                    </div>
-                                    <div class="card__body">
-                                        <div class="card__date">5 เมษายน 2565</div>
-                                        <div class="card__title">
-                                            วันคล้ายวันประสูติ ทูลกระหม่อมหญิง อุบลรัตน์ราชกัญญา สิริวัฒนาพรรณวดี
-                                        </div>
-                                        <p class="card__desc">
-                                            ขอพระองค์ทรงพระเจริญ ควรมิควรแล้วแต่จะโปรดเกล้าโปรดกระหม่อม
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="" class="card--news-slide">
-                                    <div class="card__figure">
-                                        <img src="{{ asset('assets/images/news/img-demo-03.png')}}" alt="ข่าว">
-                                    </div>
-                                    <div class="card__body">
-                                        <div class="card__date">5 เมษายน 2565</div>
-                                        <div class="card__title">
-                                            วันคล้ายวันพระราชสมภพ สมเด็จพระกนิษฐาธิราชเจ้า กรมสมเด็จ ...
-                                        </div>
-                                        <p class="card__desc">
-                                            ด้วยเกล้าด้วยกระหม่อม ข้าพระพุทธเจ้า คณะผู้บริหาร และพนักงาน บริษัท
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="item">
-                                <a href="" class="card--news-slide">
-                                    <div class="card__figure">
-                                        <img src="{{ asset('assets/images/news/img-demo-02.png')}}" alt="ข่าว">
-                                    </div>
-                                    <div class="card__body">
-                                        <div class="card__date">5 เมษายน 2565</div>
-                                        <div class="card__title">
-                                            วันคล้ายวันประสูติ ทูลกระหม่อมหญิง อุบลรัตน์ราชกัญญา สิริวัฒนาพรรณวดี
-                                        </div>
-                                        <p class="card__desc">
-                                            ขอพระองค์ทรงพระเจริญ ควรมิควรแล้วแต่จะโปรดเกล้าโปรดกระหม่อม
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="" class="card--news-slide">
-                                    <div class="card__figure">
-                                        <img src="{{ asset('assets/images/news/img-demo-03.png')}}" alt="ข่าว">
-                                    </div>
-                                    <div class="card__body">
-                                        <div class="card__date">5 เมษายน 2565</div>
-                                        <div class="card__title">
-                                            วันคล้ายวันพระราชสมภพ สมเด็จพระกนิษฐาธิราชเจ้า กรมสมเด็จ ...
-                                        </div>
-                                        <p class="card__desc">
-                                            ด้วยเกล้าด้วยกระหม่อม ข้าพระพุทธเจ้า คณะผู้บริหาร และพนักงาน บริษัท
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="nav-tab_3" role="tabpanel" aria-labelledby="tab_3">
-                        <div class="card-deck news--slider">
-                            <div class="item">
-                                <a href="" class="card--news-slide">
-                                    <div class="card__figure">
-                                        <img src="{{ asset('assets/images/news/img-demo-01.png')}}" alt="ข่าว">
-                                    </div>
-                                    <div class="card__body">
-                                        <div class="card__date">5 เมษายน 2565</div>
-                                        <div class="card__title">
-                                            วันจักรี
-                                        </div>
-                                        <p class="card__desc">
-                                            เป็นวันระลึกถึงมหาจักรีบรมราชวงศ์ ที่พระพุทธยอดฟ้าจุฬาโลกมหาราช (รัชกาลที่ ๑) เสด็จขึ้นครองราชย์เป็นกษัตริย์พระองค์แรกแห่งราชวงศ์จักรี
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="" class="card--news-slide">
-                                    <div class="card__figure">
-                                        <img src="{{ asset('assets/images/news/img-demo-02.png')}}" alt="ข่าว">
-                                    </div>
-                                    <div class="card__body">
-                                        <div class="card__date">5 เมษายน 2565</div>
-                                        <div class="card__title">
-                                            วันคล้ายวันประสูติ ทูลกระหม่อมหญิง อุบลรัตน์ราชกัญญา สิริวัฒนาพรรณวดี
-                                        </div>
-                                        <p class="card__desc">
-                                            ขอพระองค์ทรงพระเจริญ ควรมิควรแล้วแต่จะโปรดเกล้าโปรดกระหม่อม
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="" class="card--news-slide">
-                                    <div class="card__figure">
-                                        <img src="{{ asset('assets/images/news/img-demo-03.png')}}" alt="ข่าว">
-                                    </div>
-                                    <div class="card__body">
-                                        <div class="card__date">5 เมษายน 2565</div>
-                                        <div class="card__title">
-                                            วันคล้ายวันพระราชสมภพ สมเด็จพระกนิษฐาธิราชเจ้า กรมสมเด็จ ...
-                                        </div>
-                                        <p class="card__desc">
-                                            ด้วยเกล้าด้วยกระหม่อม ข้าพระพุทธเจ้า คณะผู้บริหาร และพนักงาน บริษัท
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="item">
-                                <a href="" class="card--news-slide">
-                                    <div class="card__figure">
-                                        <img src="{{ asset('assets/images/news/img-demo-02.png')}}" alt="ข่าว">
-                                    </div>
-                                    <div class="card__body">
-                                        <div class="card__date">5 เมษายน 2565</div>
-                                        <div class="card__title">
-                                            วันคล้ายวันประสูติ ทูลกระหม่อมหญิง อุบลรัตน์ราชกัญญา สิริวัฒนาพรรณวดี
-                                        </div>
-                                        <p class="card__desc">
-                                            ขอพระองค์ทรงพระเจริญ ควรมิควรแล้วแต่จะโปรดเกล้าโปรดกระหม่อม
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="" class="card--news-slide">
-                                    <div class="card__figure">
-                                        <img src="{{ asset('assets/images/news/img-demo-03.png')}}" alt="ข่าว">
-                                    </div>
-                                    <div class="card__body">
-                                        <div class="card__date">5 เมษายน 2565</div>
-                                        <div class="card__title">
-                                            วันคล้ายวันพระราชสมภพ สมเด็จพระกนิษฐาธิราชเจ้า กรมสมเด็จ ...
-                                        </div>
-                                        <p class="card__desc">
-                                            ด้วยเกล้าด้วยกระหม่อม ข้าพระพุทธเจ้า คณะผู้บริหาร และพนักงาน บริษัท
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </article>
 
@@ -1338,23 +1055,34 @@
     <script type="text/javascript" src="{{ mix('/js/slick.js') }}"></script>
 @endpush
 
-@push('script-linktab')
+@push('script-tab')
     <script>
         // Home-->News(Tab)
-        $("#tab_1").click(function(){
+        $("#tab-A, #heading-A").click(function(){
             let Tablink = $(this).data('link');
             //console.log(Tablink)
             $(".page__readmore").attr("href", Tablink)
         }); 
-        $("#tab_2").click(function(){
+        $("#tab-B, #heading-B").click(function(){
             let Tablink2 = $(this).data('link');
             //console.log(Tablink2)
             $(".page__readmore").attr("href", Tablink2)
         }); 
-        $("#tab_3").click(function(){
+        $("#tab-C, #heading-C").click(function(){
             let Tablink3 = $(this).data('link');
             //console.log(Tablink3)
             $(".page__readmore").attr("href", Tablink3)
         }); 
+
+        // // Home--> News(Accordion)
+        // $("#heading-A").click(function(){
+        //     $(".page__readmore").attr("href", "/news")
+        // }); 
+        // $("#heading-B").click(function(){
+        //     $(".page__readmore").attr("href", "/news")
+        // }); 
+        // $("#heading-C").click(function(){
+        //     $(".page__readmore").attr("href", "/news")
+        // }); 
     </script>
 @endpush
