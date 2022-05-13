@@ -37,27 +37,3 @@ $(".hamburger").click(function(){
 
     $("body").toggleClass('open-menu');
 }); 
-
-// Home--> News(Tab)
-$("#tab-A").click(function(){
-    $(".page__readmore").attr("href", "/news")
-}); 
-$("#tab-B").click(function(){
-    $(".page__readmore").attr("href", "/news")
-}); 
-$("#tab-C").click(function(){
-    $(".page__readmore").attr("href", "/news")
-}); 
-
-// Home--> News(Accordion)
-$("#heading-A").click(function(){
-    $(".page__readmore").attr("href", "/news")
-}); 
-$("#heading-B").click(function(){
-    $(".page__readmore").attr("href", "/news")
-}); 
-$("#heading-C").click(function(){
-    $(".page__readmore").attr("href", "/news")
-}); 
-
-

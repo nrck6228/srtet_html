@@ -37,6 +37,8 @@
 
         @stack('script-slick')
 
+        @stack('script-linktab')
+
         @stack('script-spotlight')
 
         @stack('script-datepicker')
