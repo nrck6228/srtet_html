@@ -465,7 +465,7 @@
 
 
                 <div class="responsive--tabs">
-                    <div class="title--page justify-content-center">
+                    <div class="title--page justify-content-end">
                         <a href="/news" title="เพิ่มเติม" class="page__readmore">
                             <span class="link__text">เพิ่มเติม</span>
                             <span class="link__icon">
