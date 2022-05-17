@@ -1,5 +1,5 @@
 $color-primary:         #BC1320;
-$gray:                  #4d4d4d;
+$gray:                  #929190;
 $darkgray:              #333;
 
 $colors: ();
@@ -217,7 +217,7 @@ a.text--link{
     .navbar--bottom{
         .dropdown--navbar{
             a.dropdown-link {
-                color: $darkgray;
+                color: $gray;
 
                 &:hover{
                     color: $color-primary;
