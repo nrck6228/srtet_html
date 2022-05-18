@@ -37,22 +37,28 @@
                     <h2 class="page__title text--primary mb-4">แบบสำรวจ Online</h2>
                 </div>
 
-                <div class="form-group mb-4">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls icon icon__date">
-                                <input type="text" id="start_date" class="form-control start-date" placeholder="วันที่เริ่มต้น">
+                <div class="form-group-wrapper mb-4">
+                    <form action="">
+                        <div class="form-group--section">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="form-group form--float icon icon__date">
+                                        <input id="start_date" class="form-control start-date" type="text" placeholder="" value="">
+                                        <label>วันที่เริ่มต้น</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="form-group form--float icon icon__date">
+                                        <input id="end_date" class="form-control end-date" type="text" placeholder="" value="">
+                                        <label>วันที่สิ้นสุด</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-6 col-12">
+                                    <button type="button" class="btn btn--primary"><span>ค้นหา</span></button>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls icon icon__date">
-                                <input type="text" id="end_date" class="form-control end-date" placeholder="วันที่สิ้นสุด">
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-sm-6 col-12">
-                            <button type="button" class="btn btn--primary"><span>ค้นหา</span></button>
-                        </div>
-                    </div>
+                    </form>
                 </div>
                 
 
