@@ -46,15 +46,19 @@
     &:read-only{
         background-color: #fff;
     }
+
+    &:disabled{
+        background-color: #dddddd;
+    }
     
 }
 .form-select{
     font-size: 1.5rem;
     line-height: 1.875rem;
     font-weight: bold;
-    color: $red;
     height: 40px;
     border-radius: 0;
+    color: $red;
     option{
         font-size: 1.375rem;
         line-height: 1.625rem;
@@ -66,6 +70,8 @@
         outline: none;
         box-shadow: none;
     }
+    
+    
     
 }
 .form-check{
@@ -108,15 +114,154 @@
         color: $darkgray;
         margin-left: 5px;
     }
+
+    &--other{
+        display: flex;
+        .form-input-other{
+            position: relative;
+            top: -7px;
+            margin-left: 10px;
+            width: 50%;
+        }
+    }
 }
 
-.form-group{
+.form-group-wrapper{
+    .form-group--section{
+        margin-bottom: 40px;
+        .form-group{
+            &.icon{
+                &__date{
+                    .form-control{
+                        padding-right: 45px;
+                    }
+                    &:after{
+                        font-family: bootstrap-icons !important;
+                        font-style: normal;
+                        font-weight: normal !important;
+                        font-variant: normal;
+                        content: '\F214';
+                        font-size: 18px;
+                        line-height: 18px;
+                        color: #929091;
+                        position: absolute;
+                        right: 13px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+        }
+    }
+    //style contact form
+    .form--float { 
+        position:relative; 
+        margin-bottom: 1.5rem; 
+
+        label{
+            color:$gray; 
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+            font-weight: bold;
+            position:absolute;
+            pointer-events:none;
+            left: 10px;
+            top: 10px;
+            padding:0 5px;
+            background:white;
+            transition:0.2s ease all; 
+            -moz-transition:0.2s ease all; 
+            -webkit-transition:0.2s ease all;
+        }
+        .form-control{
+            font-size: 1.5rem;
+            display:block;
+            width:100%;
+            height:45px;
+            padding: 0 1rem;
+            background: white;
+            color: $red;
+            border: 1px solid $gray;
+            border-radius: 0;
+            box-sizing: border-box;
+
+            &:focus{
+                outline:none;
+                //border-color: $blue;
+                box-shadow: none;
+            }
+            &textarea{
+
+            }
+        }
+        .form-control:focus + label {
+            top:-12px;
+            font-size: 1.25rem;
+            line-height: 1.25rem;
+            color: $darkgray
+        }
+        .form-select{
+            font-size: 1.5rem;
+            line-height: 1.875rem;
+            font-weight: bold;
+            height: 45px;
+            border-radius: 0;
+            border: 1px solid $gray;
+            &:focus{
+                outline:none;
+                //border-color: $blue;
+                box-shadow: none;
+            }
+        }
+        .did-floating-label{
+            display: block;
+            width: 80%;
+            color:$gray; 
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+            font-weight: bold;
+            position: absolute;
+            pointer-events: none;
+            left: 10px;
+            top: 10px;
+            padding: 0 5px;
+            background: white;
+            -o-transition: 0.2s ease all;
+            transition: 0.2s ease all;
+            -moz-transition: 0.2s ease all;
+            -webkit-transition: 0.2s ease all;
+        }
+
+        textarea.form-control{
+            height: 131px;
+            padding-top: 15px;
+            resize: none;
+        }
+        
+
+        &.has-data{
+            .form-control + label {
+                top:-12px;
+                font-size: 1.25rem;
+                line-height: 1.25rem;
+                color: $darkgray;
+                
+            }
+            .form-select + label {
+                top:-12px;
+                font-size: 1.25rem;
+                line-height: 1.25rem;
+                color: $darkgray;
+                width: auto;
+            }
+        }
+    }
     .input-group{
         margin-bottom: 20px;
         flex-direction: column;
         .input-group-prepend{
             height: 40px;
-            background-color: rgba($color: #929091, $alpha: 0.1);
+            
             .input-group-text{
                 font-size: 1.5rem;
                 line-height: 1.875rem;
@@ -125,6 +270,7 @@
                 padding: 4px 15px;
                 //border-right: none;
                 border-radius: 0;
+                //background-color: rgba($color: $gray, $alpha: 0.1);
                 span{
                     color: $red;
                 }
@@ -147,8 +293,8 @@
                         position: absolute;
                         z-index: 9;
                         right: 13px;
-                        top: 50%;
-                        transform: translateY(-50%);
+                        top: 70%;
+                        transform: translateY(-30%);
                     }
                 }
                 &__upload{
@@ -167,31 +313,64 @@
                         position: absolute;
                         z-index: 9;
                         right: 13px;
-                        top: 50%;
-                        transform: translateY(-50%);
+                        top: 70%;
+                        transform: translateY(-30%);
                     }
                 }
             }
         }
         .form-control{
             //border-left: none;
-            border-top: none;
+            //border-top: none;
             width: 100%;
             margin-left: 0 !important;
         }
         .form-select{
             width: 100%;
-            border-top: none;
+            //border-top: none;
             margin-left: 0 !important;
         }
         textarea{
             resize: none;
             height: 220px;
         }
+
+        &--remark{
+            margin-bottom: 5px;
+        }
         
     }
-
     .form-check{
         margin-bottom: 20px;
     }
+
+    @media only screen and (max-width: 992px) {
+        .form-group--section{
+            margin-bottom: 10px;
+        }
+        .input-group{
+            .input-group-prepend{
+                height: auto;
+            }
+        }
+        
+    }
 }
+
+
+.text-remark{
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+    font-weight: bold;
+    color: $gray;
+}
+
+
+
+
+
+
+
+
+
+

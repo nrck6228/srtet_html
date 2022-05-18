@@ -137,6 +137,9 @@ Route::get('/report', function () {
 Route::get('/contact', function () {
     return View::make('_contact');
 });
+Route::get('/contact2', function () {
+    return View::make('_contact2');
+});
 
 
 Route::get('/form1', function () {
