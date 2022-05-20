@@ -38,68 +38,56 @@
                 <h2 class="page__title text--primary">สำรวจผู้ใช้บริการรถไฟฟ้าสายสีแดง</h2>
             </div>
 
-            <div class="form-group mb-4">
+            <div class="form-group-wrapper mb-4">
                 <form action="">
                     <h3 class="h3 text-red mb-3">ข้อมูลทั่วไป</h3>
-                    <div class="group-form">
+                    <div class="form-group--section">
                         <div class="row">
                             <div class="col-lg-3">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="input_name">ชื่อ<span>*</span> :</span>
-                                    </div>
-                                    <input type="text" class="form-control">
+                                <div class="form-group form--float">
+                                    <input class="form-control" type="text" placeholder="" value="Santanon">
+                                    <label>ชื่อ</label>
                                 </div>
                             </div>
                             <div class="col-lg-3">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="basic-addon3">นามสกุล<span>*</span> :</span>
-                                    </div>
-                                    <input type="text" class="form-control" >
+                                <div class="form-group form--float">
+                                    <input class="form-control" type="text" placeholder="" value="">
+                                    <label>นามสกุล</label>
                                 </div>
                             </div>
                             <div class="col-lg-3">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text">อายุ :</span>
-                                    </div>
-                                    <input type="text" class="form-control">
+                                <div class="form-group form--float">
+                                    <input class="form-control" type="text" placeholder="" value="">
+                                    <label>อายุ</label>
                                 </div>
                             </div>
                             <div class="col-lg-3">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text">เพศ :</span>
-                                    </div>
+                                <div class="form-group form--float">
                                     <select class="form-select" aria-label="Default select example">
-                                        <option selected>เพศ</option>
-                                        <option value="male">ชาย</option>
+                                        <option selected="true" value="title">เพศ</option>
+                                        <option value="male" >ชาย</option>
                                         <option value="female">หญิง</option>
                                     </select>
+                                    <label class="did-floating-label">เพศ</label>
                                 </div>
                             </div>
                             <div class="col-lg-3">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text">อีเมล :</span>
-                                    </div>
-                                    <input type="text" class="form-control">
+                                <div class="form-group form--float">
+                                    <input class="form-control" type="text" placeholder=" " value="">
+                                    <label>อีเมล</label>
                                 </div>
                             </div>
                             <div class="col-lg-3">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text" id="input_name">เบอร์โทร<span>*</span> :</span>
-                                    </div>
-                                    <input type="text" class="form-control">
+                                <div class="form-group form--float">
+                                    <input class="form-control" type="text" placeholder=" " value="">
+                                    <label>เบอร์โทร</label>
                                 </div>
                             </div>
                         </div>
                     </div>
                     
                     <h3 class="h3 text-red mb-3">การใช้บริการ รถไฟฟ้าแอร์พอร์ต เรล ลิงก์</h3>
-                    <div class="group-form">
+                    <div class="form-group--section">
                         <div class="row">
                             <div class="col-12">
                                 <h3 class="h3 text-darkgray mb-3">การใช้บริการ รถไฟฟ้าแอร์พอร์ต เรล ลิงก์ ต่อสัปดาห์<span class="text-red">*</span> :</h3>
@@ -146,7 +134,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="group-form">
+                    <div class="form-group--section">
                         <div class="row">
                             <div class="col-12">
                                 <h3 class="h3 text-darkgray mb-3">ช่วงเวลาในการใช้บริการรถไฟฟ้าแอร์พอร์ต เรล ลิงก์</h3>
@@ -193,31 +181,35 @@
                             </div>
                         </div>
                     </div>
-                    <div class="group-form">
+                    <div class="form-group--section">
                         <div class="row">
+                            <div class="col-12">
+                                <h3 class="h3 text-darkgray mb-3">วัตถุประสงค์หลักในการใช้บริการรถไฟฟ้าแอร์พอร์ต เรล ลิงก์</h3>
+                            </div>
                             <div class="col-lg-6 col-12">
-                                <div class="input-group flex-column">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text">วัตถุประสงค์หลักในการใช้บริการรถไฟฟ้าแอร์พอร์ต เรล ลิงก์ :</span>
-                                    </div>
-                                    <textarea class="form-control" placeholder="ระบุ"></textarea>
+                                <div class="form-group form--float">
+                                    <textarea class="form-control"></textarea>
+                                    <label>ระบุ</label>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+
+                    <div class="verify--wrapper">
+                        <div class="title--verify">กรุณายืนยันตัวตน</div>
+                        <div class="captcha--verify">
+                            Captcha
+                        </div>
+
+                        <div class="btn-group">
+                            <a href="/vote" class="btn btn--gray"><span>ย้อนกลับ</span></a>
+                            <button class="btn btn--primary"><span>ส่งคำตอบ</span></button>
+                        </div>
+                    </div>
                 </form>
-            </div>
 
-            <div class="verify--wrapper">
-                <div class="title--verify">กรุณายืนยันตัวตน</div>
-                <div class="captcha--verify">
-                    Captcha
-                </div>
 
-                <div class="btn-group">
-                    <a href="/vote" class="btn btn--gray"><span>ย้อนกลับ</span></a>
-                    <button class="btn btn--primary"><span>ส่งคำตอบ</span></button>
-                </div>
             </div>
         </div>
 
@@ -238,4 +230,5 @@
     <script type="text/javascript" src="{{ mix('/slick/slick.min.js') }}"></script>
     <script type="text/javascript" src="{{ mix('/js/slick.js') }}"></script>
 @endpush
+
 

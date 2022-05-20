@@ -38,6 +38,7 @@ $(".hamburger").click(function(){
     $("body").toggleClass('open-menu');
 }); 
 
+
 $(".regularFont").click(function(){
     $("html").css("font-size",'100' + "%");
 }); 
@@ -49,3 +50,41 @@ $(".downFont").click(function(){
 $(".upFont").click(function(){
     $("html").css("font-size",'110' + "%");
 }); 
+
+
+$('.form-control').on('focusout', function (){
+    if($(this).val() != ''){
+      $(this).parent().addClass('has-data');
+    } else {
+      $(this).parent().removeClass('has-data');
+    }
+});
+$('.form-control').each(function () {
+    if($(this).val() != ''){
+        $(this).parent().addClass('has-data');
+      } else {
+        $(this).parent().removeClass('has-data');
+      }
+});
+
+$('.form-select').each(function () {
+	if($(this).is('select')){		
+        if($(this).val() === $("option:first", $(this)).val()) {
+			$(this).parent().removeClass('has-data');
+		}
+		else{
+			$(this).parent().addClass('has-data');
+		}
+	}
+});
+$('.form-select').on('change', function () {
+	if($(this).is('select')){
+		if($(this).val() === $("option:first", $(this)).val()) {
+			$(this).parent().removeClass('has-data');
+		}
+		else{
+			$(this).parent().addClass('has-data');
+		}
+	}
+});
+
