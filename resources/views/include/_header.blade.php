@@ -8,7 +8,7 @@
 <!-- End Preload -->
 
 <header class="header--wrapper">
-    <div class="d-none d-lg-block header--desktop">
+    <div class="d-none d-xl-block header--desktop">
         <div class="container">
             <nav class="navbar navbar--top">
                 <a class="navbar__brand" href="/">
@@ -16,9 +16,9 @@
                 </a>
                 <div class="list--menu">
                     <div class="font--block">
-                        <a href="javascript:void(0)" class="text--link" id="downFont">A-</a>
-                        <a href="javascript:void(0)" class="text--link" id="regularFont">A</a>
-                        <a href="javascript:void(0)" class="text--link" id="upFont">A+</a>
+                        <a href="#nogo" class="text--link downFont">A-</a>
+                        <a href="#nogo" class="text--link regularFont">A</a>
+                        <a href="#nogo" class="text--link upFont">A+</a>
                     </div>
                     <div class="search--block">
                         <a href="javascript:void(0)" class="text--link" id="topSearch">
@@ -169,7 +169,7 @@
         </div>
     </div>
 
-    <div class="d-block d-lg-none header--mobile">
+    <div class="d-block d-xl-none header--mobile">
         <div class="container">
             <nav class="navbar navbar--top">
                 <a class="navbar__brand" href="#">
@@ -194,42 +194,44 @@
         </div>
 
         <div class="mobile--nav">
-            <nav class="navbar">
-                <div class="list--menu">
-                    <div class="font--block">
-                        <a href="javascript:void(0)" class="text--link" id="downFont">A-</a>
-                        <a href="javascript:void(0)" class="text--link" id="regularFont">A</a>
-                        <a href="javascript:void(0)" class="text--link" id="upFont">A+</a>
+            <div class="container">
+                <nav class="navbar">
+                    <div class="list--menu">
+                        <div class="font--block">
+                            <a href="javascript:void(0)" class="text--link">A-</a>
+                            <a href="javascript:void(0)" class="text--link">A</a>
+                            <a href="javascript:void(0)" class="text--link">A+</a>
+                        </div>
+                        <div class="social--block">
+                            <a href="javascript:void(0)" class="social__icon">
+                                <img src="{{ asset('assets/images/icon/facebook.svg')}}" alt="facebook">
+                            </a>
+                            <a href="javascript:void(0)" class="social__icon">
+                                <img src="{{ asset('assets/images/icon/twitter.svg')}}" alt="twitter">
+                            </a>
+                            <a href="javascript:void(0)" class="social__icon">
+                                <img src="{{ asset('assets/images/icon/instagram.svg')}}" alt="instagram">
+                            </a>
+                            <a href="javascript:void(0)" class="social__icon">
+                                <img src="{{ asset('assets/images/icon/youtube.svg')}}" alt="youtube">
+                            </a>
+                            <a href="javascript:void(0)" class="social__icon">
+                                <img src="{{ asset('assets/images/icon/tiktok.svg')}}" alt="tiktok">
+                            </a>
+                        </div>
                     </div>
-                    <div class="social--block">
-                        <a href="javascript:void(0)" class="social__icon">
-                            <img src="{{ asset('assets/images/icon/facebook.svg')}}" alt="facebook">
-                        </a>
-                        <a href="javascript:void(0)" class="social__icon">
-                            <img src="{{ asset('assets/images/icon/twitter.svg')}}" alt="twitter">
-                        </a>
-                        <a href="javascript:void(0)" class="social__icon">
-                            <img src="{{ asset('assets/images/icon/instagram.svg')}}" alt="instagram">
-                        </a>
-                        <a href="javascript:void(0)" class="social__icon">
-                            <img src="{{ asset('assets/images/icon/youtube.svg')}}" alt="youtube">
-                        </a>
-                        <a href="javascript:void(0)" class="social__icon">
-                            <img src="{{ asset('assets/images/icon/tiktok.svg')}}" alt="tiktok">
-                        </a>
-                    </div>
-                </div>
 
-                <div class="collapse" id="collapseMobileNav">
-                    <!-- Clone child html from #NavBar -->
-                </div>
-
-                <div class="list--menu justify-content-center">
-                    <div class="callcenter--block">
-                        <a href="tel:1960" class="text--link" id="topCallCenter"><i class="icon-call"></i>&nbsp; Call Center 1960</a>
+                    <div class="collapse" id="collapseMobileNav">
+                        <!-- Clone child html from #NavBar -->
                     </div>
-                </div>
-            </nav>
+
+                    <div class="list--menu justify-content-center">
+                        <div class="callcenter--block">
+                            <a href="tel:1960" class="text--link" id="topCallCenter"><i class="icon-call"></i>&nbsp; Call Center 1960</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
         </div>
     </div>
 </header>

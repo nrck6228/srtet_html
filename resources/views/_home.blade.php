@@ -75,11 +75,203 @@
                             <div class="title--page">
                                 <h1 class="page__title">เส้นทางรถไฟฟ้าชานเมืองสายสีแดง</h1>
                             </div>
-                            <div class="map--figure">
+
+                            <div class="route--wrapper">
+                                <div class="route--container">
+                                    <div class="main--station">
+                                        <div class="main--station__view">
+                                            <div class="info__name">บางซื่อ</div>
+                                            <div class="info__icon"></div>
+                                            <div class="info__icon"></div>
+                                            <div class="info__icon"></div>
+                                            <div class="info__icon"></div>
+                                        </div>
+                                        <div class="main--station__line">
+                                            <a href="#nogo" class="redLine"></a>
+                                            <a href="#nogo" class="lightredLine"></a>
+                                        </div>
+                                    </div>
+                                    <div class="line--station">
+
+                                        <div class="line--station__view redLine">
+                                            <div class="station--info" data-text="3 นาที">
+                                                <div class="station--info__top">
+                                                    <div class="info__icon"></div>
+                                                    <div class="info__icon"></div>
+                                                </div>
+                                                <div class="station--info__bottom">
+                                                    <div class="info__name">จตุจักร</div>
+                                                    <a href="#nogo" class="info__icon"></a>
+                                                </div>
+                                            </div>
+
+                                            <div class="station--info" data-text="3 นาที">
+                                                <div class="station--info__top">
+                                                    <div class="info__icon"></div>
+                                                    <div class="info__icon"></div>
+                                                    <div class="info__icon"></div>
+                                                    <div class="info__icon"></div>
+                                                    <div class="info__icon"></div>
+                                                    <div class="info__icon"></div>
+                                                    <div class="info__icon"></div>
+                                                    <div class="info__icon"></div>
+                                                </div>
+                                                <div class="station--info__bottom">
+                                                    <div class="info__name">วัดเสมียนนารี</div>
+                                                    <a href="#nogo" class="info__icon"></a>
+                                                </div>
+                                            </div>
+
+                                            <div class="station--info" data-text="3 นาที">
+                                                <div class="station--info__top">
+                                                    <div class="info__icon"></div>
+                                                    <div class="info__icon"></div>
+                                                </div>
+                                                <div class="station--info__bottom">
+                                                    <div class="info__name">จตุจักร</div>
+                                                    <a href="#nogo" class="info__icon"></a>
+                                                </div>
+                                            </div>
+
+                                            <div class="station--info" data-text="3 นาที">
+                                                <div class="station--info__top">
+                                                    <div class="info__icon"></div>
+                                                    <div class="info__icon"></div>
+                                                </div>
+                                                <div class="station--info__bottom">
+                                                    <div class="info__name">จตุจักร</div>
+                                                    <a href="#nogo" class="info__icon"></a>
+                                                </div>
+                                            </div>
+
+                                            <div class="station--info" data-text="3 นาที">
+                                                <div class="station--info__top">
+                                                    <div class="info__icon"></div>
+                                                    <div class="info__icon"></div>
+                                                </div>
+                                                <div class="station--info__bottom">
+                                                    <div class="info__name">จตุจักร</div>
+                                                    <a href="#nogo" class="info__icon"></a>
+                                                </div>
+                                            </div>
+
+                                            <div class="station--info" data-text="3 นาที">
+                                                <div class="station--info__top">
+                                                    <div class="info__icon"></div>
+                                                    <div class="info__icon"></div>
+                                                </div>
+                                                <div class="station--info__bottom">
+                                                    <div class="info__name">จตุจักร</div>
+                                                    <a href="#nogo" class="info__icon"></a>
+                                                </div>
+                                            </div>
+
+                                            <div class="station--info" data-text="3 นาที">
+                                                <div class="station--info__top">
+                                                    <div class="info__icon"></div>
+                                                    <div class="info__icon"></div>
+                                                </div>
+                                                <div class="station--info__bottom">
+                                                    <div class="info__name">จตุจักร</div>
+                                                    <a href="#nogo" class="info__icon"></a>
+                                                </div>
+                                            </div>
+
+                                            <div class="station--info" data-text="3 นาที">
+                                                <div class="station--info__top">
+                                                    <div class="info__icon"></div>
+                                                    <div class="info__icon"></div>
+                                                </div>
+                                                <div class="station--info__bottom">
+                                                    <div class="info__name">จตุจักร</div>
+                                                    <a href="#nogo" class="info__icon"></a>
+                                                </div>
+                                            </div>
+
+                                            <div class="station--info" data-text="3 นาที">
+                                                <div class="station--info__top">
+                                                    <div class="info__icon"></div>
+                                                    <div class="info__icon"></div>
+                                                </div>
+                                                <div class="station--info__bottom">
+                                                    <div class="info__name">จตุจักร</div>
+                                                    <a href="#nogo" class="info__icon"></a>
+                                                </div>
+                                            </div>
+
+                                            <div class="station--info" data-text="3 นาที">
+                                                <div class="station--info__top">
+                                                    <div class="info__icon"></div>
+                                                    <div class="info__icon"></div>
+                                                </div>
+                                                <div class="station--info__bottom">
+                                                    <div class="info__name">จตุจักร</div>
+                                                    <a href="#nogo" class="info__icon"></a>
+                                                </div>
+                                            </div>
+
+                                            <div class="station--info" data-text="3 นาที">
+                                                <div class="station--info__top">
+                                                    <div class="info__icon"></div>
+                                                    <div class="info__icon"></div>
+                                                </div>
+                                                <div class="station--info__bottom">
+                                                    <div class="info__name">จตุจักร</div>
+                                                    <a href="#nogo" class="info__icon"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="line--station__view lightredLine">
+                                            <div class="station--info" data-text="7 นาที">
+                                                <div class="station--info__bottom">
+                                                    <a href="#nogo" class="info__icon"></a>
+                                                    <div class="info__name">บางซ่อน</div>
+                                                </div>
+                                                <div class="station--info__top">
+                                                    <div class="info__icon"></div>
+                                                    <div class="info__icon"></div>
+                                                </div>
+                                            </div>
+
+                                            <div class="station--info" data-text="7 นาที">
+                                                <div class="station--info__bottom">
+                                                    <a href="#nogo" class="info__icon"></a>
+                                                    <div class="info__name">บางบำหรุ</div>
+                                                </div>
+                                                <div class="station--info__top">
+                                                    <div class="info__icon"></div>
+                                                    <div class="info__icon"></div>
+                                                </div>
+                                            </div>
+
+                                            <div class="station--info" data-text="7 นาที">
+                                                <div class="station--info__bottom">
+                                                    <a href="#nogo" class="info__icon"></a>
+                                                    <div class="info__name">ตลิ่งชัน</div>
+                                                </div>
+                                                <div class="station--info__top">
+                                                    <div class="info__icon"></div>
+                                                    <div class="info__icon"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="remark--route">
+                                    <div class="remark__left">
+                                        <span>*</span>คลิก <span class="point"></span> เพื่อดูรายละเอียดสถานี
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- <div class="map--figure">
                                 <a href="javascript:void(0)" class="map__link station__position">
                                     <img class="w-100" src="{{ asset('assets/images/map/img-demo-01.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
                                 </a>
-                            </div>
+                            </div> -->
                             
                             <!-- <div id="mapRoute" class="d-none d-lg-block map--figure">
                                 <div class="map--svg">
@@ -886,13 +1078,15 @@
     <script>
         (function() {
 
-            var mapLink = document.querySelector('.station__position');
+            var mapLink = document.querySelector('a.info__icon');
             var stationWrapper = document.querySelector('.station--wrapper');
 
             mapLink.addEventListener('click', function() {
-            
+                this.classList.toggle('active');
                 stationWrapper.classList.toggle('show');
-
+                $("html,body").animate({
+                    scrollTop: $(stationWrapper).offset().top - 125
+                }, 1000);
             });
 
         })();

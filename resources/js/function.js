@@ -39,6 +39,19 @@ $(".hamburger").click(function(){
 }); 
 
 
+$(".regularFont").click(function(){
+    $("html").css("font-size",'100' + "%");
+}); 
+
+$(".downFont").click(function(){
+    $("html").css("font-size",'90'+ "%");
+}); 
+
+$(".upFont").click(function(){
+    $("html").css("font-size",'110' + "%");
+}); 
+
+
 $('.form-control').on('focusout', function (){
     if($(this).val() != ''){
       $(this).parent().addClass('has-data');
@@ -74,3 +87,4 @@ $('.form-select').on('change', function () {
 		}
 	}
 });
+

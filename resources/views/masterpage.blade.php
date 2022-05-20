@@ -29,6 +29,8 @@
     <body>
         @include('include._header')
 
+        @include('include._announce')
+
         @yield('contentpage')
 
         @include('include._footer')
