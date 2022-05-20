@@ -37,3 +37,15 @@ $(".hamburger").click(function(){
 
     $("body").toggleClass('open-menu');
 }); 
+
+$(".regularFont").click(function(){
+    $("html").css("font-size",'100' + "%");
+}); 
+
+$(".downFont").click(function(){
+    $("html").css("font-size",'90'+ "%");
+}); 
+
+$(".upFont").click(function(){
+    $("html").css("font-size",'110' + "%");
+}); 

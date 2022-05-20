@@ -278,13 +278,13 @@
     <div class="container">
         <div class="consent--banner__inner">
             <div class="consent--banner__copy">
-                <div class="consent--banner__header">THIS WEBSITE USES COOKIES</div>
-                <div class="consent--banner__description">We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. You consent to our cookies if you continue to use our website.</div>
+                <!-- <div class="consent--banner__header">THIS WEBSITE USES COOKIES</div> -->
+                <div class="consent--banner__description">เว็บไซต์นี้ใช้คุกกี้เพื่อวัตถุประสงค์ในการปรับปรุงประสบการณ์ของผู้ใช้ให้ดียิ่งขึ้น ท่านสามารถศึกษารายละเอียดเพิ่มเติมได้ที่ <a href="#nogo">นโยบายความเป็นส่วนตัว</a></div>
             </div>
 
             <div class="consent--banner__actions">
-                <button type="button" class="btn btn--primary btn--agree"><span>Got it!</span></button>
-                <button type="button" class="btn btn--gray btn--decline"><span>Decline</span></button>
+                <button type="button" class="btn btn--primary btn--agree"><span>เข้าใจแล้ว</span></button>
+                <button type="button" class="btn btn--gray btn--decline"><span>ปฏิเสธ</span></button>
             </div>
         </div>
     </div>
