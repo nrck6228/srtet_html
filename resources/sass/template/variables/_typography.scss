@@ -83,6 +83,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-date-update:before {
+  content: "\e910";
+}
 .icon-polygon-right:before {
   content: "\e90f";
 }

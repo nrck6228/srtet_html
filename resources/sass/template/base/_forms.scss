@@ -34,7 +34,6 @@
     line-height: 1.875rem;
     font-weight: bold;
     color: $red;
-    height: 40px;
     border-radius: 0;
 
     &:focus{
@@ -150,6 +149,26 @@
                         transform: translateY(-50%);
                     }
                 }
+                &__upload{
+                    .form-control{
+                        padding-right: 45px;
+                    }
+                    &:after{
+                        font-family: bootstrap-icons !important;
+                        font-style: normal;
+                        font-weight: normal !important;
+                        font-variant: normal;
+                        content: '\F358';
+                        font-size: 18px;
+                        line-height: 18px;
+                        color: #929091;
+                        position: absolute;
+                        z-index: 9;
+                        right: 13px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                }
             }
         }
     }
@@ -190,8 +209,8 @@
                 //border-color: $blue;
                 box-shadow: none;
             }
-            &textarea{
-
+            &:disabled{
+                background-color: #dddddd;
             }
         }
         .form-control:focus + label {
@@ -199,6 +218,9 @@
             font-size: 1.25rem;
             line-height: 1.25rem;
             color: $darkgray
+        }
+        .form-control:disabled + label{
+            background-color: #ddd;
         }
         .form-select{
             font-size: 1.5rem;
@@ -231,7 +253,7 @@
             -moz-transition: 0.2s ease all;
             -webkit-transition: 0.2s ease all;
         }
-
+        
         textarea.form-control{
             height: 131px;
             padding-top: 15px;
@@ -344,6 +366,39 @@
         margin-bottom: 20px;
     }
 
+    //input type file
+    .select-file{
+        position:relative;
+        .title-selectfile{
+            color:$gray; 
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+            font-weight: bold;
+            position:absolute;
+            z-index: 9;
+            pointer-events:none;
+            left: 10px;
+            top: 10px;
+            padding:0 5px;
+            background:white;
+            transition:0.2s ease all; 
+            -moz-transition:0.2s ease all; 
+            -webkit-transition:0.2s ease all;
+        }
+        .form-file:focus + .title-selectfile{
+            
+        }
+
+        &.has-data{
+            .title-selectfile{
+                top:-12px;
+                font-size: 1.25rem;
+                line-height: 1.25rem;
+                color: $darkgray
+            }
+        }
+    }
+
     @media only screen and (max-width: 992px) {
         .form-group--section{
             margin-bottom: 10px;
@@ -363,6 +418,7 @@
     line-height: 1.125rem;
     font-weight: bold;
     color: $gray;
+    margin-top: 10px;
 }
 
 
@@ -371,6 +427,67 @@
 
 
 
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    /*max-width: 80%;*/
+    width: 100%;
+    /*font-size: 1.25rem;*/
+    //font-size: $text-content;
+    /* 20px */
+    /*font-weight: 700;*/
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    /*padding: 0.625rem 1.25rem;*/
+    /* 10px 20px */
+    padding: 0 10px;
+}
+
+.no-js .inputfile + label {
+    display: none;
+}
+
+.inputfile + label img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.inputfile-1 + label {
+    /*border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 0;*/
+    position: relative;
+    height: 45px;
+    margin-bottom: 0;
+    line-height: 45px;
+    color: $white;
+    border: 1px solid $gray;
+    background-color: $white;
+}
+.inputfile-1 + label span {
+    width: 200px;
+    min-height: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: $red;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: top;
+}
 
 
 

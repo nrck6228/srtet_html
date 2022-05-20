@@ -44,6 +44,10 @@
         @stack('script-spotlight')
 
         @stack('script-datepicker')
+
+        @stack('script-inputfile')
+
+        @stack('script-accordion')
         
     </body>
 </html>

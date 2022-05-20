@@ -38,7 +38,7 @@
                     <h2 class="page__title text--primary mb-4">ใบสมัครงาน</h2>
                 </div>
 
-                <div class="form-group mb-4">
+                <div class="form-group-wrapper mb-4">
                     <form action="">
                         <div class="form-group--section">
                             <h3 class="h3 text-red mb-3">ประวัติการศึกษา</h3>
@@ -47,41 +47,52 @@
                                     <h3 class="h3 text-darkgray mb-3">ระดับการศึกษาสูงสุด :</h3>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="">วุฒิระดับการศึกษา<span>*</span> :</span>
-                                        </div>
+                                    <div class="form-group form--float">
                                         <select class="form-select" aria-label="Default select example">
-                                            <option value="" disabled selected>เลือก</option>
+                                            <option selected="true" value="title">วุฒิระดับการศึกษา</option>
                                             <option value="1">ป.ตรี</option>
                                             <option value="2">ป.โท</option>
                                             <option value="3">ป.เอก</option>
                                         </select>
+                                        <label class="did-floating-label">วุฒิระดับการศึกษา</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="">สถาบัน<span>*</span> :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>สถาบัน</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="">คณะ<span>*</span> :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>คณะ</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="">สาขา<span>*</span> :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>สาขา</label>
                                     </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>ปีที่จบการศึกษา</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>เกรดเฉลี่ย</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group form--float icon icon__upload">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>เอกสารแนบ(Transcript)</label>
+                                    </div>
+                                    <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpeg</div>
                                 </div>
                             </div>
                         </div>

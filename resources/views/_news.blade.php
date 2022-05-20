@@ -37,31 +37,39 @@
                     <h2 class="page__title text--primary mb-4">ข่าวสาร</h2>
                 </div>
 
-                <div class="form-group mb-4">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>ข่าวสารประชาสัมพันธ์ทั่วไป</option>
-                                    <option value="">ข่าวจากศูนย์</option>
-                                </select>
+                <div class="form-group-wrapper mb-4">
+                    <form action="">
+                        <div class="form-group--section">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="form-group form--float">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected="true" value="title">หมวดข่าว</option>
+                                            <option value="" >ข่าวสารประชาสัมพันธ์ทั่วไป</option>
+                                            <option value="">ข่าวจากศูนย์</option> 
+                                        </select>
+                                        <label class="did-floating-label">หมวดข่าว</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="form-group form--float icon icon__date">
+                                        <input id="start_date" class="form-control start-date" type="text" placeholder="" value=" " readonly>
+                                        <label>วันที่เริ่มต้น</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="form-group form--float icon icon__date">
+                                        <input id="end_date" class="form-control end-date" type="text" placeholder="" value=" " readonly>
+                                        <label>วันที่สิ้นสุด</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-6 col-12">
+                                    <button type="button" class="btn btn--primary"><span>ค้นหา</span></button>
+                                </div>
                             </div>
-                            
                         </div>
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls icon icon__date">
-                                <input type="text" id="start_date" class="form-control start-date" placeholder="วันที่เริ่มต้น" readonly>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls icon icon__date">
-                                <input type="text" id="end_date" class="form-control end-date" placeholder="วันที่สิ้นสุด" readonly>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-sm-6 col-12">
-                            <button type="button" class="btn btn--primary"><span>ค้นหา</span></button>
-                        </div>
-                    </div>
+                    </form>
+                    
                 </div>
                 
 

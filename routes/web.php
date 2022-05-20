@@ -142,6 +142,9 @@ Route::get('/contact2', function () {
 });
 
 
+Route::get('/listcareer', function () {
+    return View::make('career._list');
+});
 Route::get('/form1', function () {
     return View::make('career._form_1');
 });
