@@ -51,7 +51,7 @@ $('.form-control').each(function () {
         $(this).parent().addClass('has-data');
       } else {
         $(this).parent().removeClass('has-data');
-      }
+    }
 });
 
 $('.form-select').each(function () {

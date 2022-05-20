@@ -43,13 +43,13 @@
                             <div class="row">
                                 <div class="col-md-3 col-sm-6 col-12">
                                     <div class="form-group form--float icon icon__date">
-                                        <input id="start_date" class="form-control start-date" type="text" placeholder="" value="">
+                                        <input id="start_date" class="form-control start-date" type="text" placeholder="" value=" " readonly>
                                         <label>วันที่เริ่มต้น</label>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-6 col-12">
                                     <div class="form-group form--float icon icon__date">
-                                        <input id="end_date" class="form-control end-date" type="text" placeholder="" value="">
+                                        <input id="end_date" class="form-control end-date" type="text" placeholder="" value=" " readonly>
                                         <label>วันที่สิ้นสุด</label>
                                     </div>
                                 </div>

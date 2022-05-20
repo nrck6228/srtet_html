@@ -38,7 +38,7 @@
                     <h2 class="page__title text--primary mb-4">ใบสมัครงาน</h2>
                 </div>
 
-                <div class="form-group mb-4">
+                <div class="form-group-wrapper mb-4">
                     <form action="">
                         <div class="form-group--section">
                             <h3 class="h3 text-red mb-3">ตำแหน่งสมัครงาน</h3>
@@ -62,51 +62,50 @@
                                 <div class="col-lg-9">
                                     <div class="row">
                                         <div class="col-lg-4">
-                                            <div class="input-group">
-                                                <div class="input-group-prepend icon icon__upload">
-                                                    <span class="input-group-text" id="input_resume">Resume<span>*</span> :</span>
+                                            <!-- <div class="form-group form--float icon icon__upload">
+                                                <input class="form-control form-file" id="file_resume" type="file">
+                                                <label for="file_resume">Resume</label>
+                                            </div> -->
+
+                                            <div class="form-group">
+                                                <div class="select-file">
+                                                    <input type="file" name="file-1[]" id="file-1" class="form-file inputfile inputfile-1">
+                                                    <label for="file-1"><span></span></label>
+                                                    <div class="title-selectfile">เรซูเม่</div>
                                                 </div>
-                                                <input type="text" class="form-control" placeholder="อัพโหลด">
                                             </div>
+
                                         </div>
                                         <div class="col-lg-4">
-                                            <div class="input-group">
-                                                <div class="input-group-prepend">
-                                                    <span class="input-group-text" id="input_launch">ตำแหน่ง<span>*</span> :</span>
-                                                </div>
+                                            <div class="form-group form--float">
                                                 <select class="form-select" aria-label="Default select example">
-                                                    <option value="" disabled selected>เลือก</option>
-                                                    <option value="1">ตำแหน่งที่ 1</option>
+                                                    <option selected="true" value="title">เลือกตำแหน่งที่จะสมัคร</option>
+                                                    <option value="1" >ตำแหน่งที่ 1</option>
                                                     <option value="2">ตำแหน่งที่ 2</option>
+                                                    <option value="3">ตำแหน่งที่ 3</option>
                                                 </select>
+                                                <label class="did-floating-label">เลือกตำแหน่งที่จะสมัคร</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="form-group form--float icon icon__date">
+                                                <input id="start_date" class="form-control" type="text" placeholder="" value="" readonly>
+                                                <label>วันที่สมัคร</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="form-group form--float icon icon__date">
+                                                <input id="launch_date" class="form-control" type="text" placeholder="" value="" readonly>
+                                                <label>เริ่มงาน</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="form-group form--float">
+                                                <input class="form-control" type="text" placeholder="" value="">
+                                                <label>เงินเดือนที่คาดหวัง</label>
                                             </div>
                                         </div>
 
-                                        <div class="col-lg-4">
-                                            <div class="input-group">
-                                                <div class="input-group-prepend icon icon__date">
-                                                    <span class="input-group-text" id="input_register">วันที่สมัคร<span>*</span> :</span>
-                                                </div>
-                                                <input type="text" class="form-control" placeholder="ระบุ" readonly>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="input-group">
-                                                <div class="input-group-prepend icon icon__date">
-                                                    <span class="input-group-text" id="input_launch">เริ่มงาน<span>*</span> :</span>
-                                                </div>
-                                                <input type="text" class="form-control" placeholder="ระบุ" readonly>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-4">
-                                            <div class="input-group">
-                                                <div class="input-group-prepend icon icon__upload">
-                                                    <span class="input-group-text" id="input_salary">เงินเดือนที่คาดหวัง :</span>
-                                                </div>
-                                                <input type="text" class="form-control" placeholder="ระบุ">
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -115,116 +114,91 @@
                             <h3 class="h3 text-red mb-3">ชื่อผู้สมัคร</h3>
                             <div class="row">
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="input_prefix">คำนำหน้า<span>*</span> :</span>
-                                        </div>
+                                    <div class="form-group form--float">
                                         <select class="form-select" aria-label="Default select example">
-                                            <option value="" disabled selected>เลือก</option>
-                                            <option value="1">นาย</option>
+                                            <option selected="true" value="title">คำนำหน้า</option>
+                                            <option value="1" >นาย</option>
                                             <option value="2">นาง</option>
                                             <option value="3">นางสาว</option>
                                         </select>
+                                        <label class="did-floating-label">คำนำหน้า</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="input_name">ชื่อ<span>*</span> :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>ชื่อ</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="input_surname">นามสกุล<span>*</span> :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>นามสกุล</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="input_nickname">ชื่อเล่น<span>*</span> :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>ชื่อเล่น</label>
                                     </div>
                                 </div>
 
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="input_prefixEN">Prefix<span>*</span> :</span>
-                                        </div>
+                                    <div class="form-group form--float">
                                         <select class="form-select" aria-label="Default select example">
-                                            <option value="" disabled selected>เลือก</option>
+                                            <option value="title">Choose Prefix</option>
                                             <option value="1">Mr.</option>
                                             <option value="2">Mrs.</option>
                                             <option value="3">Miss.</option>
                                         </select>
+                                        <label class="did-floating-label">Choose Prefix</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="input_nameEN">Name<span>*</span> :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>Name</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="input_surnameEN">Surname<span>*</span> :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>Surname</label>
                                     </div>
                                 </div>
-                                
                             </div>
                         </div>
                         <div class="form-group--section">
                             <h3 class="h3 text-red mb-3">ข้อมูลส่วนตัว</h3>
                             <div class="row">
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend icon icon__date">
-                                            <span class="input-group-text" id="input_hbd">วันเกิด<span>*</span> :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ" readonly>
+                                    <div class="form-group form--float icon icon__date">
+                                        <input id="start_date" class="form-control hbd-date" type="text" placeholder="" value="" readonly>
+                                        <label>วันเกิด</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="input_age">อายุ (ปี)<span>*</span> :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>อายุ (ปี)</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="input_race">เชื้อชาติ :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>เชื้อชาติ</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="input_nationality">สัญชาติ :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>สัญชาติ</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="input_religion">ศาสนา :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>ศาสนา</label>
                                     </div>
                                 </div>
                             </div>
@@ -233,67 +207,51 @@
                             <h3 class="h3 text-red mb-3">ข้อมูลที่อยู่</h3>
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text">ที่อยู่ตามทะเบียนบ้าน :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>ที่อยู่ตามทะเบียนบ้าน</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text">ที่อยู่ปัจจุบันที่สามารถติดต่อได้ :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>ที่อยู่ปัจจุบันที่สามารถติดต่อได้</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="input_phone">เบอร์โทร<span>*</span> :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>เบอร์โทร</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="input_phone2">เบอร์โทรบิดา<span>*</span> :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>เบอร์โทรบิดา</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="input_phone3">เบอร์โทรมารดา<span>*</span> :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>เบอร์โทรมารดา</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="input_mail">อีเมล :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>อีเมล</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="input_height">ส่วนสูง (ซม.) :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>ส่วนสูง (ซม.)</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="input_weight">น้ำหนัก (กก.) :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>น้ำหนัก (กก.)</label>
                                     </div>
                                 </div>
                             </div>
@@ -302,27 +260,21 @@
                             <h3 class="h3 text-red mb-3">เอกสารประจำตัว</h3>
                             <div class="row">
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="input_idcard">บัตรประจำตัวประชาชน :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>บัตรประจำตัวประชาชน</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend icon icon__date">
-                                            <span class="input-group-text" id="input_idcard_start">วันที่ออกบัตร :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ" readonly>
+                                    <div class="form-group form--float icon icon__date">
+                                        <input id="input_idcard_start" class="form-control" type="text" placeholder="" value="" readonly>
+                                        <label>วันที่ออกบัตร</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend icon icon__date">
-                                            <span class="input-group-text" id="input_idcard_exp">วันที่หมดอายุ :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="ระบุ" readonly>
+                                    <div class="form-group form--float icon icon__date">
+                                        <input id="input_idcard_exp" class="form-control" type="text" placeholder="" value="" readonly>
+                                        <label>วันที่หมดอายุ</label>
                                     </div>
                                 </div>
 
@@ -351,10 +303,10 @@
                                         <label class="form-check-label" for="choice_3">
                                             ได้รับการยกเว้น
                                         </label>
-                                        <span class="form-input-other">
-                                            <input type="text" class="form-control" placeholder="ระบุ" disabled>
+                                        <span class="form-group form--float form-input-other">
+                                            <input class="form-control" type="text" placeholder="" value="" disabled>
+                                            <label>ระบุ</label>
                                         </span>
-                                        
                                     </div>
                                 </div>
                             </div>
@@ -383,4 +335,32 @@
     <!-- Slick JS  -->
     <script type="text/javascript" src="{{ mix('/slick/slick.min.js') }}"></script>
     <script type="text/javascript" src="{{ mix('/js/slick.js') }}"></script>
+@endpush
+
+@push('script-inputfile')
+<script type="text/javascript" src="{{ mix('/js/custom-file-input.js') }}"></script>
+<script type="text/javascript">
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('#blah').attr('src', e.target.result);
+            }
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+    $("#file-1").change(function () {
+        readURL(this);
+        if($(this).val() != ''){
+            $(this).parent().addClass('has-data');
+        } else {
+            $(this).parent().removeClass('has-data');
+        }
+    });
+</script>
+    
+
 @endpush
