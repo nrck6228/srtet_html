@@ -37,37 +37,42 @@
                     <h2 class="page__title text--primary">คำนวณค่าโดยสารและเวลาเดินทาง</h2>
                 </div>
 
-                <div class="form-filter">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>สถานีต้นทาง</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-                            </div> 
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>สถานีปลายทาง</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-                            </div>    
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls icon icon__date">
-                                <input type="text" id="start_date" class="form-control start-date" placeholder="วันที่เดินทาง">
+                <div class="form-group-wrapper">
+                    <form action="">
+                        <div class="form-group--section">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="form-group form--float">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected="true" value="title">เลือกสถานีต้นทาง</option>
+                                            <option value="">สถานี</option>
+                                            <option value="">สถานี</option> 
+                                        </select>
+                                        <label class="did-floating-label">เลือกสถานีต้นทาง</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="form-group form--float">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected="true" value="title">เลือกสถานีปลายทาง</option>
+                                            <option value="">สถานี</option>
+                                            <option value="">สถานี</option> 
+                                        </select>
+                                        <label class="did-floating-label">เลือกสถานีปลายทาง</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="form-group form--float icon icon__date">
+                                        <input id="start_date" class="form-control start-date" type="text" placeholder="" value=" " readonly>
+                                        <label>วันที่เดินทาง</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-6 col-12">
+                                    <button type="button" class="btn btn--primary"><span>คำนวณ</span></button>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-2 col-sm-6 col-12">
-                            <button type="button" class="btn btn--primary"><span>คำนวณ</span></button>
-                        </div>
-                    </div>
+                    </form>
                 </div>
 
                 <div class="calculated--wrapper">
@@ -709,13 +714,40 @@
         $("#start_date").datepicker({
             changeMonth: true,
             changeYear: true,
-            yearRange: '+443:+543',//TH
             //yearRange: '-80:+0',//EN
             dateFormat: 'dd/mm/yy',
+
+            // onSelect: function () {
+            //     var dt2 = $('#end_date');
+            //     var startDate = $(this).datepicker('getDate');
+            //     var minDate = $(this).datepicker('getDate');
+            //     var dt2Date = dt2.datepicker('getDate');
+            //     //difference in days. 86400 seconds in day, 1000 ms in second
+            //     var dateDiff = (dt2Date - minDate)/(86400 * 1000);
+                
+            //     startDate.setDate(startDate.getDate() + 30);
+            //     if (dt2Date == null || dateDiff < 0) {
+            //     		dt2.datepicker('setDate', minDate);
+            //     }
+            //     else if (dateDiff > 30){
+            //     		dt2.datepicker('setDate', startDate);
+            //     }
+            //     //sets dt2 maxDate to the last day of 30 days window
+            //     dt2.datepicker('option', 'maxDate', startDate);
+            //     dt2.datepicker('option', 'minDate', minDate);
+            // }
             
         });
         $('#start_date').datepicker("setDate",currentDate );
-    </script>
 
+        $("#end_date").datepicker({
+            changeMonth: true,
+            changeYear: true,
+            yearRange: '+443:+543',//TH
+            //yearRange: '-80:+0',//EN
+            dateFormat: 'dd/mm/yy',
+        });
+        $('#end_date').datepicker("setDate",currentDate );
+    </script>
 
 @endpush

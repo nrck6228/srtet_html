@@ -37,19 +37,26 @@
                     <h2 class="page__title text--primary">ข้อมูลสถานีรถไฟฟ้า</h2>
                 </div>
 
-                <div class="form-filter">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>-- สถานี --</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
-                            </div>    
+                <div class="form-group-wrapper">
+                    <form action="">
+                        <div class="form-group--section">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="form-group form--float">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected="true" value="title">เลือกสถานี</option>
+                                            <option value="" >สถานี</option>
+                                            <option value="">สถานี</option> 
+                                        </select>
+                                        <label class="did-floating-label">เลือกสถานี</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-6 col-12">
+                                    <button type="button" class="btn btn--primary"><span>ค้นหา</span></button>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
 
                 <div class="body--content">

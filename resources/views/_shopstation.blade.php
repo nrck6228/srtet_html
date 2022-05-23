@@ -37,38 +37,42 @@
                     <h2 class="page__title text--primary">สิ่งอำนวยความสะดวก</h2>
                 </div>
 
-                <div class="form-filter">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls">
-                                <input type="text" class="form-control" placeholder="คำค้นหา">
+                <div class="form-group-wrapper">
+                    <form action="">
+                        <div class="form-group--section">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>คำค้นหา</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="form-group form--float">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected="true" value="title">เลือกประเภทร้านค้า</option>
+                                            <option value="" >ร้านค้า</option>
+                                            <option value="">ร้านค้า</option> 
+                                        </select>
+                                        <label class="did-floating-label">เลือกประเภทร้านค้า</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="form-group form--float">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected="true" value="title">เลือกสถานี</option>
+                                            <option value="" >สถานี</option>
+                                            <option value="">สถานี</option> 
+                                        </select>
+                                        <label class="did-floating-label">เลือกสถานี</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-6 col-12">
+                                    <button type="button" class="btn btn--primary"><span>ค้นหา</span></button>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls">
-                                <select class="form-select" aria-label="เลือกประเภทร้านค้า">
-                                    <option selected>เลือกประเภทร้านค้า</option>
-                                    <option value="1">ประเภท 1</option>
-                                    <option value="2">ประเภท 2</option>
-                                    <option value="3">ประเภท 3</option>
-                                </select>
-                            </div>
-                            
-                        </div>
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls">
-                                <select class="form-select" aria-label="สถานี">
-                                    <option value="1" selected>สถานี 1</option>
-                                    <option value="2">สถานี 2</option>
-                                    <option value="3">สถานี 3</option>
-                                </select>
-                            </div>
-                            
-                        </div>
-                        <div class="col-md-2 col-sm-6 col-12">
-                            <button type="button" class="btn btn--primary"><span>ค้นหา</span></button>
-                        </div>
-                    </div>
+                    </form>
                 </div>
                 
 

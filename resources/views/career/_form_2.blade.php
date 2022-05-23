@@ -38,7 +38,7 @@
                     <h2 class="page__title text--primary mb-4">ใบสมัครงาน</h2>
                 </div>
 
-                <div class="form-group-wrapper mb-4">
+                <div class="form-group-wrapper">
                     <form action="">
                         <div class="form-group--section">
                             <h3 class="h3 text-red mb-3">ประวัติการศึกษา</h3>
