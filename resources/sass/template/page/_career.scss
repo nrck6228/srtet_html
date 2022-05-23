@@ -4,10 +4,14 @@
         //margin-bottom: 20px;
         width: max-content;
         position: relative;
+        width: 180px;
+        height: 180px;
         img{
             max-width: 100%;
-            width: auto;
-            height: 180px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
         }
 
         .icon-upload-image{
@@ -29,8 +33,6 @@
             }
         }
     }
-
-
 
     .accordion--primary{
         
@@ -195,6 +197,28 @@
         }
         
     }
+
+    .thankyou{
+        background-image: url('../../../assets/images/career/bg-career.png');
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100%;
+
+        margin-bottom: 5rem;
+        .content{
+            padding: 30px 15px;
+            text-align: center;
+            .text{
+                margin: 5rem 0;
+                font-size: 1.5rem;
+                line-height: 1.625rem;
+                font-weight: bold;
+            }
+        }
+    }
 }
+
+
 
 
