@@ -38,6 +38,7 @@
                     <h2 class="page__title text--primary mb-4">ใบสมัครงาน</h2>
                 </div>
 
+
                 <div class="form-group-wrapper">
                     <form action="">
                         <div class="form-group--section">
@@ -45,10 +46,15 @@
                             <div class="row">
                                 <div class="col-lg-3">
                                     <div class="image-profile">
-                                        <img src="{{ asset('assets/images/career/icon-uploadimage.svg')}}" alt="รถไฟฟ้าสายสีแดง">
+                                        <img class="img-upload" src="{{ asset('assets/images/career/icon-uploadimage.svg')}}" alt="รถไฟฟ้าสายสีแดง">
                                         <div class="icon-upload-image">
-                                            <i class="bi bi-camera-fill"></i>
+                                            <label for="file-upload">
+                                                <img src="{{ asset('assets/images/icon/icon-camera.svg')}}"/>
+                                            </label>
+
+                                            <input id="file-upload" type="file" onChange="img_pathUrl(this);" style="display: none;"/>
                                         </div>
+
                                     </div>
                                     <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpeg</div>
                                     <!-- <div class="input-group input-group--remark">
@@ -68,9 +74,9 @@
                                             </div> -->
 
                                             <div class="form-group">
-                                                <div class="select-file">
-                                                    <input type="file" name="file-1[]" id="file-1" class="form-file inputfile inputfile-1">
-                                                    <label for="file-1"><span></span></label>
+                                                <div class="select-file icon icon__upload">
+                                                    <input type="file" name="file-1[]" id="file_resume" class="form-file inputfile inputfile-1">
+                                                    <label for="file_resume"><span></span></label>
                                                     <div class="title-selectfile">เรซูเม่</div>
                                                 </div>
                                             </div>
@@ -317,8 +323,8 @@
                                 <button class="btn btn--primary"><span>ถัดไป</span></button>
                             </div>
                         </div>
-                    </form>
-                </div>
+                    </div>
+                </form>
             </div>
 
 
@@ -340,6 +346,9 @@
 @push('script-inputfile')
 <script type="text/javascript" src="{{ mix('/js/custom-file-input.js') }}"></script>
 <script type="text/javascript">
+    function img_pathUrl(input){
+        $('.img-upload')[0].src = (window.URL ? URL : webkitURL).createObjectURL(input.files[0]);
+    }
     function readURL(input) {
         if (input.files && input.files[0]) {
             var reader = new FileReader();
@@ -352,15 +361,15 @@
         }
     }
 
-    $("#file-1").change(function () {
-        readURL(this);
+    $(".form-file").change(function () {
+        //readURL(this);
         if($(this).val() != ''){
             $(this).parent().addClass('has-data');
         } else {
             $(this).parent().removeClass('has-data');
         }
     });
-</script>
-    
 
+    
+</script>
 @endpush

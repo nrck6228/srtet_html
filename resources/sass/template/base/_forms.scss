@@ -170,6 +170,10 @@
                     }
                 }
             }
+
+            &__remark{
+                margin-bottom: 5px;
+            }
         }
     }
     //style contact form
@@ -369,6 +373,7 @@
     //input type file
     .select-file{
         position:relative;
+        height: 45px;
         .title-selectfile{
             color:$gray; 
             font-size: 1.5rem;
@@ -385,9 +390,6 @@
             -moz-transition:0.2s ease all; 
             -webkit-transition:0.2s ease all;
         }
-        .form-file:focus + .title-selectfile{
-            
-        }
 
         &.has-data{
             .title-selectfile{
@@ -395,6 +397,29 @@
                 font-size: 1.25rem;
                 line-height: 1.25rem;
                 color: $darkgray
+            }
+        }
+
+        &.icon{
+            &__upload{
+                .form-control{
+                    padding-right: 45px;
+                }
+                &:after{
+                    font-family: bootstrap-icons !important;
+                    font-style: normal;
+                    font-weight: normal !important;
+                    font-variant: normal;
+                    content: '\F358';
+                    font-size: 18px;
+                    line-height: 18px;
+                    color: #929091;
+                    position: absolute;
+                    //z-index: 9;
+                    right: 13px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
             }
         }
     }
@@ -421,6 +446,12 @@
     margin-top: 10px;
 }
 
+.sub-title{
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+    font-weight: bold;
+    color: $gray;
+}
 
 
 

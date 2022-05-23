@@ -4,6 +4,16 @@
     }
 }
 
+.btn-action{
+    .btn{
+        margin-right: 20px;
+        margin-left: 0;
+        &:last-of-type{
+            margin-right: 0;
+        }
+    }
+}
+
 
 .btn:focus, .btn.focus {
     outline: 0;
