@@ -160,8 +160,27 @@
                             <a class="nav-link" title="รายงานประจำปี" href="/report">รายงานประจำปี</a>
                         </li>
 
+                        <li class="nav-item dropdown dropdown--navbar">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">ติดต่อเรา</a>
+                            <div class="dropdown-menu">
+                                <ul class="dropdown-nav">
+                                    <li class="dropdown-item">
+                                        <a href="/contact" title="ติดต่อเรา" class="dropdown-link">ติดต่อเรา</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/faq" title="คำถามที่พบบ่อย" class="dropdown-link">คำถามที่พบบ่อย</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/question" title="ถาม - ตอบ" class="dropdown-link">ถาม - ตอบ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        
                         <li class="nav-item">
-                            <a class="nav-link" title="ติดต่อเรา" href="/contact">ติดต่อเรา</a>
+                            <a class="nav-link" title="ร่วมงานกับเรา" href="/listcareer">ร่วมงานกับเรา</a>
                         </li>
                     </ul>
                 </div>

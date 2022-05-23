@@ -59,10 +59,9 @@
                     <h2 class="page__title text--primary">ให้หนังสือพาคุณเดินทางสู่อนาคต ที่ใกล้ตากว่าที่คิด</h2>
                 </div>
 
-                <!-- <div class="head--content d-flex justify-content-between align-items-center">
+                <div class="head--content">
                     <div class="text text__date">วันที่ : 6 เมษายน 2565</div>
-                    <div class="text text__source">ที่มา : Facebook THAI BOOK FAIR</div>
-                </div> -->
+                </div>
 
                 <div class="body--content">
                     <!-- <div class="content__gallery">
@@ -190,7 +189,9 @@
                     </div>
                 </div>          
             </div>
+        </article>
 
+        <article class="page--content">
             <div class="container">
                 @include('include._social')
             </div>

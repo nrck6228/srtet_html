@@ -155,5 +155,11 @@ Route::get('/form3', function () {
     return View::make('career._form_3');
 });
 
+Route::get('/question', function () {
+    return View::make('_question');
+});
 
+Route::get('/faq', function () {
+    return View::make('_faq');
+});
 

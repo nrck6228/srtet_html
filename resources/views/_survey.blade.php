@@ -37,7 +37,7 @@
                     <h2 class="page__title text--primary mb-4">แบบสำรวจ Online</h2>
                 </div>
 
-                <div class="form-group-wrapper mb-4">
+                <div class="form-group-wrapper">
                     <form action="">
                         <div class="form-group--section">
                             <div class="row">

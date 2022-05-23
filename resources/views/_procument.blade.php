@@ -37,58 +37,59 @@
                     <h2 class="page__title text--primary">จัดซื้อจัดจ้าง</h2>
                 </div>
 
-                <div class="form-filter">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>แผนการจัดซื้อจัดจ้าง</option>
-                                    <option value="1">แผนการจัดซื้อจัดจ้าง</option>
-                                    <option value="2">แผนการจัดซื้อจัดจ้าง</option>
-                                    <option value="3">แผนการจัดซื้อจัดจ้าง</option>
-                                </select>
-                            </div> 
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls">
-                                <input type="text" class="form-control" placeholder="เลขที่ประกาศ">
+                <div class="form-group-wrapper">
+                    <form action="" class="form-group--section">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-12">
+                                <div class="form-group form--float">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected="true" value="title">แผนการจัดซื้อจัดจ้าง</option>
+                                        <option value="">จัดซื้อจัดจ้าง</option>
+                                        <option value="">จัดซื้อจัดจ้าง</option> 
+                                    </select>
+                                    <label class="did-floating-label">แผนการจัดซื้อจัดจ้าง</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12">
+                                <div class="form-group form--float">
+                                    <input class="form-control" type="text" placeholder="" value="">
+                                    <label>เลขที่ประกาศ</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12">
+                                <div class="form-group form--float">
+                                    <input class="form-control" type="text" placeholder="" value="">
+                                    <label>ชื่อเรื่อง</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12">
+                                <div class="form-group form--float">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected="true" value="title">เลือกสถานะ</option>
+                                        <option value="">สถานะ</option>
+                                        <option value="">สถานะ</option> 
+                                    </select>
+                                    <label class="did-floating-label">เลือกสถานะ</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12">
+                                <div class="form-group form--float icon icon__date">
+                                    <input id="start_date" class="form-control start-date" type="text" placeholder="" value=" " readonly>
+                                    <label>วันที่เริ่มต้น</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12">
+                                <div class="form-group form--float icon icon__date">
+                                    <input id="end_date" class="form-control end-date" type="text" placeholder="" value=" " readonly>
+                                    <label>วันที่สิ้นสุด</label>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-6 col-12">
+                                <button type="button" class="btn btn--primary"><span>ค้นหา</span></button>
                             </div>
                         </div>
-
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls">
-                                <input type="text" class="form-control" placeholder="ชื่อเรื่อง">
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls">
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>สถานะ</option>
-                                    <option value="1">สถานะ</option>
-                                    <option value="2">สถานะ</option>
-                                    <option value="3">สถานะ</option>
-                                </select>
-                            </div> 
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls icon icon__date">
-                                <input type="text" id="start_date" class="form-control start-date" placeholder="วันที่เริ่มต้น">
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls icon icon__date">
-                                <input type="text" id="end_date" class="form-control end-date" placeholder="วันที่สิ้นสุด">
-                            </div>
-                        </div>
-
-                        <div class="col-md-2 col-sm-6 col-12">
-                            <button type="button" class="btn btn--primary"><span>ค้นหา</span></button>
-                        </div>
-                    </div>
+                    </form>
+                    
                 </div>
 
                 <div class="procument--wrapper">
@@ -363,9 +364,28 @@
         $("#start_date").datepicker({
             changeMonth: true,
             changeYear: true,
-            yearRange: '+443:+543',//TH
             //yearRange: '-80:+0',//EN
             dateFormat: 'dd/mm/yy',
+
+            // onSelect: function () {
+            //     var dt2 = $('#end_date');
+            //     var startDate = $(this).datepicker('getDate');
+            //     var minDate = $(this).datepicker('getDate');
+            //     var dt2Date = dt2.datepicker('getDate');
+            //     //difference in days. 86400 seconds in day, 1000 ms in second
+            //     var dateDiff = (dt2Date - minDate)/(86400 * 1000);
+                
+            //     startDate.setDate(startDate.getDate() + 30);
+            //     if (dt2Date == null || dateDiff < 0) {
+            //     		dt2.datepicker('setDate', minDate);
+            //     }
+            //     else if (dateDiff > 30){
+            //     		dt2.datepicker('setDate', startDate);
+            //     }
+            //     //sets dt2 maxDate to the last day of 30 days window
+            //     dt2.datepicker('option', 'maxDate', startDate);
+            //     dt2.datepicker('option', 'minDate', minDate);
+            // }
             
         });
         $('#start_date').datepicker("setDate",currentDate );
@@ -379,6 +399,5 @@
         });
         $('#end_date').datepicker("setDate",currentDate );
     </script>
-
 
 @endpush
