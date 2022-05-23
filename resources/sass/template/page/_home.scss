@@ -227,6 +227,15 @@
         display: block;
     }
 
+    .events--figure{
+        margin: auto auto 1rem auto;
+        text-align: center;
+
+        img{
+            margin: auto;
+        }
+    }
+
     .events--item{
         // display: flex;
         // justify-content: flex-start; 

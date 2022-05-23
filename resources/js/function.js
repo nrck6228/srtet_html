@@ -22,12 +22,12 @@ $(window).on('load',function(){
 
 // scroll animated logo
 $(window).on("scroll", function (t) {
-    $(this).scrollTop() > 50 ? $(".header--desktop").addClass("header--desktop__animate") : $(".header--desktop").removeClass("header--desktop__animate");
-    // if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
-    //   $(this).scrollTop() > 50 ? $(".header--mobile").addClass("header--mobile__animate") : $(".header--mobile").removeClass("header--mobile__animate");
-    // } else {
-    //     $(this).scrollTop() > 50 ? $(".header--desktop").addClass("header--desktop__animate") : $(".header--desktop").removeClass("header--desktop__animate");
-    // }
+    // $(this).scrollTop() > 50 ? $(".header--desktop").addClass("header--desktop__animate") : $(".header--desktop").removeClass("header--desktop__animate");
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+      $(this).scrollTop() > 50 ? $(".header--mobile").addClass("header--mobile__animate") : $(".header--mobile").removeClass("header--mobile__animate");
+    } else {
+        $(this).scrollTop() > 50 ? $(".header--desktop").addClass("header--desktop__animate") : $(".header--desktop").removeClass("header--desktop__animate");
+    }
 });
 
 $(".hamburger").click(function(){

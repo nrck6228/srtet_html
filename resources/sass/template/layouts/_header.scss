@@ -45,6 +45,9 @@
 
 // Complete styles for desktop navbar
 .header--desktop{
+    display: block;
+    width: 100%;
+    height: auto;
     background-color: white;
     
     .navbar--top{
@@ -259,10 +262,10 @@
 
 // Complete styles for mobile navbar
 .header--mobile{
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 109;
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+    // z-index: 109;
     display: block;
     width: 100%;
     height: auto;
@@ -504,5 +507,15 @@
                 }
             }
         }
+    }
+
+    &__animate{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 109;
+        display: block;
+        width: 100%;
+        height: auto;
     }
 }
