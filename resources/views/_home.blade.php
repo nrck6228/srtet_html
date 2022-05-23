@@ -308,7 +308,7 @@
 
                                 <div class="form-filter">
                                     <div class="row">
-                                        <div class="col-md-3 col-sm-6 col-12">
+                                        <div class="col-md-6">
                                             <div class="search__controls">
                                                 <select class="form-select" aria-label="Default select example">
                                                     <option selected>-- สถานี --</option>
@@ -318,8 +318,8 @@
                                                 </select>
                                             </div>    
                                         </div>
-                                        <div class="col-md-2 col-sm-6 col-12">
-                                            <button type="button" class="btn btn--primary"><span>ค้นหา</span></button>
+                                        <div class="col-md-3">
+                                            <button type="button" class="btn btn--primary w-100"><span>ค้นหา</span></button>
                                         </div>
                                     </div>
                                 </div>
