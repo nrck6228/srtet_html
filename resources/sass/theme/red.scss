@@ -213,6 +213,12 @@ a.text--link{
     }
 }
 
+.view--date{
+    span{
+        color: $color-primary;
+    }
+}
+
 .header--desktop{
     .navbar--bottom{
         .dropdown--navbar{

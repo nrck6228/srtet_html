@@ -86,7 +86,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">                
-                    <div class="form-group-wrapper mb-4">
+                    <div class="form-group-wrapper">
                         <form action="">
                             <!-- <h3 class="text-red mb-3">ติดต่อเรา</h3> -->
                             <div class="form-group--section mb-0">

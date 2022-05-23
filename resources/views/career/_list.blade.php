@@ -37,7 +37,7 @@
                     <h2 class="page__title text--primary mb-4">ข่าวสาร</h2>
                 </div>
 
-                <div class="form-group-wrapper mb-4">
+                <div class="form-group-wrapper">
                     <form action="">
                         <div class="form-group--section">
                             <div class="row">
@@ -65,7 +65,7 @@
                     </form>
                 </div>
                 
-                <div class="accordion--wrapper accordion--primary" id="accordion_career">
+                <div class="accordion accordion--secondary" id="accordion_career">
                     
                     <div class="accordion--item">
                         <div data-bs-toggle="collapse" data-bs-target="#career-1" aria-expanded="false" aria-controls="career-1" class="accordion__title">

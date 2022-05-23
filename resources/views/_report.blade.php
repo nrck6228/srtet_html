@@ -37,30 +37,35 @@
                     <h2 class="page__title text--primary">รายงานประจำปี </h2>
                 </div>
 
-                <div class="form-filter">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls">
-                                <input type="text" class="form-control" placeholder="ชื่อรายงาน">
+                <div class="form-group-wrapper">
+                    <form action="">
+                        <div class="form-group--section">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>ชื่อรายงาน</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="form-group form--float icon icon__date">
+                                        <input id="start_date" class="form-control start-date" type="text" placeholder="" value=" " readonly>
+                                        <label>วันที่เริ่มต้น</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="form-group form--float icon icon__date">
+                                        <input id="end_date" class="form-control end-date" type="text" placeholder="" value=" " readonly>
+                                        <label>วันที่สิ้นสุด</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-6 col-12">
+                                    <button type="button" class="btn btn--primary"><span>ค้นหา</span></button>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls icon icon__date">
-                                <input type="text" id="start_date" class="form-control start-date" placeholder="วันที่เริ่มต้น">
-                            </div>
-                        </div>
-
-                        <div class="col-md-3 col-sm-6 col-12">
-                            <div class="search__controls icon icon__date">
-                                <input type="text" id="end_date" class="form-control end-date" placeholder="วันที่สิ้นสุด">
-                            </div>
-                        </div>
-
-                        <div class="col-md-2 col-sm-6 col-12">
-                            <button type="button" class="btn btn--primary"><span>ค้นหา</span></button>
-                        </div>
-                    </div>
+                    </form>
+                    
                 </div>
 
                 <div class="procument--wrapper">
@@ -250,9 +255,28 @@
         $("#start_date").datepicker({
             changeMonth: true,
             changeYear: true,
-            yearRange: '+443:+543',//TH
             //yearRange: '-80:+0',//EN
             dateFormat: 'dd/mm/yy',
+
+            // onSelect: function () {
+            //     var dt2 = $('#end_date');
+            //     var startDate = $(this).datepicker('getDate');
+            //     var minDate = $(this).datepicker('getDate');
+            //     var dt2Date = dt2.datepicker('getDate');
+            //     //difference in days. 86400 seconds in day, 1000 ms in second
+            //     var dateDiff = (dt2Date - minDate)/(86400 * 1000);
+                
+            //     startDate.setDate(startDate.getDate() + 30);
+            //     if (dt2Date == null || dateDiff < 0) {
+            //     		dt2.datepicker('setDate', minDate);
+            //     }
+            //     else if (dateDiff > 30){
+            //     		dt2.datepicker('setDate', startDate);
+            //     }
+            //     //sets dt2 maxDate to the last day of 30 days window
+            //     dt2.datepicker('option', 'maxDate', startDate);
+            //     dt2.datepicker('option', 'minDate', minDate);
+            // }
             
         });
         $('#start_date').datepicker("setDate",currentDate );
@@ -266,6 +290,5 @@
         });
         $('#end_date').datepicker("setDate",currentDate );
     </script>
-
 
 @endpush

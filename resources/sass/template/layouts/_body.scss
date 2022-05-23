@@ -53,7 +53,7 @@ html, body{
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        height: 40px;
+        min-height: 40px;
         padding: 0 45px 0 15px;
         margin-bottom: 5px;
         font-weight: bold;
@@ -107,6 +107,207 @@ html, body{
     //         right: 15px;
     //     }
     // }
+}
+
+.accordion--secondary{
+    margin-bottom: 2rem;
+
+    .accordion--item{
+        border: 1px solid $gray;
+        padding: 10px 20px 0 20px;
+        margin-bottom: 20px;
+
+        .content--accordion{
+            padding: 1.5rem 0 3rem 0;
+            border-top: 1px solid $gray;
+        }
+
+        .content--accordion{
+            padding: 1.5rem 0 3rem 0;
+            border-top: 1px solid $gray;
+
+            .head--content{
+                margin-bottom: 1.5rem;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+
+                .item{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    
+                    .icon{
+                        margin-right: 10px;
+                        .f-icon{
+                            font-size: 18px;
+                            color: $darkgray;
+                        }
+                    }
+                    .title{
+                        font-size: 1.5rem;
+                        line-height: 1.625rem;
+                        color: $red;
+                    }
+                    .detail{
+                        font-size: 1.5rem;
+                        line-height: 1.625rem;
+                        color: $gray;
+                        padding-left: 5px;
+                    }
+                    &:after{
+                        content: "|";
+                        padding: 0 10px;
+                        font-size: 36px;
+                        line-height: 36px;
+                        color: $gray;
+                    }
+
+                    &:last-of-type{
+                        &:after{
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .download-file{
+
+                .title{
+                    font-size: 1.5rem;
+                    line-height: 1.625rem;
+                    font-weight: bold;
+                    color: $red;
+                    margin-bottom: 0;
+                }
+
+                .list-file{
+                    display: flex;
+                    .item{
+                        a{
+                            display: inline-flex;
+                            align-items: center;
+                            justify-content: center;
+                            text-decoration: none;
+                            .icon{
+                                margin-right: 10px;
+                                .f-icon{
+                                    font-size: 18px;
+                                    color: $darkgray;
+                                }
+                            }
+                            .title{
+                                font-size: 1.5rem;
+                                line-height: 1.625rem;
+                                font-weight: normal;
+                                color: $red;
+                            }
+                            &:after{
+                                content: "|";
+                                padding: 0 10px;
+                                font-size: 36px;
+                                line-height: 36px;
+                                color: $gray;
+                            }
+                        }
+                        &:last-of-type{
+                            a{
+                                &:after{
+                                    visibility: hidden;
+                                }
+                            }
+                        }
+                    }
+                }
+                
+            }
+
+            .btn-group{
+                display: block;
+                text-align: center;
+                margin: 20px 0 0;
+            }
+        }
+
+        @media only screen and (max-width: 992px) {
+            .content--accordion{
+                .head--content{
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    align-items: baseline;
+                    .item{
+                        margin-bottom: 10px;
+                        &:after{
+                            display: none;
+                        }
+                    }
+                }
+                .download-file{
+                    .title{
+                        margin-bottom: 10px;
+                    }
+                    .list-file{
+                        flex-wrap: wrap;
+                        flex-direction: column;
+                        .item{
+                            margin-bottom: 5px;
+                            a{
+                                align-items: flex-start;
+                                &:after{
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .accordion__title{
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        min-height: 40px;
+        padding: 0 45px 0 0;
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 1.875rem;
+        color: $darkgray;
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer;
+        background-color: #fff;
+  
+        &:hover{
+            background-color: #fff;
+        }
+
+        &[aria-expanded='true']{
+            color: $red !important;
+            background-color: $white !important;
+            .more-less {
+                color: $red !important;
+            }
+        }
+    }
+    
+    .accordion__body{
+        padding: 32px;
+        margin-bottom: 5px;
+        background-color: #E5E9ED;
+    }
+  
+    .more-less {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translate(0, -50%);
+        color: $darkgray;
+        font-size: 0.5rem;
+    }
 }
 
 .accordion--white{
@@ -274,7 +475,13 @@ html, body{
 
 .view--count{
     margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
 
+.view--date{
+    margin-bottom: 1rem;
     font-weight: bold;
     font-size: 1.5rem;
     line-height: 1.5rem;
@@ -296,7 +503,7 @@ html, body{
     a{
         display: flex;
         align-items: center;
-        padding: 5px;
+        padding: 0 5px;
         margin: 0 5px;
         font-weight: bold;
         font-size: 1.375rem;
@@ -386,7 +593,6 @@ html, body{
 .text--editor{
     clear: both;
     overflow: hidden;
-    margin-bottom: 2rem;
 
     /*
     * CKEditor 5 (v34.0.0) content styles.

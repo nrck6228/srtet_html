@@ -38,7 +38,7 @@
                 <h2 class="page__title text--primary">สำรวจผู้ใช้บริการรถไฟฟ้าสายสีแดง</h2>
             </div>
 
-            <div class="form-group-wrapper mb-4">
+            <div class="form-group-wrapper">
                 <form action="">
                     <h3 class="h3 text-red mb-3">ข้อมูลทั่วไป</h3>
                     <div class="form-group--section">

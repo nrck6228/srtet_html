@@ -37,7 +37,7 @@
                     <h2 class="page__title text--primary mb-4">ข่าวสาร</h2>
                 </div>
 
-                <div class="form-group-wrapper mb-4">
+                <div class="form-group-wrapper">
                     <form action="">
                         <div class="form-group--section">
                             <div class="row">
@@ -257,6 +257,5 @@
         });
         $('#end_date').datepicker("setDate",currentDate );
     </script>
-
 
 @endpush
