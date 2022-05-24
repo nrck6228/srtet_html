@@ -98,9 +98,9 @@ Route::get('/vote-detail', function () {
     return View::make('_vote-detail');
 });
 
-Route::get('/procument', function () {
-    return View::make('_procument');
-});
+// Route::get('/procument', function () {
+//     return View::make('_procument');
+// });
 
 Route::get('/survey', function () {
     return View::make('_survey');
@@ -145,7 +145,7 @@ Route::get('/contact2', function () {
 Route::get('/listcareer', function () {
     return View::make('career._list');
 });
-Route::get('/form1', function () {
+Route::get('/listcareer/form1', function () {
     return View::make('career._form_1');
 });
 Route::get('/form2', function () {
@@ -163,3 +163,9 @@ Route::get('/faq', function () {
     return View::make('_faq');
 });
 
+Route::get('/procument/index', function () {
+    return View::make('procument._index');
+});
+Route::get('/procument/detail1', function () {
+    return View::make('procument._detail-01');
+});
