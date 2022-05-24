@@ -24,6 +24,7 @@
     "/fonts/selection.json": "/fonts/selection.json",
     "/js/app.js": "/js/app.js",
     "/js/bootstrap.js": "/js/bootstrap.js",
+    "/js/custom-file-input.js": "/js/custom-file-input.js",
     "/js/function.js": "/js/function.js",
     "/js/slick.js": "/js/slick.js",
     "/spotlight/spotlight.min.css": "/spotlight/spotlight.min.css",

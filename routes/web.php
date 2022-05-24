@@ -142,16 +142,17 @@ Route::get('/contact2', function () {
 });
 
 
-Route::get('/listcareer', function () {
+Route::get('/career/listcareer', function () {
     return View::make('career._list');
 });
-Route::get('/listcareer/form1', function () {
+
+Route::get('/career/form1', function () {
     return View::make('career._form_1');
 });
-Route::get('/form2', function () {
+Route::get('/career/form2', function () {
     return View::make('career._form_2');
 });
-Route::get('/form3', function () {
+Route::get('/career/form3', function () {
     return View::make('career._form_3');
 });
 
@@ -169,3 +170,8 @@ Route::get('/procument/index', function () {
 Route::get('/procument/detail1', function () {
     return View::make('procument._detail-01');
 });
+
+Route::get('/ITA', function () {
+    return View::make('_ita');
+});
+

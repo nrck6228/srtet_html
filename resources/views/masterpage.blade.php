@@ -47,6 +47,8 @@
 
         @stack('script-inputfile')
 
+        @stack('script-addform')
+
         @stack('script-accordion')
         
     </body>

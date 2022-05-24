@@ -4,6 +4,16 @@
     }
 }
 
+.btn-action{
+    .btn{
+        margin-right: 20px;
+        margin-left: 0;
+        &:last-of-type{
+            margin-right: 0;
+        }
+    }
+}
+
 
 .btn:focus, .btn.focus {
     outline: 0;
@@ -14,7 +24,7 @@
 .btn{
     padding-left: 2rem;
     padding-right: 2rem;
-    height: 45px;
+    height: 40px;
     border: none;
 
     position: relative;
