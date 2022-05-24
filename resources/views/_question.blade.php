@@ -200,7 +200,7 @@
                 </div>
 
                 <div class="row justify-content-center">
-                    <div class="col-md-3">
+                    <div class="col-auto">
                         <button type="button" class="btn btn--primary w-100"  data-bs-toggle="modal" data-bs-target="#questionModal"><span>ส่งคำถามออนไลน์</span></button>
                     </div>
                 </div>

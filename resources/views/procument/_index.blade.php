@@ -1,0 +1,349 @@
+@extends('masterpage')
+
+@section('title', 'จัดซื้อจัดจ้าง')
+@section('keywords', 'รถไฟฟ้าสายสีแดง')
+@section('description', 'รถไฟฟ้าสายสีแดง')
+
+@section('contentpage')
+
+    <main class="main--wrapper">
+        <article class="hero--wrapper">
+            <div class="container">
+                <div class="hero--slider">
+                    <a href="#" title="" class="slider__item">
+                        <div class="slider__figure">
+                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-demo-procument.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </article>
+
+        <div class="breadcrumb--wrapper">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">หน้าแรก</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">จัดซื้อจัดจ้าง</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
+        <article class="page--content">
+            <div class="container">
+                <div class="title--page justify-content-center">
+                    <h2 class="page__title text--primary">จัดซื้อจัดจ้าง</h2>
+                </div>
+
+                <div class="form-group-wrapper">
+                    <form action="" class="form-group--section">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6 col-12">
+                                <div class="form-group form--float">
+                                    <input class="form-control" type="text" placeholder="" value="" id="additional_values_1">
+                                    <label>คำค้นหา</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12">
+                                <div class="form-group form--float">
+                                    <select class="form-select" aria-label="Default select example" id="additional_values_2">
+                                        <option value="N/A">-- เลือกประเภท --</option>
+                                        <option value="slc1-1">ประกาศจัดซื้อจัดจ้าง</option>
+                                        <option value="slc1-2">ราคากลาง</option> 
+                                        <option value="slc1-3">ประกาศร่าง TOR</option>
+                                        <option value="slc1-4">สรุปผลการจัดซื้อจัดจ้าง</option> 
+                                        <option value="slc1-5">สรุปผลการจัดซื้อจัดจ้างหรือการจัดหา พัสดุรายเดือน (สขร.)</option>
+                                        <option value="slc1-6">ประกาศเชิญชวน</option> 
+                                        <option value="slc1-7">แผนการจัดซื้อจัดจ้างหรือแผนการจัดหา พัสดุ</option>
+                                        <option value="slc1-8">ประกาศรายชื่อผู้ชนะการเสนอราคา</option> 
+                                        <option value="slc1-9">รายงานผลการจัดซื้อจัดจ้างหรือการจัดหา พัสดุประจำปี</option>
+                                        <option value="slc1-10">ยกเลิกประกาศจัดซื้อจัดจ้าง</option>
+                                        <option value="slc1-10">อื่นๆ</option>
+                                    </select>
+                                    <label class="did-floating-label">-- เลือกประเภท --</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12" id="additional_values_3">
+                                <div class="form-group form--float">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected="true" value="title">-- เลือกประเภท --</option>
+                                        <option value="slc2-1">จ้างก่อสร้างอาคาร</option>
+                                        <option value="slc2-2">จ้างก่อสร้างอาคาร</option> 
+                                    </select>
+                                    <label class="did-floating-label">-- เลือกประเภท --</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12" id="additional_values_4">
+                                <div class="form-group form--float">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected="true" value="title">-- เลือกประเภท --</option>
+                                        <option value="slc3-1">สอบราคา</option>
+                                        <option value="slc3-2">สอบราคา</option> 
+                                    </select>
+                                    <label class="did-floating-label">-- เลือกประเภท --</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12" id="additional_values_10">
+                                <div class="form-group form--float">
+                                    <input class="form-control" type="text" placeholder="" value="">
+                                    <label>วงเงินงบประมาณเริ่มต้น</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12" id="additional_values_11">
+                                <div class="form-group form--float">
+                                    <input class="form-control" type="text" placeholder="" value="">
+                                    <label>ถึงวงเงินงบประมาณ</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12" id="additional_values_5">
+                                <div class="form-group form--float icon icon__date">
+                                    <input id="start_date01" class="form-control start-date" type="text" placeholder="" value=" " readonly>
+                                    <label>วันที่เริ่มต้นรับฟังข้อวิจารณ์</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12" id="additional_values_6">
+                                <div class="form-group form--float icon icon__date">
+                                    <input id="end_date01" class="form-control end-date" type="text" placeholder="" value=" " readonly>
+                                    <label>วันที่สิ้นสุดรับฟังข้อวิจารณ์</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12" id="additional_values_7">
+                                <div class="form-group form--float icon icon__date">
+                                    <input id="start_date02" class="form-control start-date" type="text" placeholder="" value=" " readonly>
+                                    <label>วันที่เริ่มต้น</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12" id="additional_values_8">
+                                <div class="form-group form--float icon icon__date">
+                                    <input id="end_date02" class="form-control end-date" type="text" placeholder="" value=" " readonly>
+                                    <label>วันที่สิ้นสุด</label>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-12" id="additional_values_9">
+                                <div class="form-group form--float">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected="true" value="title">-- เลือกปี --</option>
+                                        <option value="slc4-1">2565</option>
+                                        <option value="slc4-2">2564</option> 
+                                    </select>
+                                    <label class="did-floating-label">-- เลือกปี --</label>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-6 col-12">
+                                <button type="button" class="btn btn--primary"><span>ค้นหา</span></button>
+                            </div>
+                        </div>
+                    </form>
+                    
+                </div>
+
+                <div class="procument--wrapper" id="table_template_1">
+                    @include('procument._table-01')
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <script>
+        // const scrollContainer = document.querySelector(".table--primary");
+
+        // scrollContainer.addEventListener("wheel", (evt) => {
+        //     evt.preventDefault();
+        //     scrollContainer.scrollLeft += evt.deltaY;
+        // });
+        jQuery(function($) {
+            $('#additional_values_2').change(function () {
+                var val = $(this).val();
+                console.log(val);
+                if (val === 'slc1-1') {
+                    $('#additional_values_3').show();
+                    $('#additional_values_4').show();
+                    $('#additional_values_5').hide();
+                    $('#additional_values_6').hide();
+                    $('#additional_values_7').show();
+                    $('#additional_values_8').show();
+                    $('#additional_values_9').show();
+                    $('#additional_values_10').hide();
+                    $('#additional_values_11').hide();
+                    $('#table_template_1').show();
+                }
+                else if (val === 'slc1-2') {
+                    $('#additional_values_3').hide();
+                    $('#additional_values_4').hide();
+                    $('#additional_values_5').hide();
+                    $('#additional_values_6').hide();
+                    $('#additional_values_7').show();
+                    $('#additional_values_8').show();
+                    $('#additional_values_9').show();
+                    $('#additional_values_10').hide();
+                    $('#additional_values_11').hide();
+                }
+                else if (val === 'slc1-3') {
+                    $('#additional_values_3').hide();
+                    $('#additional_values_4').hide();
+                    $('#additional_values_5').show();
+                    $('#additional_values_6').show();
+                    $('#additional_values_7').show();
+                    $('#additional_values_8').show();
+                    $('#additional_values_9').show();
+                    $('#additional_values_10').show();
+                    $('#additional_values_11').show();
+                }
+                else if (val === 'slc1-4') {
+                    $('#additional_values_3').hide();
+                    $('#additional_values_4').show();
+                    $('#additional_values_5').hide();
+                    $('#additional_values_6').hide();
+                    $('#additional_values_7').show();
+                    $('#additional_values_8').show();
+                    $('#additional_values_9').show();
+                    $('#additional_values_10').hide();
+                    $('#additional_values_11').hide();
+                }
+                else if (val === 'slc1-5') {
+                    $('#additional_values_3').hide();
+                    $('#additional_values_4').hide();
+                    $('#additional_values_5').hide();
+                    $('#additional_values_6').hide();
+                    $('#additional_values_7').show();
+                    $('#additional_values_8').show();
+                    $('#additional_values_9').show();
+                    $('#additional_values_10').hide();
+                    $('#additional_values_11').hide();
+                }
+                else if (val === 'slc1-6') {
+                    $('#additional_values_3').show();
+                    $('#additional_values_4').show();
+                    $('#additional_values_5').hide();
+                    $('#additional_values_6').hide();
+                    $('#additional_values_7').show();
+                    $('#additional_values_8').show();
+                    $('#additional_values_9').show();
+                    $('#additional_values_10').hide();
+                    $('#additional_values_11').hide();
+                }
+                else if (val === 'slc1-7') {
+                    $('#additional_values_3').hide();
+                    $('#additional_values_4').hide();
+                    $('#additional_values_5').hide();
+                    $('#additional_values_6').hide();
+                    $('#additional_values_7').show();
+                    $('#additional_values_8').show();
+                    $('#additional_values_9').show();
+                    $('#additional_values_10').hide();
+                    $('#additional_values_11').hide();
+                }
+                else if (val === 'slc1-8') {
+                    $('#additional_values_3').hide();
+                    $('#additional_values_4').hide();
+                    $('#additional_values_5').hide();
+                    $('#additional_values_6').hide();
+                    $('#additional_values_7').show();
+                    $('#additional_values_8').show();
+                    $('#additional_values_9').show();
+                    $('#additional_values_10').hide();
+                    $('#additional_values_11').hide();
+                }
+                else if (val === 'slc1-9') {
+                    $('#additional_values_3').hide();
+                    $('#additional_values_4').hide();
+                    $('#additional_values_5').hide();
+                    $('#additional_values_6').hide();
+                    $('#additional_values_7').show();
+                    $('#additional_values_8').show();
+                    $('#additional_values_9').show();
+                    $('#additional_values_10').hide();
+                    $('#additional_values_11').hide();
+                }
+                else if (val === 'slc1-10') {
+                    $('#additional_values_3').hide();
+                    $('#additional_values_4').hide();
+                    $('#additional_values_5').hide();
+                    $('#additional_values_6').hide();
+                    $('#additional_values_7').show();
+                    $('#additional_values_8').show();
+                    $('#additional_values_9').show();
+                    $('#additional_values_10').hide();
+                    $('#additional_values_11').hide();
+                }
+                else if (val === 'slc1-11') {
+                    $('#additional_values_3').hide();
+                    $('#additional_values_4').hide();
+                    $('#additional_values_5').hide();
+                    $('#additional_values_6').hide();
+                    $('#additional_values_7').show();
+                    $('#additional_values_8').show();
+                    $('#additional_values_9').show();
+                    $('#additional_values_10').hide();
+                    $('#additional_values_11').hide();
+                }
+            });
+        });
+    </script>
+@endsection
+
+@push('script-slick')
+    <!-- Slick CSS  -->
+    <link rel="stylesheet" href="{{ mix('/slick/slick.css') }}"/>
+    <link rel="stylesheet" href="{{ mix('/slick/slick-theme.css') }}"/>
+    <!-- Slick JS  -->
+    <script type="text/javascript" src="{{ mix('/slick/slick.min.js') }}"></script>
+    <script type="text/javascript" src="{{ mix('/js/slick.js') }}"></script>
+@endpush
+
+@push('script-datepicker')
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/i18n/datepicker-th.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/i18n/datepicker-en.js"></script>
+
+    <script>
+
+        $.datepicker.setDefaults( $.datepicker.regional[ "th" ] );
+        var currentDate = new Date();
+
+        currentDate.setYear(currentDate.getFullYear() + 543);
+        
+        $("#start_date01, #start_date02").datepicker({
+            changeMonth: true,
+            changeYear: true,
+            //yearRange: '-80:+0',//EN
+            dateFormat: 'dd/mm/yy',
+
+            // onSelect: function () {
+            //     var dt2 = $('#end_date');
+            //     var startDate = $(this).datepicker('getDate');
+            //     var minDate = $(this).datepicker('getDate');
+            //     var dt2Date = dt2.datepicker('getDate');
+            //     //difference in days. 86400 seconds in day, 1000 ms in second
+            //     var dateDiff = (dt2Date - minDate)/(86400 * 1000);
+                
+            //     startDate.setDate(startDate.getDate() + 30);
+            //     if (dt2Date == null || dateDiff < 0) {
+            //     		dt2.datepicker('setDate', minDate);
+            //     }
+            //     else if (dateDiff > 30){
+            //     		dt2.datepicker('setDate', startDate);
+            //     }
+            //     //sets dt2 maxDate to the last day of 30 days window
+            //     dt2.datepicker('option', 'maxDate', startDate);
+            //     dt2.datepicker('option', 'minDate', minDate);
+            // }
+            
+        });
+        $('#start_date01, #start_date02').datepicker("setDate",currentDate );
+
+        $("#end_date01, #end_date02").datepicker({
+            changeMonth: true,
+            changeYear: true,
+            yearRange: '+443:+543',//TH
+            //yearRange: '-80:+0',//EN
+            dateFormat: 'dd/mm/yy',
+        });
+        $('#end_date01, #end_date02').datepicker("setDate",currentDate );
+    </script>
+
+@endpush
