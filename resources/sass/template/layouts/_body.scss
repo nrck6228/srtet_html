@@ -171,6 +171,84 @@ html, body{
                 }
             }
 
+            .body--content{
+                .text--link{
+                    a{
+                        font-size: 1.5rem;
+                        line-height: 1.625rem;
+                        font-weight: normal;
+                        color: $darkgray;
+                        text-decoration: none;
+                        &:hover{
+                            color: $red;
+                        }
+                    }
+                    .item{
+                        padding: 0;
+                        margin: 0;
+                        position: relative;
+                        display: grid;
+                        grid-template-columns: 1fr 1fr 1fr 1fr;
+                        li{
+                            list-style: none;
+                            margin-bottom: 15px;
+                            &::before{
+                                content: '';
+                                display: inline-block;
+                                background-image: url('../../../assets/images/icon/icon-polygon-right.svg');
+                                width: 8px;
+                                height: 11px;
+                                margin-right: 5px;
+                                position: relative;
+                                top: 0;
+                            }
+                            .sub-item{
+                                height: 0;
+                                overflow: hidden;
+                                li{
+                                    position: relative;
+                                    margin-bottom: 0;
+                                    display: flex;
+                                    &::before{
+                                        background-image: none;
+                                        content: '';
+                                        font-family: bootstrap-icons !important;
+                                        font-style: normal;
+                                        font-weight: normal !important;
+                                        font-variant: normal;
+                                        content: '\F2EA';
+                                        font-size: 18px;
+                                        color: $darkgray;
+                                        width: auto;
+                                        height: auto;
+                                        margin-right: 5px;
+                                        top: 0;
+                                    }
+                                }
+                                &.show{
+                                    height: max-content;
+                                }
+                            }
+                        }
+                    }
+                    @media only screen and (max-width: 1199px) {
+                        .item{
+                            grid-template-columns: 1fr 1fr 1fr;
+                        }
+                    }
+                    @media only screen and (max-width: 991px) {
+                        .item{
+                            grid-template-columns: 1fr 1fr;
+                        }
+                    }
+                    @media only screen and (max-width: 575px) {
+                        .item{
+                            grid-template-columns: 1fr;
+                        }
+                    }
+                }
+            }
+
             .download-file{
 
                 .title{
@@ -229,7 +307,7 @@ html, body{
             }
         }
 
-        @media only screen and (max-width: 992px) {
+        @media only screen and (max-width: 991px) {
             .content--accordion{
                 .head--content{
                     flex-wrap: wrap;

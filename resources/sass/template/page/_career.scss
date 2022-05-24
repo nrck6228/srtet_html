@@ -27,6 +27,9 @@
             justify-content: center;
             align-items: center;
             cursor: pointer;
+            label{
+                cursor: pointer;
+            }
             i{
                 font-size: 16px;
                 color: $white;

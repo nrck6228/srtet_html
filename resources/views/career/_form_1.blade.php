@@ -44,12 +44,13 @@
                         <div class="form-group--section">
                             <h3 class="h3 text-red mb-3">ตำแหน่งสมัครงาน</h3>
                             <div class="row">
-                                <div class="col-lg-3">
+                                <div class="col-lg-3 mb-4">
                                     <div class="image-profile">
                                         <img class="img-upload" src="{{ asset('assets/images/career/icon-uploadimage.svg')}}" alt="รถไฟฟ้าสายสีแดง">
                                         <div class="icon-upload-image">
                                             <label for="file-upload">
-                                                <img src="{{ asset('assets/images/icon/icon-camera.svg')}}"/>
+                                                <!-- <img src="{{ asset('assets/images/icon/icon-camera.svg')}}"/> -->
+                                                <i class="bi bi-camera-fill"></i>
                                             </label>
 
                                             <input id="file-upload" type="file" onChange="img_pathUrl(this);" style="display: none;"/>
@@ -73,7 +74,7 @@
                                                 <label for="file_resume">Resume</label>
                                             </div> -->
 
-                                            <div class="form-group">
+                                            <div class="form-group mb-4">
                                                 <div class="select-file icon icon__upload">
                                                     <input type="file" name="file-1[]" id="file_resume" class="form-file inputfile inputfile-1">
                                                     <label for="file_resume"><span></span></label>
@@ -318,7 +319,7 @@
                             </div>
                         </div>
 
-                        <div class="text-center">
+                        <div class="text-center mb-5">
                             <div class="btn-group">
                                 <button class="btn btn--primary"><span>ถัดไป</span></button>
                             </div>
@@ -349,17 +350,17 @@
     function img_pathUrl(input){
         $('.img-upload')[0].src = (window.URL ? URL : webkitURL).createObjectURL(input.files[0]);
     }
-    function readURL(input) {
-        if (input.files && input.files[0]) {
-            var reader = new FileReader();
+    // function readURL(input) {
+    //     if (input.files && input.files[0]) {
+    //         var reader = new FileReader();
 
-            reader.onload = function (e) {
-                $('#blah').attr('src', e.target.result);
-            }
+    //         reader.onload = function (e) {
+    //             $('#blah').attr('src', e.target.result);
+    //         }
 
-            reader.readAsDataURL(input.files[0]);
-        }
-    }
+    //         reader.readAsDataURL(input.files[0]);
+    //     }
+    // }
 
     $(".form-file").change(function () {
         //readURL(this);
