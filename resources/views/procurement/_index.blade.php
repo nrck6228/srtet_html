@@ -48,7 +48,7 @@
                             <div class="col-md-3 col-sm-6 col-12">
                                 <div class="form-group form--float">
                                     <select class="form-select" aria-label="Default select example" id="additional_values_2">
-                                        <option value="N/A">-- เลือกประเภท --</option>
+                                        <option value="N/A">เลือกประเภท</option>
                                         <option value="slc1-1">ประกาศจัดซื้อจัดจ้าง</option>
                                         <option value="slc1-2">ราคากลาง</option> 
                                         <option value="slc1-3">ประกาศร่าง TOR</option>
@@ -61,27 +61,27 @@
                                         <option value="slc1-10">ยกเลิกประกาศจัดซื้อจัดจ้าง</option>
                                         <option value="slc1-11">อื่นๆ</option>
                                     </select>
-                                    <label class="did-floating-label">-- เลือกประเภท --</label>
+                                    <label class="did-floating-label">เลือกประเภท</label>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6 col-12" id="additional_values_3">
                                 <div class="form-group form--float">
                                     <select class="form-select" aria-label="Default select example">
-                                        <option selected="true" value="title">-- เลือกประเภท --</option>
+                                        <option selected="true" value="title">เลือกประเภท</option>
                                         <option value="slc2-1">จ้างก่อสร้างอาคาร</option>
                                         <option value="slc2-2">จ้างก่อสร้างอาคาร</option> 
                                     </select>
-                                    <label class="did-floating-label">-- เลือกประเภท --</label>
+                                    <label class="did-floating-label">เลือกประเภท</label>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6 col-12" id="additional_values_4">
                                 <div class="form-group form--float">
                                     <select class="form-select" aria-label="Default select example">
-                                        <option selected="true" value="title">-- เลือกประเภท --</option>
+                                        <option selected="true" value="title">เลือกประเภท</option>
                                         <option value="slc3-1">สอบราคา</option>
                                         <option value="slc3-2">สอบราคา</option> 
                                     </select>
-                                    <label class="did-floating-label">-- เลือกประเภท --</label>
+                                    <label class="did-floating-label">เลือกประเภท</label>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6 col-12" id="additional_values_10">
@@ -123,14 +123,14 @@
                             <div class="col-md-3 col-sm-6 col-12" id="additional_values_9">
                                 <div class="form-group form--float">
                                     <select class="form-select" aria-label="Default select example">
-                                        <option selected="true" value="title">-- เลือกปี --</option>
+                                        <option selected="true" value="title">เลือกปี</option>
                                         <option value="slc4-1">2565</option>
                                         <option value="slc4-2">2564</option> 
                                     </select>
-                                    <label class="did-floating-label">-- เลือกปี --</label>
+                                    <label class="did-floating-label">เลือกปี</label>
                                 </div>
                             </div>
-                            <div class="col-md-2 col-sm-6 col-12">
+                            <div class="col-md-3 col-sm-6 col-12">
                                 <button type="button" class="btn btn--primary"><span>ค้นหา</span></button>
                             </div>
                         </div>
