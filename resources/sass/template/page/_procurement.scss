@@ -1,57 +1,84 @@
-.procument--wrapper{
-    .procument--order{
+.procurement--wrapper{
+    .procurement--order{
         position: relative;
-        width: 250px;
+        min-width: 200px;
         font-size: 1.5rem;
         line-height: 1.5rem;
         color: $darkgray;
     }
 
-    .procument--name{
+    .procurement--name{
         position: relative;
         display: block;
-        width: 500px;
+        min-width: 500px;
         font-size: 1.5rem;
         line-height: 1.5rem;
         color: $darkgray;
         text-decoration: none;
-        transition: all 0.4s ease-in-out;
 
-        &:hover{
-            color: $red;
+        &__short{
+            position: relative;
+            display: block;
+            min-width: 300px;
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+            color: $darkgray;
+            text-decoration: none;
+
+            &:is(a){
+                transition: all 0.4s ease-in-out;
+                &:hover{
+                    color: $red;
+                }
+            }
+        }
+        
+        &:is(a){
+            transition: all 0.4s ease-in-out;
+            &:hover{
+                color: $red;
+            }
         }
     }
 
-    .procument--date{
+    .procurement--date{
         position: relative;
-        width: 125px;
+        min-width: 125px;
         font-size: 1.5rem;
         line-height: 1.5rem;
         color: $darkgray;
 
         &__full{
             position: relative;
-            width: 250px;
+            min-width: 250px;
             font-size: 1.5rem;
             line-height: 1.5rem;
             color: $darkgray;
         }
     }
 
-    .procument--view{
+    .procurement--budget{
+        position: relative;
+        min-width: 250px;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        color: $darkgray;
+    }
+
+    .procurement--company{
+        position: relative;
+        min-width: 250px;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        color: $darkgray;
+    }
+
+    .procurement--view{
         position: relative;
         width: 100px;
         font-size: 1.5rem;
         line-height: 1.5rem;
         color: $darkgray;
-
-        // &:before{
-        //     font-family: 'icomoon' !important;
-        //     content: "\e90e";
-        //     font-size: 0.5rem;
-        //     color: $gray;
-        //     display: inline-block;
-        // }
     }
 
     .table--primary{
@@ -60,7 +87,7 @@
                 > tr{
                     &:nth-child(even){
                         > td{
-                            background-color: rgba($color: $gray, $alpha: 0.2);
+                            background-color: rgba($color: $gray, $alpha: 0.1);
                         }
                     }
                 }
@@ -68,7 +95,7 @@
         }
     }
 
-    .remark--procument{
+    .remark--procurement{
         display: flex;
         justify-content: flex-start;
         align-items: center;
