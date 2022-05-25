@@ -12,7 +12,7 @@
                 <div class="hero--slider">
                     <a href="#" title="" class="slider__item">
                         <div class="slider__figure">
-                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-demo-procument.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-demo-procurement.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
                         </div>
                     </a>
                 </div>
@@ -24,7 +24,7 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="/">หน้าแรก</a></li>
-                        <li class="breadcrumb-item"><a href="/procument/index">จัดซื้อจัดจ้าง</a></li>
+                        <li class="breadcrumb-item"><a href="/procurement/index">จัดซื้อจัดจ้าง</a></li>
                         <li class="breadcrumb-item active" aria-current="page">รายละเอียดประกาศจัดซื้อจัดจ้าง</li>
                     </ol>
                 </nav>
@@ -37,7 +37,7 @@
                     <h2 class="page__title text--primary">รายละเอียดประกาศจัดซื้อจัดจ้าง</h2>
                 </div>
 
-                <div class="procument--wrapper">
+                <div class="procurement--wrapper">
                     <div class="table-responsive table--primary">
                         <table class="table">
                             <thead>
@@ -186,7 +186,7 @@
                     </div>
                     <div class="row justify-content-center">
                         <div class="col-auto">
-                            <a href="/procument/index" class="btn btn--gray w-100"><span>ย้อนกลับ</span></a>
+                            <a href="/procurement/index" class="btn btn--gray w-100"><span>ย้อนกลับ</span></a>
                         </div>
                     </div>
                 </div>

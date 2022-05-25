@@ -12,7 +12,7 @@
                 <div class="hero--slider">
                     <a href="#" title="" class="slider__item">
                         <div class="slider__figure">
-                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-demo-procument.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-demo-procurement.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
                         </div>
                     </a>
                 </div>
@@ -59,7 +59,7 @@
                                         <option value="slc1-8">ประกาศรายชื่อผู้ชนะการเสนอราคา</option> 
                                         <option value="slc1-9">รายงานผลการจัดซื้อจัดจ้างหรือการจัดหา พัสดุประจำปี</option>
                                         <option value="slc1-10">ยกเลิกประกาศจัดซื้อจัดจ้าง</option>
-                                        <option value="slc1-10">อื่นๆ</option>
+                                        <option value="slc1-11">อื่นๆ</option>
                                     </select>
                                     <label class="did-floating-label">-- เลือกประเภท --</label>
                                 </div>
@@ -138,8 +138,48 @@
                     
                 </div>
 
-                <div class="procument--wrapper" id="table_template_1">
-                    @include('procument._table-01')
+                <div class="procurement--wrapper" id="table_template_1" style="display: none;">
+                    @include('procurement._table-01')
+                </div>
+
+                <div class="procurement--wrapper" id="table_template_2" style="display: none;">
+                    @include('procurement._table-02')
+                </div>
+
+                <div class="procurement--wrapper" id="table_template_3" style="display: none;">
+                    @include('procurement._table-03')
+                </div>
+
+                <div class="procurement--wrapper" id="table_template_4" style="display: none;">
+                    @include('procurement._table-04')
+                </div>
+
+                <div class="procurement--wrapper" id="table_template_5" style="display: none;">
+                    @include('procurement._table-05')
+                </div>
+
+                <div class="procurement--wrapper" id="table_template_6" style="display: none;">
+                    @include('procurement._table-06')
+                </div>
+
+                <div class="procurement--wrapper" id="table_template_7" style="display: none;">
+                    @include('procurement._table-07')
+                </div>
+
+                <div class="procurement--wrapper" id="table_template_8" style="display: none;">
+                    @include('procurement._table-08')
+                </div>
+
+                <div class="procurement--wrapper" id="table_template_9" style="display: none;">
+                    @include('procurement._table-09')
+                </div>
+
+                <div class="procurement--wrapper" id="table_template_10" style="display: none;">
+                    @include('procurement._table-10')
+                </div>
+
+                <div class="procurement--wrapper" id="table_template_11" style="display: none;">
+                    @include('procurement._table-11')
                 </div>
             </div>
         </article>
@@ -166,7 +206,18 @@
                     $('#additional_values_9').show();
                     $('#additional_values_10').hide();
                     $('#additional_values_11').hide();
+
                     $('#table_template_1').show();
+                    $('#table_template_2').hide();
+                    $('#table_template_3').hide();
+                    $('#table_template_4').hide();
+                    $('#table_template_5').hide();
+                    $('#table_template_6').hide();
+                    $('#table_template_7').hide();
+                    $('#table_template_8').hide();
+                    $('#table_template_9').hide();
+                    $('#table_template_10').hide();
+                    $('#table_template_11').hide();
                 }
                 else if (val === 'slc1-2') {
                     $('#additional_values_3').hide();
@@ -178,6 +229,18 @@
                     $('#additional_values_9').show();
                     $('#additional_values_10').hide();
                     $('#additional_values_11').hide();
+
+                    $('#table_template_1').hide();
+                    $('#table_template_2').show();
+                    $('#table_template_3').hide();
+                    $('#table_template_4').hide();
+                    $('#table_template_5').hide();
+                    $('#table_template_6').hide();
+                    $('#table_template_7').hide();
+                    $('#table_template_8').hide();
+                    $('#table_template_9').hide();
+                    $('#table_template_10').hide();
+                    $('#table_template_11').hide();
                 }
                 else if (val === 'slc1-3') {
                     $('#additional_values_3').hide();
@@ -189,6 +252,18 @@
                     $('#additional_values_9').show();
                     $('#additional_values_10').show();
                     $('#additional_values_11').show();
+
+                    $('#table_template_1').hide();
+                    $('#table_template_2').hide();
+                    $('#table_template_3').show();
+                    $('#table_template_4').hide();
+                    $('#table_template_5').hide();
+                    $('#table_template_6').hide();
+                    $('#table_template_7').hide();
+                    $('#table_template_8').hide();
+                    $('#table_template_9').hide();
+                    $('#table_template_10').hide();
+                    $('#table_template_11').hide();
                 }
                 else if (val === 'slc1-4') {
                     $('#additional_values_3').hide();
@@ -200,6 +275,18 @@
                     $('#additional_values_9').show();
                     $('#additional_values_10').hide();
                     $('#additional_values_11').hide();
+
+                    $('#table_template_1').hide();
+                    $('#table_template_2').hide();
+                    $('#table_template_3').hide();
+                    $('#table_template_4').show();
+                    $('#table_template_5').hide();
+                    $('#table_template_6').hide();
+                    $('#table_template_7').hide();
+                    $('#table_template_8').hide();
+                    $('#table_template_9').hide();
+                    $('#table_template_10').hide();
+                    $('#table_template_11').hide();
                 }
                 else if (val === 'slc1-5') {
                     $('#additional_values_3').hide();
@@ -211,6 +298,18 @@
                     $('#additional_values_9').show();
                     $('#additional_values_10').hide();
                     $('#additional_values_11').hide();
+
+                    $('#table_template_1').hide();
+                    $('#table_template_2').hide();
+                    $('#table_template_3').hide();
+                    $('#table_template_4').hide();
+                    $('#table_template_5').show();
+                    $('#table_template_6').hide();
+                    $('#table_template_7').hide();
+                    $('#table_template_8').hide();
+                    $('#table_template_9').hide();
+                    $('#table_template_10').hide();
+                    $('#table_template_11').hide();
                 }
                 else if (val === 'slc1-6') {
                     $('#additional_values_3').show();
@@ -222,6 +321,18 @@
                     $('#additional_values_9').show();
                     $('#additional_values_10').hide();
                     $('#additional_values_11').hide();
+
+                    $('#table_template_1').hide();
+                    $('#table_template_2').hide();
+                    $('#table_template_3').hide();
+                    $('#table_template_4').hide();
+                    $('#table_template_5').hide();
+                    $('#table_template_6').show();
+                    $('#table_template_7').hide();
+                    $('#table_template_8').hide();
+                    $('#table_template_9').hide();
+                    $('#table_template_10').hide();
+                    $('#table_template_11').hide();
                 }
                 else if (val === 'slc1-7') {
                     $('#additional_values_3').hide();
@@ -233,6 +344,18 @@
                     $('#additional_values_9').show();
                     $('#additional_values_10').hide();
                     $('#additional_values_11').hide();
+
+                    $('#table_template_1').hide();
+                    $('#table_template_2').hide();
+                    $('#table_template_3').hide();
+                    $('#table_template_4').hide();
+                    $('#table_template_5').hide();
+                    $('#table_template_6').hide();
+                    $('#table_template_7').show();
+                    $('#table_template_8').hide();
+                    $('#table_template_9').hide();
+                    $('#table_template_10').hide();
+                    $('#table_template_11').hide();
                 }
                 else if (val === 'slc1-8') {
                     $('#additional_values_3').hide();
@@ -244,6 +367,18 @@
                     $('#additional_values_9').show();
                     $('#additional_values_10').hide();
                     $('#additional_values_11').hide();
+
+                    $('#table_template_1').hide();
+                    $('#table_template_2').hide();
+                    $('#table_template_3').hide();
+                    $('#table_template_4').hide();
+                    $('#table_template_5').hide();
+                    $('#table_template_6').hide();
+                    $('#table_template_7').hide();
+                    $('#table_template_8').show();
+                    $('#table_template_9').hide();
+                    $('#table_template_10').hide();
+                    $('#table_template_11').hide();
                 }
                 else if (val === 'slc1-9') {
                     $('#additional_values_3').hide();
@@ -255,6 +390,18 @@
                     $('#additional_values_9').show();
                     $('#additional_values_10').hide();
                     $('#additional_values_11').hide();
+
+                    $('#table_template_1').hide();
+                    $('#table_template_2').hide();
+                    $('#table_template_3').hide();
+                    $('#table_template_4').hide();
+                    $('#table_template_5').hide();
+                    $('#table_template_6').hide();
+                    $('#table_template_7').hide();
+                    $('#table_template_8').hide();
+                    $('#table_template_9').show();
+                    $('#table_template_10').hide();
+                    $('#table_template_11').hide();
                 }
                 else if (val === 'slc1-10') {
                     $('#additional_values_3').hide();
@@ -266,6 +413,18 @@
                     $('#additional_values_9').show();
                     $('#additional_values_10').hide();
                     $('#additional_values_11').hide();
+
+                    $('#table_template_1').hide();
+                    $('#table_template_2').hide();
+                    $('#table_template_3').hide();
+                    $('#table_template_4').hide();
+                    $('#table_template_5').hide();
+                    $('#table_template_6').hide();
+                    $('#table_template_7').hide();
+                    $('#table_template_8').hide();
+                    $('#table_template_9').hide();
+                    $('#table_template_10').show();
+                    $('#table_template_11').hide();
                 }
                 else if (val === 'slc1-11') {
                     $('#additional_values_3').hide();
@@ -277,6 +436,18 @@
                     $('#additional_values_9').show();
                     $('#additional_values_10').hide();
                     $('#additional_values_11').hide();
+
+                    $('#table_template_1').hide();
+                    $('#table_template_2').hide();
+                    $('#table_template_3').hide();
+                    $('#table_template_4').hide();
+                    $('#table_template_5').hide();
+                    $('#table_template_6').hide();
+                    $('#table_template_7').hide();
+                    $('#table_template_8').hide();
+                    $('#table_template_9').hide();
+                    $('#table_template_10').hide();
+                    $('#table_template_11').show();
                 }
             });
         });

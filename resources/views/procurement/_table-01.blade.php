@@ -1,4 +1,4 @@
-<!-- <div class="remark--procument">
+<!-- <div class="remark--procurement">
     <div class="remark">
         <span>*</span> หมายเหตุ :
     </div>
@@ -12,7 +12,7 @@
         <i class="icon-cancel-circle"></i> = ยกเลิกประกาศ
     </div>
 </div> -->
-
+<h3>ประกาศจัดซื้อจัดจ้าง</h3>
 <div class="table-responsive table--primary">
     <table class="table">
         <thead>
@@ -44,27 +44,27 @@
                     1
                 </td>
                 <td class="text-start">
-                    <p class="procument--order">
+                    <p class="procurement--order">
                         รฟ.ยธ.1530/9/คล.02/2565
                     </p>
                 </td>
                 <td class="text-start">
-                    <a href="/procument/detail1" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procument--name">
+                    <a href="/procurement/detail1" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procurement--name">
                         จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก
                     </a>
                 </td>
                 <td>
-                    <div class="procument--date__full">
+                    <div class="procurement--date__full">
                         17/05/2565 - 24/05/2565
                     </div>
                 </td>
                 <td>
-                    <div class="procument--date">
+                    <div class="procurement--date">
                         25/05/2565
                     </div>
                 </td>
                 <td>
-                    <div class="procument--view">
+                    <div class="procurement--view">
                         35
                     </div>
                 </td>
@@ -75,27 +75,27 @@
                     2
                 </td>
                 <td class="text-start">
-                    <p class="procument--order">
+                    <p class="procurement--order">
                         รฟ.ยธ.1530/9/คล.02/2565
                     </p>
                 </td>
                 <td class="text-start">
-                    <a href="/procument-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procument--name">
+                    <a href="/procurement-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procurement--name">
                         จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก
                     </a>
                 </td>
                 <td>
-                    <div class="procument--date__full">
+                    <div class="procurement--date__full">
                         17/05/2565 - 24/05/2565
                     </div>
                 </td>
                 <td>
-                    <div class="procument--date">
+                    <div class="procurement--date">
                         25/05/2565
                     </div>
                 </td>
                 <td>
-                    <div class="procument--view">
+                    <div class="procurement--view">
                         35
                     </div>
                 </td>
@@ -106,27 +106,27 @@
                     3
                 </td>
                 <td class="text-start">
-                    <p class="procument--order">
+                    <p class="procurement--order">
                         รฟ.ยธ.1530/9/คล.02/2565
                     </p>
                 </td>
                 <td class="text-start">
-                    <a href="/procument-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procument--name">
+                    <a href="/procurement-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procurement--name">
                         จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก
                     </a>
                 </td>
                 <td>
-                    <div class="procument--date__full">
+                    <div class="procurement--date__full">
                         17/05/2565 - 24/05/2565
                     </div>
                 </td>
                 <td>
-                    <div class="procument--date">
+                    <div class="procurement--date">
                         25/05/2565
                     </div>
                 </td>
                 <td>
-                    <div class="procument--view">
+                    <div class="procurement--view">
                         35
                     </div>
                 </td>
@@ -137,27 +137,27 @@
                     4
                 </td>
                 <td class="text-start">
-                    <p class="procument--order">
+                    <p class="procurement--order">
                         รฟ.ยธ.1530/9/คล.02/2565
                     </p>
                 </td>
                 <td class="text-start">
-                    <a href="/procument-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procument--name">
+                    <a href="/procurement-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procurement--name">
                         จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก
                     </a>
                 </td>
                 <td>
-                    <div class="procument--date__full">
+                    <div class="procurement--date__full">
                         17/05/2565 - 24/05/2565
                     </div>
                 </td>
                 <td>
-                    <div class="procument--date">
+                    <div class="procurement--date">
                         25/05/2565
                     </div>
                 </td>
                 <td>
-                    <div class="procument--view">
+                    <div class="procurement--view">
                         35
                     </div>
                 </td>
@@ -168,27 +168,27 @@
                     5
                 </td>
                 <td class="text-start">
-                    <p class="procument--order">
+                    <p class="procurement--order">
                         รฟ.ยธ.1530/9/คล.02/2565
                     </p>
                 </td>
                 <td class="text-start">
-                    <a href="/procument-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procument--name">
+                    <a href="/procurement-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procurement--name">
                         จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก
                     </a>
                 </td>
                 <td>
-                    <div class="procument--date__full">
+                    <div class="procurement--date__full">
                         17/05/2565 - 24/05/2565
                     </div>
                 </td>
                 <td>
-                    <div class="procument--date">
+                    <div class="procurement--date">
                         25/05/2565
                     </div>
                 </td>
                 <td>
-                    <div class="procument--view">
+                    <div class="procurement--view">
                         35
                     </div>
                 </td>
@@ -199,27 +199,27 @@
                     6
                 </td>
                 <td class="text-start">
-                    <p class="procument--order">
+                    <p class="procurement--order">
                         รฟ.ยธ.1530/9/คล.02/2565
                     </p>
                 </td>
                 <td class="text-start">
-                    <a href="/procument-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procument--name">
+                    <a href="/procurement-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procurement--name">
                         จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก
                     </a>
                 </td>
                 <td>
-                    <div class="procument--date__full">
+                    <div class="procurement--date__full">
                         17/05/2565 - 24/05/2565
                     </div>
                 </td>
                 <td>
-                    <div class="procument--date">
+                    <div class="procurement--date">
                         25/05/2565
                     </div>
                 </td>
                 <td>
-                    <div class="procument--view">
+                    <div class="procurement--view">
                         35
                     </div>
                 </td>
@@ -230,27 +230,27 @@
                     7
                 </td>
                 <td class="text-start">
-                    <p class="procument--order">
+                    <p class="procurement--order">
                         รฟ.ยธ.1530/9/คล.02/2565
                     </p>
                 </td>
                 <td class="text-start">
-                    <a href="/procument-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procument--name">
+                    <a href="/procurement-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procurement--name">
                         จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก
                     </a>
                 </td>
                 <td>
-                    <div class="procument--date__full">
+                    <div class="procurement--date__full">
                         17/05/2565 - 24/05/2565
                     </div>
                 </td>
                 <td>
-                    <div class="procument--date">
+                    <div class="procurement--date">
                         25/05/2565
                     </div>
                 </td>
                 <td>
-                    <div class="procument--view">
+                    <div class="procurement--view">
                         35
                     </div>
                 </td>
@@ -261,27 +261,27 @@
                     8
                 </td>
                 <td class="text-start">
-                    <p class="procument--order">
+                    <p class="procurement--order">
                         รฟ.ยธ.1530/9/คล.02/2565
                     </p>
                 </td>
                 <td class="text-start">
-                    <a href="/procument-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procument--name">
+                    <a href="/procurement-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procurement--name">
                         จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก
                     </a>
                 </td>
                 <td>
-                    <div class="procument--date__full">
+                    <div class="procurement--date__full">
                         17/05/2565 - 24/05/2565
                     </div>
                 </td>
                 <td>
-                    <div class="procument--date">
+                    <div class="procurement--date">
                         25/05/2565
                     </div>
                 </td>
                 <td>
-                    <div class="procument--view">
+                    <div class="procurement--view">
                         35
                     </div>
                 </td>
@@ -292,27 +292,27 @@
                     9
                 </td>
                 <td class="text-start">
-                    <p class="procument--order">
+                    <p class="procurement--order">
                         รฟ.ยธ.1530/9/คล.02/2565
                     </p>
                 </td>
                 <td class="text-start">
-                    <a href="/procument-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procument--name">
+                    <a href="/procurement-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procurement--name">
                         จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก
                     </a>
                 </td>
                 <td>
-                    <div class="procument--date__full">
+                    <div class="procurement--date__full">
                         17/05/2565 - 24/05/2565
                     </div>
                 </td>
                 <td>
-                    <div class="procument--date">
+                    <div class="procurement--date">
                         25/05/2565
                     </div>
                 </td>
                 <td>
-                    <div class="procument--view">
+                    <div class="procurement--view">
                         35
                     </div>
                 </td>
@@ -323,27 +323,27 @@
                     10
                 </td>
                 <td class="text-start">
-                    <p class="procument--order">
+                    <p class="procurement--order">
                         รฟ.ยธ.1530/9/คล.02/2565
                     </p>
                 </td>
                 <td class="text-start">
-                    <a href="/procument-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procument--name">
+                    <a href="/procurement-detail" title="จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก" class="procurement--name">
                         จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก
                     </a>
                 </td>
                 <td>
-                    <div class="procument--date__full">
+                    <div class="procurement--date__full">
                         17/05/2565 - 24/05/2565
                     </div>
                 </td>
                 <td>
-                    <div class="procument--date">
+                    <div class="procurement--date">
                         25/05/2565
                     </div>
                 </td>
                 <td>
-                    <div class="procument--view">
+                    <div class="procurement--view">
                         35
                     </div>
                 </td>

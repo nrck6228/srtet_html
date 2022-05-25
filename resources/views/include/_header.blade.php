@@ -153,7 +153,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" title="จัดซื้อจัดจ้าง" href="/procument">จัดซื้อจัดจ้าง</a>
+                            <a class="nav-link" title="จัดซื้อจัดจ้าง" href="/procurement">จัดซื้อจัดจ้าง</a>
                         </li>
 
                         <li class="nav-item">
