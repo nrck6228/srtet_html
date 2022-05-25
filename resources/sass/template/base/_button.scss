@@ -63,4 +63,8 @@
         border-radius: 0;
         transition: width 0.4s ease-in-out;
     }
+
+    &.btn-delete{
+        display: none;
+    }
 }

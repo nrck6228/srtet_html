@@ -383,7 +383,7 @@
             z-index: 9;
             pointer-events:none;
             left: 10px;
-            top: 10px;
+            top: 8px;
             padding:0 5px;
             background:white;
             transition:0.2s ease all; 
@@ -527,9 +527,9 @@
     background-color: #fff;
     padding: 0;*/
     position: relative;
-    height: 45px;
+    height: 40px;
     margin-bottom: 0;
-    line-height: 45px;
+    line-height: 40px;
     color: $white;
     border: 1px solid $gray;
     background-color: $white;

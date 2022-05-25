@@ -517,6 +517,11 @@
             </div>
         </article>
 
+        <article class="page--content">
+            <div class="container">
+                @include('include._social')
+            </div>
+        </article>
         
     </main>
 
@@ -544,7 +549,7 @@
 
 
         $('.has-sub').click(function(){
-            $('.sub-item').addClass('show');
+            $('.sub-item').toggleClass('show');
         });
     </script>
 @endpush
