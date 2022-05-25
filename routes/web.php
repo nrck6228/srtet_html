@@ -98,8 +98,8 @@ Route::get('/vote-detail', function () {
     return View::make('_vote-detail');
 });
 
-// Route::get('/procument', function () {
-//     return View::make('_procument');
+// Route::get('/procurement', function () {
+//     return View::make('_procurement');
 // });
 
 Route::get('/survey', function () {
@@ -164,11 +164,20 @@ Route::get('/faq', function () {
     return View::make('_faq');
 });
 
-Route::get('/procument/index', function () {
-    return View::make('procument._index');
+Route::get('/procurement/index', function () {
+    return View::make('procurement._index');
 });
-Route::get('/procument/detail1', function () {
-    return View::make('procument._detail-01');
+Route::get('/procurement/detail1', function () {
+    return View::make('procurement._detail-01');
+});
+Route::get('/procurement/detail3', function () {
+    return View::make('procurement._detail-03');
+});
+Route::get('/procurement/detail4', function () {
+    return View::make('procurement._detail-04');
+});
+Route::get('/procurement/detail6', function () {
+    return View::make('procurement._detail-06');
 });
 
 Route::get('/ITA', function () {
