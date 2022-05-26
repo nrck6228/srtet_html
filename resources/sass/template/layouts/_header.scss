@@ -147,14 +147,21 @@
     }
     
     .navbar--bottom{
-        height: 40px;
+        min-height: 40px;
+        padding-top: 0;
+        padding-bottom: 0;
+
+        .navbar-nav{
+            flex-wrap: wrap;
+        }
 
         .nav-item{
             margin: 0 20px;
         }
+
         .nav-link{
             position: relative;
-            padding: 5px 0;
+            padding: 0.5rem 0;
             font-weight: bold;
             font-size: 1.5rem;
             line-height: 1.75rem;

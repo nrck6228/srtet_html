@@ -202,10 +202,13 @@
     
                 .info__icon{
                     display: inline-block;
-                    width: 32px;
-                    height: 32px;
-                    margin-bottom: 3px;
-                    background-color: black;
+                    width: 24px;
+                    height: 24px;
+                    margin-bottom: 0.5rem;
+                    
+                    img{
+                        max-width: 100%;
+                    }
                 }
     
                 .info__name{
@@ -245,7 +248,7 @@
             &__view{
                 position: relative;
                 min-width: min-content;
-                min-height: 380px;
+                min-height: 285px;
     
                 &.redLine{
                     display: flex;
@@ -276,8 +279,18 @@
                             left: 20px;
                             bottom: 10px;
                         }
+
+                        &__top{   
+                            .info__icon{
+                                margin-bottom: 0.5rem;
+                            }
+                        }
     
                         &__bottom{
+                            .info__name{
+                                margin-bottom: 0.5rem;
+                            }
+
                             .info__icon{
                                 display: inline-block;
                                 width: 40px;
@@ -286,6 +299,10 @@
                                 border-radius: 50%;
                                 background-color: white;
                                 transition: all 0.2s ease-in-out;
+
+                                img{
+                                    max-width: 100%;
+                                }
     
                                 &:hover{
                                     background-color: $red;
@@ -329,17 +346,31 @@
                             left: 20px;
                             top: 10px;
                         }
+
+                        &__top{   
+                            .info__icon{
+                                margin-bottom: 0.5rem;
+                            }
+                        }
     
                         &__bottom{
+                            .info__name{
+                                margin-bottom: 0.5rem;
+                            }
+
                             .info__icon{
                                 display: inline-block;
                                 width: 40px;
                                 height: 40px;
+                                margin-bottom: 0.5rem;
                                 border: 4px solid #D05A63;
                                 border-radius: 50%;
                                 background-color: white;
-    
                                 transition: all 0.2s ease-in-out;
+
+                                img{
+                                    max-width: 100%;
+                                }
     
                                 &:hover{
                                     background-color: #D05A63;
@@ -368,10 +399,12 @@
     
                         .info__icon{
                             display: inline-block;
-                            width: 32px;
-                            height: 32px;
-                            margin-bottom: 3px;
-                            background-color: black;
+                            width: 24px;
+                            height: 24px;
+
+                            img{
+                                max-width: 100%;
+                            }
                         }
                     }
     
@@ -384,8 +417,10 @@
                         z-index: 9;
     
                         .info__name{
-                            font-size: 1.375rem;
+                            font-weight: bold;
+                            font-size: 1.625rem;
                             line-height: 1.625rem;
+                            color: $darkgray;
                             text-align: center;
                         }
                     }
@@ -394,11 +429,10 @@
         }
     }
     
-    .remark--route{
+    .route--remark{
         display: flex;
         justify-content: space-between;
         align-items: center;
-
         margin-top: 1rem;
         
         @include media-breakpoint-down(md){
@@ -437,6 +471,34 @@
             font-size: 1.625rem;
             line-height: 1.875rem;
             color: $gray;
+        }
+    }
+
+    .route--connection{
+        display: block;
+        position: relative;
+        margin-top: 1rem;
+
+        ul{
+            margin: 0;
+            padding: 0 1rem;
+            column-count: 2;
+
+            li{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                margin-bottom: 1rem;
+                font-weight: bold;
+                font-size: 1.625rem;
+                line-height: 1.875rem;
+                color: $gray;
+
+                img{
+                    max-width: 32px;
+                    margin-right: 0.5rem;
+                }
+            }
         }
     }
 }

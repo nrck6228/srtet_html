@@ -99,7 +99,7 @@
                             </div>
                         </div>
 
-                        <div class="remark--route">
+                        <div class="route--remark">
                             <div class="remark__left">
                                 <span>*</span>คลิก <span class="point"></span> เพื่อดูรายละเอียดสถานี
                             </div>

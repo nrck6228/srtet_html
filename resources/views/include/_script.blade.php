@@ -2,3 +2,5 @@
 <script type="text/javascript" src="{{ mix('/js/function.js') }}"></script>
 <script type="text/javascript" src="{{ mix('/js/slick.js') }}"></script>
 
+
+

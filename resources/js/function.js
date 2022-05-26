@@ -1,3 +1,7 @@
+AOS.init({
+    duration: 1000,
+});
+
 $(window).on('load',function(){
     var counter = 0;
     var c = 0;
@@ -87,4 +91,3 @@ $('.form-select').on('change', function () {
 		}
 	}
 });
-
