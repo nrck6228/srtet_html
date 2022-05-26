@@ -40,7 +40,7 @@
 
 
                 <div class="form-group-wrapper">
-                    <form action="">
+                    <form action="/career/form2">
                         <div class="form-group--section">
                             <h3 class="h3 text-red mb-3">ตำแหน่งสมัครงาน</h3>
                             <div class="row">
@@ -69,11 +69,6 @@
                                 <div class="col-lg-9">
                                     <div class="row">
                                         <div class="col-lg-4">
-                                            <!-- <div class="form-group form--float icon icon__upload">
-                                                <input class="form-control form-file" id="file_resume" type="file">
-                                                <label for="file_resume">Resume</label>
-                                            </div> -->
-
                                             <div class="form-group mb-4">
                                                 <div class="select-file icon icon__upload">
                                                     <input type="file" name="file-1[]" id="file_resume" class="form-file inputfile inputfile-1">
@@ -81,7 +76,6 @@
                                                     <div class="title-selectfile">เรซูเม่</div>
                                                 </div>
                                             </div>
-
                                         </div>
                                         <div class="col-lg-4">
                                             <div class="form-group form--float">
@@ -370,7 +364,5 @@
             $(this).parent().removeClass('has-data');
         }
     });
-
-    
 </script>
 @endpush

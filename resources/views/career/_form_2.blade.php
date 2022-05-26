@@ -38,12 +38,12 @@
                     <h2 class="page__title text--primary mb-4">ใบสมัครงาน</h2>
                 </div>
 
-                <div class="form-group-wrapper">
-                    <form action="">
+                <div class="form-group-wrapper mb-5">
+                    <form action="/career/form3">
                         <div class="form-group--section" id="form-group_education">
                             <h3 class="h3 text-red mb-3">ประวัติการศึกษา</h3>
                             <div class="manage-form-education">
-                                <div class="row education-form" id="education_1">
+                                <div class="row education-form show" id="education_1">
                                     <div class="col-12">
                                         <h3 class="h3 text-darkgray mb-3">ระดับการศึกษาสูงสุดลำดับ 1</h3>
                                     </div>
@@ -100,6 +100,234 @@
                                         <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpeg</div>
                                     </div>
                                 </div>
+                                <div class="row education-form" id="education_2" style="display: none;">
+                                    <div class="col-12">
+                                        <h3 class="h3 text-darkgray mb-3">ระดับการศึกษาสูงสุดลำดับ 2</h3>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected="true" value="title">วุฒิระดับการศึกษา</option>
+                                                <option value="1">ปวช.</option>
+                                                <option value="2">ปวส.</option>
+                                                <option value="3">ป.ตรี</option>
+                                                <option value="4">ป.โท</option>
+                                            </select>
+                                            <label class="did-floating-label">วุฒิระดับการศึกษา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>สถาบัน</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>คณะ</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>สาขา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>ปีที่จบการศึกษา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>เกรดเฉลี่ย</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group form-group__remark">
+                                            <div class="select-file icon icon__upload">
+                                                <input type="file" name="file-2[]" id="file_transcript_2" class="form-file inputfile inputfile-1">
+                                                <label for="file_transcript_2"><span></span></label>
+                                                <div class="title-selectfile">เอกสารแนบ(Transcript)</div>
+                                            </div>
+                                        </div>
+                                        <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpeg</div>
+                                    </div>
+                                </div>
+                                <div class="row education-form" id="education_3" style="display: none;">
+                                    <div class="col-12">
+                                        <h3 class="h3 text-darkgray mb-3">ระดับการศึกษาสูงสุดลำดับ 3</h3>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected="true" value="title">วุฒิระดับการศึกษา</option>
+                                                <option value="1">ปวช.</option>
+                                                <option value="2">ปวส.</option>
+                                                <option value="3">ป.ตรี</option>
+                                                <option value="4">ป.โท</option>
+                                            </select>
+                                            <label class="did-floating-label">วุฒิระดับการศึกษา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>สถาบัน</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>คณะ</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>สาขา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>ปีที่จบการศึกษา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>เกรดเฉลี่ย</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group form-group__remark">
+                                            <div class="select-file icon icon__upload">
+                                                <input type="file" name="file-3[]" id="file_transcript_3" class="form-file inputfile inputfile-1">
+                                                <label for="file_transcript_3"><span></span></label>
+                                                <div class="title-selectfile">เอกสารแนบ(Transcript)</div>
+                                            </div>
+                                        </div>
+                                        <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpeg</div>
+                                    </div>
+                                </div>
+                                <div class="row education-form" id="education_4" style="display: none;">
+                                    <div class="col-12">
+                                        <h3 class="h3 text-darkgray mb-3">ระดับการศึกษาสูงสุดลำดับ 4</h3>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected="true" value="title">วุฒิระดับการศึกษา</option>
+                                                <option value="1">ปวช.</option>
+                                                <option value="2">ปวส.</option>
+                                                <option value="3">ป.ตรี</option>
+                                                <option value="4">ป.โท</option>
+                                            </select>
+                                            <label class="did-floating-label">วุฒิระดับการศึกษา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>สถาบัน</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>คณะ</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>สาขา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>ปีที่จบการศึกษา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>เกรดเฉลี่ย</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group form-group__remark">
+                                            <div class="select-file icon icon__upload">
+                                                <input type="file" name="file-4[]" id="file_transcript_4" class="form-file inputfile inputfile-1">
+                                                <label for="file_transcript_4"><span></span></label>
+                                                <div class="title-selectfile">เอกสารแนบ(Transcript)</div>
+                                            </div>
+                                        </div>
+                                        <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpeg</div>
+                                    </div>
+                                </div>
+                                <div class="row education-form" id="education_5" style="display: none;">
+                                    <div class="col-12">
+                                        <h3 class="h3 text-darkgray mb-3">ระดับการศึกษาสูงสุดลำดับ 5</h3>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected="true" value="title">วุฒิระดับการศึกษา</option>
+                                                <option value="1">ปวช.</option>
+                                                <option value="2">ปวส.</option>
+                                                <option value="3">ป.ตรี</option>
+                                                <option value="4">ป.โท</option>
+                                            </select>
+                                            <label class="did-floating-label">วุฒิระดับการศึกษา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>สถาบัน</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>คณะ</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>สาขา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>ปีที่จบการศึกษา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>เกรดเฉลี่ย</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group form-group__remark">
+                                            <div class="select-file icon icon__upload">
+                                                <input type="file" name="file-5[]" id="file_transcript_5" class="form-file inputfile inputfile-1">
+                                                <label for="file_transcript_5"><span></span></label>
+                                                <div class="title-selectfile">เอกสารแนบ(Transcript)</div>
+                                            </div>
+                                        </div>
+                                        <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpeg</div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="btn-group btn-action" id="btn_education">
                                 <div class="btn btn--primary btn-add" id="education_add"><span>เพิ่ม</span></div>
@@ -141,7 +369,7 @@
                                 <h3 class="h3 text-darkgray mb-3">ความสามารถทางด้านภาษาต่างประเทศ :</h3>
                             </div>
                             <div class="manage-form-language">
-                                <div class="row language-form" id="language_1">
+                                <div class="row language-form show" id="language_1">
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <select class="form-select" aria-label="Default select example">
@@ -187,7 +415,53 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row language-form" id="language_2">
+                                <div class="row language-form show" id="language_2">
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected="true" value="title">ภาษา</option>
+                                                <option value="1">ภาษาไทย</option>
+                                                <option value="2">ภาษาอังกฤษ</option>
+                                                <option value="3">ภาษาจีน</option>
+                                            </select>
+                                            <label class="did-floating-label">ภาษา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected="true" value="title">พูด</option>
+                                                <option value="1">ภาษาไทย</option>
+                                                <option value="2">ภาษาอังกฤษ</option>
+                                                <option value="3">ภาษาจีน</option>
+                                            </select>
+                                            <label class="did-floating-label">พูด</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected="true" value="title">อ่าน</option>
+                                                <option value="1">ภาษาไทย</option>
+                                                <option value="2">ภาษาอังกฤษ</option>
+                                                <option value="3">ภาษาจีน</option>
+                                            </select>
+                                            <label class="did-floating-label">อ่าน</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected="true" value="title">เขียน</option>
+                                                <option value="1">ภาษาไทย</option>
+                                                <option value="2">ภาษาอังกฤษ</option>
+                                                <option value="3">ภาษาจีน</option>
+                                            </select>
+                                            <label class="did-floating-label">เขียน</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row language-form" id="language_3" style="display: none;">
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <select class="form-select" aria-label="Default select example">
@@ -385,7 +659,7 @@
                                 </div>
                             </div>
                             <div class="manage-form-work">
-                                <div class="row mb-2 work-form" id="work_1">
+                                <div class="row mb-2 work-form show" id="work_1">
                                     <div class="col-12">
                                         <h3 class="h3 text-darkgray mb-3">ข้อมูลประวัติการทำงาน 1</h3>
                                     </div>
@@ -432,9 +706,196 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="row mb-2 work-form" id="work_2" style="display: none;">
+                                    <div class="col-12">
+                                        <h3 class="h3 text-darkgray mb-3">ข้อมูลประวัติการทำงาน 2</h3>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>ชื่อบริษัท</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>ตำแหน่ง</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float icon icon__date">
+                                            <input id="start_date_2" class="form-control" type="text" placeholder="" value="" readonly>
+                                            <label>เริ่มงาน</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float icon icon__date">
+                                            <input id="end_date_2" class="form-control" type="text" placeholder="" value="" readonly>
+                                            <label>สิ้นสุด</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>เงินเดือน</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>บุคคลอ้างอิง</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>เหตุผลลาออก</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2 work-form" id="work_3" style="display: none;">
+                                    <div class="col-12">
+                                        <h3 class="h3 text-darkgray mb-3">ข้อมูลประวัติการทำงาน 3</h3>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>ชื่อบริษัท</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>ตำแหน่ง</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float icon icon__date">
+                                            <input id="start_date_3" class="form-control" type="text" placeholder="" value="" readonly>
+                                            <label>เริ่มงาน</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float icon icon__date">
+                                            <input id="end_date_3" class="form-control" type="text" placeholder="" value="" readonly>
+                                            <label>สิ้นสุด</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>เงินเดือน</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>บุคคลอ้างอิง</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>เหตุผลลาออก</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2 work-form" id="work_4" style="display: none;">
+                                    <div class="col-12">
+                                        <h3 class="h3 text-darkgray mb-3">ข้อมูลประวัติการทำงาน 4</h3>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>ชื่อบริษัท</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>ตำแหน่ง</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float icon icon__date">
+                                            <input id="start_date_4" class="form-control" type="text" placeholder="" value="" readonly>
+                                            <label>เริ่มงาน</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float icon icon__date">
+                                            <input id="end_date_4" class="form-control" type="text" placeholder="" value="" readonly>
+                                            <label>สิ้นสุด</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>เงินเดือน</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>บุคคลอ้างอิง</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>เหตุผลลาออก</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-2 work-form" id="work_5" style="display: none;">
+                                    <div class="col-12">
+                                        <h3 class="h3 text-darkgray mb-3">ข้อมูลประวัติการทำงาน 5</h3>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>ชื่อบริษัท</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>ตำแหน่ง</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float icon icon__date">
+                                            <input id="start_date_5" class="form-control" type="text" placeholder="" value="" readonly>
+                                            <label>เริ่มงาน</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float icon icon__date">
+                                            <input id="end_date_5" class="form-control" type="text" placeholder="" value="" readonly>
+                                            <label>สิ้นสุด</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>เงินเดือน</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>บุคคลอ้างอิง</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>เหตุผลลาออก</label>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            
-
+                        
                             <div class="btn-group btn-action mb-5" id="btn_work">
                                 <div class="btn btn--primary btn-add" id="work_add"><span>เพิ่ม</span></div>
                                 <div class="btn btn--gray btn-delete" id="work_del"><span>ลบ</span></div>
@@ -515,152 +976,52 @@
     /* ----  Education  --- */
     let MoreEducation = 2;
     $('#education_add').click(function () {
-        $('.manage-form-education').append(
-            '<div class="row education-form" id="education_'+MoreEducation+'">' +
-                '<div class="col-12">' +
-                    '<h3 class="h3 text-darkgray mb-3">ระดับการศึกษาสูงสุดลำดับ '+MoreEducation+'</h3>' +
-                '</div>' +
-                '<div class="col-lg-3">' +
-                    '<div class="form-group form--float">' +
-                        '<select class="form-select" aria-label="Default select example">' +
-                            '<option selected="true" value="title">วุฒิระดับการศึกษา</option>' +
-                            '<option value="1">ปวช.</option>' +
-                            '<option value="2">ปวส.</option>' +
-                            '<option value="3">ป.ตรี</option>' +
-                            '<option value="4">ป.โท</option>' +
-                        '</select>' +
-                        '<label class="did-floating-label">วุฒิระดับการศึกษา</label>' +
-                    '</div>' +
-                '</div>' +
-                '<div class="col-lg-3">' +
-                    '<div class="form-group form--float">' +
-                        '<input class="form-control" type="text" placeholder="" value="">' +
-                        '<label>สถาบัน</label>' +
-                '</div>' +
-                '</div>' +
-                '<div class="col-lg-3">' +
-                    '<div class="form-group form--float">' +
-                        '<input class="form-control" type="text" placeholder="" value="">' +
-                        '<label>คณะ</label>' +
-                    '</div>' +
-                '</div>' +
-                '<div class="col-lg-3">' +
-                    '<div class="form-group form--float">' +
-                        '<input class="form-control" type="text" placeholder="" value="">' +
-                        '<label>สาขา</label>' +
-                    '</div>' +
-                '</div>' +
-                '<div class="col-lg-3">' +
-                    '<div class="form-group form--float">' +
-                        '<input class="form-control" type="text" placeholder="" value="">' +
-                        '<label>ปีที่จบการศึกษา</label>' +
-                    '</div>' +
-                '</div>' +
-                '<div class="col-lg-3">' +
-                    '<div class="form-group form--float">' +
-                        '<input class="form-control" type="text" placeholder="" value="">' +
-                        '<label>เกรดเฉลี่ย</label>' +
-                    '</div>' +
-                '</div>' +
-                '<div class="col-lg-6">' +
-                    '<div class="form-group form-group__remark">' +
-                        '<div class="select-file icon icon__upload">' +
-                            '<input type="file" name="file-1_'+MoreEducation+'[]" id="file_transcript_'+MoreEducation+'" class="form-file inputfile inputfile-1">' +
-                            '<label for="file_transcript_'+MoreEducation+'"><span></span></label>' +
-                        '<div class="title-selectfile">เอกสารแนบ(Transcript)</div>' +
-                        '</div>' +
-                    '</div>' +
-                    '<div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpeg</div>' +
-                '</div>' +
-            '</div>'
-        );
+        $('#education_'+MoreEducation).show();
+        $('#education_'+MoreEducation).addClass('show');
         MoreEducation += 1;
 
-        let sizeEducation = $(this).closest("#form-group_education").find('.manage-form-education .education-form').length;
-        console.log(sizeEducation);
-        if (sizeEducation == 5) {
+        let sizeEducation_add = $(this).closest("#form-group_education").find('.manage-form-education .education-form.show').length;
+        //console.log(sizeEducation_add);
+        if(sizeEducation_add == 5){
             $('#education_add').hide();
-        } else if (sizeEducation > 1) {
+        }else{
             $('#education_del').css('display','inline-block');
         }
     });
-
     $('#education_del').click(function(){
         MoreEducation -= 1;
-        $('#education_'+MoreEducation).remove();
-        if(MoreEducation == 2){
+        $('#education_'+MoreEducation+'.show').hide();
+        $('#education_'+MoreEducation).removeClass('show');
+
+        let sizeEducation_del = $(this).closest("#form-group_education").find('.manage-form-education .education-form.show').length;
+        //console.log(sizeEducation_del);
+        if(sizeEducation_del == 1){
             $('#education_del').hide();
         }
-        if(MoreEducation <= 5){
+        if(sizeEducation_del <= 5){
             $('#education_add').show();
         }
     });
 
 
-
     /* ----  language  --- */
     let MoreLanguage = 3;
     $('#language_add').click(function () {
-        $('.manage-form-language').append(
-            '<div class="row language-form" id="language_'+MoreLanguage+'">' +
-                '<div class="col-lg-3">' +
-                    '<div class="form-group form--float">' +
-                        '<select class="form-select" aria-label="Default select example">' +
-                            '<option selected="true" value="title">ภาษา</option>' +
-                            '<option value="1">ภาษาไทย</option>' +
-                            '<option value="2">ภาษาอังกฤษ</option>' +
-                            '<option value="3">ภาษาจีน</option>' +
-                        '</select>' +
-                        '<label class="did-floating-label">ภาษา</label>' +
-                    '</div>' +
-                '</div>' +
-                '<div class="col-lg-3">' +
-                    '<div class="form-group form--float">' +
-                        '<select class="form-select" aria-label="Default select example">' +
-                            '<option selected="true" value="title">พูด</option>' +
-                            '<option value="1">ภาษาไทย</option>' +
-                            '<option value="2">ภาษาอังกฤษ</option>' +
-                            '<option value="3">ภาษาจีน</option>' +
-                        '</select>' +
-                        '<label class="did-floating-label">พูด</label>' +
-                    '</div>' +
-                '</div>' +
-                '<div class="col-lg-3">' +
-                    '<div class="form-group form--float">' +
-                        '<select class="form-select" aria-label="Default select example">' +
-                            '<option selected="true" value="title">อ่าน</option>' +
-                            '<option value="1">ภาษาไทย</option>' +
-                            '<option value="2">ภาษาอังกฤษ</option>' +
-                            '<option value="3">ภาษาจีน</option>' +
-                        '</select>' +
-                        '<label class="did-floating-label">อ่าน</label>' +
-                    '</div>' +
-                '</div>' +
-                '<div class="col-lg-3">' +
-                    '<div class="form-group form--float">' +
-                        '<select class="form-select" aria-label="Default select example">' +
-                            '<option selected="true" value="title">เขียน</option>' +
-                            '<option value="1">ภาษาไทย</option>' +
-                            '<option value="2">ภาษาอังกฤษ</option>' +
-                            '<option value="3">ภาษาจีน</option>' +
-                        '</select>' +
-                    '<label class="did-floating-label">เขียน</label>' +
-                    '</div>' +
-                '</div>' +
-            '</div>'
-        );
+        $('#language_'+MoreLanguage).show();
+        $('#language_'+MoreLanguage).addClass('show');
         MoreLanguage += 1;
 
-        let sizeLanguage = $(this).closest("#form-group_language").find('.manage-form-language .language-form').length;
-        console.log(sizeLanguage);
-        if (sizeLanguage == 3) {
+        let sizeLanguage_add = $(this).closest("#form-group_language").find('.manage-form-language .language-form.show').length;
+        console.log(sizeLanguage_add);
+        if (sizeLanguage_add == 3) {
             $('#language_add').hide();
             $('#language_del').css('display','inline-block');
         } 
     });
     $('#language_del').click(function(){
         MoreLanguage -= 1;
-        $('#language_'+MoreLanguage).remove();
+        $('#language_'+MoreLanguage+'.show').hide();
+        $('#language_'+MoreLanguage).removeClass('show');
         if(MoreLanguage == 3){
             $('#language_add').show();
             $('#language_del').hide();
@@ -671,68 +1032,32 @@
     /* ----  work  --- */
     let MoreWork = 2;
     $('#work_add').click(function () {
-        $('.manage-form-work').append(
-            '<div class="row mb-2 work-form" id="work_'+MoreWork+'">' +
-                '<div class="col-12">' +
-                    '<h3 class="h3 text-darkgray mb-3">ข้อมูลประวัติการทำงาน '+MoreWork+'</h3>' +
-                '</div>' +
-                '<div class="col-lg-3">' +
-                    '<div class="form-group form--float">' +
-                        '<input class="form-control" type="text" placeholder="" value="">' +
-                        '<label>ชื่อบริษัท</label>' +
-                    '</div>' +
-                '</div>' +
-                '<div class="col-lg-3">' +
-                    '<div class="form-group form--float">' +
-                        '<input class="form-control" type="text" placeholder="" value="">' +
-                        '<label>ตำแหน่ง</label>' +
-                    '</div>' +
-                '</div>' +
-                '<div class="col-lg-3">' +
-                    '<div class="form-group form--float icon icon__date">' +
-                        '<input id="start_date" class="form-control" type="text" placeholder="" value="" readonly>' +
-                        '<label>เริ่มงาน</label>' +
-                    '</div>' +
-                '</div>' +
-                '<div class="col-lg-3">' +
-                    '<div class="form-group form--float icon icon__date">' +
-                        '<input id="end_date" class="form-control" type="text" placeholder="" value="" readonly>' +
-                        '<label>สิ้นสุด</label>' +
-                    '</div>' +
-                '</div>' +
-                '<div class="col-lg-3">' +
-                    '<div class="form-group form--float">' +
-                        '<input class="form-control" type="text" placeholder="" value="">' +
-                        '<label>เงินเดือน</label>' +
-                    '</div>' +
-                '</div>' +
-                '<div class="col-lg-3">' +
-                    '<div class="form-group form--float">' +
-                        '<input class="form-control" type="text" placeholder="" value="">' +
-                        '<label>บุคคลอ้างอิง</label>' +
-                    '</div>' +
-                '</div>' +
-                '<div class="col-lg-3">' +
-                    '<div class="form-group form--float">' +
-                        '<input class="form-control" type="text" placeholder="" value="">' +
-                        '<label>เหตุผลลาออก</label>' +
-                    '</div>' +
-                '</div>' +
-            '</div>'
-        );
+        $('#work_'+MoreWork).show();
+        $('#work_'+MoreWork).addClass('show');
         MoreWork += 1;
 
-        let sizeWork = $(this).closest("#form-group_work").find('.manage-form-work .work-form').length;
-        console.log(sizeWork);
-        if (sizeWork == 5) {
+        let sizeWork_add = $(this).closest("#form-group_work").find('.manage-form-work .work-form.show').length;
+        console.log(sizeWork_add);
+        if (sizeWork_add == 5) {
             $('#work_add').hide();
-        } else if (sizeWork > 1) {
+        } else{
             $('#work_del').css('display','inline-block');
         }
     });
     $('#work_del').click(function(){
         MoreWork -= 1;
-        $('#work_'+MoreWork).remove();
+        $('#work_'+MoreWork+'.show').hide();
+        $('#work_'+MoreWork).removeClass('show');
+
+        let sizeWork_del = $(this).closest("#form-group_work").find('.manage-form-work .work-form.show').length;
+        //console.log(sizeWork_del);
+        if(sizeWork_del == 1){
+            $('#work_del').hide();
+        }
+        if(sizeWork_del <= 5){
+            $('#work_add').show();
+        }
+
         if(MoreWork == 2){
             $('#work_del').hide();
         }
