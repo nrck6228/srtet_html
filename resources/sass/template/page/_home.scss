@@ -110,7 +110,7 @@
     
         .data__title { 
             font-size: 2.25rem;
-            line-height: 2.25rem
+            line-height: 2.25rem;
         }
 
         .data__subtitle{
@@ -157,6 +157,10 @@
                     }
                 }
             }
+        }
+
+        .text--editor{
+            margin-bottom: 1.5rem;
         }
     }
     
