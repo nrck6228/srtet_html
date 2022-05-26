@@ -26,11 +26,11 @@
                     </div>
                 </div>
 
-                <div data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2" class="accordion__title">
+                <div data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2" class="accordion__title">
                     <i class="more-less icon-angle-down"></i>
                     แผนผังเว็บไซต์
                 </div>
-                <div id="collapse-2" class="accordion-collapse collapse show" aria-labelledby="collapse-2" data-bs-parent="#accordionFooter">
+                <div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="collapse-2" data-bs-parent="#accordionFooter">
                     <div class="footer--nav">
                         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
                             <div class="col mb-4">
