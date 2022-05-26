@@ -18,7 +18,7 @@
                 content: '\F214';
                 font-size: 18px;
                 line-height: 18px;
-                color: #929091;
+                color: $gray;
                 position: absolute;
                 right: 13px;
                 top: 50%;
@@ -127,7 +127,7 @@
 
 .form-group-wrapper{
     .form-group--section{
-        margin-bottom: 40px;
+        margin-bottom: 1.5rem;
         .form-group{
             &.icon{
                 &__date{
@@ -142,7 +142,7 @@
                         content: '\F214';
                         font-size: 18px;
                         line-height: 18px;
-                        color: #929091;
+                        color: $gray;
                         position: absolute;
                         right: 13px;
                         top: 50%;
@@ -161,7 +161,7 @@
                         content: '\F358';
                         font-size: 18px;
                         line-height: 18px;
-                        color: #929091;
+                        color: $gray;
                         position: absolute;
                         z-index: 9;
                         right: 13px;
@@ -315,7 +315,7 @@
                         content: '\F214';
                         font-size: 18px;
                         line-height: 18px;
-                        color: #929091;
+                        color: $gray;
                         position: absolute;
                         z-index: 9;
                         right: 13px;
@@ -335,7 +335,7 @@
                         content: '\F358';
                         font-size: 18px;
                         line-height: 18px;
-                        color: #929091;
+                        color: $gray;
                         position: absolute;
                         z-index: 9;
                         right: 13px;
@@ -413,7 +413,7 @@
                     content: '\F358';
                     font-size: 18px;
                     line-height: 18px;
-                    color: #929091;
+                    color: $gray;
                     position: absolute;
                     //z-index: 9;
                     right: 13px;
@@ -425,9 +425,9 @@
     }
 
     @media only screen and (max-width: 991px) {
-        .form-group--section{
-            margin-bottom: 10px;
-        }
+        // .form-group--section{
+        //     margin-bottom: 1.5rem;
+        // }
         .form--float{
             label{
                 top: 14px;

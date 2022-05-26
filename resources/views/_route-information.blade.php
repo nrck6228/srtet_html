@@ -38,53 +38,238 @@
                 </div>
 
                 <div class="map--wrapper">
-                    <div id="mapRoute" class="d-none d-lg-block map--figure">
-                        <div class="map--svg">
-                            <div class="map--svg--img">
-                                <div class="map--base">
-                                    <img src="{{ asset('assets/images/map/img-demo-01.jpg')}}" alt="รถไฟฟ้าสายสีแดง" width="1232" height="472">
+                    <div class="route--wrapper">
+                        <div class="route--container">
+                            <div class="main--station">
+                                <div class="main--station__view">
+                                    <div class="info__name">บางซื่อ</div>
+                                    <div class="info__icon">
+                                        <img src="{{ asset('assets/images/map/icons-01.png')}}" alt="รถไฟฟ้าสายสีน้ำเงิน">
+                                    </div>
+                                    <div class="info__icon">
+                                        <img src="{{ asset('assets/images/map/icons-06.png')}}" alt="รถไฟทางไกล">
+                                    </div>
+                                    <div class="info__icon">
+                                        <img src="{{ asset('assets/images/map/icons-07.png')}}" alt="รถโดยสาร">
+                                    </div>
+                                    <div class="info__icon">
+                                        <img src="{{ asset('assets/images/map/icons-08.png')}}" alt="จุดจอดรถ">
+                                    </div>
                                 </div>
-                                <div class="station--base">
-                                    <svg version="1.1" id="stationsSvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1232" height="472" viewBox="0 0 1232 472" enable-background="new 0 0 1232 472" xml:space="preserve">
-                                        <title>สถานี</title>
-                                        <g id="redLine" class="stations">
-                                            <g>
-                                                <g id="station1" class="station__position" link="link" onclick="window.location.href='/bangsur-station';">
-                                                    <rect x="60" y="185" opacity="1" fill="#000" width="50" height="50"></rect>
-                                                </g>
-
-                                                <g id="station2" class="station__position" link="link" onclick="window.location.href='/chatuchak-station';">
-                                                    <rect x="180" y="140" opacity="1" fill="#000" width="50" height="50"></rect>
-                                                </g>
-                                            </g>
-                                        </g>
-                                    </svg>
+                                <div class="main--station__line">
+                                    <a href="/station-information" class="redLine"></a>
+                                    <a href="/station-information" class="lightredLine"></a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                            <div class="line--station">
 
-                    <div class="d-block d-lg-none map--figure">
-                        <div class="map--base-mobile">
-                            <a href="{{ asset('assets/images/map/img-demo-01.jpg')}}" title="รถไฟฟ้าสายสีแดง" data-title="false" class="spotlight">
-                                <img src="{{ asset('assets/images/map/img-demo-01.jpg')}}" alt="รถไฟฟ้าสายสีแดง" class="w-100">
-                            </a>
-                        </div>
+                                <div class="line--station__view redLine">
+                                    <div class="station--info" data-text="3 นาที">
+                                        <div class="station--info__top">
+                                            <div class="info__icon">
+                                                <img src="{{ asset('assets/images/map/icons-07.png')}}" alt="รถโดยสาร">
+                                            </div>
+                                        </div>
+                                        <div class="station--info__bottom">
+                                            <div class="info__name">จตุจักร</div>
+                                            <a href="/station-information" class="info__icon"></a>
+                                        </div>
+                                    </div>
 
-                        <div class="form-filter">
-                            <div class="row">
-                                <div class="col-md-3 col-sm-6 col-12">
-                                    <div class="search__controls">
-                                        <select class="form-select" aria-label="Default select example">
-                                            <option selected>-- สถานี --</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
-                                    </div>    
+                                    <div class="station--info" data-text="3 นาที">
+                                        <div class="station--info__top">
+                                            <div class="info__icon">
+                                                <img src="{{ asset('assets/images/map/icons-07.png')}}" alt="รถโดยสาร">
+                                            </div>
+                                        </div>
+                                        <div class="station--info__bottom">
+                                            <div class="info__name">วัดเสมียนนารี</div>
+                                            <a href="/station-information" class="info__icon"></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="station--info" data-text="3 นาที">
+                                        <div class="station--info__top">
+                                            <div class="info__icon">
+                                                <img src="{{ asset('assets/images/map/icons-07.png')}}" alt="รถโดยสาร">
+                                            </div>
+                                        </div>
+                                        <div class="station--info__bottom">
+                                            <div class="info__name">บางเขน</div>
+                                            <a href="/station-information" class="info__icon"></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="station--info" data-text="3 นาที">
+                                        <div class="station--info__top">
+                                            <div class="info__icon">
+                                                <img src="{{ asset('assets/images/map/icons-07.png')}}" alt="รถโดยสาร">
+                                            </div>
+                                        </div>
+                                        <div class="station--info__bottom">
+                                            <div class="info__name">ทุ่งสองห้อง</div>
+                                            <a href="/station-information" class="info__icon"></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="station--info" data-text="3 นาที">
+                                        <div class="station--info__top">
+                                            <div class="info__icon">
+                                                <img src="{{ asset('assets/images/map/icons-03.png')}}" alt="รถไฟฟ้าสายสีชมพู">
+                                            </div>
+                                            <div class="info__icon">
+                                                <img src="{{ asset('assets/images/map/icons-07.png')}}" alt="รถโดยสาร">
+                                            </div>
+                                        </div>
+                                        <div class="station--info__bottom">
+                                            <div class="info__name">หลักสี่</div>
+                                            <a href="/station-information" class="info__icon"></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="station--info" data-text="3 นาที">
+                                        <div class="station--info__top">
+                                            <div class="info__icon">
+                                                <img src="{{ asset('assets/images/map/icons-07.png')}}" alt="รถโดยสาร">
+                                            </div>
+                                        </div>
+                                        <div class="station--info__bottom">
+                                            <div class="info__name">การเคหะ</div>
+                                            <a href="/station-information" class="info__icon"></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="station--info" data-text="3 นาที">
+                                        <div class="station--info__top">
+                                            <div class="info__icon">
+                                                <img src="{{ asset('assets/images/map/icons-05.png')}}" alt="ท่าอากาศยานดอนเมือง">
+                                            </div>
+                                            <div class="info__icon">
+                                                <img src="{{ asset('assets/images/map/icons-06.png')}}" alt="รถไฟทางไกล">
+                                            </div>
+                                            <div class="info__icon">
+                                                <img src="{{ asset('assets/images/map/icons-07.png')}}" alt="รถโดยสาร">
+                                            </div>
+                                        </div>
+                                        <div class="station--info__bottom">
+                                            <div class="info__name">ดอนเมือง</div>
+                                            <a href="/station-information" class="info__icon"></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="station--info" data-text="3 นาที">
+                                        <div class="station--info__top">
+                                            <div class="info__icon"></div>
+                                            <div class="info__icon"></div>
+                                        </div>
+                                        <div class="station--info__bottom">
+                                            <div class="info__name">หลักหก</div>
+                                            <a href="/station-information" class="info__icon"></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="station--info" data-text="3 นาที">
+                                        <div class="station--info__top">
+                                            <div class="info__icon">
+                                                <img src="{{ asset('assets/images/map/icons-06.png')}}" alt="รถไฟทางไกล">
+                                            </div>
+                                            <div class="info__icon">
+                                                <img src="{{ asset('assets/images/map/icons-07.png')}}" alt="รถโดยสาร">
+                                            </div>
+                                        </div>
+                                        <div class="station--info__bottom">
+                                            <div class="info__name">รังสิต</div>
+                                            <a href="/station-information" class="info__icon"></a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-md-2 col-sm-6 col-12">
-                                    <button type="button" class="btn btn--primary"><span>ค้นหา</span></button>
+
+                                <div class="line--station__view lightredLine">
+                                    <div class="station--info" data-text="7 นาที">
+                                        <div class="station--info__bottom">
+                                            <a href="/station-information" class="info__icon"></a>
+                                            <div class="info__name">บางซ่อน</div>
+                                        </div>
+                                        <div class="station--info__top">
+                                            <div class="info__icon">
+                                                <img src="{{ asset('assets/images/map/icons-02.png')}}" alt="รถไฟฟ้าสายสีม่วง">
+                                            </div>
+                                            <div class="info__icon">
+                                                <img src="{{ asset('assets/images/map/icons-07.png')}}" alt="รถโดยสาร">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="station--info" data-text="7 นาที">
+                                        <div class="station--info__bottom">
+                                            <a href="/station-information" class="info__icon"></a>
+                                            <div class="info__name">บางบำหรุ</div>
+                                        </div>
+                                        <div class="station--info__top">
+                                            <div class="info__icon">
+                                                <img src="{{ asset('assets/images/map/icons-06.png')}}" alt="รถไฟทางไกล">
+                                            </div>
+                                            <div class="info__icon">
+                                                <img src="{{ asset('assets/images/map/icons-07.png')}}" alt="รถโดยสาร">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="station--info" data-text="7 นาที">
+                                        <div class="station--info__bottom">
+                                            <a href="/station-information" class="info__icon"></a>
+                                            <div class="info__name">ตลิ่งชัน</div>
+                                        </div>
+                                        <div class="station--info__top">
+                                            <div class="info__icon">
+                                                <img src="{{ asset('assets/images/map/icons-06.png')}}" alt="รถไฟทางไกล">
+                                            </div>
+                                            <div class="info__icon">
+                                                <img src="{{ asset('assets/images/map/icons-07.png')}}" alt="รถโดยสาร">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="route--remark">
+                                    <div class="remark__left">
+                                        <span>*</span>คลิก <span class="point"></span> เพื่อดูรายละเอียดสถานี
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="route--connection">
+                                    <ul>
+                                        <li>
+                                            <img src="{{ asset('assets/images/map/icons-01.png')}}" alt="รถไฟฟ้าสายสีน้ำเงิน">&nbsp;รถไฟฟ้าสายสีน้ำเงิน
+                                        </li>
+                                        <li>
+                                            <img src="{{ asset('assets/images/map/icons-02.png')}}" alt="รถไฟฟ้าสายสีม่วง">&nbsp;รถไฟฟ้าสายสีม่วง
+                                        </li>
+                                        <li>
+                                            <img src="{{ asset('assets/images/map/icons-03.png')}}" alt="รถไฟฟ้าสายสีชมพู">&nbsp;รถไฟฟ้าสายสีชมพู
+                                        </li>
+                                        <li>
+                                            <img src="{{ asset('assets/images/map/icons-04.png')}}" alt="รถไฟฟ้าสายสีเหลือง">&nbsp;รถไฟฟ้าสายสีเหลือง
+                                        </li>
+                                        <li>
+                                            <img src="{{ asset('assets/images/map/icons-05.png')}}" alt="ท่าอากาศยานดอนเมือง">&nbsp;ท่าอากาศยานดอนเมือง
+                                        </li>
+                                        <li>
+                                            <img src="{{ asset('assets/images/map/icons-06.png')}}" alt="รถไฟทางไกล">&nbsp;รถไฟทางไกล
+                                        </li>
+                                        <li>
+                                            <img src="{{ asset('assets/images/map/icons-07.png')}}" alt="รถโดยสาร">&nbsp;รถโดยสาร
+                                        </li>
+                                        <li>
+                                            <img src="{{ asset('assets/images/map/icons-08.png')}}" alt="จุดจอดรถ">&nbsp;จุดจอดรถ
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>

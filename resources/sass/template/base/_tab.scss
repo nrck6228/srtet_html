@@ -65,15 +65,13 @@
 
 .nav-tabs--third{
     justify-content: flex-end;
-
     margin-bottom: 0;
-
     border-bottom: none;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 
     .nav-link{
-        padding: 1rem 2rem;
+        padding: 0.5rem 2rem;
         margin: 0;
         font-weight: bold;
         font-size: 1.625rem;

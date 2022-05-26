@@ -391,9 +391,9 @@
                                                         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
                                                             <div class="col">
                                                                 <a href="javascript:void(0)" class="facilities__item" data-bs-toggle="modal" data-bs-target="#facilitiesModal">
-                                                                    <img class="img-fluid" src="{{ asset('assets/images/facilities/escalator.svg')}}" alt="รถไฟฟ้าสายสีแดง">
-                                                                    <p>
-                                                                        บันไดเลื่อน
+                                                                    <img class="img-fluid" src="{{ asset('assets/images/facilities/connect-circle.svg')}}" alt="รถไฟฟ้าสายสีแดง">
+                                                                    <p class="h4">
+                                                                        จุดเชื่อมต่อ
                                                                     </p>
                                                                 </a>
                                                             </div>
@@ -401,7 +401,7 @@
                                                             <div class="col">
                                                                 <a href="javascript:void(0)" class="facilities__item">
                                                                     <img class="img-fluid" src="{{ asset('assets/images/facilities/escalator.svg')}}" alt="รถไฟฟ้าสายสีแดง">
-                                                                    <p>
+                                                                    <p class="h4">
                                                                         บันไดเลื่อน
                                                                     </p>
                                                                 </a>
@@ -409,18 +409,45 @@
 
                                                             <div class="col">
                                                                 <a href="javascript:void(0)" class="facilities__item">
-                                                                    <img class="img-fluid" src="{{ asset('assets/images/facilities/escalator.svg')}}" alt="รถไฟฟ้าสายสีแดง">
-                                                                    <p>
-                                                                        บันไดเลื่อน
+                                                                    <img class="img-fluid" src="{{ asset('assets/images/facilities/elevator.svg')}}" alt="รถไฟฟ้าสายสีแดง">
+                                                                    <p class="h4">
+                                                                        ลิฟต์
                                                                     </p>
                                                                 </a>
                                                             </div>
 
                                                             <div class="col">
                                                                 <a href="javascript:void(0)" class="facilities__item">
-                                                                    <img class="img-fluid" src="{{ asset('assets/images/facilities/escalator.svg')}}" alt="รถไฟฟ้าสายสีแดง">
-                                                                    <p>
-                                                                        บันไดเลื่อน
+                                                                    <img class="img-fluid" src="{{ asset('assets/images/facilities/atm-machine.svg')}}" alt="รถไฟฟ้าสายสีแดง">
+                                                                    <p class="h4">
+                                                                        ATM
+                                                                    </p>
+                                                                </a>
+                                                            </div>
+
+                                                            <div class="col">
+                                                                <a href="javascript:void(0)" class="facilities__item">
+                                                                    <img class="img-fluid" src="{{ asset('assets/images/facilities/bus-station.svg')}}" alt="รถไฟฟ้าสายสีแดง">
+                                                                    <p class="h4">
+                                                                        รถประจำทาง
+                                                                    </p>
+                                                                </a>
+                                                            </div>
+
+                                                            <div class="col">
+                                                                <a href="javascript:void(0)" class="facilities__item">
+                                                                    <img class="img-fluid" src="{{ asset('assets/images/facilities/wc.svg')}}" alt="รถไฟฟ้าสายสีแดง">
+                                                                    <p class="h4">
+                                                                        ห้องน้ำ
+                                                                    </p>
+                                                                </a>
+                                                            </div>
+
+                                                            <div class="col">
+                                                                <a href="javascript:void(0)" class="facilities__item">
+                                                                    <img class="img-fluid" src="{{ asset('assets/images/facilities/store-alt.svg')}}" alt="รถไฟฟ้าสายสีแดง">
+                                                                    <p class="h4">
+                                                                        ร้านค้า
                                                                     </p>
                                                                 </a>
                                                             </div>
