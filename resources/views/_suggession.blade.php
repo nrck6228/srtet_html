@@ -68,13 +68,13 @@
                                 </div>
                             </div>
                             <div class="col-lg-3">
-                                <div class="form-group form--float icon icon__date">
+                                <div class="form-group form--float">
                                     <input class="form-control" type="text" placeholder="" value="">
                                     <label>เบอร์โทร</label>
                                 </div>
                             </div>
                             <div class="col-lg-3">
-                                <div class="form-group form--float icon icon__date">
+                                <div class="form-group form--float">
                                     <input class="form-control" type="text" placeholder="" value="">
                                     <label>อีเมล</label>
                                 </div>

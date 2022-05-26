@@ -146,7 +146,7 @@
                                 </div>
 
                                 <div class="btn-group">
-                                    <a href="/form1" class="btn btn--primary"><span>สมัครงาน</span></a>
+                                    <a href="/career/form1" class="btn btn--primary"><span>สมัครงาน</span></a>
                                 </div>
                             </div>
                         </div>
@@ -223,7 +223,7 @@
                                 </div>
 
                                 <div class="btn-group">
-                                    <a href="/form1" class="btn btn--primary"><span>สมัครงาน</span></a>
+                                    <a href="/career/form1" class="btn btn--primary"><span>สมัครงาน</span></a>
                                 </div>
                             </div>
                         </div>
