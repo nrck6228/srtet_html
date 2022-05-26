@@ -184,3 +184,8 @@ Route::get('/ITA', function () {
     return View::make('_ita');
 });
 
+Route::get('/suggession', function () {
+    return View::make('_suggession');
+});
+
+

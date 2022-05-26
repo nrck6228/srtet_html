@@ -175,6 +175,25 @@
                 margin-bottom: 5px;
             }
         }
+
+        .consent{
+            &--contact{
+                width: 100%;
+                max-width: 400px;
+                margin: auto;
+            }
+            label{
+                a{
+                    color: $red;
+                    text-decoration: none;
+                }
+                &:hover{
+                    a{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
     }
     //style form
     .form--float { 

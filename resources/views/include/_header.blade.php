@@ -175,12 +175,16 @@
                                     <li class="dropdown-item">
                                         <a href="/question" title="ถาม - ตอบ" class="dropdown-link">ถาม - ตอบ</a>
                                     </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/suggession" title="เสนอแนะ/ร้องเรียน" class="dropdown-link">เสนอแนะ/ร้องเรียน</a>
+                                    </li>
                                 </ul>
                             </div>
                         </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link" title="ร่วมงานกับเรา" href="/listcareer">ร่วมงานกับเรา</a>
+                            <a class="nav-link" title="ร่วมงานกับเรา" href="/career/listcareer">ร่วมงานกับเรา</a>
                         </li>
                     </ul>
                 </div>
