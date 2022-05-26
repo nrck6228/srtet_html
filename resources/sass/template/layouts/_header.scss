@@ -217,12 +217,13 @@
                 width: 100%;
                 top: auto;
                 left: 0;
+                padding: 15px;
             }
 
             .dropdown-nav{
-                margin: 0;
-                padding: 0 30px;
-                column-count: 3;
+                display: grid;
+                grid-template-columns: auto auto auto;
+                padding: 0;
             }
 
             .dropdown-item {
@@ -233,7 +234,7 @@
 
                 display: block;
                 width: 100%;
-                padding: 0.25rem 1.5rem;
+                padding: 0.5rem;
                 clear: both;
                 text-align: inherit;
                 white-space: normal;
