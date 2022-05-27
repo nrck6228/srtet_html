@@ -26,3 +26,9 @@
     border: 1px solid $red !important;
     background: $red !important;
 }
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight{
+    border-color: #D05A63 !important;
+    background-color: #D05A63 !important;
+    color: $white !important;
+}
