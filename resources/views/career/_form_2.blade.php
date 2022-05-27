@@ -677,13 +677,13 @@
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float icon icon__date">
-                                            <input id="start_date" class="form-control" type="text" placeholder="" value="" readonly>
+                                            <input id="startwork_date_1" class="form-control" type="text" placeholder="" value="" readonly>
                                             <label>เริ่มงาน</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float icon icon__date">
-                                            <input id="end_date" class="form-control" type="text" placeholder="" value="" readonly>
+                                            <input id="endwork_date_1" class="form-control" type="text" placeholder="" value="" readonly>
                                             <label>สิ้นสุด</label>
                                         </div>
                                     </div>
@@ -724,13 +724,13 @@
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float icon icon__date">
-                                            <input id="start_date_2" class="form-control" type="text" placeholder="" value="" readonly>
+                                            <input id="startwork_date_2" class="form-control" type="text" placeholder="" value="" readonly>
                                             <label>เริ่มงาน</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float icon icon__date">
-                                            <input id="end_date_2" class="form-control" type="text" placeholder="" value="" readonly>
+                                            <input id="endwork_date_2" class="form-control" type="text" placeholder="" value="" readonly>
                                             <label>สิ้นสุด</label>
                                         </div>
                                     </div>
@@ -771,13 +771,13 @@
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float icon icon__date">
-                                            <input id="start_date_3" class="form-control" type="text" placeholder="" value="" readonly>
+                                            <input id="startwork_date_3" class="form-control" type="text" placeholder="" value="" readonly>
                                             <label>เริ่มงาน</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float icon icon__date">
-                                            <input id="end_date_3" class="form-control" type="text" placeholder="" value="" readonly>
+                                            <input id="endwork_date_3" class="form-control" type="text" placeholder="" value="" readonly>
                                             <label>สิ้นสุด</label>
                                         </div>
                                     </div>
@@ -818,13 +818,13 @@
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float icon icon__date">
-                                            <input id="start_date_4" class="form-control" type="text" placeholder="" value="" readonly>
+                                            <input id="startwork_date_4" class="form-control" type="text" placeholder="" value="" readonly>
                                             <label>เริ่มงาน</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float icon icon__date">
-                                            <input id="end_date_4" class="form-control" type="text" placeholder="" value="" readonly>
+                                            <input id="endwork_date_4" class="form-control" type="text" placeholder="" value="" readonly>
                                             <label>สิ้นสุด</label>
                                         </div>
                                     </div>
@@ -865,13 +865,13 @@
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float icon icon__date">
-                                            <input id="start_date_5" class="form-control" type="text" placeholder="" value="" readonly>
+                                            <input id="startwork_date_5" class="form-control" type="text" placeholder="" value="" readonly>
                                             <label>เริ่มงาน</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float icon icon__date">
-                                            <input id="end_date_5" class="form-control" type="text" placeholder="" value="" readonly>
+                                            <input id="endwork_date_5" class="form-control" type="text" placeholder="" value="" readonly>
                                             <label>สิ้นสุด</label>
                                         </div>
                                     </div>
@@ -1066,6 +1066,72 @@
         }
     });
 
+
+
+
 </script>
+
+@endpush
+
+@push('script-datepicker')
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript" src="{{ mix('/js/jquery-ui-1.13.1.custom.js') }}"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+    <script type="text/javascript">
+        // TH
+        $.datepicker.regional['th'] ={
+            dateFormat: 'dd/mm/yy',
+            changeMonth: true,
+            changeYear: true,
+            dayNamesMin: ['อา', 'จ', 'อ', 'พ', 'พฤ', 'ศ', 'ส'],
+            monthNamesShort: ['มกราคม', 'กุมภาพันธ์', 'มีนาคม', 'เมษายน', 'พฤษภาคม', 'มิถุนายน', 'กรกฎาคม', 'สิงหาคม', 'กันยายน', 'ตุลาคม', 'พฤศจิกายน', 'ธันวาคม'],
+            constrainInput: true,
+            yearOffSet : 543,
+            
+            
+            onSelect: function() {
+                if($(this).val() != ''){
+                    $(this).parent().addClass('has-data');
+                } else {
+                    $(this).parent().removeClass('has-data');
+                }
+            },
+        };
+        $.datepicker.setDefaults($.datepicker.regional['th']);
+        // EN
+        // $.datepicker.regional['en'] ={
+        //     dateFormat: 'dd/mm/yy',
+        //     changeMonth: true,
+        //     changeYear: true,
+        //     constrainInput: true,
+        //     yearOffSet : 0,
+        //     yearRange: '-80:+0',
+        // };
+        // $.datepicker.setDefaults($.datepicker.regional['en']);
+
+        $(document).ready(function () {
+            
+            $("#startwork_date_1").datepicker( $.datepicker.regional["th"] );
+            $("#endwork_date_1").datepicker( $.datepicker.regional["th"] );
+
+            $("#startwork_date_2").datepicker( $.datepicker.regional["th"] );
+            $("#endwork_date_2").datepicker( $.datepicker.regional["th"] );
+
+            $("#startwork_date_3").datepicker( $.datepicker.regional["th"] );
+            $("#endwork_date_3").datepicker( $.datepicker.regional["th"] );
+
+            $("#startwork_date_4").datepicker( $.datepicker.regional["th"] );
+            $("#endwork_date_4").datepicker( $.datepicker.regional["th"] );
+
+            $("#startwork_date_5").datepicker( $.datepicker.regional["th"] );
+            $("#endwork_date_5").datepicker( $.datepicker.regional["th"] );
+
+
+        });
+        
+    </script>
 
 @endpush

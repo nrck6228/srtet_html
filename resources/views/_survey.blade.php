@@ -43,13 +43,13 @@
                             <div class="row">
                                 <div class="col-md-3 col-sm-6 col-12">
                                     <div class="form-group form--float icon icon__date">
-                                        <input id="start_date" class="form-control start-date" type="text" placeholder="" value=" " readonly>
+                                        <input id="start_date" class="form-control start-date" type="text" placeholder="" value="" readonly>
                                         <label>วันที่เริ่มต้น</label>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-6 col-12">
                                     <div class="form-group form--float icon icon__date">
-                                        <input id="end_date" class="form-control end-date" type="text" placeholder="" value=" " readonly>
+                                        <input id="end_date" class="form-control end-date" type="text" placeholder="" value="" readonly>
                                         <label>วันที่สิ้นสุด</label>
                                     </div>
                                 </div>
@@ -143,38 +143,53 @@
 
 @push('script-datepicker')
 
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript" src="{{ mix('/js/jquery-ui-1.13.1.custom.js') }}"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/i18n/datepicker-th.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/i18n/datepicker-en.js"></script>
-
-    <script>
-
-        $.datepicker.setDefaults( $.datepicker.regional[ "th" ] );
-        var currentDate = new Date();
-
-        currentDate.setYear(currentDate.getFullYear() + 543);
-        
-        $("#start_date").datepicker({
+    <script type="text/javascript">
+        // TH
+        $.datepicker.regional['th'] ={
+            dateFormat: 'dd/mm/yy',
             changeMonth: true,
             changeYear: true,
-            yearRange: '+443:+543',//TH
-            //yearRange: '-80:+0',//EN
-            dateFormat: 'dd/mm/yy',
+            dayNamesMin: ['อา', 'จ', 'อ', 'พ', 'พฤ', 'ศ', 'ส'],
+            monthNamesShort: ['มกราคม', 'กุมภาพันธ์', 'มีนาคม', 'เมษายน', 'พฤษภาคม', 'มิถุนายน', 'กรกฎาคม', 'สิงหาคม', 'กันยายน', 'ตุลาคม', 'พฤศจิกายน', 'ธันวาคม'],
+            constrainInput: true,
+            yearOffSet : 543,
+            yearRange: '-80:+0',
+            maxDate: 0,
+            onSelect: function() {
+                if($(this).val() != ''){
+                    $(this).parent().addClass('has-data');
+                } else {
+                    $(this).parent().removeClass('has-data');
+                }
+            },
+        };
+        $.datepicker.setDefaults($.datepicker.regional['th']);
+        // EN
+        // $.datepicker.regional['en'] ={
+        //     dateFormat: 'dd/mm/yy',
+        //     changeMonth: true,
+        //     changeYear: true,
+        //     constrainInput: true,
+        //     yearOffSet : 0,
+        //     yearRange: '-80:+0',
+        //     maxDate: 0,
+        // };
+        // $.datepicker.setDefaults($.datepicker.regional['en']);
+
+        $(document).ready(function () {
+
+            $("#start_date").datepicker( $.datepicker.regional["th"] );
+            //$("#start_date").datepicker( "setDate", new Date());
             
+            $("#end_date").datepicker( $.datepicker.regional["th"] );
+            //$("#start_date").datepicker( "setDate", new Date());
         });
-        $('#start_date').datepicker("setDate",currentDate );
-
-        $("#end_date").datepicker({
-            changeMonth: true,
-            changeYear: true,
-            yearRange: '+443:+543',//TH
-            //yearRange: '-80:+0',//EN
-            dateFormat: 'dd/mm/yy',
-        });
-        $('#end_date').datepicker("setDate",currentDate );
+        
     </script>
-
 
 @endpush

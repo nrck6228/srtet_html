@@ -90,7 +90,7 @@
                                         </div>
                                         <div class="col-lg-4">
                                             <div class="form-group form--float icon icon__date">
-                                                <input id="start_date" class="form-control" type="text" placeholder="" value="" readonly>
+                                                <input id="regis_date" class="form-control" type="text" placeholder="" value="" readonly>
                                                 <label>วันที่สมัคร</label>
                                             </div>
                                         </div>
@@ -174,7 +174,7 @@
                             <div class="row">
                                 <div class="col-lg-3">
                                     <div class="form-group form--float icon icon__date">
-                                        <input id="start_date" class="form-control hbd-date" type="text" placeholder="" value="" readonly>
+                                        <input id="hbd_date" class="form-control hbd-date" type="text" placeholder="" value="" readonly>
                                         <label>วันเกิด</label>
                                     </div>
                                 </div>
@@ -365,4 +365,80 @@
         }
     });
 </script>
+@endpush
+
+@push('script-datepicker')
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript" src="{{ mix('/js/jquery-ui-1.13.1.custom.js') }}"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+    <script type="text/javascript">
+        // TH
+        $.datepicker.regional['th'] ={
+            dateFormat: 'dd/mm/yy',
+            changeMonth: true,
+            changeYear: true,
+            dayNamesMin: ['อา', 'จ', 'อ', 'พ', 'พฤ', 'ศ', 'ส'],
+            monthNamesShort: ['มกราคม', 'กุมภาพันธ์', 'มีนาคม', 'เมษายน', 'พฤษภาคม', 'มิถุนายน', 'กรกฎาคม', 'สิงหาคม', 'กันยายน', 'ตุลาคม', 'พฤศจิกายน', 'ธันวาคม'],
+            constrainInput: true,
+            yearOffSet : 543,
+            
+            
+            onSelect: function() {
+                if($(this).val() != ''){
+                    $(this).parent().addClass('has-data');
+                } else {
+                    $(this).parent().removeClass('has-data');
+                }
+            },
+        };
+        $.datepicker.setDefaults($.datepicker.regional['th']);
+        // EN
+        // $.datepicker.regional['en'] ={
+        //     dateFormat: 'dd/mm/yy',
+        //     changeMonth: true,
+        //     changeYear: true,
+        //     constrainInput: true,
+        //     yearOffSet : 0,
+        //     yearRange: '-80:+0',
+        // };
+        // $.datepicker.setDefaults($.datepicker.regional['en']);
+
+        $(document).ready(function () {
+
+            $('#regis_date').datepicker({
+                maxDate: 0,
+                yearRange: '-80:+0',
+            });
+            $("#regis_date").datepicker( $.datepicker.regional["th"] );
+            
+
+
+            $('#hbd_date').datepicker({
+                maxDate: 0,
+                yearRange: '-80:+0',
+            });
+            $("#hbd_date").datepicker( $.datepicker.regional["th"] );
+            //$("#start_date").datepicker( "setDate", new Date());
+
+
+            $('#input_idcard_start').datepicker({
+                maxDate: 0,
+                yearRange: '-80:+0',
+            });
+            $("#input_idcard_start").datepicker( $.datepicker.regional["th"] );
+
+            $('#input_idcard_exp').datepicker({
+                minDate: 0,
+                maxDate: '+9y',
+            });
+            $("#input_idcard_exp").datepicker( $.datepicker.regional["th"] );
+
+
+        });
+        
+    </script>
+
 @endpush
