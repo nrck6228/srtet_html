@@ -578,16 +578,16 @@
                     </a>
                 </div>
 
-                <div class="content--wrapper">
+                <div class="content--wrapper" data-aos="fade-up">
                     <div class="row">
                         <div class="col-lg-4">
-                            <figure class="events--figure" data-aos="fade-up">
+                            <figure class="events--figure">
                                 <img class="img-fluid" src="{{ asset('assets/images/events/demo-01.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
                             </figure>
                         </div>
 
                         <div class="col-lg-8">
-                            <a href="#" class="events--item" data-aos="fade-up">
+                            <a href="#" class="events--item">
                                 <div class="row align-items-center">
                                     <div class="col-md-3">
                                         <div class="events__date">
@@ -626,7 +626,7 @@
 
                             </a>
 
-                            <a href="#" class="events--item" data-aos="fade-up">
+                            <a href="#" class="events--item">
                                 <div class="row align-items-center">
                                     <div class="col-md-3">
                                         <div class="events__date">
@@ -653,7 +653,7 @@
                                 </div>
                             </a>
 
-                            <a href="#" class="events--item" data-aos="fade-up">
+                            <a href="#" class="events--item">
                                 <div class="row align-items-center">
                                     <div class="col-md-3">
                                         <div class="events__date">
@@ -692,7 +692,7 @@
 
                             </a>
 
-                            <a href="#" class="events--item" data-aos="fade-up">
+                            <a href="#" class="events--item">
                                 <div class="row align-items-center">
                                     <div class="col-md-3">
                                         <div class="events__date">
@@ -736,14 +736,14 @@
                             </span>
                         </a>
 
-                        <ul class="nav nav-tabs nav-tabs--secondary" id="sectionNews" role="tablist">
-                            <li class="nav-item" data-aos="fade-up">
+                        <ul class="nav nav-tabs nav-tabs--secondary" id="sectionNews" role="tablist" data-aos="fade-up">
+                            <li class="nav-item">
                                 <button class="nav-link active" id="tab-A" data-id="news" data-bs-toggle="tab" data-bs-target="#pane-A" type="button" role="tab" aria-controls="pane-A" aria-selected="true">กิจกรรมการตลาด</button>
                             </li>
-                            <li class="nav-item" data-aos="fade-up">
+                            <li class="nav-item">
                                 <button class="nav-link" id="tab-B" data-id="news" data-bs-toggle="tab" data-bs-target="#pane-B" type="button" role="tab" aria-controls="pane-B" aria-selected="false">ข่าวประชาสัมพันธ์</button>
                             </li>
-                            <li class="nav-item" data-aos="fade-up">
+                            <li class="nav-item">
                                 <button class="nav-link" id="tab-C" data-id="news" data-bs-toggle="tab" data-bs-target="#pane-C" type="button" role="tab" aria-controls="pane-C" aria-selected="false">ข้อปฏิบัติการใช้งาน</button>
                             </li>
                         </ul>
