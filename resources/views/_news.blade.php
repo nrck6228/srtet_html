@@ -72,7 +72,6 @@
                     
                 </div>
                 
-
                 <div class="card-deck">
                     <a href="/news-detail" class="card card--news">
                         <div class="card__pin">New</div>

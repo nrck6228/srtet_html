@@ -188,4 +188,14 @@ Route::get('/suggession', function () {
     return View::make('_suggession');
 });
 
+Route::get('/events', function () {
+    return View::make('_events');
+});
 
+Route::get('/events-detail', function () {
+    return View::make('_events-detail');
+});
+
+Route::get('/institute', function () {
+    return View::make('_institute');
+});

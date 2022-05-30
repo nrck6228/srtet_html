@@ -5,12 +5,14 @@
 
     .card__figure{
         width: 250px;
-        height: 295px;
+        max-width: 100%;
+        height: auto;
         margin: 0 auto 1rem auto;
     }
 
     .card__image{
-        object-fit: cover;
+        max-width: 100%;
+        // object-fit: cover;
     }
 
     .card__name{
@@ -23,5 +25,40 @@
         font-size: 1.5rem;
         line-height: 1.875rem;
         color: $gray;
+    }
+
+    .card__contact{
+        margin-top: auto; /* push to bottom */
+
+        .contact__item{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+
+            .contact__icon{
+                margin-top: 5px;
+                font-size: 1rem;
+                line-height: 1.875rem;
+                color: $red;
+            }
+    
+            span.contact__text{
+                padding: 0 10px 0 10px;
+                font-weight: bold;
+                font-size: 1.5rem;
+                line-height: 1.875rem;
+                color: $gray;
+            }
+    
+            a.contact__text{
+                padding: 0 10px 0 10px;
+                font-weight: bold;
+                font-size: 1.5rem;
+                line-height: 1.875rem;
+                color: $gray;
+                text-decoration: none;
+                transition: all 0.4s ease-in-out;
+            }
+        }
     }
 }
