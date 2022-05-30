@@ -80,9 +80,9 @@
                                         <a href="/executive" title="ทำเนียบผู้บริหารระดับสูง" class="dropdown-link">ทำเนียบผู้บริหารระดับสูง</a>
                                     </li>
 
-                                    <!-- <li class="dropdown-item">
-                                        <a href="/responsible" title="หน่วยงานที่รับผิดชอบ" class="dropdown-link">หน่วยงานที่รับผิดชอบ</a>
-                                    </li> -->
+                                    <li class="dropdown-item">
+                                        <a href="/institute" title="หน่วยงานที่รับผิดชอบข้อมูล" class="dropdown-link">หน่วยงานที่รับผิดชอบข้อมูล</a>
+                                    </li>
                                 </ul>
                             </div>
                         </li>

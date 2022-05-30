@@ -251,6 +251,44 @@ a.text--link{
     }
 }
 
+.card--board{
+    .card__name{
+        color: $darkgray;
+    }
+
+    .card__position{
+        color: $gray;
+    }
+
+    .card__contact{
+        .contact__item{
+            .contact__icon{
+                color: $color-primary;
+            }
+    
+            span.contact__text{
+                color: $gray;
+            }
+    
+            a.contact__text{
+                color: $gray;
+
+                &:hover{
+                    color: $color-primary;
+                }
+            }
+        }
+    }
+}
+
+.card--news{
+    .card__download{
+        em{
+            color: $color-primary;
+        }
+    }
+}
+
 // Footer 
 .footer--wrapper {
     .footer--nav {
