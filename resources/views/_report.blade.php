@@ -1,6 +1,6 @@
 @extends('masterpage')
 
-@section('title', 'รายงานประจำปี ')
+@section('title', 'รายงานประจำปี/ผลการปฏิบัติงาน')
 @section('keywords', 'รถไฟฟ้าสายสีแดง')
 @section('description', 'รถไฟฟ้าสายสีแดง')
 
@@ -25,7 +25,7 @@
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">หน้าแรก</a></li>
                         <li class="breadcrumb-item"><a href="#">กำหนดเวลาเดินรถ</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">รายงานประจำปี </li>
+                        <li class="breadcrumb-item active" aria-current="page">รายงานประจำปี/ผลการปฏิบัติงาน</li>
                     </ol>
                 </nav>
             </div>
@@ -34,7 +34,7 @@
         <article class="page--content">
             <div class="container">
                 <div class="title--page justify-content-center">
-                    <h2 class="page__title text--primary">รายงานประจำปี </h2>
+                    <h2 class="page__title text--primary">รายงานประจำปี/ผลการปฏิบัติงาน</h2>
                 </div>
 
                 <div class="form-group-wrapper">
