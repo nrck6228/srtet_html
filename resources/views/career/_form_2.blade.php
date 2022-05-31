@@ -1090,15 +1090,6 @@
             monthNamesShort: ['มกราคม', 'กุมภาพันธ์', 'มีนาคม', 'เมษายน', 'พฤษภาคม', 'มิถุนายน', 'กรกฎาคม', 'สิงหาคม', 'กันยายน', 'ตุลาคม', 'พฤศจิกายน', 'ธันวาคม'],
             constrainInput: true,
             yearOffSet : 543,
-            
-            
-            onSelect: function() {
-                if($(this).val() != ''){
-                    $(this).parent().addClass('has-data');
-                } else {
-                    $(this).parent().removeClass('has-data');
-                }
-            },
         };
         $.datepicker.setDefaults($.datepicker.regional['th']);
         // EN
@@ -1114,20 +1105,205 @@
 
         $(document).ready(function () {
             
+
+            $('#startwork_date_1').datepicker({
+                minDate: '-3Y',
+                maxDate: 0,
+                onSelect: function () {
+                    if($(this).val() != ''){
+                        $(this).parent().addClass('has-data');
+                    } else {
+                        $(this).parent().removeClass('has-data');
+                    }
+
+                    $("#endwork_date_1").val('');
+                    var start = $('#startwork_date_1').datepicker('getDate');
+                    var end = new Date();
+                    var d = end.getDate();
+                    var m = end.getMonth();
+                    var y = end.getFullYear();
+                    var endDate = new Date(y, m, d);
+                    console.log(start+"-"+end);
+                    var days = (start - endDate) / 1000 / 60 / 60 / 24;
+                    var mDate = days;
+
+                    $("#endwork_date_1").datepicker("destroy");
+                    $('#endwork_date_1').datepicker({
+                        minDate: days,
+                        maxDate: 0,
+                        onSelect: function () {
+                            if($(this).val() != ''){
+                                $(this).parent().addClass('has-data');
+                            } else {
+                                $(this).parent().removeClass('has-data');
+                            }
+                        },
+                    });
+                    $("#endwork_date_1").datepicker("refresh");
+                    $("#endwork_date_1").datepicker( $.datepicker.regional["th"] );
+                },
+            });
             $("#startwork_date_1").datepicker( $.datepicker.regional["th"] );
-            $("#endwork_date_1").datepicker( $.datepicker.regional["th"] );
 
+
+            $('#startwork_date_2').datepicker({
+                minDate: '-3Y',
+                maxDate: 0,
+                onSelect: function () {
+                    if($(this).val() != ''){
+                        $(this).parent().addClass('has-data');
+                    } else {
+                        $(this).parent().removeClass('has-data');
+                    }
+
+                    $("#endwork_date_2").val('');
+                    var start = $('#startwork_date_2').datepicker('getDate');
+                    var end = new Date();
+                    var d = end.getDate();
+                    var m = end.getMonth();
+                    var y = end.getFullYear();
+                    var endDate = new Date(y, m, d);
+                    console.log(start+"-"+end);
+                    var days = (start - endDate) / 1000 / 60 / 60 / 24;
+                    var mDate = days;
+
+                    $("#endwork_date_2").datepicker("destroy");
+                    $('#endwork_date_2').datepicker({
+                        minDate: days,
+                        maxDate: 0,
+                        onSelect: function () {
+                            if($(this).val() != ''){
+                                $(this).parent().addClass('has-data');
+                            } else {
+                                $(this).parent().removeClass('has-data');
+                            }
+                        },
+                    });
+                    $("#endwork_date_2").datepicker("refresh");
+                    $("#endwork_date_2").datepicker( $.datepicker.regional["th"] );
+                },
+            });
             $("#startwork_date_2").datepicker( $.datepicker.regional["th"] );
-            $("#endwork_date_2").datepicker( $.datepicker.regional["th"] );
 
+
+            $('#startwork_date_3').datepicker({
+                minDate: '-3Y',
+                maxDate: 0,
+                onSelect: function () {
+                    if($(this).val() != ''){
+                        $(this).parent().addClass('has-data');
+                    } else {
+                        $(this).parent().removeClass('has-data');
+                    }
+
+                    $("#endwork_date_3").val('');
+                    var start = $('#startwork_date_3').datepicker('getDate');
+                    var end = new Date();
+                    var d = end.getDate();
+                    var m = end.getMonth();
+                    var y = end.getFullYear();
+                    var endDate = new Date(y, m, d);
+                    console.log(start+"-"+end);
+                    var days = (start - endDate) / 1000 / 60 / 60 / 24;
+                    var mDate = days;
+
+                    $("#endwork_date_3").datepicker("destroy");
+                    $('#endwork_date_3').datepicker({
+                        minDate: days,
+                        maxDate: 0,
+                        onSelect: function () {
+                            if($(this).val() != ''){
+                                $(this).parent().addClass('has-data');
+                            } else {
+                                $(this).parent().removeClass('has-data');
+                            }
+                        },
+                    });
+                    $("#endwork_date_3").datepicker("refresh");
+                    $("#endwork_date_3").datepicker( $.datepicker.regional["th"] );
+                },
+            });
             $("#startwork_date_3").datepicker( $.datepicker.regional["th"] );
-            $("#endwork_date_3").datepicker( $.datepicker.regional["th"] );
 
+
+            $('#startwork_date_4').datepicker({
+                minDate: '-3Y',
+                maxDate: 0,
+                onSelect: function () {
+                    if($(this).val() != ''){
+                        $(this).parent().addClass('has-data');
+                    } else {
+                        $(this).parent().removeClass('has-data');
+                    }
+
+                    $("#endwork_date_4").val('');
+                    var start = $('#startwork_date_4').datepicker('getDate');
+                    var end = new Date();
+                    var d = end.getDate();
+                    var m = end.getMonth();
+                    var y = end.getFullYear();
+                    var endDate = new Date(y, m, d);
+                    console.log(start+"-"+end);
+                    var days = (start - endDate) / 1000 / 60 / 60 / 24;
+                    var mDate = days;
+
+                    $("#endwork_date_4").datepicker("destroy");
+                    $('#endwork_date_4').datepicker({
+                        minDate: days,
+                        maxDate: 0,
+                        onSelect: function () {
+                            if($(this).val() != ''){
+                                $(this).parent().addClass('has-data');
+                            } else {
+                                $(this).parent().removeClass('has-data');
+                            }
+                        },
+                    });
+                    $("#endwork_date_4").datepicker("refresh");
+                    $("#endwork_date_4").datepicker( $.datepicker.regional["th"] );
+                },
+            });
             $("#startwork_date_4").datepicker( $.datepicker.regional["th"] );
-            $("#endwork_date_4").datepicker( $.datepicker.regional["th"] );
 
+
+            $('#startwork_date_5').datepicker({
+                minDate: '-3Y',
+                maxDate: 0,
+                onSelect: function () {
+                    if($(this).val() != ''){
+                        $(this).parent().addClass('has-data');
+                    } else {
+                        $(this).parent().removeClass('has-data');
+                    }
+
+                    $("#endwork_date_5").val('');
+                    var start = $('#startwork_date_5').datepicker('getDate');
+                    var end = new Date();
+                    var d = end.getDate();
+                    var m = end.getMonth();
+                    var y = end.getFullYear();
+                    var endDate = new Date(y, m, d);
+                    console.log(start+"-"+end);
+                    var days = (start - endDate) / 1000 / 60 / 60 / 24;
+                    var mDate = days;
+
+                    $("#endwork_date_5").datepicker("destroy");
+                    $('#endwork_date_5').datepicker({
+                        minDate: days,
+                        maxDate: 0,
+                        onSelect: function () {
+                            if($(this).val() != ''){
+                                $(this).parent().addClass('has-data');
+                            } else {
+                                $(this).parent().removeClass('has-data');
+                            }
+                        },
+                    });
+                    $("#endwork_date_5").datepicker("refresh");
+                    $("#endwork_date_5").datepicker( $.datepicker.regional["th"] );
+                },
+            });
             $("#startwork_date_5").datepicker( $.datepicker.regional["th"] );
-            $("#endwork_date_5").datepicker( $.datepicker.regional["th"] ); 
 
 
         });
