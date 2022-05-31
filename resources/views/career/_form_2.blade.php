@@ -1127,7 +1127,7 @@
             $("#endwork_date_4").datepicker( $.datepicker.regional["th"] );
 
             $("#startwork_date_5").datepicker( $.datepicker.regional["th"] );
-            $("#endwork_date_5").datepicker( $.datepicker.regional["th"] );
+            $("#endwork_date_5").datepicker( $.datepicker.regional["th"] ); 
 
 
         });

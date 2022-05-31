@@ -180,7 +180,7 @@
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="form-group form--float">
-                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <input id="age" class="form-control" type="text" placeholder="" value="">
                                         <label>อายุ (ปี)</label>
                                     </div>
                                 </div>
@@ -375,6 +375,15 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 
     <script type="text/javascript">
+        function GetAge(birthDate) {
+            var today = new Date();
+            var age = today.getFullYear() - birthDate.getFullYear();
+            var m = today.getMonth() - birthDate.getMonth();
+            if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+                age--;
+            }
+            return age;
+        }
         // TH
         $.datepicker.regional['th'] ={
             dateFormat: 'dd/mm/yy',
@@ -413,12 +422,31 @@
                 yearRange: '-80:+0',
             });
             $("#regis_date").datepicker( $.datepicker.regional["th"] );
+
+            $('#launch_date').datepicker({
+                minDate: 0,
+                maxDate: '+2M'
+            });
+            $("#launch_date").datepicker( $.datepicker.regional["th"] );
             
 
 
             $('#hbd_date').datepicker({
                 maxDate: 0,
                 yearRange: '-80:+0',
+                onSelect: function (dateText, inst) {
+                    if($(this).val() != ''){
+                        $(this).parent().addClass('has-data');
+                        $('#age').parent().addClass('has-data');
+                    } else {
+                        $(this).parent().removeClass('has-data');
+                        $('#age').parent().removeClass('has-data');
+                    }
+                    var old = $(this).datepicker('getDate');
+                    var age = GetAge(old);
+                    console.log(age);
+                    $('#age').val(age);
+                },
             });
             $("#hbd_date").datepicker( $.datepicker.regional["th"] );
             //$("#start_date").datepicker( "setDate", new Date());
