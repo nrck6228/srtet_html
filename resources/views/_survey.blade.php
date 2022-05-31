@@ -196,6 +196,7 @@
 
                     $("#end_date").datepicker("destroy");
                     $('#end_date').datepicker({
+                        minDate: days,
                         maxDate: 0,
                         onSelect: function () {
                             if($(this).val() != ''){
