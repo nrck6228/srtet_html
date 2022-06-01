@@ -1,6 +1,6 @@
 @extends('masterpage')
 
-@section('title', 'รายงานประจำปี/ผลการปฏิบัติงาน')
+@section('title', 'ค้นหา')
 @section('keywords', 'รถไฟฟ้าสายสีแดง')
 @section('description', 'รถไฟฟ้าสายสีแดง')
 
@@ -12,7 +12,7 @@
                 <div class="hero--slider">
                     <a href="#" title="" class="slider__item">
                         <div class="slider__figure">
-                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-demo-procurement.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                            <img class="slider__image" src="{{ asset('assets/images/hero/banner-desktop.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
                         </div>
                     </a>
                 </div>
@@ -24,17 +24,16 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">หน้าแรก</a></li>
-                        <li class="breadcrumb-item"><a href="#">กำหนดเวลาเดินรถ</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">รายงานประจำปี/ผลการปฏิบัติงาน</li>
+                        <li class="breadcrumb-item active" aria-current="page">ค้นหา</li>
                     </ol>
                 </nav>
             </div>
         </div>
 
-        <article class="page--content">
+        <article class="news--wrapper">
             <div class="container">
                 <div class="title--page justify-content-center">
-                    <h2 class="page__title text--primary">รายงานประจำปี/ผลการปฏิบัติงาน</h2>
+                    <h2 class="page__title text--primary mb-4">ค้นหา</h2>
                 </div>
 
                 <div class="form-group-wrapper">
@@ -44,7 +43,45 @@
                                 <div class="col-md-3 col-sm-6 col-12">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
-                                        <label>ชื่อรายงาน</label>
+                                        <label>คำค้นหา</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="form-group form--float">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected="true" value="title">หมวดข่าว</option>
+                                            <option value="" >ข่าวสารประชาสัมพันธ์ทั่วไป</option>
+                                            <option value="">ข่าวจากศูนย์</option> 
+                                        </select>
+                                        <label class="did-floating-label">หมวดข่าว</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="form-group form--float">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected="true" value="title">เลือกปี</option>
+                                            <option value="">2565</option>
+                                            <option value="">2564</option>
+                                            <option value="">2563</option>
+                                            <option value="">2562</option>
+                                            <option value="">2561</option>
+                                            <option value="">2560</option> 
+                                        </select>
+                                        <label class="did-floating-label">เลือกปี</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="form-group form--float">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected="true" value="title">เลือกเดือน</option>
+                                            <option value="">มกราคม</option>
+                                            <option value="">กุมภาพันธ์</option>
+                                            <option value="">มีนาคม</option>
+                                            <option value="">เมษายน</option>
+                                            <option value="">พฤษภาคม</option>
+                                            <option value="">มิถุนายน</option> 
+                                        </select>
+                                        <label class="did-floating-label">เลือกเดือน</label>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-6 col-12">
@@ -67,9 +104,9 @@
                     </form>
                     
                 </div>
-
+                
                 <div class="card-deck">
-                    <a href="#nogo" class="card card--news">
+                    <a href="/news-detail" class="card card--news">
                         <div class="card__pin">New</div>
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="ข่าว">
@@ -79,13 +116,9 @@
                             <div class="card__title">
                                 พบกับงานงานสัปดาห์หนังสือแห่งชาติครั้งที่ 50
                             </div>
-                            <div class="card__download">
-                                <em class="icon-file-pdf"></em>
-                                <span>ดาวน์โหลด</span>
-                            </div>
                         </div>
                     </a>
-                    <a href="#nogo" class="card card--news">
+                    <a href="/news-detail" class="card card--news">
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news2.png')}}" alt="ข่าว">
                         </div>
@@ -94,13 +127,9 @@
                             <div class="card__title">
                                 เมื่อพบเจอ บุคคลต้องสงสัย แจ้งทางเจ้าหน้าที่ได้ทันที
                             </div>
-                            <div class="card__download">
-                                <em class="icon-file-pdf"></em>
-                                <span>ดาวน์โหลด</span>
-                            </div>
                         </div>
                     </a>
-                    <a href="#nogo" class="card card--news">
+                    <a href="/news-detail" class="card card--news">
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news3.png')}}" alt="ข่าว">
                         </div>
@@ -109,13 +138,9 @@
                             <div class="card__title">
                                 ข้อปฏิบัติของผู้ป่วยโควิด เมื่อแยกกักตัวที่บ้าน
                             </div>
-                            <div class="card__download">
-                                <em class="icon-file-pdf"></em>
-                                <span>ดาวน์โหลด</span>
-                            </div>
                         </div>
                     </a>
-                    <a href="#nogo" class="card card--news">
+                    <a href="/news-detail" class="card card--news">
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news4.png')}}" alt="ข่าว">
                         </div>
@@ -123,15 +148,11 @@
                             <div class="card__date">1 เมษายน 2565</div>
                             <div class="card__title">
                                 7 ขั้นตอนควรทำ เมื่อตรวจ ATK ขึ้น 2 ขีด
-                            </div>
-                            <div class="card__download">
-                                <em class="icon-file-pdf"></em>
-                                <span>ดาวน์โหลด</span>
                             </div>
                         </div>
                     </a>
 
-                    <a href="#nogo" class="card card--news">
+                    <a href="/news-detail" class="card card--news">
                         <div class="card__pin">New</div>
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="ข่าว">
@@ -141,13 +162,9 @@
                             <div class="card__title">
                                 พบกับงานงานสัปดาห์หนังสือแห่งชาติครั้งที่ 50
                             </div>
-                            <div class="card__download">
-                                <em class="icon-file-pdf"></em>
-                                <span>ดาวน์โหลด</span>
-                            </div>
                         </div>
                     </a>
-                    <a href="#nogo" class="card card--news">
+                    <a href="/news-detail" class="card card--news">
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news2.png')}}" alt="ข่าว">
                         </div>
@@ -156,13 +173,9 @@
                             <div class="card__title">
                                 เมื่อพบเจอ บุคคลต้องสงสัย แจ้งทางเจ้าหน้าที่ได้ทันที
                             </div>
-                            <div class="card__download">
-                                <em class="icon-file-pdf"></em>
-                                <span>ดาวน์โหลด</span>
-                            </div>
                         </div>
                     </a>
-                    <a href="#nogo" class="card card--news">
+                    <a href="/news-detail" class="card card--news">
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news3.png')}}" alt="ข่าว">
                         </div>
@@ -171,13 +184,9 @@
                             <div class="card__title">
                                 ข้อปฏิบัติของผู้ป่วยโควิด เมื่อแยกกักตัวที่บ้าน
                             </div>
-                            <div class="card__download">
-                                <em class="icon-file-pdf"></em>
-                                <span>ดาวน์โหลด</span>
-                            </div>
                         </div>
                     </a>
-                    <a href="#nogo" class="card card--news">
+                    <a href="/news-detail" class="card card--news">
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news4.png')}}" alt="ข่าว">
                         </div>
@@ -185,10 +194,6 @@
                             <div class="card__date">1 เมษายน 2565</div>
                             <div class="card__title">
                                 7 ขั้นตอนควรทำ เมื่อตรวจ ATK ขึ้น 2 ขีด
-                            </div>
-                            <div class="card__download">
-                                <em class="icon-file-pdf"></em>
-                                <span>ดาวน์โหลด</span>
                             </div>
                         </div>
                     </a>
@@ -213,165 +218,12 @@
                         </ul>
                     </nav>
                 </div>
-
-                <!-- <div class="procurement--wrapper">
-                    <div class="table-responsive table--primary">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>
-                                        ลำดับ
-                                    </th>
-                                    <th>
-                                        ชื่อรายงาน
-                                    </th>
-                                    <th>
-                                        วันที่
-                                    </th>
-                                    <th>
-                                        ไฟล์ดาวน์โหลด
-                                    </th>
-                                </tr>
-                            </thead>
-
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        1
-                                    </td>
-                                    <td class="text-start">
-                                        <div class="procurement--name">
-                                            จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก
-                                        </div>
-                                    </td>
-                                    <td>
-                                        26/04/2565
-                                    </td>
-                                    <td class="text-start">
-                                        <ul class="list--primary">
-                                            <li>
-                                                <a href="#nogo" title="เอกสารรายงาน">เอกสารรายงาน 1/3</a>
-                                            </li>
-                                            <li>
-                                                <a href="#nogo" title="เอกสารรายงาน">เอกสารรายงาน 2/3</a>
-                                            </li>
-                                            <li>
-                                                <a href="#nogo" title="เอกสารรายงาน">เอกสารรายงาน 3/3</a>
-                                            </li>
-                                        </ul>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td>
-                                        2
-                                    </td>
-                                    <td class="text-start">
-                                        <div class="procurement--name">
-                                            จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก
-                                        </div>
-                                    </td>
-                                    <td>
-                                        26/04/2565
-                                    </td>
-                                    <td class="text-start">
-                                        <ul class="list--primary">
-                                            <li>
-                                                <a href="#nogo" title="เอกสารรายงาน">เอกสารรายงาน</a>
-                                            </li>
-                                        </ul>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td>
-                                        3
-                                    </td>
-                                    <td class="text-start">
-                                        <div class="procurement--name">
-                                            จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก
-                                        </div>
-                                    </td>
-                                    <td>
-                                        26/04/2565
-                                    </td>
-                                    <td class="text-start">
-                                        <ul class="list--primary">
-                                            <li>
-                                                <a href="#nogo" title="เอกสารรายงาน">เอกสารรายงาน</a>
-                                            </li>
-                                        </ul>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td>
-                                        4
-                                    </td>
-                                    <td class="text-start">
-                                        <div class="procurement--name">
-                                            จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก
-                                        </div>
-                                    </td>
-                                    <td>
-                                        26/04/2565
-                                    </td>
-                                    <td class="text-start">
-                                        <ul class="list--primary">
-                                            <li>
-                                                <a href="#nogo" title="เอกสารรายงาน">เอกสารรายงาน</a>
-                                            </li>
-                                        </ul>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <td>
-                                        5
-                                    </td>
-                                    <td class="text-start">
-                                        <div class="procurement--name">
-                                            จ้างเหมาซ่อมเครื่องยนต์ GM รุ่น 6V71T รถ อน.7 (สบน.กท.) ศูนย์การผลิตและซ่อมบำรุง ฝ่ายการช่างโยธา จำนวน 1 เครื่อง โดยวิธีคัดเลือก
-                                        </div>
-                                    </td>
-                                    <td>
-                                        26/04/2565
-                                    </td>
-                                    <td class="text-start">
-                                        <ul class="list--primary">
-                                            <li>
-                                                <a href="#nogo" title="เอกสารรายงาน">เอกสารรายงาน</a>
-                                            </li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-
-                    <div class="pagination-wrapper">
-                        <nav aria-label="Page navigation example">
-                            <ul class="pagination">
-                                <li class="page-item prev disabled">
-                                    <a class="page-link" href="#" aria-label="Previous">
-                                        <i class="f-icon icon-arrow-left"></i>
-                                    </a>
-                                </li>
-                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item next">
-                                    <a class="page-link" href="#" aria-label="Next">
-                                        <i class="f-icon icon-arrow-right"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div> -->
             </div>
         </article>
+
+        
     </main>
+
 @endsection
 
 @push('script-slick')
@@ -382,6 +234,7 @@
     <script type="text/javascript" src="{{ mix('/slick/slick.min.js') }}"></script>
     <script type="text/javascript" src="{{ mix('/js/slick.js') }}"></script>
 @endpush
+
 
 @push('script-datepicker')
 

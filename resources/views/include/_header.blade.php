@@ -21,7 +21,7 @@
                         <a href="#nogo" class="text--link upFont">A+</a>
                     </div>
                     <div class="search--block">
-                        <a href="javascript:void(0)" class="text--link" id="topSearch">
+                        <a href="javascript:void(0)" class="text--link" id="topSearch" data-bs-toggle="modal" data-bs-target="#searchModal">
                             <i class="icon-search"></i>
                         </a>
                     </div>
