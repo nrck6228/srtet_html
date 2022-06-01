@@ -199,3 +199,7 @@ Route::get('/events-detail', function () {
 Route::get('/institute', function () {
     return View::make('_institute');
 });
+
+Route::get('/search', function () {
+    return View::make('_search');
+});

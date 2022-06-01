@@ -4,6 +4,11 @@
 @section('keywords', 'รถไฟฟ้าสายสีแดง')
 @section('description', 'รถไฟฟ้าสายสีแดง')
 
+@section('og_url', '') 
+@section('og_title', '')
+@section('og_description', '')
+@section('og_image', '')
+
 @section('contentpage')
 
     <main class="main--wrapper">
@@ -51,8 +56,8 @@
                                     <div class="form-group form--float">
                                         <select class="form-select" aria-label="Default select example">
                                             <option selected="true" value="title">เลือกประเภททั้งหมด</option>
-                                            <option value="" >เลือกประเภททั้งหมด</option>
-                                            <option value="">เลือกประเภททั้งหมด</option> 
+                                            <option value="" >ประเภท 1</option>
+                                            <option value="">ประเภท 2</option> 
                                         </select>
                                         <label class="did-floating-label">เลือกประเภททั้งหมด</label>
                                     </div>
@@ -237,8 +242,8 @@
                                             <div class="form-group form--float">
                                                 <select class="form-select" aria-label="Default select example">
                                                     <option selected="true" value="title">เลือกประเภททั้งหมด</option>
-                                                    <option value="" >เลือกประเภททั้งหมด</option>
-                                                    <option value="">เลือกประเภททั้งหมด</option> 
+                                                    <option value="" >ประเภท 1</option>
+                                                    <option value="">ประเภท 2</option> 
                                                 </select>
                                                 <label class="did-floating-label">เลือกประเภททั้งหมด</label>
                                             </div>

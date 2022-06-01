@@ -41,6 +41,57 @@
 
         @yield('contentpage')
 
+        <!-- ส่งคำถามออนไลน์ -->
+        <div class="modal fade modal--custom" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content pt-5">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-red" id="exampleModalLabel">ค้นหา</h5>
+                        <button type="button" class="modal--close" data-bs-dismiss="modal" aria-label="Close">
+                            <div class="btn--close">
+                                <span>ปิด <i class="icon-close"></i></span>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal--content">
+                            <div class="form-group-wrapper">
+                                <form action="/search">
+                                    <div class="form-group--section">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="form-group form--float">
+                                                    <input class="form-control" type="text" placeholder="" value="">
+                                                    <label>คำค้นหา</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="form-group form--float">
+                                                    <select class="form-select" aria-label="Default select example">
+                                                        <option selected="true" value="title">ข่าวสาร</option>
+                                                        <option value="" >ข่าวสาร 1</option>
+                                                        <option value="">ข่าวสาร 2</option> 
+                                                    </select>
+                                                    <label class="did-floating-label">ข่าวสาร</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-12">
+                                                <div class="verify--wrapper m-0" style="text-align: left;">
+                                                    <div class="btn-group">
+                                                        <button class="btn btn--primary mx-0"><span>ค้นหา</span></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         @include('include._footer')
 
         <script type="text/javascript" src="{{ mix('/js/function.js') }}"></script>

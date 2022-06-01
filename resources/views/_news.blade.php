@@ -220,15 +220,7 @@
             monthNamesShort: ['มกราคม', 'กุมภาพันธ์', 'มีนาคม', 'เมษายน', 'พฤษภาคม', 'มิถุนายน', 'กรกฎาคม', 'สิงหาคม', 'กันยายน', 'ตุลาคม', 'พฤศจิกายน', 'ธันวาคม'],
             constrainInput: true,
             yearOffSet : 543,
-            yearRange: '-80:+0',
-            maxDate: 0,
-            onSelect: function() {
-                if($(this).val() != ''){
-                    $(this).parent().addClass('has-data');
-                } else {
-                    $(this).parent().removeClass('has-data');
-                }
-            },
+            //yearRange: '-80:+0',
         };
         $.datepicker.setDefaults($.datepicker.regional['th']);
         // EN
@@ -238,17 +230,54 @@
         //     changeYear: true,
         //     constrainInput: true,
         //     yearOffSet : 0,
-        //     yearRange: '-80:+0',
-        //     maxDate: 0,
         // };
         // $.datepicker.setDefaults($.datepicker.regional['en']);
 
         $(document).ready(function () {
 
+            $('#start_date').datepicker({
+                minDate: '-3Y',
+                maxDate: 0,
+                onSelect: function () {
+                    if($(this).val() != ''){
+                        $(this).parent().addClass('has-data');
+                    } else {
+                        $(this).parent().removeClass('has-data');
+                    }
+
+                    $("#end_date").val('');
+                    var start = $('#start_date').datepicker('getDate');
+                    var end = new Date();
+                    var d = end.getDate();
+                    var m = end.getMonth();
+                    var y = end.getFullYear();
+                    var endDate = new Date(y, m, d);
+                    console.log(start+"-"+end);
+                    var days = (start - endDate) / 1000 / 60 / 60 / 24;
+                    var mDate = days;
+
+                    $("#end_date").datepicker("destroy");
+                    $('#end_date').datepicker({
+                        minDate: days,
+                        maxDate: 0,
+                        onSelect: function () {
+                            if($(this).val() != ''){
+                                $(this).parent().addClass('has-data');
+                            } else {
+                                $(this).parent().removeClass('has-data');
+                            }
+                        },
+                    });
+                    $("#end_date").datepicker("refresh");
+
+                    $("#end_date").datepicker( $.datepicker.regional["th"] );
+
+                },
+            });
             $("#start_date").datepicker( $.datepicker.regional["th"] );
             //$("#start_date").datepicker( "setDate", new Date());
+        
             
-            $("#end_date").datepicker( $.datepicker.regional["th"] );
             //$("#start_date").datepicker( "setDate", new Date());
         });
         

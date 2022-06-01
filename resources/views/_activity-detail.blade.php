@@ -4,6 +4,11 @@
 @section('keywords', 'รถไฟฟ้าสายสีแดง')
 @section('description', 'รถไฟฟ้าสายสีแดง')
 
+@section('og_url', '') 
+@section('og_title', '')
+@section('og_description', '')
+@section('og_image', '')
+
 
 @section('contentpage')
     <main class="main--wrapper">

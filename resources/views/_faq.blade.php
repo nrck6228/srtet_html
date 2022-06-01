@@ -4,6 +4,11 @@
 @section('keywords', 'รถไฟฟ้าสายสีแดง')
 @section('description', 'รถไฟฟ้าสายสีแดง')
 
+@section('og_url', '') 
+@section('og_title', '')
+@section('og_description', '')
+@section('og_image', '')
+
 @section('contentpage')
 
     <main class="main--wrapper">
@@ -51,8 +56,8 @@
                                     <div class="form-group form--float">
                                         <select class="form-select" aria-label="Default select example">
                                             <option selected="true" value="title">เลือกประเภททั้งหมด</option>
-                                            <option value="" >เลือกประเภททั้งหมด</option>
-                                            <option value="">เลือกประเภททั้งหมด</option> 
+                                            <option value="" >ประเภท 1</option>
+                                            <option value="">ประเภท 2</option> 
                                         </select>
                                         <label class="did-floating-label">เลือกประเภททั้งหมด</label>
                                     </div>
@@ -218,9 +223,9 @@
     <!-- ส่งคำถามออนไลน์ -->
     <div class="modal fade modal--custom modal--md" id="questionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-content pt-5">
                 <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">ส่งคำถามออนไลน์</h5>
+                    <h3 class="modal-title text-red" id="exampleModalLabel">ส่งคำถามออนไลน์</h5>
                     <button type="button" class="modal--close" data-bs-dismiss="modal" aria-label="Close">
                         <div class="btn--close">
                             <span>ปิด <i class="icon-close"></i></span>
