@@ -551,6 +551,11 @@ html, body{
     }
 }
 
+.related--content{
+    padding: 15px;
+    background-color: rgba($color: $gray, $alpha: 0.1);
+}
+
 .view--count{
     margin-bottom: 1rem;
     font-weight: bold;
