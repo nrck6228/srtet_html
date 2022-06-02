@@ -68,6 +68,31 @@
             margin-bottom: 2rem;
         }
     }
+
+    .table--wrapper{
+        padding: 1rem;
+        margin-bottom: 2rem;
+        max-height: 920px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0px 3px 6px rgb(0 0 0 / 15%);
+        overflow-y: auto;
+
+        &::-webkit-scrollbar-track
+        {
+            background-color: rgba($color: $gray, $alpha: 0.5);
+        }
+        &::-webkit-scrollbar
+        {
+            width: 4px;
+            // height: 6px;
+            background-color: rgba($color: $gray, $alpha: 0.5);
+        }
+        &::-webkit-scrollbar-thumb
+        {
+            background-color: $red;
+        }
+    }
     
     .station--wrapper{
         position: relative;
@@ -120,6 +145,7 @@
     
         .facilities--list{
             display: block;
+            margin-bottom: 0 !important;
     
             .facilities__item{
                 display: flex;

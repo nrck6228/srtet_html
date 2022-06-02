@@ -203,3 +203,15 @@ Route::get('/institute', function () {
 Route::get('/search', function () {
     return View::make('_search');
 });
+
+Route::get('/responsibility', function () {
+    return View::make('_responsibility');
+});
+
+Route::get('/strategic', function () {
+    return View::make('_strategic');
+});
+
+Route::get('/declaration', function () {
+    return View::make('_declaration');
+});

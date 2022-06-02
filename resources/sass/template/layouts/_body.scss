@@ -521,20 +521,20 @@ html, body{
         display: flex;
         justify-content: flex-end;
         align-items: center;
-
         margin-bottom: 2rem;
 
         a{
             display: flex;
-            justify-content: space-around;
+            justify-content: flex-start;
             align-items: center;
-
-            padding: 5px;
-            margin: 0 5px;
-
+            padding-right: 1rem;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+            font-weight: bold;
             font-size: 1.25rem;
             line-height: 1.5rem;
             text-decoration: none;
+            border-right: 1px solid #929190;
 
             .icon{
                 font-size: 1.25rem;
@@ -547,6 +547,12 @@ html, body{
                 font-size: 1.5rem;
                 line-height: 1.5rem;
             }
+
+            &:last-child{
+                padding-right: 0;
+                margin-right: 0;
+                border-right: 0;
+            }
         }
     }
 }
@@ -556,11 +562,22 @@ html, body{
     background-color: rgba($color: $gray, $alpha: 0.1);
 }
 
+.social--wrapper{
+    .social__right{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
 .view--count{
+    padding-right: 1rem;
+    margin-right: 1rem;
     margin-bottom: 1rem;
     font-weight: bold;
     font-size: 1.5rem;
     line-height: 1.5rem;
+    border-right: 1px solid rgba($color: $gray, $alpha: 1);
 }
 
 .view--date{
@@ -700,6 +717,7 @@ html, body{
             li{
                 list-style-type: none;
                 list-style-image: url('../../../assets/images/icon/icon-polygon-right.svg');
+                margin-bottom: 0.5rem;
             }
         }
 
@@ -1190,7 +1208,6 @@ html, body{
         height: auto;
         padding: 0.5rem 0;
         margin: auto;
-        background-color: $darkgray;
         overflow: hidden;
     }
 
@@ -1199,7 +1216,7 @@ html, body{
         font-size: 1.375rem;
         line-height: 1.375rem;
         white-space: nowrap;
-        color: white;
+        color: $darkgray;
         animation-name: rightToLeft;
         animation-duration: 30s;
         animation-timing-function: linear;

@@ -52,7 +52,7 @@
                                         <i class="icon-zoom-in"></i>
                                     </span>
                                     <span class="text">
-                                        ขยาย
+                                        ขยายภาพ
                                     </span>
                                 </a>
                                 <a href="javascript:void(0)" title="ดาวน์โหลด">

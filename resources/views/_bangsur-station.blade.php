@@ -225,8 +225,6 @@
                 @include('include._social')
             </div>
         </article>
-
-        @include('include._services')
     </main>
 
     <!-- รายละเอียดสถานี (สิ่งอำนวยความสะดวก) -->
