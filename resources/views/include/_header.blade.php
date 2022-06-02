@@ -73,7 +73,27 @@
                                     </li>
 
                                     <li class="dropdown-item">
-                                        <a href="/organization-chart" title="โครงสร้างหน่วยงาน ผู้บริหาร อำนาจหน้าที่" class="dropdown-link">โครงสร้างหน่วยงาน ผู้บริหาร อำนาจหน้าที่</a>
+                                        <a href="/organization-chart" title="ผังโครงสร้างองค์กร" class="dropdown-link">ผังโครงสร้างองค์กร</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="#nogo" title="ภารกิจ และหน้าที่รับผิดชอบของหน่วยงาน" class="dropdown-link">ภารกิจ และหน้าที่รับผิดชอบของหน่วยงาน</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="#nogo" title="ยุทธศาสตร์ แผนปฏิบีติราชการ" class="dropdown-link">ยุทธศาสตร์ แผนปฏิบีติราชการ</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/institute" title="หน่วยงานที่รับผิดชอบข้อมูล" class="dropdown-link">หน่วยงานที่รับผิดชอบข้อมูล</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/contact" title="ข้อมูลการติดต่อ" class="dropdown-link">ข้อมูลการติดต่อ</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="#nogo" title="วิสัยทัศน์ และนโยบายต่างๆ ด้านเทคโนโลยีสารสนเทศ" class="dropdown-link">วิสัยทัศน์ และนโยบายต่างๆ ด้านเทคโนโลยีสารสนเทศ</a>
                                     </li>
 
                                     <li class="dropdown-item">
@@ -81,27 +101,11 @@
                                     </li>
 
                                     <li class="dropdown-item">
-                                        <a href="/institute" title="หน่วยงานที่รับผิดชอบข้อมูล" class="dropdown-link">หน่วยงานที่รับผิดชอบข้อมูล</a>
+                                        <a href="#nogo" title="การเปิดเผยข้อมูลสาธารณะ" class="dropdown-link">การเปิดเผยข้อมูลสาธารณะ</a>
                                     </li>
-                                </ul>
-                            </div>
-                        </li>
 
-                        <li class="nav-item dropdown dropdown--navbar">
-                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">บริการลูกค้า</a>
-                            <div class="dropdown-menu">
-                                <ul class="dropdown-nav">
                                     <li class="dropdown-item">
-                                        <a href="/facilities" title="สิ่งอำนวยความสะดวก" class="dropdown-link">สิ่งอำนวยความสะดวก</a>
-                                    </li>
-                                    <li class="dropdown-item">
-                                        <a href="/shopstation" title="ร้านค้าต่างๆ ประจำสถานี" class="dropdown-link">ร้านค้าต่างๆ ประจำสถานี</a>
-                                    </li>
-                                    <li class="dropdown-item">
-                                        <a href="/vote" title="Vote / Poll" class="dropdown-link">Vote / Poll</a>
-                                    </li>
-                                    <li class="dropdown-item">
-                                        <a href="/survey" title="แบบสำรวจออนไลน์" class="dropdown-link">แบบสำรวจออนไลน์</a>
+                                        <a href="/ITA" title="ITA" class="dropdown-link">ITA</a>
                                     </li>
                                 </ul>
                             </div>
@@ -114,20 +118,72 @@
                                     <li class="dropdown-item">
                                         <a href="/fare-table" title="ข้อมูลกำหนดเวลาเดินรถ" class="dropdown-link">ข้อมูลกำหนดเวลาเดินรถ</a>
                                     </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="#nogo" title="ประเภทตั๋วโดยสาร" class="dropdown-link">ประเภทตั๋วโดยสาร</a>
+                                    </li>
+
                                     <li class="dropdown-item">
                                         <a href="/ticket-information" title="การออกตั๋วโดยสาร" class="dropdown-link">การออกตั๋วโดยสาร</a>
                                     </li>
+
                                     <li class="dropdown-item">
                                         <a href="/fare-information" title="อัตราค่าโดยสาร" class="dropdown-link">อัตราค่าโดยสาร</a>
                                     </li>
+
                                     <li class="dropdown-item">
-                                        <a href="/route-information" title="แผนที่สถานีรถไฟฟ้า" class="dropdown-link">แผนที่สถานีรถไฟฟ้า</a>
+                                        <a href="#nogo" title="เงื่อนไขการใช้" class="dropdown-link">เงื่อนไขการใช้</a>
                                     </li>
+                                    
                                     <li class="dropdown-item">
+                                        <a href="/route-information" title="แผนที่สถานีรถไฟฟ้าสายสีแดง" class="dropdown-link">แผนที่สถานีรถไฟฟ้าสายสีแดง</a>
+                                    </li>
+
+                                    <!-- <li class="dropdown-item">
                                         <a href="/station-information" title="ข้อมูลสถานีรถไฟฟ้า" class="dropdown-link">ข้อมูลสถานีรถไฟฟ้า</a>
-                                    </li>
+                                    </li> -->
+
                                     <li class="dropdown-item">
                                         <a href="/fare-calculated" title="คำนวณค่าโดยสารและเวลาเดินทาง" class="dropdown-link">คำนวณค่าโดยสารและเวลาเดินทาง</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown dropdown--navbar">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">บริการลูกค้า</a>
+                            <div class="dropdown-menu">
+                                <ul class="dropdown-nav">
+                                    <li class="dropdown-item">
+                                        <a href="/facilities" title="สิ่งอำนวยความสะดวก" class="dropdown-link">สิ่งอำนวยความสะดวก</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/facilities" title="บริการสำหรับคนพิการ" class="dropdown-link">บริการสำหรับคนพิการ</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/facilities" title="กฎข้อบังคับ/ข้อแนะนำการใช้บริการ" class="dropdown-link">กฎข้อบังคับ/ข้อแนะนำการใช้บริการ</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/shopstation" title="ร้านค้าต่างๆ ประจำสถานี" class="dropdown-link">ร้านค้าต่างๆ ประจำสถานี</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="#nogo" title="สถานที่ใกล้เคียงที่น่าสนใจ" class="dropdown-link">สถานที่ใกล้เคียงที่น่าสนใจ</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="#nogo" title="สินค้าและบริการอื่นๆ" class="dropdown-link">สินค้าและบริการอื่นๆ</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/survey" title="แบบสำรวจออนไลน์" class="dropdown-link">แบบสำรวจออนไลน์</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/vote" title="Vote / Poll" class="dropdown-link">Vote / Poll</a>
                                     </li>
                                 </ul>
                             </div>
@@ -146,18 +202,65 @@
                                     </li>
 
                                     <li class="dropdown-item">
-                                        <a href="/lostfound" title="Lost & Found" class="dropdown-link">Lost & Found</a>
+                                        <a href="/events" title="ปฏิทินกิจกรรม" class="dropdown-link">ปฏิทินกิจกรรม</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/lostfound" title="ประกาศของหาย" class="dropdown-link">ประกาศของหาย</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="#nogo" title="บทความ" class="dropdown-link">บทความ</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/report" title="รายงานประจำปี/ผลการปฎิบัติงาน" class="dropdown-link">รายงานประจำปี/ผลการปฎิบัติงาน</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown dropdown--navbar">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">จัดซื้อจัดจ้าง</a>
+                            <div class="dropdown-menu">
+                                <ul class="dropdown-nav">
+                                    <li class="dropdown-item">
+                                        <a href="/procurement/index" title="แผนการจัดซื้อจัดจ้าง" class="dropdown-link">แผนการจัดซื้อจัดจ้าง</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/procurement/index" title="ร่างขอบเขตของงาน" class="dropdown-link">ร่างขอบเขตของงาน</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/procurement/index" title="ประกาศจัดซื้อจัดจ้าง" class="dropdown-link">ประกาศจัดซื้อจัดจ้าง</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/procurement/index" title="ผลการจัดซื้อจัดจ้าง" class="dropdown-link">ผลการจัดซื้อจัดจ้าง</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/procurement/index" title="ประกาศยกเลิกการจัดซื้อจัดจ้าง" class="dropdown-link">ประกาศยกเลิกการจัดซื้อจัดจ้าง</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/procurement/index" title="รายงานประจำปี" class="dropdown-link">รายงานประจำปี</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/procurement/index" title="ประกาศราคากลาง" class="dropdown-link">ประกาศราคากลาง</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/procurement/index" title="อื่นๆ" class="dropdown-link">อื่นๆ</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" title="จัดซื้อจัดจ้าง" href="/procurement/index">จัดซื้อจัดจ้าง</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" title="รายงานประจำปี" href="/report">รายงานประจำปี</a>
+                            <a  href="/career/listcareer"  title="ร่วมงานกับเรา" class="nav-link">ร่วมงานกับเรา</a>
                         </li>
 
                         <li class="nav-item dropdown dropdown--navbar">
@@ -165,11 +268,15 @@
                             <div class="dropdown-menu">
                                 <ul class="dropdown-nav">
                                     <li class="dropdown-item">
-                                        <a href="/contact" title="ติดต่อเรา" class="dropdown-link">ติดต่อเรา</a>
+                                        <a href="/contact" title="ติดต่อสอบถาม" class="dropdown-link">ติดต่อสอบถาม</a>
                                     </li>
 
                                     <li class="dropdown-item">
-                                        <a href="/faq" title="คำถามที่พบบ่อย" class="dropdown-link">คำถามที่พบบ่อย</a>
+                                        <a href="/contact" title="ติดต่อหน่วยงานที่รับผิดชอบข้อมูล" class="dropdown-link">ติดต่อหน่วยงานที่รับผิดชอบข้อมูล</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="/suggession" title="ระบบแนะนำ/ร้องเรียน" class="dropdown-link">ระบบแนะนำ/ร้องเรียน</a>
                                     </li>
 
                                     <li class="dropdown-item">
@@ -177,15 +284,13 @@
                                     </li>
 
                                     <li class="dropdown-item">
-                                        <a href="/suggession" title="เสนอแนะ/ร้องเรียน" class="dropdown-link">เสนอแนะ/ร้องเรียน</a>
+                                        <a href="/faq" title="คำถามที่พบบ่อย" class="dropdown-link">คำถามที่พบบ่อย</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
                         
-                        <li class="nav-item">
-                            <a class="nav-link" title="ร่วมงานกับเรา" href="/career/listcareer">ร่วมงานกับเรา</a>
-                        </li>
+                        
                     </ul>
                 </div>
             </nav>

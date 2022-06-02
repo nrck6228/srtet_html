@@ -38,22 +38,50 @@
                             </div>
 
                             <div class="col mb-4">
-                                <a href="/" class="footer__link">เกี่ยวกับเรา</a>
+                                <a href="#nogo" class="footer__link">เกี่ยวกับเรา</a>
                                 <ul class="footer__group">
                                     <li class="footer__item">
-                                        <a href="/" class="footer__link">ประวัติความเป็นมา</a>
+                                        <a href="/history" title="ประวัติความเป็นมา" class="footer__link">ประวัติความเป็นมา</a>
                                     </li>
+
                                     <li class="footer__item">
-                                        <a href="/" class="footer__link">วิสัยทัศน์ พันธกิจ</a>
+                                        <a href="/vision-mission" title="วิสัยทัศน์ พันธกิจ" class="footer__link">วิสัยทัศน์ พันธกิจ</a>
                                     </li>
+
                                     <li class="footer__item">
-                                        <a href="/" class="footer__link">โครงสร้างหน่วยงาน ผู้บริหาร อำนาจหน้าที่</a>
+                                        <a href="/organization-chart" title="ผังโครงสร้างองค์กร" class="footer__link">ผังโครงสร้างองค์กร</a>
                                     </li>
+
                                     <li class="footer__item">
-                                        <a href="/" class="footer__link">ทำเนียบผู้บริหารระดับสูง</a>
+                                        <a href="#nogo" title="ภารกิจ และหน้าที่รับผิดชอบของหน่วยงาน" class="footer__link">ภารกิจ และหน้าที่รับผิดชอบของหน่วยงาน</a>
                                     </li>
+
                                     <li class="footer__item">
-                                        <a href="/" class="footer__link">หน่วยงานที่รับผิดชอบ</a>
+                                        <a href="#nogo" title="ยุทธศาสตร์ แผนปฏิบีติราชการ" class="footer__link">ยุทธศาสตร์ แผนปฏิบีติราชการ</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="/institute" title="หน่วยงานที่รับผิดชอบข้อมูล" class="footer__link">หน่วยงานที่รับผิดชอบข้อมูล</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="/contact" title="ข้อมูลการติดต่อ" class="footer__link">ข้อมูลการติดต่อ</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="#nogo" title="วิสัยทัศน์ และนโยบายต่างๆ ด้านเทคโนโลยีสารสนเทศ" class="footer__link">วิสัยทัศน์ และนโยบายต่างๆ ด้านเทคโนโลยีสารสนเทศ</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="/executive" title="ทำเนียบผู้บริหารระดับสูง" class="footer__link">ทำเนียบผู้บริหารระดับสูง</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="#nogo" title="การเปิดเผยข้อมูลสาธารณะ" class="footer__link">การเปิดเผยข้อมูลสาธารณะ</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="/ITA" title="ITA" class="footer__link">ITA</a>
                                     </li>
                                 </ul>
                             </div>
@@ -62,16 +90,35 @@
                                 <a href="/" class="footer__link">กำหนดเวลาเดินรถ</a>
                                 <ul class="footer__group">
                                     <li class="footer__item">
-                                        <a href="/" class="footer__link">ข้อมูลกำหนดเวลาเดินรถ</a>
+                                        <a href="/fare-table" title="ข้อมูลกำหนดเวลาเดินรถ" class="footer__link">ข้อมูลกำหนดเวลาเดินรถ</a>
                                     </li>
+
                                     <li class="footer__item">
-                                        <a href="/" class="footer__link">ประเภทตั๋วโดยสาร</a>
+                                        <a href="#nogo" title="ประเภทตั๋วโดยสาร" class="footer__link">ประเภทตั๋วโดยสาร</a>
                                     </li>
+
                                     <li class="footer__item">
-                                        <a href="/" class="footer__link">การออกตั๋วโดยสาร</a>
+                                        <a href="/ticket-information" title="การออกตั๋วโดยสาร" class="footer__link">การออกตั๋วโดยสาร</a>
                                     </li>
+
                                     <li class="footer__item">
-                                        <a href="/" class="footer__link">อัตราค่าโดยสาร</a>
+                                        <a href="/fare-information" title="อัตราค่าโดยสาร" class="footer__link">อัตราค่าโดยสาร</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="#nogo" title="เงื่อนไขการใช้" class="footer__link">เงื่อนไขการใช้</a>
+                                    </li>
+                                    
+                                    <li class="footer__item">
+                                        <a href="/route-information" title="แผนที่สถานีรถไฟฟ้าสายสีแดง" class="footer__link">แผนที่สถานีรถไฟฟ้าสายสีแดง</a>
+                                    </li>
+
+                                    <!-- <li class="footer__item">
+                                        <a href="/station-information" title="ข้อมูลสถานีรถไฟฟ้า" class="footer__link">ข้อมูลสถานีรถไฟฟ้า</a>
+                                    </li> -->
+
+                                    <li class="footer__item">
+                                        <a href="/fare-calculated" title="คำนวณค่าโดยสารและเวลาเดินทาง" class="footer__link">คำนวณค่าโดยสารและเวลาเดินทาง</a>
                                     </li>
                                 </ul>
                             </div>
@@ -80,10 +127,35 @@
                                 <a href="/" class="footer__link">บริการลูกค้า</a>
                                 <ul class="footer__group">
                                     <li class="footer__item">
-                                        <a href="/" class="footer__link">สิ่งอำนวยความสะดวก</a>
+                                        <a href="/facilities" title="สิ่งอำนวยความสะดวก" class="footer__link">สิ่งอำนวยความสะดวก</a>
                                     </li>
+
                                     <li class="footer__item">
-                                        <a href="/" class="footer__link">บริการสำหรับคนพิการ</a>
+                                        <a href="/facilities" title="บริการสำหรับคนพิการ" class="footer__link">บริการสำหรับคนพิการ</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="/facilities" title="กฎข้อบังคับ/ข้อแนะนำการใช้บริการ" class="footer__link">กฎข้อบังคับ/ข้อแนะนำการใช้บริการ</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="/shopstation" title="ร้านค้าต่างๆ ประจำสถานี" class="footer__link">ร้านค้าต่างๆ ประจำสถานี</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="#nogo" title="สถานที่ใกล้เคียงที่น่าสนใจ" class="footer__link">สถานที่ใกล้เคียงที่น่าสนใจ</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="#nogo" title="สินค้าและบริการอื่นๆ" class="footer__link">สินค้าและบริการอื่นๆ</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="/survey" title="แบบสำรวจออนไลน์" class="footer__link">แบบสำรวจออนไลน์</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="/vote" title="Vote / Poll" class="footer__link">Vote / Poll</a>
                                     </li>
                                 </ul>
                             </div>
@@ -92,13 +164,27 @@
                                 <a href="/" class="footer__link">ข่าวสารและกิจกรรม</a>
                                 <ul class="footer__group">
                                     <li class="footer__item">
-                                        <a href="/" class="footer__link">ข่าวสาร</a>
+                                        <a href="/news" title="ข่าวสาร" class="footer__link">ข่าวสาร</a>
                                     </li>
+
                                     <li class="footer__item">
-                                        <a href="/" class="footer__link">ภาพกิจกรรม</a>
+                                        <a href="/activity" title="ภาพกิจกรรม" class="footer__link">ภาพกิจกรรม</a>
                                     </li>
+
                                     <li class="footer__item">
-                                        <a href="/" class="footer__link">ปฏิทินกิจกรรม</a>
+                                        <a href="/events" title="ปฏิทินกิจกรรม" class="footer__link">ปฏิทินกิจกรรม</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="/lostfound" title="ประกาศของหาย" class="footer__link">ประกาศของหาย</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="#nogo" title="บทความ" class="footer__link">บทความ</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="/report" title="รายงานประจำปี/ผลการปฎิบัติงาน" class="footer__link">รายงานประจำปี/ผลการปฎิบัติงาน</a>
                                     </li>
                                 </ul>
                             </div>
@@ -107,32 +193,64 @@
                                 <a href="/" class="footer__link">จัดซื้อจัดจ้าง</a>
                                 <ul class="footer__group">
                                     <li class="footer__item">
-                                        <a href="/" class="footer__link">แผนการจัดซื้อจัดจ้าง</a>
+                                        <a href="/procurement/index" title="แผนการจัดซื้อจัดจ้าง" class="footer__link">แผนการจัดซื้อจัดจ้าง</a>
                                     </li>
+
                                     <li class="footer__item">
-                                        <a href="/" class="footer__link">ร่างขอบเขตของงาน</a>
+                                        <a href="/procurement/index" title="ร่างขอบเขตของงาน" class="footer__link">ร่างขอบเขตของงาน</a>
                                     </li>
+
                                     <li class="footer__item">
-                                        <a href="/" class="footer__link">ประกาศจัดซื้อจัดจ้าง</a>
+                                        <a href="/procurement/index" title="ประกาศจัดซื้อจัดจ้าง" class="footer__link">ประกาศจัดซื้อจัดจ้าง</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="/procurement/index" title="ผลการจัดซื้อจัดจ้าง" class="footer__link">ผลการจัดซื้อจัดจ้าง</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="/procurement/index" title="ประกาศยกเลิกการจัดซื้อจัดจ้าง" class="footer__link">ประกาศยกเลิกการจัดซื้อจัดจ้าง</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="/procurement/index" title="รายงานประจำปี" class="footer__link">รายงานประจำปี</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="/procurement/index" title="ประกาศราคากลาง" class="footer__link">ประกาศราคากลาง</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="/procurement/index" title="อื่นๆ" class="footer__link">อื่นๆ</a>
                                     </li>
                                 </ul>
                             </div>
 
                             <div class="col mb-4">
-                                <a href="/" class="footer__link">ร่วมงานกับเรา</a>
+                                <a  href="/career/listcareer"  title="ร่วมงานกับเรา" class="footer__link">ร่วมงานกับเรา</a>
                             </div>
 
                             <div class="col mb-4">
                                 <a href="/" class="footer__link">ติดต่อเรา</a>
                                 <ul class="footer__group">
                                     <li class="footer__item">
-                                        <a href="/" class="footer__link">ติดต่อสอบถาม</a>
+                                        <a href="/contact" title="ติดต่อสอบถาม" class="footer__link">ติดต่อสอบถาม</a>
                                     </li>
+
                                     <li class="footer__item">
-                                        <a href="/" class="footer__link">ติดต่อหน่วยงานที่รับผิดชอบข้อมูล</a>
+                                        <a href="/contact" title="ติดต่อหน่วยงานที่รับผิดชอบข้อมูล" class="footer__link">ติดต่อหน่วยงานที่รับผิดชอบข้อมูล</a>
                                     </li>
+
                                     <li class="footer__item">
-                                        <a href="/" class="footer__link">ระบบแนะนำ/ร้องเรียน</a>
+                                        <a href="/suggession" title="ระบบแนะนำ/ร้องเรียน" class="footer__link">ระบบแนะนำ/ร้องเรียน</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="/question" title="ถาม - ตอบ" class="footer__link">ถาม - ตอบ</a>
+                                    </li>
+
+                                    <li class="footer__item">
+                                        <a href="/faq" title="คำถามที่พบบ่อย" class="footer__link">คำถามที่พบบ่อย</a>
                                     </li>
                                 </ul>
                             </div>
