@@ -1,6 +1,10 @@
 .news--wrapper{
     .head--content{
-        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        
         .text{
             font-size: 1.5rem;
             line-height: 1.5rem;

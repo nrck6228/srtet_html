@@ -45,6 +45,7 @@
 
                 <div class="head--content">
                     <div class="text text__date">วันที่ : 6 เมษายน 2565</div>
+                    <div class="text text__source">ที่มา : Facebook RED Line SRTET</div>
                 </div>
 
                 <div class="body--content">
@@ -178,6 +179,65 @@
         <article class="page--content">
             <div class="container">
                 @include('include._social')
+            </div>
+        </article>
+
+        <article class="page--content">
+            <div class="container">
+                <div class="related--content">
+                    <div class="title--page">
+                        <h2 class="page__title">
+                            ข่าวสารอื่นๆ
+                        </h2>
+                    </div>
+                    <div class="card-deck card-deck--cards-sm-2 card-deck--cards-md-2 card-deck--cards-lg-4">
+                        <a href="/news-detail" class="card card--news">
+                            <div class="card__pin">New</div>
+                            <div class="card__figure">
+                                <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="ข่าว">
+                            </div>
+                            <div class="card__body">
+                                <div class="card__date">6 เมษายน 2565</div>
+                                <div class="card__title">
+                                    พบกับงานงานสัปดาห์หนังสือแห่งชาติครั้งที่ 50
+                                </div>
+                            </div>
+                        </a>
+                        <a href="/news-detail" class="card card--news">
+                            <div class="card__figure">
+                                <img src="{{ asset('assets/images/news/img-news2.png')}}" alt="ข่าว">
+                            </div>
+                            <div class="card__body">
+                                <div class="card__date">5 เมษายน 2565</div>
+                                <div class="card__title">
+                                    เมื่อพบเจอ บุคคลต้องสงสัย แจ้งทางเจ้าหน้าที่ได้ทันที
+                                </div>
+                            </div>
+                        </a>
+                        <a href="/news-detail" class="card card--news">
+                            <div class="card__figure">
+                                <img src="{{ asset('assets/images/news/img-news3.png')}}" alt="ข่าว">
+                            </div>
+                            <div class="card__body">
+                                <div class="card__date">2 เมษายน 2565</div>
+                                <div class="card__title">
+                                    ข้อปฏิบัติของผู้ป่วยโควิด เมื่อแยกกักตัวที่บ้าน
+                                </div>
+                            </div>
+                        </a>
+                        <a href="/news-detail" class="card card--news">
+                            <div class="card__figure">
+                                <img src="{{ asset('assets/images/news/img-news4.png')}}" alt="ข่าว">
+                            </div>
+                            <div class="card__body">
+                                <div class="card__date">1 เมษายน 2565</div>
+                                <div class="card__title">
+                                    7 ขั้นตอนควรทำ เมื่อตรวจ ATK ขึ้น 2 ขีด
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </article>
     </main>
