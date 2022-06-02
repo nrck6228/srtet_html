@@ -450,14 +450,14 @@
             align-items: center;
 
             font-weight: bold;
-            font-size: 1.625rem;
+            font-size: 1.5rem;
             line-height: 1.875rem;
             color: $gray;
 
             .point{
                 display: inline-block;
-                width: 40px;
-                height: 40px;
+                width: 32px;
+                height: 32px;
                 background-color: white;
                 border-radius: 50%;
                 border: 5px solid $red;
@@ -472,7 +472,7 @@
 
         .remark__right{
             font-weight: bold;
-            font-size: 1.625rem;
+            font-size: 1.5rem;
             line-height: 1.875rem;
             color: $gray;
         }

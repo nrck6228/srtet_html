@@ -21,6 +21,9 @@
                     ลำดับ
                 </th>
                 <th>
+                    วันที่ประกาศ
+                </th>
+                <th>
                     ชื่อเรื่อง
                 </th>
                 <th style="width: 250px">
@@ -33,6 +36,11 @@
             <tr>
                 <td>
                     1
+                </td>
+                <td>
+                    <div class="procurement--date">
+                        25/05/2565
+                    </div>
                 </td>
                 <td class="text-start">
                     <div class="procurement--name">
@@ -52,6 +60,11 @@
                 <td>
                     2
                 </td>
+                <td>
+                    <div class="procurement--date">
+                        25/05/2565
+                    </div>
+                </td>
                 <td class="text-start">
                     <div class="procurement--name">
                         ประกาศยกเลิกจ้างเหมาตรวจสอบอุปกรณ์ในโรงซ่อมบำรุงเพื่อความปลอดภัยและออกหนังสือรับรองความปลอดภัย จำนวน 1 งาน
@@ -69,6 +82,11 @@
             <tr>
                 <td>
                     3
+                </td>
+                <td>
+                    <div class="procurement--date">
+                        25/05/2565
+                    </div>
                 </td>
                 <td class="text-start">
                     <div class="procurement--name">
@@ -88,6 +106,11 @@
                 <td>
                     4
                 </td>
+                <td>
+                    <div class="procurement--date">
+                        25/05/2565
+                    </div>
+                </td>
                 <td class="text-start">
                     <div class="procurement--name">
                         ประกาศ บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด เรื่อง เผยแพร่แผนการจัดซื้อจัดจ้าง ประจำปีงบประมาณ ๒๕๖๕
@@ -105,6 +128,11 @@
             <tr>
                 <td>
                     5
+                </td>
+                <td>
+                    <div class="procurement--date">
+                        25/05/2565
+                    </div>
                 </td>
                 <td class="text-start">
                     <div class="procurement--name">
@@ -124,6 +152,11 @@
                 <td>
                     6
                 </td>
+                <td>
+                    <div class="procurement--date">
+                        25/05/2565
+                    </div>
+                </td>
                 <td class="text-start">
                     <div class="procurement--name">
                         ประกาศ บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด เรื่อง เผยแพร่แผนการจัดซื้อจัดจ้าง ประจำปีงบประมาณ ๒๕๖๕
@@ -141,6 +174,11 @@
             <tr>
                 <td>
                     7
+                </td>
+                <td>
+                    <div class="procurement--date">
+                        25/05/2565
+                    </div>
                 </td>
                 <td class="text-start">
                     <div class="procurement--name">
@@ -160,6 +198,11 @@
                 <td>
                     8
                 </td>
+                <td>
+                    <div class="procurement--date">
+                        25/05/2565
+                    </div>
+                </td>
                 <td class="text-start">
                     <div class="procurement--name">
                         ประกาศ บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด เรื่อง เผยแพร่แผนการจัดซื้อจัดจ้าง ประจำปีงบประมาณ ๒๕๖๕
@@ -178,6 +221,11 @@
                 <td>
                     9
                 </td>
+                <td>
+                    <div class="procurement--date">
+                        25/05/2565
+                    </div>
+                </td>
                 <td class="text-start">
                     <div class="procurement--name">
                         ประกาศ บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด เรื่อง เผยแพร่แผนการจัดซื้อจัดจ้าง ประจำปีงบประมาณ ๒๕๖๕
@@ -195,6 +243,11 @@
             <tr>
                 <td>
                     10
+                </td>
+                <td>
+                    <div class="procurement--date">
+                        25/05/2565
+                    </div>
                 </td>
                 <td class="text-start">
                     <div class="procurement--name">

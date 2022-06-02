@@ -45,7 +45,7 @@
                                 <th>ตลิ่งชัน</th>
                                 <th>บางบำหรุ</th>
                                 <th>บางซ่อน</th>
-                                <th>บางซื่อ</th>
+                                <th class="bg__center">บางซื่อ</th>
                                 <th>จตุจักร</th>
                                 <th>วัดเสมียนนารี</th>
                                 <th>บางเขน</th>
@@ -194,7 +194,7 @@
                             </tr>
 
                             <tr>
-                                <th>
+                                <th class="bg__center">
                                 บางซื่อ
                                 </th>
                                 <td>
@@ -655,18 +655,15 @@
                 </div>
             </div>
         </article>
-
-        <!-- include html services -->
-        @include('include._services')
     </main>
 
     <script>
-        const scrollContainer = document.querySelector(".table--fare");
+        // const scrollContainer = document.querySelector(".table--fare");
 
-        scrollContainer.addEventListener("wheel", (evt) => {
-            evt.preventDefault();
-            scrollContainer.scrollLeft += evt.deltaY;
-        });
+        // scrollContainer.addEventListener("wheel", (evt) => {
+        //     evt.preventDefault();
+        //     scrollContainer.scrollLeft += evt.deltaY;
+        // });
     </script>
 @endsection
 

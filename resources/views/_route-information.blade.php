@@ -285,9 +285,6 @@
                 </div>
             </div>
         </article>
-
-        <!-- include html services -->
-        @include('include._services')
     </main>
 
     <script>

@@ -26,6 +26,10 @@
             color: $red;
         }
     }
+
+    .list--primary{
+        margin-bottom: 0;
+    }
 }
 
 .table--primary{
@@ -41,10 +45,10 @@
         > thead{
             > tr{
                 th, td{
-                    padding: 0.5rem 1rem;
+                    padding: 5px 1rem;
                     text-align: center;
                     font-size: 1.625rem;
-                    line-height: 1.625rem;
+                    line-height: 1.875rem;
                     color: white;
                     vertical-align: middle;
                     // border: 1px solid white;
@@ -56,14 +60,20 @@
         > tbody{
             > tr{
                 > td{
-                    padding: 1rem;
+                    padding: 5px 1rem;
                     text-align: center;
                     font-weight: bold;
                     font-size: 1.5rem;
-                    line-height: 1.5rem;
+                    line-height: 1.875rem;
                     color: $darkgray;
                     // border: 1px solid white;
                     background-color: white;
+                }
+
+                &:nth-child(even){
+                    td{
+                        background-color: rgba($color: $gray, $alpha: 0.2);
+                    }
                 }
             }
         }
@@ -79,7 +89,7 @@
                 > th{
                     width: 150px;
                     height: auto;
-                    padding: 1rem 1.5rem;
+                    padding: 5px 1.5rem;
                     text-align: center;
                     font-size: 1.625rem;
                     line-height: 1.875rem;
@@ -87,6 +97,11 @@
                     white-space: nowrap;
                     border: 1px solid white;
                     background-color: $red;
+
+                    &.bg__center{
+                        color: white;
+                        background-color: $gray;
+                    }
 
                     &:nth-child(1){
                         position: absolute;
@@ -105,8 +120,6 @@
 
         > tbody{
             > tr {
-                background-color: white;
-
                 > th{
                     width: 150px;
                     height: auto;
@@ -117,13 +130,17 @@
                     line-height: 1.875rem;
                     white-space: nowrap;
                     border: 1px solid white;
-
                     position: absolute;
                     width: 150px;
                     opacity: 1;
                     margin-top: -1px;
                     color: white;
                     background-color: $red;
+
+                    &.bg__center{
+                        color: white;
+                        background-color: $gray;
+                    }
                 }
                 
                 > td{
@@ -136,6 +153,7 @@
                     line-height: 1.875rem;
                     white-space: nowrap;
                     border: 1px solid white;
+                    background-color: white;
 
                     &:nth-child(1){
                         position: absolute;
@@ -158,7 +176,14 @@
                 }
 
                 &:nth-child(odd){
-                    background-color: rgba($color: $gray, $alpha: 0.2);
+                    td{
+                        background-color: rgba($color: $gray, $alpha: 0.2);
+
+                        &.disabled{
+                            color: white;
+                            background-color: $gray;
+                        }
+                    }
                 }
             }
         }
@@ -172,7 +197,7 @@
         > thead{
             > tr {
                 > th{
-                    padding: 1rem 1.5rem;
+                    padding: 5px 1.5rem;
                     text-align: center;
                     font-size: 1.625rem;
                     line-height: 1.875rem;
@@ -202,13 +227,18 @@
                 background-color: white;    
 
                 > td{
-                    padding: 1rem 1.5rem;
+                    padding: 5px 1.5rem;
                     text-align: center;
                     font-weight: bold;
                     font-size: 1.5rem;
                     line-height: 1.875rem;
                     white-space: nowrap;
                     border: 1px solid white;
+
+                    &:first-child{
+                        color: white;
+                        background-color: $red;
+                    }
 
                     // &:nth-child(1){
                     //     position: absolute;

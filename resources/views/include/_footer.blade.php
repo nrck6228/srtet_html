@@ -53,11 +53,11 @@
                                     </li>
 
                                     <li class="footer__item">
-                                        <a href="#nogo" title="ภารกิจ และหน้าที่รับผิดชอบของหน่วยงาน" class="footer__link">ภารกิจ และหน้าที่รับผิดชอบของหน่วยงาน</a>
+                                        <a href="/responsibility" title="ภารกิจ และหน้าที่รับผิดชอบของหน่วยงาน" class="footer__link">ภารกิจ และหน้าที่รับผิดชอบของหน่วยงาน</a>
                                     </li>
 
                                     <li class="footer__item">
-                                        <a href="#nogo" title="ยุทธศาสตร์ แผนปฏิบีติราชการ" class="footer__link">ยุทธศาสตร์ แผนปฏิบีติราชการ</a>
+                                        <a href="/strategic" title="ยุทธศาสตร์ แผนปฏิบีติราชการ" class="footer__link">ยุทธศาสตร์ แผนปฏิบีติราชการ</a>
                                     </li>
 
                                     <li class="footer__item">
@@ -77,11 +77,7 @@
                                     </li>
 
                                     <li class="footer__item">
-                                        <a href="#nogo" title="การเปิดเผยข้อมูลสาธารณะ" class="footer__link">การเปิดเผยข้อมูลสาธารณะ</a>
-                                    </li>
-
-                                    <li class="footer__item">
-                                        <a href="/ITA" title="ITA" class="footer__link">ITA</a>
+                                        <a href="/declaration" title="การเปิดเผยข้อมูลสาธารณะ" class="footer__link">การเปิดเผยข้อมูลสาธารณะ</a>
                                     </li>
                                 </ul>
                             </div>
@@ -224,6 +220,10 @@
                                         <a href="/procurement/index" title="อื่นๆ" class="footer__link">อื่นๆ</a>
                                     </li>
                                 </ul>
+                            </div>
+
+                            <div class="col mb-4">
+                                <a  href="/ITA"  title="ร่วมงานกับเรา" class="footer__link">ITA</a>
                             </div>
 
                             <div class="col mb-4">
