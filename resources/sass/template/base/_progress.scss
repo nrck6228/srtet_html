@@ -1,0 +1,88 @@
+.stepper-wrapper {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    .stepper-item {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+      
+        &:before{
+            position: absolute;
+            content: "";
+            border-bottom: 8px solid $red;
+            width: 100%;
+            top: 17px;
+            left: -50%;
+            z-index: 3;
+        }
+        // &:after{
+        //     position: absolute;
+        //     content: "";
+        //     border-bottom: 2px solid #ccc;
+        //     width: 100%;
+        //     top: 20px;
+        //     left: 50%;
+        //     z-index: 2;
+        // }
+
+        .step-counter{
+            position: relative;
+            z-index: 5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border: 5px solid $red;
+            border-radius: 50%;
+            background: #fff;
+            margin-bottom: 6px;
+        }
+        &.active{
+            font-weight: bold;
+        }
+        &.completed{
+            .step-counter{
+                background-color: $red;
+            }
+            &:after{
+                position: absolute;
+                content: "";
+                border-bottom: 8px solid $red;
+                width: 100%;
+                top: 17px;
+                left: 50%;
+                z-index: 3;
+            }
+        }
+
+        &:first-child{
+            &:before{
+                content: none;
+            }
+        }
+        &:last-child{
+            &:after{
+                content: none;
+            }
+        }
+        .step-name{
+            font-size: 1.375rem;
+            line-height: 1.625rem;
+            font-weight: bold;
+            color: $red;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+          font-size: 12px;
+        }
+    }
+}

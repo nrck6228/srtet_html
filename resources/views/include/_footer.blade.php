@@ -371,6 +371,11 @@
                                 </a>
                             </div>
                         </div>
+                        <div class="col-12 mt-2">
+                            <div class="view--count">
+                                จำนวนผู้เข้าชมเว็บไซต์ : <span>39068</span> คน
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

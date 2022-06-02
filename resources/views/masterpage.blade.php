@@ -41,10 +41,10 @@
 
         @yield('contentpage')
 
-        <!-- ส่งคำถามออนไลน์ -->
+        <!-- Search -->
         <div class="modal fade modal--custom" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-xl">
-                <div class="modal-content pt-5">
+                <div class="modal-content pt-5 px-4">
                     <div class="modal-header">
                         <h3 class="modal-title text-red" id="exampleModalLabel">ค้นหา</h5>
                         <button type="button" class="modal--close" data-bs-dismiss="modal" aria-label="Close">

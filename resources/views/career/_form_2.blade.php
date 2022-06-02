@@ -38,6 +38,21 @@
                     <h2 class="page__title text--primary mb-4">ใบสมัครงาน</h2>
                 </div>
 
+                <div class="stepper-wrapper">
+                    <div class="stepper-item completed">
+                        <div class="step-counter"></div>
+                        <div class="step-name">Step 1 :</div>
+                    </div>
+                    <div class="stepper-item completed">
+                        <div class="step-counter"></div>
+                        <div class="step-name">Step 2 :</div>
+                    </div>
+                    <div class="stepper-item active">
+                        <div class="step-counter"></div>
+                        <div class="step-name">Step 3 :</div>
+                    </div>
+                </div>
+
                 <div class="form-group-wrapper mb-5">
                     <form action="/career/form3">
                         <div class="form-group--section" id="form-group_education">
