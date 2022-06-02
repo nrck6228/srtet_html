@@ -89,9 +89,9 @@
                                 <img src="{{ asset('assets/images/news/img-news3.png')}}" alt="">
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     
-                    <div class="text--editor">
+                    <!-- <div class="text--editor">
                         <div class="ck-content">
                             <p>
                                 <span style="color: #BC1320"><strong>พบกับงานงานสัปดาห์หนังสือแห่งชาติครั้งที่ 50ฯ และสัปดาห์หนังสือนานาชาติ ครั้งที่ 20</strong></span>
@@ -136,7 +136,7 @@
                         </div>
                     </div> -->
 
-                    <div class="text--editor">
+                    <div class="text--editor text--editor__clear">
                         <div class="ck-content">
                             <figure class="image image_resized image-style-align-left" style="width: 26.19%;">
                                 <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="">

@@ -672,6 +672,11 @@ html, body{
     clear: both;
     overflow: hidden;
 
+    &__clear{
+        clear: inherit;
+        overflow: inherit;
+    }
+
     /*
     * CKEditor 5 (v34.0.0) content styles.
     * Generated on Mon, 09 May 2022 10:49:49 GMT.
