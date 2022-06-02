@@ -19,7 +19,8 @@
         position: relative;
         transition: all 0.4s ease-in-out;
 
-        border: 1px solid #929091;
+        border: 2px solid #929091;
+        border-left: none;
         .card__name{
             font-size: 1.625rem;
             line-height: 1.875rem;
@@ -40,6 +41,11 @@
             line-height: 1.875rem;
             font-weight: bold;
             color: $darkgray;
+        }
+
+        &:hover{
+            border: 2px solid $red;
+            border-left: none;
         }
     }
 

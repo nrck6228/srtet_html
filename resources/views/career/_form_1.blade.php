@@ -38,76 +38,94 @@
                     <h2 class="page__title text--primary mb-4">ใบสมัครงาน</h2>
                 </div>
 
+                <div class="stepper-wrapper">
+                    <div class="stepper-item completed">
+                        <div class="step-counter"></div>
+                        <div class="step-name">
+                            Step 1 :<br/>
+                            ข้อมูลส่วนตัว
+                        </div>
+                    </div>
+                    <div class="stepper-item active">
+                        <div class="step-counter"></div>
+                        <div class="step-name">
+                            Step 2 :<br/>
+                            ประวัติการศึกษาและทำงาน
+                        </div>
+                    </div>
+                    <div class="stepper-item active">
+                        <div class="step-counter"></div>
+                        <div class="step-name">
+                            Step 3 :<br/>
+                            สมัครสำเร็จ
+                        </div>
+                    </div>
+                </div>
+
 
                 <div class="form-group-wrapper">
                     <form action="/career/form2">
                         <div class="form-group--section">
-                            <h3 class="h3 text-red mb-3">ตำแหน่งสมัครงาน</h3>
+                            <h3 class="h3 text-red mb-3">ข้อมูลตำแหน่งที่สมัคร</h3>
+                            <!-- <div class="col-lg-3 mb-4">
+                                <div class="image-profile">
+                                    <img class="img-upload" src="{{ asset('assets/images/career/icon-uploadimage.svg')}}" alt="รถไฟฟ้าสายสีแดง">
+                                    <div class="icon-upload-image">
+                                        <label for="file-upload">
+                                            <i class="bi bi-camera-fill"></i>
+                                        </label>
+
+                                        <input id="file-upload" type="file" onChange="img_pathUrl(this);" style="display: none;"/>
+                                    </div>
+
+                                </div>
+                                <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpeg</div>
+                                <div class="input-group input-group--remark">
+                                    <div class="input-group-prepend icon icon__upload">
+                                        <span class="input-group-text" id="input_name">รูปภาพ<span>*</span> :</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="อัพโหลด">
+                                </div>
+                            </div> -->
                             <div class="row">
-                                <div class="col-lg-3 mb-4">
-                                    <div class="image-profile">
-                                        <img class="img-upload" src="{{ asset('assets/images/career/icon-uploadimage.svg')}}" alt="รถไฟฟ้าสายสีแดง">
-                                        <div class="icon-upload-image">
-                                            <label for="file-upload">
-                                                <!-- <img src="{{ asset('assets/images/icon/icon-camera.svg')}}"/> -->
-                                                <i class="bi bi-camera-fill"></i>
-                                            </label>
-
-                                            <input id="file-upload" type="file" onChange="img_pathUrl(this);" style="display: none;"/>
+                                <div class="col-lg-3">
+                                    <div class="form-group form--float">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected="true" value="title">ตำแหน่ง</option>
+                                            <option value="1" >ตำแหน่งที่ 1</option>
+                                            <option value="2">ตำแหน่งที่ 2</option>
+                                            <option value="3">ตำแหน่งที่ 3</option>
+                                        </select>
+                                        <label class="did-floating-label">ตำแหน่ง</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group form--float icon icon__date">
+                                        <input id="regis_date" class="form-control" type="text" placeholder="" value="" readonly>
+                                        <label>วันที่สมัคร</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group form--float icon icon__date">
+                                        <input id="launch_date" class="form-control" type="text" placeholder="" value="" readonly>
+                                        <label>เริ่มงาน</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>เงินเดือนที่คาดหวัง</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group form-group__remark">
+                                        <div class="select-file icon icon__upload">
+                                            <input type="file" name="file-1[]" id="file_resume" class="form-file inputfile inputfile-1">
+                                            <label for="file_resume"><span></span></label>
+                                            <div class="title-selectfile">เรซูเม่</div>
                                         </div>
-
                                     </div>
                                     <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpeg</div>
-                                    <!-- <div class="input-group input-group--remark">
-                                        <div class="input-group-prepend icon icon__upload">
-                                            <span class="input-group-text" id="input_name">รูปภาพ<span>*</span> :</span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="อัพโหลด">
-                                    </div> -->
-                                    
-                                </div>
-                                <div class="col-lg-9">
-                                    <div class="row">
-                                        <div class="col-lg-4">
-                                            <div class="form-group mb-4">
-                                                <div class="select-file icon icon__upload">
-                                                    <input type="file" name="file-1[]" id="file_resume" class="form-file inputfile inputfile-1">
-                                                    <label for="file_resume"><span></span></label>
-                                                    <div class="title-selectfile">เรซูเม่</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="form-group form--float">
-                                                <select class="form-select" aria-label="Default select example">
-                                                    <option selected="true" value="title">เลือกตำแหน่งที่จะสมัคร</option>
-                                                    <option value="1" >ตำแหน่งที่ 1</option>
-                                                    <option value="2">ตำแหน่งที่ 2</option>
-                                                    <option value="3">ตำแหน่งที่ 3</option>
-                                                </select>
-                                                <label class="did-floating-label">เลือกตำแหน่งที่จะสมัคร</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="form-group form--float icon icon__date">
-                                                <input id="regis_date" class="form-control" type="text" placeholder="" value="" readonly>
-                                                <label>วันที่สมัคร</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="form-group form--float icon icon__date">
-                                                <input id="launch_date" class="form-control" type="text" placeholder="" value="" readonly>
-                                                <label>เริ่มงาน</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="form-group form--float">
-                                                <input class="form-control" type="text" placeholder="" value="">
-                                                <label>เงินเดือนที่คาดหวัง</label>
-                                            </div>
-                                        </div>
-
-                                    </div>
                                 </div>
                             </div>
                         </div>

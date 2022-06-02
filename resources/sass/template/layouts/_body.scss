@@ -196,6 +196,7 @@ html, body{
                                 content: '';
                                 display: inline-block;
                                 background-image: url('../../../assets/images/icon/icon-polygon-right.svg');
+                                background-repeat: no-repeat;
                                 width: 8px;
                                 height: 11px;
                                 margin-right: 5px;
@@ -536,6 +537,7 @@ html, body{
             line-height: 1.5rem;
             text-decoration: none;
 
+            border-right: 1px solid rgba($color: $gray, $alpha: 0.5);
             .icon{
                 font-size: 1.25rem;
                 line-height: 1.5rem;
@@ -546,6 +548,10 @@ html, body{
                 font-weight: bold;
                 font-size: 1.5rem;
                 line-height: 1.5rem;
+            }
+
+            &:last-of-type{
+                border-right: none;
             }
         }
     }

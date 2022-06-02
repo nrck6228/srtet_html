@@ -7,7 +7,7 @@
 
 @section('contentpage')
 
-<div class="main--wrapper">
+<main class="main--wrapper">
     <article class="hero--wrapper">
         <div class="container">
             <div class="hero--slider">
@@ -55,7 +55,7 @@
                                     <label>นามสกุล</label>
                                 </div>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-lg-6">
                                 <div class="form-group form--float">
                                     <input class="form-control" type="text" placeholder="" value="">
                                     <label>เลขที่บัตรประชาชน</label>
@@ -73,7 +73,7 @@
                                     <label>เบอร์โทร</label>
                                 </div>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-lg-6">
                                 <div class="form-group form--float">
                                     <input class="form-control" type="text" placeholder="" value="">
                                     <label>อีเมล</label>
@@ -169,7 +169,13 @@
         </div>
     </article>
 
-</div>
+    <article class="page--content mb-2">
+        <div class="container">
+            @include('include._social')
+        </div>
+    </article>
+
+</main>
 
 @endsection
 

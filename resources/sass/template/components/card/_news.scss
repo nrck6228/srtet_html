@@ -1,13 +1,25 @@
 .card--news{
-    .card__pin{
-        font-size: 1.375rem;
-        line-height: 1.625rem;
-        color: $white;
-        background-color: $red;
-        padding: 5px 15px;
+    .card__highlight{
         position: absolute;
         left: 20px;
+        display: flex;
+        .card__pin{
+            font-size: 1.375rem;
+            line-height: 1.625rem;
+            color: $white;
+            background-color: $red;
+            padding: 5px 15px;
+            margin-right: 10px;
+            i{
+                font-size: 18px;
+                line-height: 18px;
+            }
+            &:last-of-type{
+                margin-right: 0;
+            }
+        }
     }
+    
 
     .card__figure{
         overflow: hidden;
