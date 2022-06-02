@@ -38,31 +38,100 @@
                 }
             }
 
-            &.prev{
-                &:hover{
-                    .page-link{
-                        background-color: inherit;
-                        .f-icon{
-                            color: $red;
-                        }
-                    }
-                }
-            }
-            &.next{
-                &:hover{
-                    .page-link{
-                        background-color: inherit;
-                        .f-icon{
-                            color: $red;
-                        }
-                    }
-                }
-            }
+            // &.prev{
+            //     &:hover{
+            //         .page-link{
+            //             background-color: inherit;
+            //             .f-icon{
+            //                 color: $red;
+            //             }
+            //         }
+            //     }
+            // }
+            // &.next{
+            //     &:hover{
+            //         .page-link{
+            //             background-color: inherit;
+            //             .f-icon{
+            //                 color: $red;
+            //             }
+            //         }
+            //     }
+            // }
             &.disabled{
                 &:hover{
                     .page-link{
                         .f-icon{
                             color: $darkgray;
+                        }
+                    }
+                }
+                &:first-of-type{
+                    &:hover{
+                        .page-link{
+                            &::before{
+                                color: $darkgray;
+                            }
+                        }
+                    }
+                }
+                &:last-of-type{
+                    &:hover{
+                        .page-link{
+                            &::before{
+                                color: $darkgray;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &:first-of-type{
+                .page-link{
+                    visibility: hidden;
+                    &::before{
+                        visibility: visible;
+                        content: "\e908";
+                        color: $darkgray;
+                        font-family: "icomoon";
+                        font-size: 16px;
+                        speak: none;
+                        font-weight: normal;
+                        font-variant: normal;
+                        text-transform: none;
+                        line-height: 34px;
+                        -webkit-font-smoothing: antialiased;
+                    }
+                }
+                &:hover{
+                    .page-link{
+                        &::before{
+                            color: $red;
+                        }
+                    }
+                }
+            }
+            &:last-of-type{
+                .page-link{
+                    visibility: hidden;
+                    &::before{
+                        visibility: visible;
+                        content: "\e909";
+                        color: $darkgray;
+                        font-family: "icomoon";
+                        font-size: 16px;
+                        speak: none;
+                        font-weight: normal;
+                        font-variant: normal;
+                        text-transform: none;
+                        line-height: 34px;
+                        -webkit-font-smoothing: antialiased;
+                    }
+                }
+                &:hover{
+                    .page-link{
+                        &::before{
+                            color: $red;
                         }
                     }
                 }
