@@ -77,11 +77,11 @@
                                     </li>
 
                                     <li class="dropdown-item">
-                                        <a href="#nogo" title="ภารกิจ และหน้าที่รับผิดชอบของหน่วยงาน" class="dropdown-link">ภารกิจ และหน้าที่รับผิดชอบของหน่วยงาน</a>
+                                        <a href="/responsibility" title="ภารกิจ และหน้าที่รับผิดชอบของหน่วยงาน" class="dropdown-link">ภารกิจ และหน้าที่รับผิดชอบของหน่วยงาน</a>
                                     </li>
 
                                     <li class="dropdown-item">
-                                        <a href="#nogo" title="ยุทธศาสตร์ แผนปฏิบีติราชการ" class="dropdown-link">ยุทธศาสตร์ แผนปฏิบีติราชการ</a>
+                                        <a href="/strategic" title="ยุทธศาสตร์ แผนปฏิบีติราชการ" class="dropdown-link">ยุทธศาสตร์ แผนปฏิบีติราชการ</a>
                                     </li>
 
                                     <li class="dropdown-item">
@@ -101,12 +101,12 @@
                                     </li>
 
                                     <li class="dropdown-item">
-                                        <a href="#nogo" title="การเปิดเผยข้อมูลสาธารณะ" class="dropdown-link">การเปิดเผยข้อมูลสาธารณะ</a>
+                                        <a href="/declaration" title="การเปิดเผยข้อมูลสาธารณะ" class="dropdown-link">การเปิดเผยข้อมูลสาธารณะ</a>
                                     </li>
 
-                                    <li class="dropdown-item">
+                                    <!-- <li class="dropdown-item">
                                         <a href="/ITA" title="ITA" class="dropdown-link">ITA</a>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </div>
                         </li>
@@ -257,6 +257,10 @@
                                     </li>
                                 </ul>
                             </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="/ITA" title="ITA" class="nav-link">ITA</a>
                         </li>
 
                         <li class="nav-item">

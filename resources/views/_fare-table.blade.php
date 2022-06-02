@@ -74,7 +74,7 @@
                             </div>
                             <div id="collapse-A" class="collapse show" data-bs-parent="#content" role="tabpanel" aria-labelledby="heading-A">
                                 <div class="calculated--wrapper">
-                                    <div class="station--route">
+                                    <div class="station--route mb-0">
                                         
                                         <div class="route--box">
                                             <div class="box--info">
@@ -1149,18 +1149,15 @@
                 </div>
             </div>
         </article>
-
-        <!-- include html services -->
-        @include('include._services')
     </main>
 
     <script>
-        const scrollContainer = document.querySelector(".table--time");
+        // const scrollContainer = document.querySelector(".table--time");
 
-        scrollContainer.addEventListener("wheel", (evt) => {
-            evt.preventDefault();
-            scrollContainer.scrollLeft += evt.deltaY;
-        });
+        // scrollContainer.addEventListener("wheel", (evt) => {
+        //     evt.preventDefault();
+        //     scrollContainer.scrollLeft += evt.deltaY;
+        // });
     </script>
 @endsection
 

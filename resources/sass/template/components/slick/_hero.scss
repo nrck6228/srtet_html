@@ -29,7 +29,7 @@
             height: 100%;
             -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
-            background-color: #000;
+            // background-color: #000;
             opacity: .3;
             z-index: 1;
         }
@@ -96,7 +96,7 @@
             }
 
             .caption__text{
-                color: $gray;
+                color: white;
             }
 
             @include media-breakpoint-up(md) {

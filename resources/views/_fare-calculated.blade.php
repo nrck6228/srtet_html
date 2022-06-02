@@ -671,18 +671,15 @@
                 </div>
             </div>
         </article>
-
-        <!-- include html services -->
-        @include('include._services')
     </main>
 
     <script>
-        const scrollContainer = document.querySelector(".table--time");
+        // const scrollContainer = document.querySelector(".table--time");
 
-        scrollContainer.addEventListener("wheel", (evt) => {
-            evt.preventDefault();
-            scrollContainer.scrollLeft += evt.deltaY;
-        });
+        // scrollContainer.addEventListener("wheel", (evt) => {
+        //     evt.preventDefault();
+        //     scrollContainer.scrollLeft += evt.deltaY;
+        // });
     </script>
 @endsection
 
