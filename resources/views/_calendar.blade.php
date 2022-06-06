@@ -46,8 +46,7 @@
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">หน้าแรก</a></li>
                         <li class="breadcrumb-item"><a href="#">ข่าวสารและกิจกรรม</a></li>
-                        <li class="breadcrumb-item"><a href="#">ปฎิทิน</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">รายละเอียด</li>
+                        <li class="breadcrumb-item active" aria-current="page"><a href="#">ปฎิทินกิจกรรม</a></li>
                     </ol>
                 </nav>
             </div>

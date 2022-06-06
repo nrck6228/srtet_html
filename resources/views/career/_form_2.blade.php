@@ -41,21 +41,30 @@
                 <div class="stepper-wrapper">
                     <div class="stepper-item completed">
                         <div class="step-counter"></div>
-                        <div class="step-name">Step 1 :</div>
+                        <div class="step-name">
+                            Step 1 :<br/>
+                            ข้อมูลส่วนตัว
+                        </div>
                     </div>
                     <div class="stepper-item completed">
                         <div class="step-counter"></div>
-                        <div class="step-name">Step 2 :</div>
+                        <div class="step-name">
+                            Step 2 :<br/>
+                            ประวัติการศึกษาและทำงาน
+                        </div>
                     </div>
                     <div class="stepper-item active">
                         <div class="step-counter"></div>
-                        <div class="step-name">Step 3 :</div>
+                        <div class="step-name">
+                            Step 3 :<br/>
+                            สมัครสำเร็จ
+                        </div>
                     </div>
                 </div>
 
                 <div class="form-group-wrapper mb-5">
                     <form action="/career/form3">
-                        <div class="form-group--section" id="form-group_education">
+                        <div class="form-group--section mb-5" id="form-group_education">
                             <h3 class="h3 text-red mb-3">ประวัติการศึกษา</h3>
                             <div class="manage-form-education">
                                 <div class="row education-form show" id="education_1">
@@ -77,19 +86,7 @@
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>สถาบัน</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="form-group form--float">
-                                            <input class="form-control" type="text" placeholder="" value="">
-                                            <label>คณะ</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="form-group form--float">
-                                            <input class="form-control" type="text" placeholder="" value="">
-                                            <label>สาขา</label>
+                                            <label>ชื่อสถานศึกษา</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
@@ -104,7 +101,13 @@
                                             <label>เกรดเฉลี่ย</label>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>สาขา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
                                         <div class="form-group form-group__remark">
                                             <div class="select-file icon icon__upload">
                                                 <input type="file" name="file-1[]" id="file_transcript_1" class="form-file inputfile inputfile-1">
@@ -134,19 +137,7 @@
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>สถาบัน</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="form-group form--float">
-                                            <input class="form-control" type="text" placeholder="" value="">
-                                            <label>คณะ</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="form-group form--float">
-                                            <input class="form-control" type="text" placeholder="" value="">
-                                            <label>สาขา</label>
+                                            <label>ชื่อสถานศึกษา</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
@@ -161,7 +152,13 @@
                                             <label>เกรดเฉลี่ย</label>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>สาขา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
                                         <div class="form-group form-group__remark">
                                             <div class="select-file icon icon__upload">
                                                 <input type="file" name="file-2[]" id="file_transcript_2" class="form-file inputfile inputfile-1">
@@ -191,19 +188,7 @@
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>สถาบัน</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="form-group form--float">
-                                            <input class="form-control" type="text" placeholder="" value="">
-                                            <label>คณะ</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="form-group form--float">
-                                            <input class="form-control" type="text" placeholder="" value="">
-                                            <label>สาขา</label>
+                                            <label>ชื่อสถานศึกษา</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
@@ -218,7 +203,13 @@
                                             <label>เกรดเฉลี่ย</label>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>สาขา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
                                         <div class="form-group form-group__remark">
                                             <div class="select-file icon icon__upload">
                                                 <input type="file" name="file-3[]" id="file_transcript_3" class="form-file inputfile inputfile-1">
@@ -248,19 +239,7 @@
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>สถาบัน</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="form-group form--float">
-                                            <input class="form-control" type="text" placeholder="" value="">
-                                            <label>คณะ</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="form-group form--float">
-                                            <input class="form-control" type="text" placeholder="" value="">
-                                            <label>สาขา</label>
+                                            <label>ชื่อสถานศึกษา</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
@@ -275,7 +254,13 @@
                                             <label>เกรดเฉลี่ย</label>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>สาขา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
                                         <div class="form-group form-group__remark">
                                             <div class="select-file icon icon__upload">
                                                 <input type="file" name="file-4[]" id="file_transcript_4" class="form-file inputfile inputfile-1">
@@ -305,19 +290,7 @@
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>สถาบัน</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="form-group form--float">
-                                            <input class="form-control" type="text" placeholder="" value="">
-                                            <label>คณะ</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <div class="form-group form--float">
-                                            <input class="form-control" type="text" placeholder="" value="">
-                                            <label>สาขา</label>
+                                            <label>ชื่อสถานศึกษา</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
@@ -332,7 +305,13 @@
                                             <label>เกรดเฉลี่ย</label>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>สาขา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
                                         <div class="form-group form-group__remark">
                                             <div class="select-file icon icon__upload">
                                                 <input type="file" name="file-5[]" id="file_transcript_5" class="form-file inputfile inputfile-1">
@@ -379,17 +358,14 @@
                                 </div>
                             </div>
 
-                            <h3 class="h3 text-red mb-2">ทักษะความสามารถ</h3>
-                            <div class="col-12">
-                                <h3 class="h3 text-darkgray mb-3">ความสามารถทางด้านภาษาต่างประเทศ :</h3>
-                            </div>
+                            <h3 class="h3 text-red mb-2">ความสามารถด้านภาษาต่างประเทศ</h3>
                             <div class="manage-form-language">
                                 <div class="row language-form show" id="language_1">
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <select class="form-select" aria-label="Default select example">
-                                                <option selected="true" value="title">ภาษา</option>
-                                                <option value="1">ภาษาอังกฤษ</option>
+                                                <option value="title">ภาษา</option>
+                                                <option value="1" selected="true">ภาษาอังกฤษ</option>
                                                 <option value="2">ภาษาจีน</option>
                                                 <option value="3">ญี่ปุ่น</option>
                                             </select>
@@ -524,65 +500,14 @@
                                 </div>
                             </div>
                             
-                            <div class="btn-group btn-action mb-5" id="btn_language">
+                            <div class="btn-group btn-action" id="btn_language">
                                 <div class="btn btn--primary btn-add" id="language_add"><span>เพิ่ม</span></div>
                                 <div class="btn btn--gray btn-delete" id="language_del"><span>ลบ</span></div>
                             </div>
-
+                        </div>
+                        <div class="form-group--section mb-5">
+                            <h3 class="h3 text-red mb-2">ความสามารถด้านอื่นๆ</h3>
                             <div class="row mb-2">
-                                <div class="col-12">
-                                    <h3 class="h3 text-darkgray mb-3">ผลการสอบวัดระดับภาษา :</h3>
-                                </div>
-                                <div class="col-12">
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <div class="form-group form--float">
-                                                <select class="form-select" aria-label="Default select example">
-                                                    <option selected="true" value="title">ผลสอบ</option>
-                                                    <option value="1">TOEIC</option>
-                                                    <option value="2">TOEFL</option>
-                                                    <option value="3">IELTS</option>
-                                                    <option value="4">JLPT</option>
-                                                </select>
-                                                <label class="did-floating-label">ผลสอบ</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="form-group form--float">
-                                                <input class="form-control" type="text" placeholder="" value="">
-                                                <label>ผลคะแนน</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <div class="form-group form--float">
-                                                <select class="form-select" aria-label="Default select example">
-                                                    <option selected="true" value="title">ผลสอบ</option>
-                                                    <option value="1">TOEIC</option>
-                                                    <option value="2">TOEFL</option>
-                                                    <option value="3">IELTS</option>
-                                                    <option value="4">JLPT</option>
-                                                </select>
-                                                <label class="did-floating-label">ผลสอบ</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="form-group form--float">
-                                                <input class="form-control" type="text" placeholder="" value="">
-                                                <label>ผลคะแนน</label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                
-                            </div>
-
-                            <div class="row mb-2">
-                                <div class="col-12">
-                                    <h3 class="h3 text-darkgray mb-3">ทักษะพิมพ์ดีด :</h3>
-                                </div>
                                 <div class="col-lg-3">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
@@ -595,59 +520,86 @@
                                         <label>พิมพ์ดีดอังกฤษ(คำ/นาที)</label>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row mb-2">
-                                <div class="col-12">
-                                    <h3 class="h3 text-darkgray mb-3">โปรแกรมคอมพิมเตอร์ :</h3>
-                                </div>
-                                <div class="col-lg-12">
+                                <div class="col-lg-6">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
-                                        <label>ระบุ</label>
+                                        <label>โปรแกรมคอมพิวเตอร์</label>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row mb-4">
-                                <div class="col-12">
-                                    <h3 class="h3 text-darkgray mb-3">Certificate :</h3>
+                                <div class="col-lg-3">
+                                    <div class="form-group form--float">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected="true" value="title">ผลสอบ</option>
+                                            <option value="1">TOEIC</option>
+                                            <option value="2">TOEFL</option>
+                                            <option value="3">IELTS</option>
+                                            <option value="4">JLPT</option>
+                                        </select>
+                                        <label class="did-floating-label">ผลสอบ</label>
+                                    </div>
                                 </div>
-                                <div class="col-lg-12">
+                                <div class="col-lg-3">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>ผลคะแนน</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group form--float">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected="true" value="title">ผลสอบ</option>
+                                            <option value="1">TOEIC</option>
+                                            <option value="2">TOEFL</option>
+                                            <option value="3">IELTS</option>
+                                            <option value="4">JLPT</option>
+                                        </select>
+                                        <label class="did-floating-label">ผลสอบ</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>ผลคะแนน</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
                                     <div class="form-group form-group__remark">
                                         <div class="select-file icon icon__upload">
-                                            <input type="file" name="file-1[]" id="file_certificate" class="form-file inputfile inputfile-1">
-                                            <label for="file_certificate"><span></span></label>
-                                            <div class="title-selectfile">เอกสารแนบ(certificate)</div>
+                                            <input type="file" name="file-1[]" id="file_certificate_1" class="form-file inputfile inputfile-1">
+                                            <label for="file_certificate_1"><span></span></label>
+                                            <div class="title-selectfile">Certificate</div>
                                         </div>
                                     </div>
-                                    <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpeg</div>
-                                </div>
-                            </div>
-                            <div class="row mb-2">
-                                <div class="col-12">
-                                    <h3 class="h3 text-darkgray mb-3">ใบอณุญาตขับขี่รถยนต์ :</h3>
+                                    <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpg</div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="driving_license" id="choice_1">
-                                        <label class="form-check-label" for="choice_1">
-                                            มี
-                                        </label>
+                                    <div class="form-group form-group__remark">
+                                        <div class="select-file icon icon__upload">
+                                            <input type="file" name="file-1[]" id="file_certificate_2" class="form-file inputfile inputfile-1">
+                                            <label for="file_certificate_2"><span></span></label>
+                                            <div class="title-selectfile">Certificate</div>
+                                        </div>
                                     </div>
+                                    <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpg</div>
                                 </div>
                                 <div class="col-lg-3">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="driving_license" id="choice_2">
-                                        <label class="form-check-label" for="choice_2">
-                                            ไม่มี
-                                        </label>
+                                    <div class="form-group form-group__remark">
+                                        <div class="select-file icon icon__upload">
+                                            <input type="file" name="file-1[]" id="file_certificate_3" class="form-file inputfile inputfile-1">
+                                            <label for="file_certificate_3"><span></span></label>
+                                            <div class="title-selectfile">Certificate</div>
+                                        </div>
                                     </div>
+                                    <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpg</div>
                                 </div>
+
+                                
                             </div>
-                            <div class="row mb-2">
-                                <div class="col-12">
-                                    <h3 class="h3 text-darkgray mb-3">ความสามารถพิเศษอื่นๆ :</h3>
-                                </div>
-                                <div class="col-lg-6 col-12">
+                        </div>
+                        <div class="form-group--section mb-5">
+                            <h3 class="h3 text-red mb-2">ความสามารถพิเศษอื่นๆ :</h3>
+                            <div class="row">
+                                <div class="col-lg-12">
                                     <div class="form-group form--float">
                                         <textarea class="form-control"></textarea>
                                         <label>ระบุ</label>
@@ -662,13 +614,13 @@
                                 <div class="col-lg-3">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
-                                        <label>อายุงานรวม(ปี)</label>
+                                        <label>อายุงานรวม (ปี)</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="form-group form--float form-group__remark">
                                         <input class="form-control" type="text" placeholder="" value="">
-                                        <label>อายุงานในระดับบริหารรวม(ปี)</label>
+                                        <label>อายุงานในระดับบริหารรวม (ปี)</label>
                                     </div>
                                     <div class="text-remark">(สำหรับผู้จัดการแผนกขึ้นไป)</div>
                                 </div>
@@ -681,7 +633,7 @@
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>ชื่อบริษัท</label>
+                                            <label>ชื่อสถานประกอบการ</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
@@ -693,13 +645,13 @@
                                     <div class="col-lg-3">
                                         <div class="form-group form--float icon icon__date">
                                             <input id="startwork_date_1" class="form-control" type="text" placeholder="" value="" readonly>
-                                            <label>เริ่มงาน</label>
+                                            <label>วันที่เริ่มต้นทำงาน</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float icon icon__date">
                                             <input id="endwork_date_1" class="form-control" type="text" placeholder="" value="" readonly>
-                                            <label>สิ้นสุด</label>
+                                            <label>วันที่สิ้นสุดทำงาน</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
@@ -708,17 +660,21 @@
                                             <label>เงินเดือน</label>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3">
-                                        <div class="form-group form--float">
-                                            <input class="form-control" type="text" placeholder="" value="">
-                                            <label>บุคคลอ้างอิง</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
+                                    <div class="col-lg-9">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
                                             <label>เหตุผลลาออก</label>
                                         </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form-group__remark">
+                                            <div class="select-file icon icon__upload">
+                                                <input type="file" name="file-1[]" id="file_work_1" class="form-file inputfile inputfile-1">
+                                                <label for="file_work_1"><span></span></label>
+                                                <div class="title-selectfile">Certificate</div>
+                                            </div>
+                                        </div>
+                                        <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpg</div>
                                     </div>
                                 </div>
                                 <div class="row mb-2 work-form" id="work_2" style="display: none;">
@@ -728,7 +684,7 @@
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>ชื่อบริษัท</label>
+                                            <label>ชื่อสถานประกอบการ</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
@@ -740,13 +696,13 @@
                                     <div class="col-lg-3">
                                         <div class="form-group form--float icon icon__date">
                                             <input id="startwork_date_2" class="form-control" type="text" placeholder="" value="" readonly>
-                                            <label>เริ่มงาน</label>
+                                            <label>วันที่เริ่มต้นทำงาน</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float icon icon__date">
                                             <input id="endwork_date_2" class="form-control" type="text" placeholder="" value="" readonly>
-                                            <label>สิ้นสุด</label>
+                                            <label>วันที่สิ้นสุดทำงาน</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
@@ -755,17 +711,21 @@
                                             <label>เงินเดือน</label>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3">
-                                        <div class="form-group form--float">
-                                            <input class="form-control" type="text" placeholder="" value="">
-                                            <label>บุคคลอ้างอิง</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
+                                    <div class="col-lg-9">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
                                             <label>เหตุผลลาออก</label>
                                         </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form-group__remark">
+                                            <div class="select-file icon icon__upload">
+                                                <input type="file" name="file-1[]" id="file_work_2" class="form-file inputfile inputfile-1">
+                                                <label for="file_work_2"><span></span></label>
+                                                <div class="title-selectfile">Certificate</div>
+                                            </div>
+                                        </div>
+                                        <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpg</div>
                                     </div>
                                 </div>
                                 <div class="row mb-2 work-form" id="work_3" style="display: none;">
@@ -775,7 +735,7 @@
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>ชื่อบริษัท</label>
+                                            <label>ชื่อสถานประกอบการ</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
@@ -787,13 +747,13 @@
                                     <div class="col-lg-3">
                                         <div class="form-group form--float icon icon__date">
                                             <input id="startwork_date_3" class="form-control" type="text" placeholder="" value="" readonly>
-                                            <label>เริ่มงาน</label>
+                                            <label>วันที่เริ่มต้นทำงาน</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float icon icon__date">
                                             <input id="endwork_date_3" class="form-control" type="text" placeholder="" value="" readonly>
-                                            <label>สิ้นสุด</label>
+                                            <label>วันที่สิ้นสุดทำงาน</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
@@ -802,17 +762,21 @@
                                             <label>เงินเดือน</label>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3">
-                                        <div class="form-group form--float">
-                                            <input class="form-control" type="text" placeholder="" value="">
-                                            <label>บุคคลอ้างอิง</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
+                                    <div class="col-lg-9">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
                                             <label>เหตุผลลาออก</label>
                                         </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form-group__remark">
+                                            <div class="select-file icon icon__upload">
+                                                <input type="file" name="file-1[]" id="file_work_3" class="form-file inputfile inputfile-1">
+                                                <label for="file_work_3"><span></span></label>
+                                                <div class="title-selectfile">Certificate</div>
+                                            </div>
+                                        </div>
+                                        <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpg</div>
                                     </div>
                                 </div>
                                 <div class="row mb-2 work-form" id="work_4" style="display: none;">
@@ -822,7 +786,7 @@
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>ชื่อบริษัท</label>
+                                            <label>ชื่อสถานประกอบการ</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
@@ -833,14 +797,14 @@
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float icon icon__date">
-                                            <input id="startwork_date_4" class="form-control" type="text" placeholder="" value="" readonly>
-                                            <label>เริ่มงาน</label>
+                                            <input id="startwork_date_3" class="form-control" type="text" placeholder="" value="" readonly>
+                                            <label>วันที่เริ่มต้นทำงาน</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float icon icon__date">
-                                            <input id="endwork_date_4" class="form-control" type="text" placeholder="" value="" readonly>
-                                            <label>สิ้นสุด</label>
+                                            <input id="endwork_date_3" class="form-control" type="text" placeholder="" value="" readonly>
+                                            <label>วันที่สิ้นสุดทำงาน</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
@@ -849,17 +813,21 @@
                                             <label>เงินเดือน</label>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3">
-                                        <div class="form-group form--float">
-                                            <input class="form-control" type="text" placeholder="" value="">
-                                            <label>บุคคลอ้างอิง</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
+                                    <div class="col-lg-9">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
                                             <label>เหตุผลลาออก</label>
                                         </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form-group__remark">
+                                            <div class="select-file icon icon__upload">
+                                                <input type="file" name="file-1[]" id="file_work_4" class="form-file inputfile inputfile-1">
+                                                <label for="file_work_4"><span></span></label>
+                                                <div class="title-selectfile">Certificate</div>
+                                            </div>
+                                        </div>
+                                        <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpg</div>
                                     </div>
                                 </div>
                                 <div class="row mb-2 work-form" id="work_5" style="display: none;">
@@ -869,7 +837,7 @@
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>ชื่อบริษัท</label>
+                                            <label>ชื่อสถานประกอบการ</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
@@ -880,14 +848,14 @@
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float icon icon__date">
-                                            <input id="startwork_date_5" class="form-control" type="text" placeholder="" value="" readonly>
-                                            <label>เริ่มงาน</label>
+                                            <input id="startwork_date_3" class="form-control" type="text" placeholder="" value="" readonly>
+                                            <label>วันที่เริ่มต้นทำงาน</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float icon icon__date">
-                                            <input id="endwork_date_5" class="form-control" type="text" placeholder="" value="" readonly>
-                                            <label>สิ้นสุด</label>
+                                            <input id="endwork_date_3" class="form-control" type="text" placeholder="" value="" readonly>
+                                            <label>วันที่สิ้นสุดทำงาน</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
@@ -896,17 +864,21 @@
                                             <label>เงินเดือน</label>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3">
-                                        <div class="form-group form--float">
-                                            <input class="form-control" type="text" placeholder="" value="">
-                                            <label>บุคคลอ้างอิง</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3">
+                                    <div class="col-lg-9">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
                                             <label>เหตุผลลาออก</label>
                                         </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form-group__remark">
+                                            <div class="select-file icon icon__upload">
+                                                <input type="file" name="file-1[]" id="file_work_5" class="form-file inputfile inputfile-1">
+                                                <label for="file_work_5"><span></span></label>
+                                                <div class="title-selectfile">Certificate</div>
+                                            </div>
+                                        </div>
+                                        <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpg</div>
                                     </div>
                                 </div>
                             </div>

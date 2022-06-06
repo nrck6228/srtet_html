@@ -130,111 +130,152 @@
                             </div>
                         </div>
                         <div class="form-group--section">
-                            <h3 class="h3 text-red mb-3">ชื่อผู้สมัคร</h3>
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <div class="form-group form--float">
-                                        <select class="form-select" aria-label="Default select example">
-                                            <option selected="true" value="title">คำนำหน้า</option>
-                                            <option value="1" >นาย</option>
-                                            <option value="2">นาง</option>
-                                            <option value="3">นางสาว</option>
-                                        </select>
-                                        <label class="did-floating-label">คำนำหน้า</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="form-group form--float">
-                                        <input class="form-control" type="text" placeholder="" value="">
-                                        <label>ชื่อ</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="form-group form--float">
-                                        <input class="form-control" type="text" placeholder="" value="">
-                                        <label>นามสกุล</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="form-group form--float">
-                                        <input class="form-control" type="text" placeholder="" value="">
-                                        <label>ชื่อเล่น</label>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3">
-                                    <div class="form-group form--float">
-                                        <select class="form-select" aria-label="Default select example">
-                                            <option value="title">Choose Prefix</option>
-                                            <option value="1">Mr.</option>
-                                            <option value="2">Mrs.</option>
-                                            <option value="3">Miss.</option>
-                                        </select>
-                                        <label class="did-floating-label">Choose Prefix</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="form-group form--float">
-                                        <input class="form-control" type="text" placeholder="" value="">
-                                        <label>Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="form-group form--float">
-                                        <input class="form-control" type="text" placeholder="" value="">
-                                        <label>Surname</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group--section">
                             <h3 class="h3 text-red mb-3">ข้อมูลส่วนตัว</h3>
                             <div class="row">
-                                <div class="col-lg-3">
-                                    <div class="form-group form--float icon icon__date">
-                                        <input id="hbd_date" class="form-control hbd-date" type="text" placeholder="" value="" readonly>
-                                        <label>วันเกิด</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="form-group form--float">
-                                        <input id="age" class="form-control" type="text" placeholder="" value="">
-                                        <label>อายุ (ปี)</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="form-group form--float">
-                                        <input class="form-control" type="text" placeholder="" value="">
-                                        <label>เชื้อชาติ</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="form-group form--float">
-                                        <input class="form-control" type="text" placeholder="" value="">
-                                        <label>สัญชาติ</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="form-group form--float">
-                                        <input class="form-control" type="text" placeholder="" value="">
-                                        <label>ศาสนา</label>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="image-profile">
+                                                <img class="img-upload" src="{{ asset('assets/images/career/icon-uploadimage.svg')}}" alt="รถไฟฟ้าสายสีแดง">
+                                            </div>
+                                            
+                                            <div class="form-group form-group__remark">
+                                                <div class="select-file icon icon__upload">
+                                                    <input type="file" name="file-1[]" id="file_upload" class="form-file inputfile inputfile-1" onChange="img_pathUrl(this);">
+                                                    <label for="file_upload"><span></span></label>
+                                                    <div class="title-selectfile">รูปภาพ</div>
+                                                </div>
+                                            </div>
+                                            <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .jpg</div>
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <div class="row">
+                                                <div class="col-lg-4">
+                                                    <div class="form-group form--float">
+                                                        <select class="form-select" aria-label="Default select example">
+                                                            <option selected="true" value="title">คำนำหน้า</option>
+                                                            <option value="1" >นาย</option>
+                                                            <option value="2">นาง</option>
+                                                            <option value="3">นางสาว</option>
+                                                        </select>
+                                                        <label class="did-floating-label">คำนำหน้า</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-group form--float">
+                                                        <input class="form-control" type="text" placeholder="" value="">
+                                                        <label>ชื่อ</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-group form--float">
+                                                        <input class="form-control" type="text" placeholder="" value="">
+                                                        <label>นามสกุล</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-group form--float">
+                                                        <select class="form-select" aria-label="Default select example">
+                                                            <option value="title">Prefix</option>
+                                                            <option value="1">Mr.</option>
+                                                            <option value="2">Mrs.</option>
+                                                            <option value="3">Miss.</option>
+                                                        </select>
+                                                        <label class="did-floating-label">Prefix</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-group form--float">
+                                                        <input class="form-control" type="text" placeholder="" value="">
+                                                        <label>Name</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-group form--float">
+                                                        <input class="form-control" type="text" placeholder="" value="">
+                                                        <label>Surname</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-group form--float">
+                                                        <input class="form-control" type="text" placeholder="" value="">
+                                                        <label>ชื่อเล่น</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-group form--float icon icon__date">
+                                                        <input id="hbd_date" class="form-control hbd-date" type="text" placeholder="" value="" readonly>
+                                                        <label>วันเกิด</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-group form--float">
+                                                        <input id="age" class="form-control" type="text" placeholder="" value="">
+                                                        <label>อายุ (ปี)</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-group form--float">
+                                                        <input class="form-control" type="text" placeholder="" value="">
+                                                        <label>เชื้อชาติ</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-group form--float">
+                                                        <input class="form-control" type="text" placeholder="" value="">
+                                                        <label>สัญชาติ</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-group form--float">
+                                                        <input class="form-control" type="text" placeholder="" value="">
+                                                        <label>ศาสนา</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-group form--float">
+                                                        <input class="form-control" type="text" placeholder="" value="">
+                                                        <label>เลขที่บัตรประชาชน</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-group form--float icon icon__date">
+                                                        <input id="input_idcard_start" class="form-control" type="text" placeholder="" value="" readonly>
+                                                        <label>วันที่ออกบัตร</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-group form--float icon icon__date">
+                                                        <input id="input_idcard_exp" class="form-control" type="text" placeholder="" value="" readonly>
+                                                        <label>วันที่หมดอายุบัตร</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-group form--float">
+                                                        <input class="form-control" type="text" placeholder="" value="">
+                                                        <label>ส่วนสูง (ซม.)</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="form-group form--float">
+                                                        <input class="form-control" type="text" placeholder="" value="">
+                                                        <label>น้ำหนัก (กก.)</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
                         <div class="form-group--section">
-                            <h3 class="h3 text-red mb-3">ข้อมูลที่อยู่</h3>
-                            <div class="row">
-                                <div class="col-lg-6">
+                            <h3 class="h3 text-red mb-3">ข้อมูลติดต่อ</h3>
+                            <div class="row align-items-center">
+                                <div class="col-lg-3">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
-                                        <label>ที่อยู่ตามทะเบียนบ้าน</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-group form--float">
-                                        <input class="form-control" type="text" placeholder="" value="">
-                                        <label>ที่อยู่ปัจจุบันที่สามารถติดต่อได้</label>
+                                        <label>อีเมล</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
@@ -255,51 +296,43 @@
                                         <label>เบอร์โทรมารดา</label>
                                     </div>
                                 </div>
-                                <div class="col-lg-3">
+                                <div class="col-lg-6">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
-                                        <label>อีเมล</label>
+                                        <label>ที่อยู่ตามทะเบียนบ้าน</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
-                                        <label>ส่วนสูง (ซม.)</label>
+                                        <label>เบอร์โทร</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>ที่อยู่ปัจจุบันที่สามารถติดต่อได้</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
-                                        <label>น้ำหนัก (กก.)</label>
+                                        <label>เบอร์โทร</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="address" id="chk_address">
+                                        <label class="form-check-label" for="chk_address">
+                                            ที่อยู่เดียวกันกับทะเบียนบ้าน
+                                        </label>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group--section">
-                            <h3 class="h3 text-red mb-3">เอกสารประจำตัว</h3>
+                            <h3 class="h3 text-red mb-3">การรับราชการทหาร (สำหรับผู้ชาย)</h3>
                             <div class="row">
-                                <div class="col-lg-3">
-                                    <div class="form-group form--float">
-                                        <input class="form-control" type="text" placeholder="" value="">
-                                        <label>บัตรประจำตัวประชาชน</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="form-group form--float icon icon__date">
-                                        <input id="input_idcard_start" class="form-control" type="text" placeholder="" value="" readonly>
-                                        <label>วันที่ออกบัตร</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="form-group form--float icon icon__date">
-                                        <input id="input_idcard_exp" class="form-control" type="text" placeholder="" value="" readonly>
-                                        <label>วันที่หมดอายุ</label>
-                                    </div>
-                                </div>
-
-                                <div class="col-12">
-                                    <h3 class="h3 text-darkgray mb-3">การรับราชการทหาร(สำหรับผู้ชาย) :</h3>
-                                </div>
                                 <div class="col-lg-3">
                                     <div class="form-check">
                                         <input class="form-check-input" type="radio" name="question_1" id="choice_1">
@@ -320,12 +353,34 @@
                                     <div class="form-check form-check--other">
                                         <input class="form-check-input" type="radio" name="question_1" id="choice_3">
                                         <label class="form-check-label" for="choice_3">
-                                            ได้รับการยกเว้น
+                                            ได้รับการยกเว้น (ระบุ)
                                         </label>
                                         <span class="form-group form--float form-input-other">
                                             <input class="form-control" type="text" placeholder="" value="" disabled>
                                             <label>ระบุ</label>
                                         </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group--section">
+                            <h3 class="h3 text-red mb-3">ใบอนุญาตขับขี่รถยนต์</h3>
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="driving_license" id="yes">
+                                        <label class="form-check-label" for="yes">
+                                            มี
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="driving_license" id="no">
+                                        <label class="form-check-label" for="no">
+                                            ไม่มี
+                                        </label>
                                     </div>
                                 </div>
                             </div>
