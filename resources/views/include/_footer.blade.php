@@ -73,6 +73,10 @@
                                     </li>
 
                                     <li class="footer__item">
+                                        <a href="/boards" title="คณะกรรมการ" class="footer__link">คณะกรรมการ</a>
+                                    </li>
+
+                                    <li class="footer__item">
                                         <a href="/executive" title="ทำเนียบผู้บริหารระดับสูง" class="footer__link">ทำเนียบผู้บริหารระดับสูง</a>
                                     </li>
 
@@ -397,24 +401,234 @@
     </div>
 </footer>
 
-<div class="consent--banner">
-    <div class="container">
-        <div class="consent--banner__inner">
-            <div class="consent--banner__copy">
-                <!-- <div class="consent--banner__header">THIS WEBSITE USES COOKIES</div> -->
-                <div class="consent--banner__description">เว็บไซต์นี้ใช้คุกกี้เพื่อวัตถุประสงค์ในการปรับปรุงประสบการณ์ของผู้ใช้ให้ดียิ่งขึ้น ท่านสามารถศึกษารายละเอียดเพิ่มเติมได้ที่ <a href="#nogo">นโยบายความเป็นส่วนตัว</a></div>
-            </div>
 
-            <div class="consent--banner__actions">
-                <button type="button" class="btn btn--primary btn--agree"><span>เข้าใจแล้ว</span></button>
-                <button type="button" class="btn btn--gray btn--decline"><span>ปฏิเสธ</span></button>
+<!-- Coverpage Modal -->
+<div class="modal fade modal--coverpage" id="coverpageModal" tabindex="-1" aria-labelledby="coverpageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="welcome--container">
+                <div class="welcome--page">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="welcome--page__logo">
+                                    <a href="/"><img src="{{ asset('assets/images/logo.svg')}}" alt="SRTET" class="logo"></a>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="welcome--page__image">
+                                    <a href="/"><img src="{{ asset('assets/images/img-welcome.jpg')}}" alt="SRTET" class="logo"></a>
+                                </div>
+
+                                <!-- <div class="welcome--page__video">
+                                    <div class="vid--wrapper">
+                                        <video class="video media" autoplay loop muted preload="metadata" poster="">
+                                            <source src="https://player.vimeo.com/external/138504815.sd.mp4?s=8a71ff38f08ec81efe50d35915afd426765a7526&profile_id=112" type="video/mp4" />
+                                        </video>
+                                    </div>
+                                </div> -->
+                            </div>
+
+                            <div class="col-12">
+                                <div class="welcome--page__title">
+                                    <h3>
+                                        เส้นทางรถไฟฟ้าชานเมืองสายสีแดง
+                                    </h3>
+                                </div>
+
+                                <div class="welcome--page__description">
+                                    <p>
+                                        asdf asdf Ipsum consetetur aliquam stet eirmod takimata accusam no sed vero dolor sed eos diam diam no commodo eu. Lorem dolore clita stet ut sea accusam diam et et sit voluptua et ea gubergren enim. Et est dolores praesent. Erat enim rebum takimata quod duis liber voluptua dignissim. Ipsum sit elitr labore erat. Stet est dolores erat duis facilisi quis ipsum. Kasd clita nulla eirmod mazim sadipscing
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="welcome--page__actions">
+                                    <a href="/" title="" class="btn btn--primary" data-bs-dismiss="modal" aria-label="Close">
+                                        <span>เข้าสู่เว็บไซต์</span>
+                                    </a>
+
+                                    <a href="/" title="" class="btn btn--gray" data-bs-dismiss="modal" aria-label="Close">
+                                        <span>ประกาศสำคัญ</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
+<div class="consent--banner">
+    <div class="consent--dialog">
+        <div class="btn--container">
+            <button class="cookies__btn" role="button" aria-label="Cookies">
+                <svg width="65" height="65" viewBox="-2 -2 35 35" xmlns="http://www.w3.org/2000/svg"><title>Cookies Button</title><g fill="none" fill-rule="evenodd"><circle cx="15" cy="15" r="16.5" fill="#BC1320"></circle><circle cx="15" cy="15" r="14.5" fill="#BC1320"></circle><circle cx="15" cy="15" r="14" fill="#BC1320"></circle><path d="M25 14.95V15c0 5.523-4.477 10-10 10S5 20.523 5 15c0-4.842 3.442-8.881 8.013-9.803A3.5 3.5 0 0 0 16.13 8.98a4 4 0 0 0 6.025 4.39A2.501 2.501 0 0 0 25 14.95z" stroke="#BC1320" stroke-width=".5" fill="#FFF"></path><circle fill="#BDBDBD" cx="10" cy="12" r="2"></circle><circle fill="#BDBDBD" cx="12.5" cy="19.5" r="1.5"></circle><circle fill="#BDBDBD" cx="20" cy="18" r="2"></circle><circle fill="#BC1320" cx="14" cy="14" r="1"></circle><circle fill="#BC1320" cx="17" cy="22" r="1"></circle><circle fill="#BC1320" cx="9" cy="18" r="1"></circle></g></svg>
+            </button>
+        </div>
+        <div class="consent--container">
+            <div class="consent--container__dialog">
+                <div class="consent--container__content">
+                    <div class="consent--container__title">THIS WEBSITE USES COOKIES</div>
+                    <div class="consent--container__description">เว็บไซต์นี้ใช้คุกกี้เพื่อเพิ่มประสิทธิภาพในการให้บริการ และเพื่อพัฒนาประสบการณ์การใช้งานเว็บไซต์ของผู้ใช้ ท่านสามารถศึกษารายละเอียดเพิ่มเติมได้ที่ <a href="#nogo">นโยบายความเป็นส่วนตัว</a></div>
+                </div>
+
+                <div class="consent--container__actions">
+                    <div id="acceptBtnContainer">
+                        <button type="button" class="btn btn--primary" id="accept-consent-btn-handler"><span>ยอมรับคุกกี้ทั้งหมด</span></button>
+                    </div>
+
+                    <div id="settingBtnContainer">
+                        <button type="button" class="btn btn--setting" id="setting-preference-btn-handler">การตั้งค่าคุกกี้</button>
+                    </div>
+                </div>
+            </div>
+            <div class="consent--container__close">
+                <button class="btn btn--close" id="close-consent-btn-handler" aria-label="ปิด">
+                    <em class="icon-close"></em>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="consent--modal">
+    <div class="modal--wrapper">
+        <div class="modal--wrapper__header">
+            <div class="logo">
+                <img src="{{ asset('assets/images/logo.svg')}}" alt="SRTET" class="logo">
+            </div>
+            <button class="btn btn--close" id="close-preference-btn-handler" aria-label="ปิด">
+                <em class="icon-close"></em>
+            </button>
+        </div>
+
+        <div class="modal--wrapper__body">
+            <h3 class="privacy--title">เกี่ยวกับความเป็นส่วนตัวของคุณ</h3>
+            <div class="privacy--description">
+                เราประมวลผลข้อมูลของท่านเพื่อนำเสนอเนื้อหาหรือโฆษณาและวัดผลการส่งมอบเนื้อหาหรือโฆษณาดังกล่าวเพื่อสกัดหาข้อมูลเชิงลึกเกี่ยวกับเว็บไซต์ของเรา เราแบ่งปันข้อมูลนี้กับคู่ค้าของเราโดยยึดตามความยินยอม ท่านอาจใช้สิทธิ์ของท่านในการยินยอม ตามจุดประสงค์ที่เฉพาะเจาะจงด้านล่างนี้หรือที่ระดับคู่ค้าในลิงก์ใต้แต่ละจุดประสงค์ ตัวเลือกเหล่านี้จะถูกส่งสัญญาณต่อไปถึงผู้จำหน่ายของเราที่เข้าร่วมใน Transparency and Consent Framework
+                <br><a href="#nogo" class="privacy--link">ข้อมูลเพิ่มเติม</a>
+            </div>
+            <button id="accept-recommended-btn-handler" class="btn btn--primary" tabindex="0"><span>อนุญาตทั้งหมด</span></button>
+            <div class="privacy--group">
+                <h4>
+                    จัดการการกำหนดลักษณะความยินยอม
+                </h4>
+                <div class="accordion">
+                    <div class="accordion__head">คุกกี้ที่จำเป็นอย่างยิ่ง (Strictly Necessary Cookies)</div>
+                    <div class="accordion__always">เปิดใช้งานตลอดเวลา</div>
+                </div>
+                <div class="accordion-content">
+                    <p>
+                    Whether you need a wordpress website, a shopify site, or a custom fullstack application, we got you! No matter what kind of website or application you need, it will be made with clean and maintable code that follows modern development standards. We also have top notch designers that can make unique designs that will make your website look different and unique. Not to mention that we also provide 24/7 website maintenance so that you get all the support you need.
+                    </p>
+                </div>
+
+                <div class="accordion">
+                    <div class="accordion__head">คุกกี้เพื่อประสิทธิภาพ (Performance Cookies)</div>
+                    <div class="accordion__switch"><input type="checkbox" name="consent" value="2" class="switch"></div>
+                </div>
+                <div class="accordion-content">
+                    <p>
+                    Whether you need a wordpress website, a shopify site, or a custom fullstack application, we got you! No matter what kind of website or application you need, it will be made with clean and maintable code that follows modern development standards. We also have top notch designers that can make unique designs that will make your website look different and unique. Not to mention that we also provide 24/7 website maintenance so that you get all the support you need.
+                    </p>
+                </div>
+
+                <div class="accordion">
+                    <div class="accordion__head">คุกกี้เพื่อการโฆษณา (Advertising Cookies)</div>
+                    <div class="accordion__switch"><input type="checkbox" name="consent" value="2" class="switch"></div>
+                </div>
+                <div class="accordion-content">
+                    <p>
+                    Whether you need a wordpress website, a shopify site, or a custom fullstack application, we got you! No matter what kind of website or application you need, it will be made with clean and maintable code that follows modern development standards. We also have top notch designers that can make unique designs that will make your website look different and unique. Not to mention that we also provide 24/7 website maintenance so that you get all the support you need.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal--wrapper__footer">
+            <button id="save-preference-btn-handler" class="btn btn--primary" tabindex="0"><span>บันทึกข้อมูล</span></button>
+        </div>
+    </div>
+</div>
 
 <!-- addition script for current page -->
+<script>
+    window.onload = (event) => {
+        // $('#coverpageModal').modal('show');
+    };
+</script>
+
+<script>
+    const viewBtn = document.querySelector("#setting-preference-btn-handler"),
+        openBtn = document.querySelector(".cookies__btn"),
+        popup = document.querySelector(".consent--modal"),
+        acceptBtn = popup.querySelector("#accept-recommended-btn-handler"),
+        closeBtn = popup.querySelector("#close-preference-btn-handler"),
+        saveBtn = popup.querySelector("#save-preference-btn-handler");
+        
+
+    viewBtn.onclick = () => {
+        popup.classList.toggle("show");
+    };
+
+    closeBtn.onclick = () => {
+        viewBtn.click();
+    };
+
+    acceptBtn.onclick = () => {
+        viewBtn.click();
+    };
+
+    saveBtn.onclick = () => {
+        viewBtn.click();
+    };
+
+    openBtn.onclick = () => {
+        viewBtn.click();
+    };
+</script>
+
+<script>
+    const acceptAll = document.querySelector("#accept-consent-btn-handler"),
+        closeConsent = document.querySelector("#close-consent-btn-handler"),
+        consentBanner = document.querySelector(".consent--container");
+
+        acceptAll.onclick = () => {
+            consentBanner.classList.toggle("hidden");
+        };
+
+        closeConsent.onclick = () => {
+            acceptAll.click();
+        };
+</script>
+
+<script>
+    const accordionBtns = document.querySelectorAll(".accordion__head");
+
+    accordionBtns.forEach((accordion__head) => {
+        accordion__head.onclick = function () {
+            this.classList.toggle("is-open");
+
+            let content = this.parentElement.nextElementSibling;
+            console.log(content);
+
+            if (content.style.maxHeight) {
+            //this is if the accordion is open
+            content.style.maxHeight = null;
+            } else {
+            //if the accordion is currently closed
+            content.style.maxHeight = content.scrollHeight + "px";
+            console.log(content.style.maxHeight);
+            }
+        };
+    });
+</script>
+
 <script>
     function toggleIcon(e) {
         $(e.target)
@@ -452,22 +666,4 @@
         $('.backtotop .totop').on('click', scrollToTop);
     });
 
-</script>
-
-<script>
-    const cookieContainer = document.querySelector(".consent--banner");
-    const agreeBtn = document.querySelector(".btn--agree");
-    const declineBtn = document.querySelector(".btn--decline");
-
-    // setTimeout(() => {
-    //     cookieContainer.classList.remove("hide");
-    // }, 1000);
-
-    agreeBtn.addEventListener("click", () => {
-        cookieContainer.classList.add("agree");
-    });
-
-    declineBtn.addEventListener("click", () => {
-        cookieContainer.classList.add("decline");
-    });
 </script>

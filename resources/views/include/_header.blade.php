@@ -97,6 +97,10 @@
                                     </li>
 
                                     <li class="dropdown-item">
+                                        <a href="/boards" title="คณะกรรมการ" class="dropdown-link">คณะกรรมการ</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
                                         <a href="/executive" title="ทำเนียบผู้บริหารระดับสูง" class="dropdown-link">ทำเนียบผู้บริหารระดับสูง</a>
                                     </li>
 

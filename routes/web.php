@@ -215,3 +215,7 @@ Route::get('/strategic', function () {
 Route::get('/declaration', function () {
     return View::make('_declaration');
 });
+
+Route::get('/boards', function () {
+    return View::make('_boards');
+});
