@@ -467,19 +467,31 @@
     <div class="consent--dialog">
         <div class="btn--container">
             <button class="cookies__btn" role="button" aria-label="Cookies">
-                <svg width="65" height="65" viewBox="-2 -2 35 35" xmlns="http://www.w3.org/2000/svg">
-                    <title>Cookies Button</title>
-                    <g fill="none" fill-rule="evenodd">
-                        <circle cx="15" cy="15" r="16.5" fill="#BC1320"></circle>
-                        <circle cx="15" cy="15" r="14.5" fill="#BC1320"></circle>
-                        <circle cx="15" cy="15" r="14" fill="#BC1320"></circle>
-                        <path d="M25 14.95V15c0 5.523-4.477 10-10 10S5 20.523 5 15c0-4.842 3.442-8.881 8.013-9.803A3.5 3.5 0 0 0 16.13 8.98a4 4 0 0 0 6.025 4.39A2.501 2.501 0 0 0 25 14.95z" stroke="#BC1320" stroke-width=".5" fill="#FFF"></path>
-                        <circle fill="#BDBDBD" cx="10" cy="12" r="2"></circle>
-                        <circle fill="#BDBDBD" cx="12.5" cy="19.5" r="1.5"> 
-                        </circle><circle fill="#BDBDBD" cx="20" cy="18" r="2">
-                        </circle><circle fill="#BC1320" cx="14" cy="14" r="1">  
-                        </circle><circle fill="#BC1320" cx="17" cy="22" r="1"></circle>
-                        <circle fill="#BC1320" cx="9" cy="18" r="1"></circle>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 65 65" style="enable-background:new 0 0 65 65;" xml:space="preserve">
+                    <g>
+                        <circle fill="#BC1320" cx="32.42" cy="32.5" r="32.5"></circle>
+                        <circle fill="#F1F2F2" cx="43.99" cy="17.98" r="1.67"></circle>
+                        <circle fill="#F1F2F2" cx="51.86" cy="20.75" r="1.08"></circle>
+                        <circle fill="#F1F2F2" cx="48.9" cy="14.21" r="0.54"></circle>
+                        <circle fill="#F1F2F2" cx="42.43" cy="11.78" r="0.27"></circle>
+                        <circle fill="#F1F2F2" cx="36.52" cy="13.13" r="0.54"></circle>
+                        <path fill="#FFF" d="M55.38,32.25c0.02,0.06,0,0.12,0,0.18c0,12.68-10.28,22.96-22.96,22.96S9.46,45.12,9.46,32.44
+                                c0-12.02,9.24-21.88,21-22.88c0,0,1.7,0.05,1.16,1.93c0,0-1.2,6.73,5.86,6.66c0.17,0.06,1.74-0.17,1.76,1.37
+                                c0,0,1.28,6.69,8.37,5.68c0.17,0,2.05-0.63,2.22,1.24c0.07,0.17,0.48,4.1,4.2,4.94C54.16,31.44,55.08,31.35,55.38,32.25z"></path>
+                        <path fill="#F1F2F2" d="M44.48,51.98c-3.66,2.21-8.19,3.59-12.81,3.45C19.61,55.04,9.8,45.18,9.47,33.12
+                            C9.13,20.81,18.34,10.36,30.46,9.56c0,0-23.05,31.31,13.4,42.31c0.04,0.01,0.07,0.03,0.1,0.05L44.48,51.98z"></path>
+                        <circle fill="#BC1320" cx="26.37" cy="16.91" r="1.55"></circle>
+                        <circle fill="#929091" cx="26.92" cy="26.89" r="4.22"></circle>
+                        <circle fill="#BC1320" cx="23.09" cy="39.32" r="2.77"></circle>
+                        <circle fill="#929091" cx="34.96" cy="45.91" r="3.82"></circle>
+                        <circle fill="#929091" cx="45.67" cy="35.38" r="4.27"></circle>
+                        <circle fill="#929091" cx="16.92" cy="30.76" r="1.1"></circle>
+                        <circle fill="#929091" cx="30.84" cy="34.31" r="0.6"></circle>
+                        <circle fill="#BC1320" cx="37.6" cy="28.58" r="1.08"></circle>
+                        <circle fill="#BC1320" cx="35.5" cy="37.58" r="0.54"></circle>
+                        <circle fill="#BC1320" cx="26.28" cy="48.49" r="0.97"></circle>
+                        <circle fill="#929091" cx="42.7" cy="44.39" r="0.58"></circle>
                     </g>
                 </svg>
             </button>
