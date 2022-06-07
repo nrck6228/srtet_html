@@ -22,22 +22,15 @@
                     <a href="javascript:void(0)" class="social__icon">
                         <img src="{{ asset('assets/images/icon/icon-line.svg')}}" alt="Line">
                     </a>
-                    <a href="javascript:void(0)" class="social__icon">
+                    <a href="javascript:void(0)" class="social__icon" id="btnCopy">
                         <img src="{{ asset('assets/images/icon/icon-link.svg')}}" alt="Copy Link">
+                        <span class="copiedtext" aria-hidden="true">Copied</span>
                     </a>
                     <a href="javascript:void(0)" class="social__icon">
                         <img src="{{ asset('assets/images/icon/icon-print.svg')}}" alt="Print">
                     </a>
                 </div>
             </div>
-            <!-- <div class="row justify-content-end">
-                <div class="col-auto">
-                    
-                </div>
-                <div class="col-auto">
-                    
-                </div>
-            </div> -->
         </div>
     </div>
 </div>
