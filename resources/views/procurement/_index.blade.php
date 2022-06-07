@@ -49,17 +49,25 @@
                                 <div class="form-group form--float">
                                     <select class="form-select" aria-label="Default select example" id="additional_values_2">
                                         <option value="N/A">เลือกประเภท</option>
+                                        <option value="slc1-7">แผนการจัดซื้อจัดจ้างประจําปี</option>
+                                        <option value="slc1-11">แผนปฏิบัติการจัดซื้อจัดจ้างประจําปี</option>
                                         <option value="slc1-1">ประกาศจัดซื้อจัดจ้าง</option>
-                                        <option value="slc1-2">ราคากลาง</option> 
                                         <option value="slc1-3">ประกาศร่าง TOR</option>
+                                        <option value="slc1-2">ประกาศราคากลาง</option> 
+                                        <option value="slc1-10">ประกาศยกเลิก</option>
                                         <option value="slc1-4">สรุปผลการจัดซื้อจัดจ้าง</option> 
-                                        <option value="slc1-5">สรุปผลการจัดซื้อจัดจ้างหรือการจัดหา พัสดุรายเดือน (สขร.)</option>
-                                        <option value="slc1-6">ประกาศเชิญชวน</option> 
-                                        <option value="slc1-7">แผนการจัดซื้อจัดจ้างหรือแผนการจัดหา พัสดุ</option>
+                                        <option value="slc1-9">รายงานผลการจัดซื้อจัดจ้างประจำปี</option>
+                                        <option value="slc1-11">ประกาศรายชื่อผู้ที่ผ่านพิจารณาคุณสมบัติ</option>
+                                        <option value="slc1-11">ประกาศชื่อผู้มีสิทธิเสนอราคา</option>
                                         <option value="slc1-8">ประกาศรายชื่อผู้ชนะการเสนอราคา</option> 
+                                        <option value="slc1-11">ประกาศอื่นๆ</option>
+                                        <option value="slc1-11">สําเนาสัญญา</option>
+                                        <option value="slc1-11">รายงานขอซื้อขอจ้าง</option>
+                                        <!-- <option value="slc1-5">สรุปผลการจัดซื้อจัดจ้างหรือการจัดหา พัสดุรายเดือน (สขร.)</option>
+                                        <option value="slc1-6">ประกาศเชิญชวน</option> 
                                         <option value="slc1-9">รายงานผลการจัดซื้อจัดจ้างหรือการจัดหา พัสดุประจำปี</option>
-                                        <option value="slc1-10">ยกเลิกประกาศจัดซื้อจัดจ้าง</option>
-                                        <option value="slc1-11">อื่นๆ</option>
+                                        <option value="slc1-10">ยกเลิกประกาศจัดซื้อจัดจ้าง</option> -->
+                                        
                                     </select>
                                     <label class="did-floating-label">เลือกประเภท</label>
                                 </div>

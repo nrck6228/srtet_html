@@ -467,7 +467,21 @@
     <div class="consent--dialog">
         <div class="btn--container">
             <button class="cookies__btn" role="button" aria-label="Cookies">
-                <svg width="65" height="65" viewBox="-2 -2 35 35" xmlns="http://www.w3.org/2000/svg"><title>Cookies Button</title><g fill="none" fill-rule="evenodd"><circle cx="15" cy="15" r="16.5" fill="#BC1320"></circle><circle cx="15" cy="15" r="14.5" fill="#BC1320"></circle><circle cx="15" cy="15" r="14" fill="#BC1320"></circle><path d="M25 14.95V15c0 5.523-4.477 10-10 10S5 20.523 5 15c0-4.842 3.442-8.881 8.013-9.803A3.5 3.5 0 0 0 16.13 8.98a4 4 0 0 0 6.025 4.39A2.501 2.501 0 0 0 25 14.95z" stroke="#BC1320" stroke-width=".5" fill="#FFF"></path><circle fill="#BDBDBD" cx="10" cy="12" r="2"></circle><circle fill="#BDBDBD" cx="12.5" cy="19.5" r="1.5"></circle><circle fill="#BDBDBD" cx="20" cy="18" r="2"></circle><circle fill="#BC1320" cx="14" cy="14" r="1"></circle><circle fill="#BC1320" cx="17" cy="22" r="1"></circle><circle fill="#BC1320" cx="9" cy="18" r="1"></circle></g></svg>
+                <svg width="65" height="65" viewBox="-2 -2 35 35" xmlns="http://www.w3.org/2000/svg">
+                    <title>Cookies Button</title>
+                    <g fill="none" fill-rule="evenodd">
+                        <circle cx="15" cy="15" r="16.5" fill="#BC1320"></circle>
+                        <circle cx="15" cy="15" r="14.5" fill="#BC1320"></circle>
+                        <circle cx="15" cy="15" r="14" fill="#BC1320"></circle>
+                        <path d="M25 14.95V15c0 5.523-4.477 10-10 10S5 20.523 5 15c0-4.842 3.442-8.881 8.013-9.803A3.5 3.5 0 0 0 16.13 8.98a4 4 0 0 0 6.025 4.39A2.501 2.501 0 0 0 25 14.95z" stroke="#BC1320" stroke-width=".5" fill="#FFF"></path>
+                        <circle fill="#BDBDBD" cx="10" cy="12" r="2"></circle>
+                        <circle fill="#BDBDBD" cx="12.5" cy="19.5" r="1.5"> 
+                        </circle><circle fill="#BDBDBD" cx="20" cy="18" r="2">
+                        </circle><circle fill="#BC1320" cx="14" cy="14" r="1">  
+                        </circle><circle fill="#BC1320" cx="17" cy="22" r="1"></circle>
+                        <circle fill="#BC1320" cx="9" cy="18" r="1"></circle>
+                    </g>
+                </svg>
             </button>
         </div>
         <div class="consent--container">

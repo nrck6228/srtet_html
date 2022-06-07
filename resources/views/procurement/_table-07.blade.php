@@ -12,7 +12,7 @@
         <i class="icon-cancel-circle"></i> = ยกเลิกประกาศ
     </div>
 </div> -->
-<h3>แผนการจัดซื้อจัดจ้างหรือแผนการจัดหา พัสดุ</h3>
+<h3>แผนการจัดซื้อจัดจ้างประจําปี</h3>
 <div class="table-responsive table--primary">
     <table class="table">
         <thead>
