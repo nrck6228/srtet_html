@@ -1,0 +1,75 @@
+.calendar-wrapper{
+    .hasDatepicker{
+        margin-bottom: 30px;
+        .ui-datepicker-inline{
+            width: 100%;
+        }
+        .ui-widget.ui-widget-content{
+            border: none;
+        }
+
+        .ui-datepicker{
+            .ui-datepicker-header{
+                border-radius: 0;
+                background-color: $red;
+                padding: 10px 0;
+                .ui-corner-all{
+                    display: none;
+                }
+                .ui-datepicker-title{
+                    font-size: 1.5rem;
+                    line-height: 1.625rem;
+                    color: #fff;
+                }
+            }
+        }
+
+        .ui-datepicker-calendar{
+            border-collapse: separate;
+            table-layout: fixed;
+            thead{
+                tr{
+                    th{
+                        border-bottom: 1px solid $red;
+                        span{
+                            font-size: 1.5rem;
+                            line-height: 1.625rem;
+                            color: $darkgray;
+                        }
+                    }
+                }
+            }
+            tbody{
+                tr{
+                    td{
+                        padding: 0;
+                        .ui-state-default{
+                            border: none;
+                            background: rgba(146, 144, 145, 0.2);
+                            color: $darkgray;
+                            text-align: center;
+                            padding: 15px 10px;
+                            font-size: 1.5rem;
+                            line-height: 1.625rem;
+                            &.ui-state-active{
+                                color: #fff;
+                                border: none !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .activity--date{
+        font-size: 1.5rem;
+        line-height: 1.625rem;
+        font-weight: bold;
+        color: $darkgray;
+        margin-bottom: 20px;
+        .count{
+            color: $red;
+        }
+    }
+}
