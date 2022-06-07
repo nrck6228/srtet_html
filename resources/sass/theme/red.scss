@@ -293,10 +293,19 @@ a.text--link{
 .footer--wrapper {
     .footer--nav {
         .footer__link{
-            color: $gray;
+            color: $darkgray;
 
             &:hover{
                 color: $color-primary;
+            }
+        }
+
+        .footer__group{
+            .footer__link{
+                color: $gray;
+                &:hover{
+                    color: $color-primary;
+                }
             }
         }
     }

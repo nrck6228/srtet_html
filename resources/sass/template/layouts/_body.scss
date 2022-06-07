@@ -609,6 +609,7 @@ html, body{
     }
 
     a{
+        position: relative;
         display: flex;
         align-items: center;
         padding: 0 5px;
@@ -626,6 +627,21 @@ html, body{
 
     @include media-breakpoint-down(sm){
         justify-content: flex-start;
+    }
+
+    /* Just to play with animations */
+    .copiedtext {
+        position: absolute;
+        left: 0; top: 0; right: 0;
+        text-align: center;
+        opacity: 0;
+        transform: translateY(-1rem);
+        color: $darkgray;
+        transition: all 0.4s ease-in-out;
+    }
+    .copied .copiedtext {
+        opacity: 1;
+        transform: translateY(-1.75rem);
     }
 }
 
