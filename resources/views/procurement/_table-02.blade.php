@@ -12,7 +12,7 @@
         <i class="icon-cancel-circle"></i> = ยกเลิกประกาศ
     </div>
 </div> -->
-<h3>ราคากลาง</h3>
+<h3>ประกาศราคากลาง</h3>
 <div class="table-responsive table--primary">
     <table class="table">
         <thead>
