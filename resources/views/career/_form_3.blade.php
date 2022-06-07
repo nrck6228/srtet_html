@@ -38,20 +38,48 @@
                     <h2 class="page__title text--primary mb-4">ใบสมัครงาน</h2>
                 </div>
 
+                <div class="stepper-wrapper">
+                    <div class="stepper-item completed">
+                        <div class="step-counter"></div>
+                        <div class="step-name dark-gray">
+                            Step 1 :<br/>
+                            ข้อมูลส่วนตัว
+                        </div>
+                    </div>
+                    <div class="stepper-item completed">
+                        <div class="step-counter"></div>
+                        <div class="step-name dark-gray">
+                            Step 2 :<br/>
+                            ประวัติการศึกษาและทำงาน
+                        </div>
+                    </div>
+                    <div class="stepper-item completed">
+                        <div class="step-counter"></div>
+                        <div class="step-name">
+                            Step 3 :<br/>
+                            สมัครสำเร็จ
+                        </div>
+                    </div>
+                </div>
+
                 <div class="thankyou">
                     <div class="content">
-                        <h2 class="page__title text--primary text-center mb-4">การกรอกใบสมัครงานสำเร็จ</h2>
+                        <h2 class="page__title text-center mb-4">ขอบคุณสำหรับการเข้าร่วมเพื่อเป็นส่วนหนึ่งกับเรา</h2>
 
                         <div class="text">
-                            ขอบคุณสำหรับการเข้าร่วมเพื่อเป็นส่วนหนึ่งกับเรา<br/>
-                            ทางเราได้ส่งอีเมลยืนยันในการสมัครงาน<br/>
-                            ท่านสามารถเข้าตรวจสอบหรือแก้ไขข้อมูลการสมัครงานของท่านได้
+                            ทางเราได้ส่งอีเมลยืนยันในการสมัครงานเรียบร้อยแล้ว<br />
+                            ท่านสามารถแก้ไขข้อมูลการสมัครของท่านได้
                         </div>
 
 
-                        <a href="/" class="btn btn--primary">
-                            <span>กลับสู่หน้าหลัก</span>
-                        </a>
+                        <div class="text-center btn-group">
+                            <a href="/" class="btn btn--gray">
+                                <span>หน้าแรก</span>
+                            </a>
+                            <a href="/" class="btn btn--primary">
+                                <span>พิมพ์ใบสมัคร</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

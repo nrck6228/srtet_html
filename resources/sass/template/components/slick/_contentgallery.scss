@@ -1,0 +1,13 @@
+.content__gallery{
+    .gallery__nav{
+        .slick-list{
+            .slick-track{
+                .slick-slide{
+                    &:only-child{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

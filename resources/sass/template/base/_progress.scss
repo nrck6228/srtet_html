@@ -48,7 +48,7 @@
         &.active{
             font-weight: bold;
             .step-name{
-                color: $gray;
+                color: $darkgray;
             }
         }
         &.completed{
@@ -66,6 +66,9 @@
             }
             .step-name{
                 color: $red;
+                &.dark-gray{
+                    color: $darkgray;
+                }
             }
         }
 

@@ -41,7 +41,7 @@
                 <div class="stepper-wrapper">
                     <div class="stepper-item completed">
                         <div class="step-counter"></div>
-                        <div class="step-name">
+                        <div class="step-name dark-gray">
                             Step 1 :<br/>
                             ข้อมูลส่วนตัว
                         </div>
@@ -67,7 +67,7 @@
                         <div class="form-group--section mb-5" id="form-group_education">
                             <h3 class="h3 text-red mb-3">ประวัติการศึกษา</h3>
                             <div class="manage-form-education">
-                                <div class="row education-form show" id="education_1">
+                                <div class="row mb-4 education-form show" id="education_1">
                                     <div class="col-12">
                                         <h3 class="h3 text-darkgray mb-3">ระดับการศึกษาสูงสุดลำดับ 1</h3>
                                     </div>
@@ -80,31 +80,31 @@
                                                 <option value="3">ป.ตรี</option>
                                                 <option value="4">ป.โท</option>
                                             </select>
-                                            <label class="did-floating-label">วุฒิระดับการศึกษา</label>
+                                            <label class="did-floating-label">วุฒิระดับการศึกษา*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>ชื่อสถานศึกษา</label>
+                                            <label>ชื่อสถานศึกษา*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>ปีที่จบการศึกษา</label>
+                                            <label>ปีที่จบการศึกษา*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>เกรดเฉลี่ย</label>
+                                            <label>เกรดเฉลี่ย*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>สาขา</label>
+                                            <label>สาขาวิชา*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
@@ -112,13 +112,13 @@
                                             <div class="select-file icon icon__upload">
                                                 <input type="file" name="file-1[]" id="file_transcript_1" class="form-file inputfile inputfile-1">
                                                 <label for="file_transcript_1"><span></span></label>
-                                                <div class="title-selectfile">เอกสารแนบ(Transcript)</div>
+                                                <div class="title-selectfile">ไฟล์วุฒิการศึกษา*</div>
                                             </div>
                                         </div>
                                         <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpeg</div>
                                     </div>
                                 </div>
-                                <div class="row education-form" id="education_2" style="display: none;">
+                                <div class="row mb-4 education-form" id="education_2" style="display: none;">
                                     <div class="col-12">
                                         <h3 class="h3 text-darkgray mb-3">ระดับการศึกษาสูงสุดลำดับ 2</h3>
                                     </div>
@@ -131,31 +131,31 @@
                                                 <option value="3">ป.ตรี</option>
                                                 <option value="4">ป.โท</option>
                                             </select>
-                                            <label class="did-floating-label">วุฒิระดับการศึกษา</label>
+                                            <label class="did-floating-label">วุฒิระดับการศึกษา*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>ชื่อสถานศึกษา</label>
+                                            <label>ชื่อสถานศึกษา*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>ปีที่จบการศึกษา</label>
+                                            <label>ปีที่จบการศึกษา*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>เกรดเฉลี่ย</label>
+                                            <label>เกรดเฉลี่ย*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>สาขา</label>
+                                            <label>สาขาวิชา*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
@@ -163,13 +163,13 @@
                                             <div class="select-file icon icon__upload">
                                                 <input type="file" name="file-2[]" id="file_transcript_2" class="form-file inputfile inputfile-1">
                                                 <label for="file_transcript_2"><span></span></label>
-                                                <div class="title-selectfile">เอกสารแนบ(Transcript)</div>
+                                                <div class="title-selectfile">ไฟล์วุฒิการศึกษา*</div>
                                             </div>
                                         </div>
                                         <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpeg</div>
                                     </div>
                                 </div>
-                                <div class="row education-form" id="education_3" style="display: none;">
+                                <div class="row mb-4 education-form" id="education_3" style="display: none;">
                                     <div class="col-12">
                                         <h3 class="h3 text-darkgray mb-3">ระดับการศึกษาสูงสุดลำดับ 3</h3>
                                     </div>
@@ -182,31 +182,31 @@
                                                 <option value="3">ป.ตรี</option>
                                                 <option value="4">ป.โท</option>
                                             </select>
-                                            <label class="did-floating-label">วุฒิระดับการศึกษา</label>
+                                            <label class="did-floating-label">วุฒิระดับการศึกษา*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>ชื่อสถานศึกษา</label>
+                                            <label>ชื่อสถานศึกษา*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>ปีที่จบการศึกษา</label>
+                                            <label>ปีที่จบการศึกษา*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>เกรดเฉลี่ย</label>
+                                            <label>เกรดเฉลี่ย*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>สาขา</label>
+                                            <label>สาขาวิชา*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
@@ -214,13 +214,13 @@
                                             <div class="select-file icon icon__upload">
                                                 <input type="file" name="file-3[]" id="file_transcript_3" class="form-file inputfile inputfile-1">
                                                 <label for="file_transcript_3"><span></span></label>
-                                                <div class="title-selectfile">เอกสารแนบ(Transcript)</div>
+                                                <div class="title-selectfile">ไฟล์วุฒิการศึกษา*</div>
                                             </div>
                                         </div>
                                         <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpeg</div>
                                     </div>
                                 </div>
-                                <div class="row education-form" id="education_4" style="display: none;">
+                                <div class="row mb-4 education-form" id="education_4" style="display: none;">
                                     <div class="col-12">
                                         <h3 class="h3 text-darkgray mb-3">ระดับการศึกษาสูงสุดลำดับ 4</h3>
                                     </div>
@@ -233,31 +233,31 @@
                                                 <option value="3">ป.ตรี</option>
                                                 <option value="4">ป.โท</option>
                                             </select>
-                                            <label class="did-floating-label">วุฒิระดับการศึกษา</label>
+                                            <label class="did-floating-label">วุฒิระดับการศึกษา*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>ชื่อสถานศึกษา</label>
+                                            <label>ชื่อสถานศึกษา*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>ปีที่จบการศึกษา</label>
+                                            <label>ปีที่จบการศึกษา*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>เกรดเฉลี่ย</label>
+                                            <label>เกรดเฉลี่ย*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>สาขา</label>
+                                            <label>สาขาวิชา*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
@@ -265,13 +265,13 @@
                                             <div class="select-file icon icon__upload">
                                                 <input type="file" name="file-4[]" id="file_transcript_4" class="form-file inputfile inputfile-1">
                                                 <label for="file_transcript_4"><span></span></label>
-                                                <div class="title-selectfile">เอกสารแนบ(Transcript)</div>
+                                                <div class="title-selectfile">ไฟล์วุฒิการศึกษา*</div>
                                             </div>
                                         </div>
                                         <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpeg</div>
                                     </div>
                                 </div>
-                                <div class="row education-form" id="education_5" style="display: none;">
+                                <div class="row mb-4 education-form" id="education_5" style="display: none;">
                                     <div class="col-12">
                                         <h3 class="h3 text-darkgray mb-3">ระดับการศึกษาสูงสุดลำดับ 5</h3>
                                     </div>
@@ -284,31 +284,31 @@
                                                 <option value="3">ป.ตรี</option>
                                                 <option value="4">ป.โท</option>
                                             </select>
-                                            <label class="did-floating-label">วุฒิระดับการศึกษา</label>
+                                            <label class="did-floating-label">วุฒิระดับการศึกษา*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>ชื่อสถานศึกษา</label>
+                                            <label>ชื่อสถานศึกษา*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>ปีที่จบการศึกษา</label>
+                                            <label>ปีที่จบการศึกษา*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>เกรดเฉลี่ย</label>
+                                            <label>เกรดเฉลี่ย*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <input class="form-control" type="text" placeholder="" value="">
-                                            <label>สาขา</label>
+                                            <label>สาขาวิชา*</label>
                                         </div>
                                     </div>
                                     <div class="col-lg-3">
@@ -316,7 +316,7 @@
                                             <div class="select-file icon icon__upload">
                                                 <input type="file" name="file-5[]" id="file_transcript_5" class="form-file inputfile inputfile-1">
                                                 <label for="file_transcript_5"><span></span></label>
-                                                <div class="title-selectfile">เอกสารแนบ(Transcript)</div>
+                                                <div class="title-selectfile">ไฟล์วุฒิการศึกษา*</div>
                                             </div>
                                         </div>
                                         <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpeg</div>
@@ -329,45 +329,144 @@
                             </div>
                         </div>
 
-                        <div class="form-group--section mb-5" id="form-group_language">
-                            <div class="row mb-4">
-                                <div class="col-12">
-                                    <h3 class="h3 text-darkgray mb-3">ประวัติการฝึกอบรม :</h3>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="form-group form--float">
-                                        <input class="form-control" type="text" placeholder="" value="">
-                                        <label>สถาบัน</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="form-group form--float">
-                                        <input class="form-control" type="text" placeholder="" value="">
-                                        <label>สาขา</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-group form-group__remark">
-                                        <div class="select-file icon icon__upload">
-                                            <input type="file" name="file-1[]" id="file_traning" class="form-file inputfile inputfile-1">
-                                            <label for="file_traning"><span></span></label>
-                                            <div class="title-selectfile">เอกสารแนบ(การฝึกอบรม)</div>
+                        <div class="form-group--section mb-5" id="form-group_training">
+                            <h3 class="h3 text-red mb-3">ประวัติการฝึกอบรม</h3>
+                            <div class="manage-form-training">
+                                <div class="row mb-4 training-form show" id="training_1">
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>ชื่อสถาบัน</label>
                                         </div>
                                     </div>
-                                    <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpeg</div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>สาขา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form-group__remark">
+                                            <div class="select-file icon icon__upload">
+                                                <input type="file" name="file-traning-1[]" id="file_traning_1" class="form-file inputfile inputfile-1">
+                                                <label for="file_traning_1"><span></span></label>
+                                                <div class="title-selectfile">ไฟล์วุฒิการศึกษา*</div>
+                                            </div>
+                                        </div>
+                                        <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpg</div>
+                                    </div>
+                                </div>
+                                <div class="row mb-4 training-form" id="training_2" style="display: none;">
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>ชื่อสถาบัน</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>สาขา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form-group__remark">
+                                            <div class="select-file icon icon__upload">
+                                                <input type="file" name="file-traning-2[]" id="file_traning_2" class="form-file inputfile inputfile-1">
+                                                <label for="file_traning_2"><span></span></label>
+                                                <div class="title-selectfile">ไฟล์วุฒิการศึกษา*</div>
+                                            </div>
+                                        </div>
+                                        <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpg</div>
+                                    </div>
+                                </div>
+                                <div class="row mb-4 training-form" id="training_3" style="display: none;">
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>ชื่อสถาบัน</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>สาขา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form-group__remark">
+                                            <div class="select-file icon icon__upload">
+                                                <input type="file" name="file-traning-3[]" id="file_traning_3" class="form-file inputfile inputfile-1">
+                                                <label for="file_traning_3"><span></span></label>
+                                                <div class="title-selectfile">ไฟล์วุฒิการศึกษา*</div>
+                                            </div>
+                                        </div>
+                                        <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpg</div>
+                                    </div>
+                                </div>
+                                <div class="row mb-4 training-form" id="training_4" style="display: none;">
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>ชื่อสถาบัน</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>สาขา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form-group__remark">
+                                            <div class="select-file icon icon__upload">
+                                                <input type="file" name="file-traning-4[]" id="file_traning_4" class="form-file inputfile inputfile-1">
+                                                <label for="file_traning_4"><span></span></label>
+                                                <div class="title-selectfile">ไฟล์วุฒิการศึกษา*</div>
+                                            </div>
+                                        </div>
+                                        <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpg</div>
+                                    </div>
+                                </div>
+                                <div class="row mb-4 training-form" id="training_5" style="display: none;">
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>ชื่อสถาบัน</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form--float">
+                                            <input class="form-control" type="text" placeholder="" value="">
+                                            <label>สาขา</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group form-group__remark">
+                                            <div class="select-file icon icon__upload">
+                                                <input type="file" name="file-traning-5[]" id="file_traning_5" class="form-file inputfile inputfile-1">
+                                                <label for="file_traning_5"><span></span></label>
+                                                <div class="title-selectfile">ไฟล์วุฒิการศึกษา*</div>
+                                            </div>
+                                        </div>
+                                        <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpg</div>
+                                    </div>
                                 </div>
                             </div>
-
-                            <h3 class="h3 text-red mb-2">ความสามารถด้านภาษาต่างประเทศ</h3>
+                            <div class="btn-group btn-action" id="btn_training">
+                                <div class="btn btn--primary btn-add" id="training_add"><span>เพิ่ม</span></div>
+                                <div class="btn btn--gray btn-delete" id="training_del"><span>ลบ</span></div>
+                            </div>
+                        </div>
+                        <div class="form-group--section mb-5" id="form-group_language">
+                            <h3 class="h3 text-red mb-3">ความสามารถด้านภาษาต่างประเทศ</h3>
                             <div class="manage-form-language">
                                 <div class="row language-form show" id="language_1">
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
                                             <select class="form-select" aria-label="Default select example">
-                                                <option value="title">ภาษา</option>
+                                                <option value="title" disabled>ภาษา</option>
                                                 <option value="1" selected="true">ภาษาอังกฤษ</option>
-                                                <option value="2">ภาษาจีน</option>
-                                                <option value="3">ญี่ปุ่น</option>
                                             </select>
                                             <label class="did-floating-label">ภาษา</label>
                                         </div>
@@ -505,8 +604,9 @@
                                 <div class="btn btn--gray btn-delete" id="language_del"><span>ลบ</span></div>
                             </div>
                         </div>
+
                         <div class="form-group--section mb-5">
-                            <h3 class="h3 text-red mb-2">ความสามารถด้านอื่นๆ</h3>
+                            <h3 class="h3 text-red mb-3">ความสามารถด้านอื่นๆ</h3>
                             <div class="row mb-2">
                                 <div class="col-lg-3">
                                     <div class="form-group form--float">
@@ -565,7 +665,7 @@
                                 <div class="col-lg-3">
                                     <div class="form-group form-group__remark">
                                         <div class="select-file icon icon__upload">
-                                            <input type="file" name="file-1[]" id="file_certificate_1" class="form-file inputfile inputfile-1">
+                                            <input type="file" name="file-ability-1[]" id="file_certificate_1" class="form-file inputfile inputfile-1">
                                             <label for="file_certificate_1"><span></span></label>
                                             <div class="title-selectfile">Certificate</div>
                                         </div>
@@ -575,7 +675,7 @@
                                 <div class="col-lg-3">
                                     <div class="form-group form-group__remark">
                                         <div class="select-file icon icon__upload">
-                                            <input type="file" name="file-1[]" id="file_certificate_2" class="form-file inputfile inputfile-1">
+                                            <input type="file" name="file-ability-2[]" id="file_certificate_2" class="form-file inputfile inputfile-1">
                                             <label for="file_certificate_2"><span></span></label>
                                             <div class="title-selectfile">Certificate</div>
                                         </div>
@@ -585,7 +685,7 @@
                                 <div class="col-lg-3">
                                     <div class="form-group form-group__remark">
                                         <div class="select-file icon icon__upload">
-                                            <input type="file" name="file-1[]" id="file_certificate_3" class="form-file inputfile inputfile-1">
+                                            <input type="file" name="file-ability-3[]" id="file_certificate_3" class="form-file inputfile inputfile-1">
                                             <label for="file_certificate_3"><span></span></label>
                                             <div class="title-selectfile">Certificate</div>
                                         </div>
@@ -596,11 +696,12 @@
                                 
                             </div>
                         </div>
+
                         <div class="form-group--section mb-5">
-                            <h3 class="h3 text-red mb-2">ความสามารถพิเศษอื่นๆ :</h3>
+                            <h3 class="h3 text-red mb-3">ความสามารถพิเศษอื่นๆ :</h3>
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <div class="form-group form--float">
+                                    <div class="form-group form--float mb-0">
                                         <textarea class="form-control"></textarea>
                                         <label>ระบุ</label>
                                     </div>
@@ -609,8 +710,8 @@
                         </div>
 
                         <div class="form-group--section mb-3" id="form-group_work">
-                            <h3 class="h3 text-red mb-2">ประวัติการทำงาน <span class="sub-title">(เริ่มจากสถานที่ทำงานสุดท้าย)</span></h3>
-                            <div class="row mb-2">
+                            <h3 class="h3 text-red mb-3">ประวัติการทำงาน <span class="sub-title">(เริ่มจากสถานที่ทำงานสุดท้าย)</span></h3>
+                            <div class="row mb-4">
                                 <div class="col-lg-3">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
@@ -626,9 +727,9 @@
                                 </div>
                             </div>
                             <div class="manage-form-work">
-                                <div class="row mb-2 work-form show" id="work_1">
+                                <div class="row mb-4 work-form show" id="work_1">
                                     <div class="col-12">
-                                        <h3 class="h3 text-darkgray mb-3">ข้อมูลประวัติการทำงาน 1</h3>
+                                        <h3 class="h3 text-darkgray mb-2">ข้อมูลประวัติการทำงาน 1</h3>
                                     </div>
                                     <div class="col-lg-3">
                                         <div class="form-group form--float">
@@ -677,7 +778,7 @@
                                         <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpg</div>
                                     </div>
                                 </div>
-                                <div class="row mb-2 work-form" id="work_2" style="display: none;">
+                                <div class="row mb-4 work-form" id="work_2" style="display: none;">
                                     <div class="col-12">
                                         <h3 class="h3 text-darkgray mb-3">ข้อมูลประวัติการทำงาน 2</h3>
                                     </div>
@@ -728,7 +829,7 @@
                                         <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpg</div>
                                     </div>
                                 </div>
-                                <div class="row mb-2 work-form" id="work_3" style="display: none;">
+                                <div class="row mb-4 work-form" id="work_3" style="display: none;">
                                     <div class="col-12">
                                         <h3 class="h3 text-darkgray mb-3">ข้อมูลประวัติการทำงาน 3</h3>
                                     </div>
@@ -779,7 +880,7 @@
                                         <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpg</div>
                                     </div>
                                 </div>
-                                <div class="row mb-2 work-form" id="work_4" style="display: none;">
+                                <div class="row mb-4 work-form" id="work_4" style="display: none;">
                                     <div class="col-12">
                                         <h3 class="h3 text-darkgray mb-3">ข้อมูลประวัติการทำงาน 4</h3>
                                     </div>
@@ -830,7 +931,7 @@
                                         <div class="text-remark">ขนาดไฟล์ไม่เกิน 2 MB ชนิดไฟล์นามสกุล .doc .docx .pdf และ .jpg</div>
                                     </div>
                                 </div>
-                                <div class="row mb-2 work-form" id="work_5" style="display: none;">
+                                <div class="row mb-4 work-form" id="work_5" style="display: none;">
                                     <div class="col-12">
                                         <h3 class="h3 text-darkgray mb-3">ข้อมูลประวัติการทำงาน 5</h3>
                                     </div>
@@ -904,7 +1005,6 @@
                             </div>
                         </div>
                         
-
                         <div class="text-center">
                             <div class="btn-group">
                                 <button class="btn btn--primary"><span>ส่งข้อมูล</span></button>
@@ -990,6 +1090,36 @@
         }
     });
 
+
+    /* ----  Training  --- */
+    let MoreTraining = 2;
+    $('#training_add').click(function () {
+        $('#training_'+MoreTraining).show();
+        $('#training_'+MoreTraining).addClass('show');
+        MoreTraining += 1;
+
+        let sizeTraining_add = $(this).closest("#form-group_training").find('.manage-form-training .training-form.show').length;
+        //console.log(sizeEducation_add);
+        if(sizeTraining_add == 5){
+            $('#training_add').hide();
+        }else{
+            $('#training_del').css('display','inline-block');
+        }
+    });
+    $('#training_del').click(function(){
+        MoreTraining -= 1;
+        $('#training_'+MoreTraining+'.show').hide();
+        $('#training_'+MoreTraining).removeClass('show');
+
+        let sizeTraining_del = $(this).closest("#form-group_training").find('.manage-form-training .training-form.show').length;
+        //console.log(sizeEducation_del);
+        if(sizeTraining_del == 1){
+            $('#training_del').hide();
+        }
+        if(sizeTraining_del <= 5){
+            $('#training_add').show();
+        }
+    });
 
     /* ----  language  --- */
     let MoreLanguage = 3;

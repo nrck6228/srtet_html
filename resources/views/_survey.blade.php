@@ -65,7 +65,10 @@
                 <div class="card-group card-group--cards-1">
 
                     <a href="/survey-detail" class="card card--vote">
-                        <div class="card__title">ท่านพึงพอใจเว็บไซต์นี้หรือไม่</div>
+                        <div class="card__title">
+                            <span class="name">ท่านพึงพอใจเว็บไซต์นี้หรือไม่</span>
+                            <span class="date"><span>วันที่ :</span> 07 มิถุนายน 2565</span>
+                        </div>
                         <div class="card__progressbar progress" style="height: 5px;">
                             <div class="progress-bar bg-progress" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
@@ -78,7 +81,10 @@
                     </a>
 
                     <a href="/survey-detail" class="card card--vote">
-                        <div class="card__title">ท่านพึงพอใจเว็บไซต์นี้หรือไม่</div>
+                        <div class="card__title">
+                            <span class="name">ท่านพึงพอใจเว็บไซต์นี้หรือไม่</span>
+                            <span class="date"><span>วันที่ :</span> 07 มิถุนายน 2565</span>
+                        </div>
                         <div class="card__progressbar progress" style="height: 5px;">
                             <div class="progress-bar bg-progress" role="progressbar" style="width: 76%;" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
@@ -91,7 +97,10 @@
                     </a>
 
                     <a href="/survey-detail" class="card card--vote">
-                        <div class="card__title">ท่านพึงพอใจเว็บไซต์นี้หรือไม่</div>
+                        <div class="card__title">
+                            <span class="name">ท่านพึงพอใจเว็บไซต์นี้หรือไม่</span>
+                            <span class="date"><span>วันที่ :</span> 07 มิถุนายน 2565</span>
+                        </div>
                         <div class="card__progressbar progress" style="height: 5px;">
                             <div class="progress-bar bg-progress" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>

@@ -124,7 +124,6 @@
         }
     }
 }
-
 .form-group-wrapper{
     .form-group--section{
         margin-bottom: 1.5rem;
@@ -443,7 +442,7 @@
         }
     }
 
-    @media only screen and (max-width: 991px) {
+    @media only screen and (max-width: 767px) {
         // .form-group--section{
         //     margin-bottom: 1.5rem;
         // }
@@ -501,9 +500,9 @@
 
 
 
-
-
-
+.form-file + label span{
+    padding-right: 35px;
+}
 
 .inputfile {
     width: 0.1px;
@@ -554,7 +553,7 @@
     background-color: $white;
 }
 .inputfile-1 + label span {
-    width: 200px;
+    width: 100%;
     min-height: 100%;
     font-size: 1.5rem;
     font-weight: bold;
@@ -564,6 +563,7 @@
     white-space: nowrap;
     overflow: hidden;
     vertical-align: top;
+
 }
 
 
