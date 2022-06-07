@@ -81,12 +81,12 @@
         box-shadow: none;
     }
     .form-check-input[type=radio]{
-        background-image: url('../../../../public/assets/images/icon/icon-radio.svg');
+        background-image: url('/assets/images/icon/icon-radio.svg');
         width: 20px;
         height: 20px;
     }
     .form-check-input[type=radio]:checked{
-        background-image: url('../../../../public/assets/images/icon/icon-radio-active.svg');
+        background-image: url('/assets/images/icon/icon-radio-active.svg');
         width: 20px;
         height: 20px;
     }
@@ -97,12 +97,12 @@
         box-shadow: none;
     }
     .form-check-input[type=checkbox]{
-        background-image: url('../../../../public/assets/images/icon/icon-checkbox.svg');
+        background-image: url('/assets/images/icon/icon-checkbox.svg');
         width: 20px;
         height: 20px;
     }
     .form-check-input[type=checkbox]:checked{
-        background-image: url('../../../../public/assets/images/icon/icon-checkbox-active.svg');
+        background-image: url('/assets/images/icon/icon-checkbox-active.svg');
         width: 20px;
         height: 20px;
     }

@@ -55,13 +55,62 @@
         <article class="news--wrapper">
             <div class="container">
                 <div class="title--page justify-content-center">
-                    <h2 class="page__title text--primary">ให้หนังสือพาคุณเดินทางสู่อนาคต ที่ใกล้ตากว่าที่คิด</h2>
+                    <h2 class="page__title text--primary mb-4">ปฏิทินกิจกรรม</h2>
                 </div>
 
-                <!-- <div class="head--content d-flex justify-content-between align-items-center">
-                    <div class="text text__date">วันที่ : 6 เมษายน 2565</div>
-                    <div class="text text__source">ที่มา : Facebook THAI BOOK FAIR</div>
-                </div> -->
+                <div class="form-group-wrapper">
+                    <form action="">
+                        <div class="form-group--section">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="form-group form--float">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected="true" value="title">เดือน</option>
+                                            <option value="" >มกราคม</option>
+                                            <option value="">กุมภาพันธ์</option>
+                                            <option value="" >มีนาคม</option>
+                                            <option value="">เมษายน</option>
+                                            <option value="" >พฤษภาคม</option>
+                                            <option value="">มิถุนายน</option>
+                                            <option value="" >กรกฎาคม</option>
+                                            <option value="">สิงหาคม</option>
+                                            <option value="" >กันยายน</option>
+                                            <option value="">ตุลาคม</option>
+                                            <option value="" >พฤศจิกายน</option>
+                                            <option value="">ธันวาคม</option>
+                                        </select>
+                                        <label class="did-floating-label">เดือน</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="form-group form--float">
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected="true" value="title">วันที่</option>
+                                            <option value="" >2565</option>
+                                            <option value="">2564</option>
+                                            <option value="" >2563</option>
+                                            <option value="">2562</option>
+                                        </select>
+                                        <label class="did-floating-label">วันที่</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-2 col-sm-6 col-12">
+                                    <button type="button" class="btn btn--primary"><span>ค้นหา</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    
+                </div>
+
+                <div class="calendar-wrapper">
+                    <div id="calendar_inline"></div>
+
+                    <div class="activity--date">กิจกรรมประจำวันที่ <span class="date">27 พฤษภาคม 2565</span> : <span class="count">4 กิจกรรม</span></div>
+                </div>
+
+
+
 
                 <div class="body--content">
                     <!-- <div class="content__gallery">
@@ -203,22 +252,51 @@
     <!-- Slick JS  -->
     <script type="text/javascript" src="{{ mix('/slick/slick.min.js') }}"></script>
     <script type="text/javascript" src="{{ mix('/js/slick.js') }}"></script>
+@endpush
 
-    <script>
-         $('.gallery__for').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false,
-            dots: false,
-            fade: true,
-            asNavFor: '.gallery__nav'
+@push('script-datepicker')
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript" src="{{ mix('/js/jquery-ui-1.13.1.custom.js') }}"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+    <script type="text/javascript">
+        // TH
+        $.datepicker.regional['th'] ={
+            format: 'mm/yyyy',
+            changeMonth: false,
+            changeYear: false,
+            dayNamesMin: ['อา', 'จ', 'อ', 'พ', 'พฤ', 'ศ', 'ส'],
+            monthNames: ['มกราคม', 'กุมภาพันธ์', 'มีนาคม', 'เมษายน', 'พฤษภาคม', 'มิถุนายน', 'กรกฎาคม', 'สิงหาคม', 'กันยายน', 'ตุลาคม', 'พฤศจิกายน', 'ธันวาคม'],
+            //monthNamesShort: ['มกราคม', 'กุมภาพันธ์', 'มีนาคม', 'เมษายน', 'พฤษภาคม', 'มิถุนายน', 'กรกฎาคม', 'สิงหาคม', 'กันยายน', 'ตุลาคม', 'พฤศจิกายน', 'ธันวาคม'],
+            constrainInput: true,
+            yearOffSet : 543,
+            //yearRange: '-80:+0',
+        };
+        $.datepicker.setDefaults($.datepicker.regional['th']);
+        // EN
+        // $.datepicker.regional['en'] ={
+        //     dateFormat: 'dd/mm/yy',
+        //     changeMonth: true,
+        //     changeYear: true,
+        //     constrainInput: true,
+        //     yearOffSet : 0,
+        // };
+        // $.datepicker.setDefaults($.datepicker.regional['en']);
+
+        $(document).ready(function () {
+
+            let getYear = $('.ui-datepicker-month').text();
+            console.log(getYear);
+
+            $('#calendar_inline').datepicker({
+                //maxDate: 0,
+                inline: true,
+            });
+            $("#calendar_inline").datepicker( $.datepicker.regional["th"] );
         });
-        $('.gallery__nav').slick({
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            asNavFor: '.gallery__for',
-            dots: false,
-            focusOnSelect: true
-        });
+        
     </script>
+
 @endpush
