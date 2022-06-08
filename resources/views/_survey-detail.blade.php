@@ -46,51 +46,35 @@
             <div class="form-group-wrapper">
                 <form action="">
                     <h3 class="h3 text-red mb-3">ข้อมูลทั่วไป</h3>
-                    <div class="form-group--section">
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <div class="form-group form--float">
-                                    <input class="form-control" type="text" placeholder="" value="Santanon">
-                                    <label>ชื่อ</label>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="form-group form--float">
-                                    <input class="form-control" type="text" placeholder="" value="">
-                                    <label>นามสกุล</label>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="form-group form--float">
-                                    <input class="form-control" type="text" placeholder="" value="">
-                                    <label>อายุ</label>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="form-group form--float">
-                                    <select class="form-select" aria-label="Default select example">
-                                        <option selected="true" value="title">เพศ</option>
-                                        <option value="male" >ชาย</option>
-                                        <option value="female">หญิง</option>
-                                    </select>
-                                    <label class="did-floating-label">เพศ</label>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="form-group form--float">
-                                    <input class="form-control" type="text" placeholder=" " value="">
-                                    <label>อีเมล</label>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="form-group form--float">
-                                    <input class="form-control" type="text" placeholder=" " value="">
-                                    <label>เบอร์โทร</label>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="form-group form--float form--dynamic">
+                        <input class="form-control" type="text" placeholder="" value="Santanon">
+                        <label>ชื่อ<span class="req">*</span></label>
                     </div>
-                    
+                    <div class="form-group form--float form--dynamic">
+                        <input class="form-control" type="text" placeholder="" value="">
+                        <label>นามสกุล</label>
+                    </div>
+                    <div class="form-group form--float form--dynamic">
+                        <input class="form-control" type="text" placeholder="" value="">
+                        <label>อายุ</label>
+                    </div>
+                    <div class="form-group form--float form--dynamic">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected="true" value="title">เพศ</option>
+                            <option value="male" >ชาย</option>
+                            <option value="female">หญิง</option>
+                        </select>
+                        <label class="did-floating-label">เพศ<span class="req">*</span></label>
+                    </div>
+                    <div class="form-group form--float form--dynamic">
+                        <input class="form-control" type="text" placeholder="" value="">
+                        <label>อีเมล</label>
+                    </div>
+                    <div class="form-group form--float form--dynamic">
+                        <input class="form-control" type="text" placeholder="" value="">
+                        <label>เบอร์โทร</label>
+                    </div>
+
                     <h3 class="h3 text-red mb-3">การใช้บริการ รถไฟฟ้าแอร์พอร์ต เรล ลิงก์</h3>
                     <div class="form-group--section">
                         <div class="row">
@@ -139,6 +123,7 @@
                             </div>
                         </div>
                     </div>
+                    
                     <div class="form-group--section">
                         <div class="row">
                             <div class="col-12">
@@ -234,6 +219,11 @@
     <!-- Slick JS  -->
     <script type="text/javascript" src="{{ mix('/slick/slick.min.js') }}"></script>
     <script type="text/javascript" src="{{ mix('/js/slick.js') }}"></script>
+
+    <script type="text/javascript">
+    var sizedynamic = $('.form--dynamic').length;
+    console.log(sizedynamic);
+    </script>
 @endpush
 
 
