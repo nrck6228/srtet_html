@@ -81,7 +81,6 @@
                     </form>
                 </div>
                 
-
                 <div class="card-deck card-deck--cards-1 card-deck--cards-sm-2">
                     <a href="" class="card card--shop">
                         <div class="card__figure">

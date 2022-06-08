@@ -622,7 +622,7 @@
 <script>
     const acceptAll = document.querySelector("#accept-consent-btn-handler"),
         closeConsent = document.querySelector("#close-consent-btn-handler"),
-        consentBanner = document.querySelector(".consent--container");
+        consentBanner = document.querySelector(".consent--dialog");
 
         acceptAll.onclick = () => {
             consentBanner.classList.toggle("hidden");
