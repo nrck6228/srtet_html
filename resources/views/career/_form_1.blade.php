@@ -76,7 +76,7 @@
                                             <option value="2">ตำแหน่งที่ 2</option>
                                             <option value="3">ตำแหน่งที่ 3</option>
                                         </select>
-                                        <label class="did-floating-label">ตำแหน่ง*</label>
+                                        <label class="did-floating-label">ตำแหน่ง<span class="req">*</span></label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
@@ -137,19 +137,19 @@
                                                             <option value="2">นาง</option>
                                                             <option value="3">นางสาว</option>
                                                         </select>
-                                                        <label class="did-floating-label">คำนำหน้า*</label>
+                                                        <label class="did-floating-label">คำนำหน้า<span class="req">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-4">
                                                     <div class="form-group form--float">
                                                         <input class="form-control" type="text" placeholder="" value="">
-                                                        <label>ชื่อ*</label>
+                                                        <label>ชื่อ<span class="req">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-4">
                                                     <div class="form-group form--float">
                                                         <input class="form-control" type="text" placeholder="" value="">
-                                                        <label>นามสกุล*</label>
+                                                        <label>นามสกุล<span class="req">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-4">
@@ -160,19 +160,19 @@
                                                             <option value="2">Mrs.</option>
                                                             <option value="3">Miss.</option>
                                                         </select>
-                                                        <label class="did-floating-label">Prefix*</label>
+                                                        <label class="did-floating-label">Prefix<span class="req">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-4">
                                                     <div class="form-group form--float">
                                                         <input class="form-control" type="text" placeholder="" value="">
-                                                        <label>Name*</label>
+                                                        <label>Name<span class="req">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-4">
                                                     <div class="form-group form--float">
                                                         <input class="form-control" type="text" placeholder="" value="">
-                                                        <label>Surname*</label>
+                                                        <label>Surname<span class="req">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-4">
@@ -184,7 +184,7 @@
                                                 <div class="col-lg-4">
                                                     <div class="form-group form--float icon icon__date">
                                                         <input id="hbd_date" class="form-control hbd-date" type="text" placeholder="" value="" readonly>
-                                                        <label>วันเกิด*</label>
+                                                        <label>วันเกิด<span class="req">*</span></label>
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-4">
@@ -254,25 +254,25 @@
                                 <div class="col-lg-3">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
-                                        <label>อีเมล*</label>
+                                        <label>อีเมล<span class="req">*</span></label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
-                                        <label>เบอร์โทร*</label>
+                                        <label>เบอร์โทร<span class="req">*</span></label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
-                                        <label>เบอร์โทรบิดา*</label>
+                                        <label>เบอร์โทรบิดา<span class="req">*</span></label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
-                                        <label>เบอร์โทรมารดา*</label>
+                                        <label>เบอร์โทรมารดา<span class="req">*</span></label>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
@@ -290,13 +290,13 @@
                                 <div class="col-lg-6">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
-                                        <label>ที่อยู่ที่สามารถติดต่อได้*</label>
+                                        <label>ที่อยู่ที่สามารถติดต่อได้<span class="req">*</span></label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
-                                        <label>เบอร์โทร*</label>
+                                        <label>เบอร์โทร<span class="req">*</span></label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">

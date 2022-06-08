@@ -127,54 +127,6 @@
 .form-group-wrapper{
     .form-group--section{
         margin-bottom: 1.5rem;
-        .form-group{
-            &.icon{
-                &__date{
-                    .form-control{
-                        padding-right: 45px;
-                    }
-                    &:after{
-                        font-family: bootstrap-icons !important;
-                        font-style: normal;
-                        font-weight: normal !important;
-                        font-variant: normal;
-                        content: '\F214';
-                        font-size: 18px;
-                        line-height: 18px;
-                        color: $gray;
-                        position: absolute;
-                        right: 13px;
-                        top: 50%;
-                        transform: translateY(-50%);
-                    }
-                }
-                &__upload{
-                    .form-control{
-                        padding-right: 45px;
-                    }
-                    &:after{
-                        font-family: bootstrap-icons !important;
-                        font-style: normal;
-                        font-weight: normal !important;
-                        font-variant: normal;
-                        content: '\F358';
-                        font-size: 18px;
-                        line-height: 18px;
-                        color: $gray;
-                        position: absolute;
-                        z-index: 9;
-                        right: 13px;
-                        top: 50%;
-                        transform: translateY(-50%);
-                    }
-                }
-            }
-
-            &__remark{
-                margin-bottom: 5px;
-            }
-        }
-
         .consent{
             &--contact{
                 width: 100%;
@@ -192,6 +144,53 @@
                     }
                 }
             }
+        }
+    }
+    .form-group{
+        &.icon{
+            &__date{
+                .form-control{
+                    padding-right: 45px;
+                }
+                &:after{
+                    font-family: bootstrap-icons !important;
+                    font-style: normal;
+                    font-weight: normal !important;
+                    font-variant: normal;
+                    content: '\F214';
+                    font-size: 18px;
+                    line-height: 18px;
+                    color: $gray;
+                    position: absolute;
+                    right: 13px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }
+            &__upload{
+                .form-control{
+                    padding-right: 45px;
+                }
+                &:after{
+                    font-family: bootstrap-icons !important;
+                    font-style: normal;
+                    font-weight: normal !important;
+                    font-variant: normal;
+                    content: '\F358';
+                    font-size: 18px;
+                    line-height: 18px;
+                    color: $gray;
+                    position: absolute;
+                    z-index: 9;
+                    right: 13px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+            }
+        }
+
+        &__remark{
+            margin-bottom: 5px;
         }
     }
     //style form
@@ -213,6 +212,9 @@
             transition:0.2s ease all; 
             -moz-transition:0.2s ease all; 
             -webkit-transition:0.2s ease all;
+            .req{
+                color: $gray;
+            }
         }
         .form-control{
             font-size: 1.5rem;
@@ -239,7 +241,10 @@
             top:-12px;
             font-size: 1.25rem;
             line-height: 1.25rem;
-            color: $darkgray
+            color: $darkgray;
+            .req{
+                color: $red;
+            }
         }
         .form-control:disabled + label{
             background-color: #ddd;
@@ -274,6 +279,9 @@
             transition: 0.2s ease all;
             -moz-transition: 0.2s ease all;
             -webkit-transition: 0.2s ease all;
+            .req{
+                color: $gray;
+            }
         }
         
         textarea.form-control{
@@ -289,6 +297,9 @@
                 font-size: 1.25rem;
                 line-height: 1.25rem;
                 color: $darkgray;
+                .req{
+                    color: $red;
+                }
                 
             }
             .form-select + label {
@@ -297,6 +308,9 @@
                 line-height: 1.25rem;
                 color: $darkgray;
                 width: auto;
+                .req{
+                    color: $red;
+                }
             }
         }
     }
@@ -388,6 +402,28 @@
         margin-bottom: 20px;
     }
 
+    .form--dynamic{
+        display: inline-block;
+        width: calc(25% - 15px);
+        margin-right: 15px;
+
+        &:nth-child(4n+1){
+            margin-right: 0;
+        }
+
+        @include media-breakpoint-down(md) {
+            width: calc(50% - 10px);
+            &:nth-child(2n+1){
+                margin-right: 0;
+            }
+        }
+        @include media-breakpoint-down(sm) {
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 1.5rem;
+        }
+    }
+
     //input type file
     .select-file{
         position:relative;
@@ -414,7 +450,10 @@
                 top:-12px;
                 font-size: 1.25rem;
                 line-height: 1.25rem;
-                color: $darkgray
+                color: $darkgray;
+                .req{
+                    color: $red;
+                }
             }
         }
 
