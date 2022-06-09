@@ -53,37 +53,25 @@
             </div>
         </div>
 
-        <article class="news--wrapper">
+        <article class="page--content news--wrapper">
             <div class="container">
                 <div class="title--page justify-content-center">
                     <h2 class="page__title text--primary">ให้หนังสือพาคุณเดินทางสู่อนาคต ที่ใกล้ตากว่าที่คิด</h2>
                 </div>
 
-                <!-- <div class="head--content d-flex justify-content-between align-items-center">
+                <div class="head--content">
                     <div class="text text__date">วันที่ : 6 เมษายน 2565</div>
-                    <div class="text text__source">ที่มา : Facebook THAI BOOK FAIR</div>
-                </div> -->
+                    <div class="text text__source">ที่มา : Facebook RED Line SRTET</div>
+                </div>
 
                 <div class="body--content">
-                    <!-- <div class="content__gallery">
+                    <div class="content__gallery">
                         <div class="gallery__for">
                             <div class="item">
                                 <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="">
                             </div>
                             <div class="item">
                                 <img src="{{ asset('assets/images/news/img-news2.png')}}" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="{{ asset('assets/images/news/img-news3.png')}}" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="{{ asset('assets/images/news/img-news2.png')}}" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="{{ asset('assets/images/news/img-news3.png')}}" alt="">
                             </div>
                         </div>
                         <div class="gallery__nav">
@@ -93,22 +81,10 @@
                             <div class="item">
                                 <img src="{{ asset('assets/images/news/img-news2.png')}}" alt="">
                             </div>
-                            <div class="item">
-                                <img src="{{ asset('assets/images/news/img-news3.png')}}" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="{{ asset('assets/images/news/img-news2.png')}}" alt="">
-                            </div>
-                            <div class="item">
-                                <img src="{{ asset('assets/images/news/img-news3.png')}}" alt="">
-                            </div>
                         </div>
                     </div>
                     
-                    <div class="text--editor">
+                    <div class="text--editor text--editor__clear">
                         <div class="ck-content">
                             <p>
                                 <span style="color: #BC1320"><strong>พบกับงานงานสัปดาห์หนังสือแห่งชาติครั้งที่ 50ฯ และสัปดาห์หนังสือนานาชาติ ครั้งที่ 20</strong></span>
@@ -151,9 +127,9 @@
                                 </div>
                             </figure>
                         </div>
-                    </div> -->
+                    </div>
 
-                    <div class="text--editor">
+                    <!-- <div class="text--editor text--editor__clear">
                         <div class="ck-content">
                             <figure class="image image_resized image-style-align-left" style="width: 26.19%;">
                                 <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="">
@@ -187,13 +163,17 @@
                             <p>Et in amet diam rebum ipsum at et invidunt elit nonumy luptatum iusto aliquyam stet duo. Dolore rebum clita. Tempor rebum et eirmod lorem rebum zzril volutpat.</p>
 
                         </div>
-                    </div>
+                    </div> -->
                 </div>
-            
-                @include('include._social')
-
             </div>
         </article>
+
+        <article class="page--content">
+            <div class="container">
+                @include('include._social')
+            </div>
+        </article>
+        
     </main>
 @endsection
 
