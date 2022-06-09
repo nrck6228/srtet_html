@@ -187,6 +187,12 @@
         visibility: visible;
     }
 
+    &.slick-dotted{
+        &.slick-slider{
+            margin-bottom: 1rem;
+        }
+    }
+
     .slider__item{
         position: relative;
         display: block;
