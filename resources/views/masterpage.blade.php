@@ -109,6 +109,8 @@
         @stack('script-addform')
 
         @stack('script-accordion')
+
+        @stack('script-sweetalert')
         
     </body>
 </html>
