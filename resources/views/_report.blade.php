@@ -70,7 +70,6 @@
 
                 <div class="card-deck">
                     <a href="#nogo" class="card card--news">
-                        <div class="card__pin">New</div>
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="ข่าว">
                         </div>
@@ -132,7 +131,6 @@
                     </a>
 
                     <a href="#nogo" class="card card--news">
-                        <div class="card__pin">New</div>
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="ข่าว">
                         </div>

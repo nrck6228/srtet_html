@@ -34,3 +34,21 @@
         </div>
     </div>
 </div>
+
+<script>
+    var btnCopy = document.getElementById('btnCopy');
+        btnCopy.addEventListener('click', function(){
+            if (document.execCommand('copy')){
+                btnCopy.classList.add('copied');
+                
+                var temp = setInterval(function(){
+                    btnCopy.classList.remove('copied');
+                    clearInterval(temp);
+                }, 600 );
+                
+            } else {
+                console.info( 'document.execCommand went wrong…' )
+            }
+            return false;
+        });
+</script>
