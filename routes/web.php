@@ -126,10 +126,6 @@ Route::get('/lostfound-detail', function () {
     return View::make('_lostfound-detail');
 });
 
-Route::get('/calendar', function () {
-    return View::make('_calendar');
-});
-
 Route::get('/report', function () {
     return View::make('_report');
 });
