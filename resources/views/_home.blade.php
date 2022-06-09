@@ -1051,7 +1051,7 @@
                 <div class="title--page justify-content-between" data-aos="fade-up">
                     <h2 class="page__title">ปฏิทินกิจกรรม</h2>
 
-                    <a href="#nogo" title="เพิ่มเติม" class="page__readmore">
+                    <a href="/events" title="เพิ่มเติม" class="page__readmore">
                         <span class="link__text">
                             เพิ่มเติม
                         </span>
@@ -1070,7 +1070,7 @@
                         </div>
 
                         <div class="col-lg-8">
-                            <a href="#" class="events--item">
+                            <a href="/events-detail" class="events--item">
                                 <div class="row align-items-center">
                                     <div class="col-md-3">
                                         <div class="events__date">
@@ -1109,7 +1109,7 @@
 
                             </a>
 
-                            <a href="#" class="events--item">
+                            <a href="/events-detail" class="events--item">
                                 <div class="row align-items-center">
                                     <div class="col-md-3">
                                         <div class="events__date">
@@ -1136,7 +1136,7 @@
                                 </div>
                             </a>
 
-                            <a href="#" class="events--item">
+                            <a href="/events-detail" class="events--item">
                                 <div class="row align-items-center">
                                     <div class="col-md-3">
                                         <div class="events__date">
@@ -1175,7 +1175,7 @@
 
                             </a>
 
-                            <a href="#" class="events--item">
+                            <a href="/events-detail" class="events--item">
                                 <div class="row align-items-center">
                                     <div class="col-md-3">
                                         <div class="events__date">

@@ -113,7 +113,7 @@
                 <div class="activity--wrapper">
                     <div class="row">
                         <div class="col-xl-6 col-lg-12">
-                            <a href="" class="card card--event">
+                            <a href="/events-detail" class="card card--event">
                                 <div class="row g-0">
                                     <div class="col-xl-4 col-lg-3 col-md-4">
                                         <div class="card__figure">
@@ -133,7 +133,7 @@
                             </a>
                         </div>
                         <div class="col-xl-6 col-lg-12">
-                            <a href="" class="card card--event">
+                            <a href="/events-detail" class="card card--event">
                                 <div class="row g-0">
                                     <div class="col-xl-4 col-lg-3 col-md-4">
                                         <div class="card__figure">
@@ -154,7 +154,7 @@
                         </div>
 
                         <div class="col-xl-6 col-lg-12">
-                            <a href="" class="card card--event">
+                            <a href="/events-detail" class="card card--event">
                                 <div class="row g-0">
                                     <div class="col-xl-4 col-lg-3 col-md-4">
                                         <div class="card__figure">
@@ -174,7 +174,7 @@
                             </a>
                         </div>
                         <div class="col-xl-6 col-lg-12">
-                            <a href="" class="card card--event">
+                            <a href="/events-detail" class="card card--event">
                                 <div class="row g-0">
                                     <div class="col-xl-4 col-lg-3 col-md-4">
                                         <div class="card__figure">
