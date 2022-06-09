@@ -1,4 +1,4 @@
-.calendar--wrapper{
+.event--wrapper{
     .hasDatepicker{
         margin-bottom: 30px;
         .ui-datepicker-inline{
@@ -56,6 +56,33 @@
                                 border: none !important;
                             }
                         }
+                        &.highlight{
+                           .ui-state-default{
+                               color: $red;
+                               position: relative;
+                               &:after{
+                                    font-family: bootstrap-icons !important;
+                                    font-style: normal;
+                                    font-weight: normal !important;
+                                    font-variant: normal;
+                                    content: '\F287';
+                                    font-size: 8px;
+                                    color: $red;
+
+                                    display: block;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 10px;
+                               }
+
+                               &.ui-state-active{
+                                   color: #fff !important;
+                                   &:after{
+                                       color: #fff !important;
+                                   }
+                               }
+                           }
+                        }
                     }
                 }
             }
@@ -78,7 +105,7 @@
     margin-bottom: 3rem;
 
 
-    .card--calendar{
+    .card--event{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-bottom: 20px;
@@ -154,8 +181,7 @@
                 height: auto;
             }
             .card__body{
-                padding-left: 0;
-                padding-right: 0;
+                border: none;
                 .card__desc{
                     -webkit-line-clamp: unset;
                 }
