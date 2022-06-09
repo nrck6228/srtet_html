@@ -189,12 +189,20 @@
                     <div class="verify--wrapper">
                         <div class="title--verify">กรุณายืนยันตัวตน</div>
                         <div class="captcha--verify">
-                            Captcha
+                            <div class="capcha g-recaptcha">
+                                <div class="text" style="width: 266px;">
+                                    <div class="">
+                                        <div class="">
+                                            <div class="">asdasdasdasdasd</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="btn-group">
                             <a href="/vote" class="btn btn--gray"><span>ย้อนกลับ</span></a>
-                            <button class="btn btn--primary"><span>ส่งคำตอบ</span></button>
+                            <div class="btn btn--primary" id="modalalert"><span>ส่งคำตอบ</span></div>
                         </div>
                     </div>
                 </form>
@@ -226,4 +234,22 @@
     </script>
 @endpush
 
+@push('script-sweetalert')
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <script type="text/javascript">
+        $('#modalalert').click(function(){
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Something went wrong!',
+                confirmButtonText: '<span>ส่งข้อมูล</span>',
+                cancelButtonText: '<span>ยกเลิก</span>',
+            })
+        });
+        
+    </script>
+@endpush
 

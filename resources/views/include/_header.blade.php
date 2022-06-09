@@ -7,6 +7,21 @@
 </div> -->
 <!-- End Preload -->
 
+<div class="se-pre-con loading">
+    <div class="loading-center">
+        <div class="loading-center-absolute">
+            <div class="object object_one"></div>
+            <div class="object object_two"></div>
+            <div class="object object_three"></div>
+            <div class="object object_four"></div>
+            <div class="object object_five"></div>
+            <div class="object object_six"></div>
+            <div class="object object_seven"></div>
+            <div class="object object_eight"></div>
+        </div>
+    </div>
+</div>
+
 <header class="header--wrapper">
     <div class="d-none d-xl-block header--desktop">
         <div class="container">
