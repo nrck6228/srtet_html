@@ -1632,20 +1632,22 @@
     </div>
 
     <script>
-        (function() {
+        // (function() {
 
-            var mapLink = document.querySelector('a.info__icon');
-            var stationWrapper = document.querySelector('.station--wrapper');
+        //     var mapLink = document.querySelector('a.info__icon');
+        //     var stationWrapper = document.querySelector('.station--wrapper');
 
-            mapLink.addEventListener('click', function() {
-                this.classList.toggle('active');
-                stationWrapper.classList.toggle('show');
-                $("html,body").animate({
-                    scrollTop: $(stationWrapper).offset().top - 125
-                }, 1000);
-            });
+        //     mapLink.addEventListener('click', function() {
+        //         mapLink.classList.remove("active");
+        //         this.classList.add('active');
+        //         //stationWrapper.classList.add('show');
+        //         $("html,body").animate({
+        //             scrollTop: $(stationWrapper).offset().top - 125
+        //         }, 1000);
+        //     });
 
-        })();
+        // })();
+        
     </script>
 
     <script>

@@ -315,7 +315,7 @@
                 </div>
                 <div class="col">
                     <h3 class="title text--primary">
-                        รถไฟฟ้าสายสีแดง : 
+                        รถไฟฟ้าสายสีแดง
                     </h3>
                     <div class="row">
                         <div class="col-md-7">
