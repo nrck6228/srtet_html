@@ -582,16 +582,16 @@ html, body{
         justify-content: flex-end;
         align-items: center;
     }
-}
 
-.view--count{
-    padding-right: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    font-weight: bold;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
-    border-right: 1px solid rgba($color: $gray, $alpha: 1);
+    .view--count{
+        padding-right: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        border-right: 1px solid rgba($color: $gray, $alpha: 1);
+    }
 }
 
 .view--date{
