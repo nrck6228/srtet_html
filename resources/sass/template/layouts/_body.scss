@@ -1038,7 +1038,6 @@ html, body{
     .ck-content .page-break::after {
         content: '';
         position: absolute;
-        //border-bottom: 2px dashed hsl(0, 0%, 77%);
         border-bottom: 2px dashed #fff;
         width: 100%;
     }
