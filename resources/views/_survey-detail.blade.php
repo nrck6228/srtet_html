@@ -246,7 +246,7 @@
                 title: 'Oops...',
                 text: 'Something went wrong!',
                 confirmButtonText: '<span>ส่งข้อมูล</span>',
-                cancelButtonText: '<span>ยกเลิก</span>',
+                // cancelButtonText: '<span>ยกเลิก</span>',
             })
         });
         
