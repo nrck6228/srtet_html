@@ -592,6 +592,20 @@ html, body{
         line-height: 1.5rem;
         border-right: 1px solid rgba($color: $gray, $alpha: 1);
     }
+
+    @include media-breakpoint-down(sm){
+        .social__right{
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .view--count{
+            padding-right: 0;
+            margin-right: 0;
+            border-right: 0;
+        }
+    }
 }
 
 .view--date{
@@ -605,12 +619,11 @@ html, body{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
     margin-bottom: 1rem;
 
     span{
         font-weight: bold;
-        font-size: 1.375rem;
+        font-size: 1.5rem;
         line-height: 1.5rem;
     }
 
@@ -846,9 +859,6 @@ html, body{
        //margin: 0.9em auto;
         margin: 0 auto;
         min-width: 50px;
-        @include media-breakpoint-down(md) {
-            margin-bottom: 15px;
-        }
     }
     /* ckeditor5-image/theme/image.css */
     .ck-content .image img {
@@ -913,10 +923,10 @@ html, body{
     .ck-content .image-style-align-left {
         float: left;
         margin-right: var(--ck-image-style-spacing);
-        
-        @include media-breakpoint-down(md){
-            margin-right: 0;
+        @include media-breakpoint-down(md) {
             width: 100%;
+            margin-right: 0;
+            margin-bottom: 1.5rem;
         }
     }
     /* ckeditor5-image/theme/imagestyle.css */
@@ -928,10 +938,10 @@ html, body{
     .ck-content .image-style-align-right {
         float: right;
         margin-left: var(--ck-image-style-spacing);
-
-        @include media-breakpoint-down(md){
-            margin-left: 0;
+        @include media-breakpoint-down(md) {
             width: 100%;
+            margin-left: 0;
+            margin-bottom: 1.5rem;
         }
     }
     /* ckeditor5-image/theme/imagestyle.css */
@@ -1272,7 +1282,6 @@ html, body{
     }
 }
 
-
 //loading 
 .loading{
 	background-color: rgba(102, 102, 102, 0.7);
@@ -1396,7 +1405,6 @@ html, body{
 	  }
   
 }
-
 
 //modal
 .swal2-container{
