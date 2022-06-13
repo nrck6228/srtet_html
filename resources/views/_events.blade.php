@@ -65,7 +65,7 @@
                                 <div class="col-md-3 col-sm-6 col-12">
                                     <div class="form-group form--float">
                                         <select class="form-select" aria-label="Default select example" id="slc_months">
-                                            <option selected="true" value="title">เดือน</option>
+                                            <!-- <option selected="true" value="title">เดือน</option> -->
                                             <option value="January" >มกราคม</option>
                                             <option value="February">กุมภาพันธ์</option>
                                             <option value="March" >มีนาคม</option>
@@ -79,7 +79,7 @@
                                             <option value="November" >พฤศจิกายน</option>
                                             <option value="December">ธันวาคม</option>
                                         </select>
-                                        <label class="did-floating-label">เดือน</label>
+                                        <!-- <label class="did-floating-label">เดือน</label> -->
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-6 col-12">
@@ -248,6 +248,8 @@
             $('#event_inline').datepicker({
                 //maxDate: 0,
                 inline: true,
+                updateViewDate: true,
+                defaultViewDate: {year: '2014'},
                 beforeShowDay: function (date) {
                     var y = date.getFullYear().toString();
                     var m = (date.getMonth() + 1).toString();
@@ -264,12 +266,12 @@
             });
             $("#event_inline").datepicker( $.datepicker.regional["th"] );
 
-            var year = parseInt($(".ui-datepicker-year").text());
-            var numTH = 543;
-            var yearTH = year + numTH;
-            console.log(yearTH);
+            // var year = parseInt($(".ui-datepicker-year").text());
+            // var numTH = 543;
+            // var yearTH = year + numTH;
+            // console.log(yearTH);
 
-            $(".ui-datepicker-year").text(yearTH)
+            //$(".ui-datepicker-year").text(yearTH)
         });
         
     </script>

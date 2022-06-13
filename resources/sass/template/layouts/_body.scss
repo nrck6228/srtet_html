@@ -913,6 +913,11 @@ html, body{
     .ck-content .image-style-align-left {
         float: left;
         margin-right: var(--ck-image-style-spacing);
+        
+        @include media-breakpoint-down(md){
+            margin-right: 0;
+            width: 100%;
+        }
     }
     /* ckeditor5-image/theme/imagestyle.css */
     .ck-content .image-style-align-center {
@@ -923,6 +928,11 @@ html, body{
     .ck-content .image-style-align-right {
         float: right;
         margin-left: var(--ck-image-style-spacing);
+
+        @include media-breakpoint-down(md){
+            margin-left: 0;
+            width: 100%;
+        }
     }
     /* ckeditor5-image/theme/imagestyle.css */
     .ck-content .image-style-block-align-right {
