@@ -146,6 +146,7 @@
             }
         }
     }
+
     .form-group{
         &.icon{
             &__date{
@@ -193,6 +194,7 @@
             margin-bottom: 5px;
         }
     }
+
     //style form
     .form--float { 
         position:relative; 
@@ -314,6 +316,7 @@
             }
         }
     }
+
     .input-group{
         margin-bottom: 20px;
         flex-direction: column;
@@ -398,6 +401,7 @@
         }
         
     }
+
     .form-check{
         margin-bottom: 20px;
     }
@@ -484,6 +488,28 @@
         }
     }
 
+    //style job application
+    .form--text{
+        color: $darkgray; 
+        font-weight: bold;
+        font-size: 1.5rem;
+        line-height: 1.625rem;
+
+        label{
+            color:$gray; 
+            font-weight: bold;
+            font-size: 1.5rem;
+            line-height: 1.625rem;
+        }
+    }
+
+    // Alert
+    .alert{
+        font-size: 1.5rem;
+        font-weight: bold;
+        border-radius: 0;
+    }
+
     @media only screen and (max-width: 767px) {
         // .form-group--section{
         //     margin-bottom: 1.5rem;
@@ -521,13 +547,6 @@
             }
         }
         
-    }
-
-
-    .alert{
-        font-size: 1.5rem;
-        font-weight: bold;
-        border-radius: 0;
     }
 }
 

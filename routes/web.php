@@ -151,6 +151,9 @@ Route::get('/career/form2', function () {
 Route::get('/career/form3', function () {
     return View::make('career._form_3');
 });
+Route::get('/career/jobApplication', function () {
+    return View::make('career._job_application');
+});
 
 Route::get('/question', function () {
     return View::make('_question');

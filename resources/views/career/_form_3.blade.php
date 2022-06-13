@@ -76,7 +76,7 @@
                             <a href="/" class="btn btn--gray">
                                 <span>หน้าแรก</span>
                             </a>
-                            <a href="/" class="btn btn--primary">
+                            <a href="/career/jobApplication" class="btn btn--primary">
                                 <span>พิมพ์ใบสมัคร</span>
                             </a>
                         </div>
