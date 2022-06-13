@@ -46,7 +46,7 @@
                 <div class="body--content">
                     <div class="text--editor">
                         <div class="ck-content">
-                            <figure class="image image_resized image-style-align-left" style="width: 50%;">
+                            <figure class="image image_resized image-style-align-left">
                                 <img src="{{ asset('assets/images/about/vision-mission/img-demo-01.png')}}" alt="รถไฟฟ้าสายสีแดง">
                             </figure>
                             <h3>วิสัยทัศน์</h3>
@@ -84,7 +84,8 @@
                     </div>
                 </div>
             </div>
-
+        </article>
+        <article class="page--content">
             <div class="container">
                 @include('include._social')
             </div>

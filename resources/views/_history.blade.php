@@ -46,7 +46,7 @@
                 <div class="body--content">
                     <div class="text--editor">
                         <div class="ck-content">
-                            <figure class="image" style="float: left; width: 640px; margin-right: 15px;">
+                            <figure class="image" style="float: left; margin-right: 15px;">
                                 <img src="{{ asset('assets/images/about/history/img-demo-01.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
                             </figure>
                             <p>
@@ -85,7 +85,9 @@
                     </div>
                 </div>
             </div>
+        </article>
 
+        <article class="page--content">
             <div class="container">
                 @include('include._social')
             </div>

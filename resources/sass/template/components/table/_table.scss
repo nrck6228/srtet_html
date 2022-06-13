@@ -30,6 +30,12 @@
     .list--primary{
         margin-bottom: 0;
     }
+
+    .table-fixed-responsive{
+        @include media-breakpoint-down(md) {
+            width: 980px;
+        }
+    }
 }
 
 .table--primary{

@@ -75,7 +75,7 @@
                 </div>
 
                 <div class="table-responsive table--primary">
-                    <table class="table">
+                    <table class="table table-fixed-responsive">
                         <thead>
                             <tr>
                                 <th style="width: 100px">
@@ -87,12 +87,12 @@
                                 <th>
                                     ชื่อเรื่อง
                                 </th>
-                                <th style="width: 250px">
+                                <th style="width: 150px">
                                     เอกสารแนบ
                                 </th>
                             </tr>
                         </thead>
-
+    
                         <tbody>
                             <tr>
                                 <td>

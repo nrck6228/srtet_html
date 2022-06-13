@@ -96,7 +96,7 @@
                                     </li>
 
                                     <li class="dropdown-item">
-                                        <a href="/strategic" title="ยุทธศาสตร์ แผนปฏิบีติราชการ" class="dropdown-link">ยุทธศาสตร์ แผนปฏิบีติราชการ</a>
+                                        <a href="/strategic" title="ยุทธศาสตร์ แผนปฏิบัติราชการ" class="dropdown-link">ยุทธศาสตร์ แผนปฏิบัติราชการ</a>
                                     </li>
 
                                     <li class="dropdown-item">
@@ -328,7 +328,7 @@
                 </a>
                 <div class="list--menu">
                     <div class="search--block">
-                        <a href="javascript:void(0)" class="text--link" id="mobileSearch">
+                        <a href="javascript:void(0)" class="text--link" id="mobileSearch" data-bs-toggle="modal" data-bs-target="#searchModal">
                             <i class="icon-search"></i>
                         </a>
                     </div>
