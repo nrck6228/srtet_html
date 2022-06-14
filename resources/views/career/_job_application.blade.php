@@ -62,7 +62,7 @@
                     </div>
                 </div> -->
 
-                <div class="form-group-wrapper">
+                <div class="form-group-wrapper job-application d-print-block">
                     <div class="form-group--section">
                         <h3 class="h3 text-red mb-3">ข้อมูลตำแหน่งที่สมัคร</h3>
                         <div class="row">
@@ -96,12 +96,12 @@
                     <div class="form-group--section">
                         <h3 class="h3 text-red mb-3">ข้อมูลส่วนตัว</h3>
                         <div class="row">
-                            <div class="col-lg-3">
+                            <div class="col-lg-3 col-print-3">
                                 <div class="image-profile">
                                     <img class="img-upload" src="{{ asset('assets/images/career/icon-uploadimage.svg')}}" alt="รถไฟฟ้าสายสีแดง">
                                 </div>                                           
                             </div>
-                            <div class="col-lg-9">
+                            <div class="col-lg-9 col-print-9">
                                 <div class="row">
                                     <div class="col-lg-4 col-4">
                                         <div class="form-group form--text">
