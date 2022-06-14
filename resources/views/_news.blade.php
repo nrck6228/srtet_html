@@ -124,7 +124,10 @@
                     </a>
 
                     <a href="/news-detail" class="card card--news">
-                        <div class="card__pin">New</div>
+                        <div class="card__highlight">
+                            <div class="card__pin">New</div>
+                            <div class="card__pin"><i class="bi bi-pin-angle-fill"></i></div>
+                        </div>
                         <div class="card__figure">
                             <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="ข่าว">
                         </div>
