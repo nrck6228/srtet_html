@@ -12,6 +12,7 @@
 
 @section('contentpage')
 
+<main class="main--wrapper">
     <article class="hero--wrapper">
         <div class="container">
             <div class="hero--slider">
@@ -36,14 +37,13 @@
         </div>
     </div>
 
-
     <div class="survey--wrapper">
         <div class="container">
             <div class="title--page justify-content-center">
                 <h2 class="page__title text--primary">สำรวจผู้ใช้บริการรถไฟฟ้าสายสีแดง</h2>
             </div>
 
-            <div class="form-group-wrapper">
+            <div class="form-group-wrapper d-print-block">
                 <form action="">
                     <h3 class="h3 text-red mb-3">ข้อมูลทั่วไป</h3>
                     <div class="form-group form--float form--dynamic">
@@ -215,7 +215,7 @@
             @include('include._social')
         </div>
     </div>
-
+</main>
 @endsection
 
 

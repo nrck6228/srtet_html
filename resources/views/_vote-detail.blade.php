@@ -46,7 +46,7 @@
                 
                 <div class="block-vote">
                     <div class="row">
-                        <div class="col-lg-9 col-md-8">
+                        <div class="col-lg-9 col-md-8 col-8">
                             <div class="block-vote-choice">
                                 <div class="title__ans">คำตอบ</div>
                                 <div class="choice__ans--wrapper">
@@ -74,7 +74,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-4">
+                        <div class="col-lg-3 col-md-4 col-4">
                             <div class="block-vote-total">
                                 <div class="title__ans">จำนวนผลโหวต</div>
                                     <div class="volume__vote--circle">

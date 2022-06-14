@@ -38,7 +38,7 @@
                 <h2 class="page__title text--primary mb-4">เสนอแนะ/ร้องเรียน</h2>
             </div>
 
-            <div class="form-group-wrapper">
+            <div class="form-group-wrapper d-print-block">
                 <form action="">
                     <div class="form-group--section">
                         <h3 class="h3 text-red mb-3">ข้อมูลผู้เสนอแนะ/ร้องเรียน</h3>
