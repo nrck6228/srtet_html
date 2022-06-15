@@ -199,5 +199,12 @@
             
         }
     }
+
+    //board
+    .card-deck .card{
+        max-width: calc(25% - 30px);
+        margin-right: 15px;
+        margin-left: 15px;
+    }
     
 }
