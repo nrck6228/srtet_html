@@ -85,7 +85,7 @@
     .form-group-wrapper, .social--wrapper, .verify--wrapper, .pagination-wrapper{
         display: none;
     }
-    .consent--banner, .consent, .consent--modal{
+    .btn-group, .consent--banner, .consent, .consent--modal{
         display: none;
     }
     footer{
@@ -171,6 +171,33 @@
     }
     .form-group-wrapper .form-check{
         margin-bottom: 10px;
+    }
+
+    //contact
+    .contact--wrapper{
+        .d-print-block{
+            .col-lg-3 {
+                width: 50%;
+            }
+            .col-lg-6{
+                width: 50%;
+            }
+        }
+
+        .block--group{
+            .map{
+                height: 300px !important;
+            }
+        }
+        .address-contact-print{
+            .col-lg-5, .col-lg-4{
+                width: 50%;
+            }
+            .list-address-contact{
+                margin-bottom: 20px;
+            }
+            
+        }
     }
     
 }
