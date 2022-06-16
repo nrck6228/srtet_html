@@ -84,6 +84,7 @@
         background-image: url('/assets/images/icon/icon-radio.svg');
         width: 20px;
         height: 20px;
+        margin-right: 8px;
     }
     .form-check-input[type=radio]:checked{
         background-image: url('/assets/images/icon/icon-radio-active.svg');
@@ -100,6 +101,7 @@
         background-image: url('/assets/images/icon/icon-checkbox.svg');
         width: 20px;
         height: 20px;
+        margin-right: 8px;
     }
     .form-check-input[type=checkbox]:checked{
         background-image: url('/assets/images/icon/icon-checkbox-active.svg');
@@ -108,7 +110,8 @@
     }
     .form-check-label{
         font-size: 1.5rem;
-        line-height: 1.7rem;
+        //line-height: 1.7rem;
+        line-height: normal;
         font-weight: bold;
         color: $darkgray;
         margin-left: 5px;
@@ -295,7 +298,7 @@
 
         &.has-data{
             .form-control + label {
-                top:-12px;
+                top:-9px;
                 font-size: 1.25rem;
                 line-height: 1.25rem;
                 color: $darkgray;
@@ -305,7 +308,7 @@
                 
             }
             .form-select + label {
-                top:-12px;
+                top:-9px;
                 font-size: 1.25rem;
                 line-height: 1.25rem;
                 color: $darkgray;
@@ -516,14 +519,14 @@
         // }
         .form--float{
             label{
-                top: 14px;
+                top: 10px;
             }
             .form-control:focus + label {
                 top:-9px;
             }
 
             .did-floating-label{
-                top: 14px;
+                top: 10px;
             }
             &.has-data{
                 .form-select + label {

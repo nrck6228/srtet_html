@@ -268,8 +268,8 @@
     <div class="footer--wrapper__contact">
         <div class="container">
             <div class="row row-cols-1 row-cols-lg-2">
-                <div class="col order-lg-last">
-                    <h3 class="title text--primary" style="margin-left: 10px;">
+                <div class="col order-lg-last mb-4 mb-lg-0">
+                    <h3 class="title text--primary ms-lg-2">
                         Partner Link : 
                     </h3>
                     <div class="partner--slider">
