@@ -323,8 +323,8 @@
     <div class="d-block d-xl-none header--mobile">
         <div class="container">
             <nav class="navbar navbar--top">
-                <a class="navbar__brand" href="#">
-                <img src="{{ asset('assets/images/logo.svg')}}" alt="SRTET" class="logo">
+                <a class="navbar__brand" href="/">
+                    <img src="{{ asset('assets/images/logo.svg')}}" alt="SRTET" class="logo">
                 </a>
                 <div class="list--menu">
                     <div class="search--block">
@@ -349,9 +349,9 @@
                 <nav class="navbar">
                     <div class="list--menu">
                         <div class="font--block">
-                            <a href="javascript:void(0)" class="text--link">A-</a>
-                            <a href="javascript:void(0)" class="text--link">A</a>
-                            <a href="javascript:void(0)" class="text--link">A+</a>
+                            <a href="#nogo" class="text--link downFont">A-</a>
+                            <a href="#nogo" class="text--link regularFont">A</a>
+                            <a href="#nogo" class="text--link upFont">A+</a>
                         </div>
                         <div class="social--block">
                             <a href="javascript:void(0)" class="social__icon">
