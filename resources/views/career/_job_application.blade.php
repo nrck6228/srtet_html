@@ -157,18 +157,18 @@
                                             <p>176990002xxxx</p>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-4">
+                                    <!-- <div class="col-lg-4 col-4">
                                         <div class="form-group form--text">
                                             <label>วันที่ออกบัตร</label>
                                             <p>01/01/2530</p>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-4 col-4">
+                                    </div> -->
+                                    <!-- <div class="col-lg-4 col-4">
                                         <div class="form-group form--text">
                                             <label>วันที่หมดอายุบัตร</label>
                                             <p>01/01/2530</p>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="col-lg-4 col-4">
                                         <div class="form-group form--text">
                                             <label>ส่วนสูง (ซม.)</label>
@@ -197,66 +197,90 @@
                             </div>
                             <div class="col-lg-3 col-4">
                                 <div class="form-group form--text">
-                                    <label>เบอร์โทร</label>
+                                    <label>เบอร์โทรศัพท์</label>
                                     <p>08xxxxxxxx</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-4">
+                            <!-- <div class="col-lg-3 col-4">
                                 <div class="form-group form--text">
                                     <label>เบอร์โทรบิดา</label>
                                     <p>08xxxxxxxx</p>
                                 </div>
-                            </div>
-                            <div class="col-lg-3 col-4">
+                            </div> -->
+                            <!-- <div class="col-lg-3 col-4">
                                 <div class="form-group form--text">
                                     <label>เบอร์โทรมารดา</label>
                                     <p>08xxxxxxxx</p>
                                 </div>
-                            </div>
-                            <div class="col-lg-9">
+                            </div> -->
+                            <!-- <div class="col-lg-9">
                                 <div class="form-group form--text">
                                     <label>ที่อยู่ตามทะเบียนบ้าน</label>
                                     <p>109 ซอยหมู่บ้านมิตรภาพ 2 ถนนอ่อนนุช แขวงหนองบอน เขตประเวศ กรุงเทพมหานคร</p>
                                 </div>
-                            </div>
-                            <div class="col-lg-3">
+                            </div> -->
+                            <!-- <div class="col-lg-3">
                                 <div class="form-group form--text">
                                     <label>เบอร์โทร</label>
                                     <p>02xxxxxxx</p>
                                 </div>
-                            </div>
-                            <div class="col-lg-9">
+                            </div> -->
+                            <div class="col-lg-6">
                                 <div class="form-group form--text">
                                     <label>ที่อยู่ที่สามารถติดต่อได้</label>
                                     <p>109 ซอยหมู่บ้านมิตรภาพ 2 ถนนอ่อนนุช แขวงหนองบอน เขตประเวศ กรุงเทพมหานคร</p>
                                 </div>
                             </div>
-                            <div class="col-lg-3">
+                            <!-- <div class="col-lg-3">
                                 <div class="form-group form--text">
                                     <label>เบอร์โทร</label>
                                     <p>02xxxxxxx</p>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 
                     <div class="form-group--section">
-                        <h3 class="h3 text-red mb-3">การรับราชการทหาร (สำหรับผู้ชาย)</h3>
                         <div class="row">
-                            <div class="col-12">
+                            <div class="col-6">
+                                <h3 class="h3 text-red mb-3">การรับราชการทหาร (สำหรับผู้ชาย)</h3>
                                 <div class="form-group form--text">
                                     <p>ได้รับการยกเว้น : ร่างกายไม่สมบูรณ์</p>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <h3 class="h3 text-red mb-3">ใบอนุญาตขับขี่รถยนต์</h3>
+                                <div class="form-group form--text">
+                                    <p>มี</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="form-group--section">
-                        <h3 class="h3 text-red mb-3">ใบอนุญาตขับขี่รถยนต์</h3>
                         <div class="row">
-                            <div class="col-12">
+                            <div class="col-lg-12">
+                                <h3 class="h3 text-red mb-3">ชื่อบุคคลและช่องทางการติดต่อสำรอง</h3>
+                            </div>
+                            <div class="col-lg-3 col-4">
                                 <div class="form-group form--text">
-                                    <p>มี</p>
+                                    <label>ชื่อ-นามสกุล</label>
+                                    <p>นายทด สมัครงาน</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-4">
+                                <div class="form-group form--text">
+                                    <label>ความสัมพันธ์</label>
+                                    <p>บิดา</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-4">
+                                <div class="form-group form--text">
+                                    <label>เบอร์โทรศัพท์</label>
+                                    <p>086xxxxxxx</p>
                                 </div>
                             </div>
                         </div>
