@@ -94,7 +94,7 @@
                                 <div class="col-lg-3">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
-                                        <label>เงินเดือนที่คาดหวัง</label>
+                                        <label>เงินเดือนที่ต้องการ (บาท)</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
