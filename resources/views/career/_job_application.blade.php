@@ -248,13 +248,6 @@
                                     <p>ได้รับการยกเว้น : ร่างกายไม่สมบูรณ์</p>
                                 </div>
                             </div>
-
-                            <div class="col-6">
-                                <h3 class="h3 text-red mb-3">ใบอนุญาตขับขี่รถยนต์</h3>
-                                <div class="form-group form--text">
-                                    <p>มี</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
@@ -488,6 +481,17 @@
                     </div>
 
                     <div class="form-group--section">
+                        <div class="row">
+                            <div class="col-6">
+                                <h3 class="h3 text-red mb-3">ใบอนุญาตขับขี่รถยนต์</h3>
+                                <div class="form-group form--text">
+                                    <p>มี</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group--section">
                         <h3 class="h3 text-red mb-3">ความสามารถพิเศษอื่นๆ</h3>
                         <div class="row">
                             <div class="col-lg-12">
@@ -599,9 +603,19 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" name="consent" id="chk_consent" checked>
-                                        <label class="form-check-label" for="chk_consent">
+                                        <input class="form-check-input" type="checkbox" name="consent" id="chk_consent1" checked>
+                                        <label class="form-check-label" for="chk_consent1">
                                             ข้าพเจ้าขอให้คำรับรองว่า ข้อความ รายละเอียด และเอกสารที่ข้าพเจ้าได้ให้ไว้นี้ถูกต้องและเป็นความจริงทุกประการ หากภายหลัง บริษัทฯ ตรวจสอบพบว่าข้อความในเป็นเท็จข้าพเจ้ายินยอมให้บริษัทฯ บอกเลิกจ้างข้าพเจ้าได้ทันที โดยไม่ต้องจ่ายค่าชดเชยใดๆและยินดีให้บริษัทฯ ดำเนินคดีตามกฏหมายทุกประการ อนึ่งเอกสารประกอบอื่นๆตามประกาศรับสมัครสอบข้าพเจ้านำส่งภายหลังเมื่อได้รับการประกาศเป็นผู้มีสิทธิ์สอบสัมภาษณ์พร้อมลงลายมือชื่อรับรองเอกสารต่อไป
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="consent" id="chk_consent2" checked>
+                                        <label class="form-check-label" for="chk_consent2">
+                                            ข้าพเจ้ายินยอมให้ บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด (รฟฟท.) เก็บรวบรวม / ใช้ / เปิดเผย ข้อมูลส่วนบุคคล  หรือข้อมูลอื่นๆที่เกี่ยวข้อง (Sensitive Data) ของข้าพเจ้า  และในกรณี ไม่ผ่านการพิจารณาคัดเลือก ข้อมูลในใบสมัครจะถูกเก็บรักษาไว้อีกเป็นระยะเวลา 1 ปี และในกรณีผ่านการพิจารณาคัดเลือก ข้อมูลในใบสมัครจะถูกเก็บรักษาไว้ตลอดระยะเวลาการเป็นพนักงาน/ลูกจ้าง และเก็บต่อเนื่องอีกเป็นระยะเวลา 10 ปี ทั้งนี้ ข้าพเจ้าได้อ่านข้อความข้างต้นและทราบถึงวัตถุประสงค์ในการเก็บรวบรวม ใช้หรือเปิดเผย (“ประมวลผล”) ข้อมูลส่วนบุคคล ตลอดจนเข้าใจข้อความดังกล่าวดีแล้ว และข้าพเจ้าให้ความยินยอมกับ รฟฟท. ในการนำข้อมูลส่วนบุคคลของข้าพเจ้าไปดำเนินการดังกล่าวข้างต้น
                                         </label>
                                     </div>
                                 </div>
