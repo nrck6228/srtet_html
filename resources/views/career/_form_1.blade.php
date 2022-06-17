@@ -217,7 +217,7 @@
                                                         <label>เลขที่บัตรประชาชน</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4">
+                                                <!-- <div class="col-lg-4">
                                                     <div class="form-group form--float icon icon__date">
                                                         <input id="input_idcard_start" class="form-control" type="text" placeholder="" value="" readonly>
                                                         <label>วันที่ออกบัตร</label>
@@ -228,8 +228,8 @@
                                                         <input id="input_idcard_exp" class="form-control" type="text" placeholder="" value="" readonly>
                                                         <label>วันที่หมดอายุบัตร</label>
                                                     </div>
-                                                </div>
-                                                <div class="col-lg-4">
+                                                </div> -->
+                                                <!-- <div class="col-lg-4">
                                                     <div class="form-group form--float">
                                                         <input class="form-control" type="text" placeholder="" value="">
                                                         <label>ส่วนสูง (ซม.)</label>
@@ -240,7 +240,7 @@
                                                         <input class="form-control" type="text" placeholder="" value="">
                                                         <label>น้ำหนัก (กก.)</label>
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -251,6 +251,12 @@
                         <div class="form-group--section">
                             <h3 class="h3 text-red mb-3">ข้อมูลติดต่อ</h3>
                             <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>ที่อยู่ปัจจุบันที่สามารถติดต่อได้<span class="req">*</span></label>
+                                    </div>
+                                </div>
                                 <div class="col-lg-3">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
@@ -260,10 +266,34 @@
                                 <div class="col-lg-3">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
-                                        <label>เบอร์โทร<span class="req">*</span></label>
+                                        <label>เบอร์โทรศัพท์มือถือ<span class="req">*</span></label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>ชื่อบุคคลและช่องทางการติดต่อสำรอง<span class="req">*</span></label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>ความสัมพันธ์<span class="req">*</span></label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>เบอร์โทรศัพท์มือถือ<span class="req">*</span></label>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-lg-3">
+                                    <div class="form-group form--float">
+                                        <input class="form-control" type="text" placeholder="" value="">
+                                        <label>เบอร์โทร<span class="req">*</span></label>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="col-lg-3">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
                                         <label>เบอร์โทรบิดา<span class="req">*</span></label>
@@ -274,8 +304,8 @@
                                         <input class="form-control" type="text" placeholder="" value="">
                                         <label>เบอร์โทรมารดา<span class="req">*</span></label>
                                     </div>
-                                </div>
-                                <div class="col-lg-6">
+                                </div> -->
+                                <!-- <div class="col-lg-6">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
                                         <label>ที่อยู่ทะเบียนบ้าน</label>
@@ -286,27 +316,15 @@
                                         <input class="form-control" type="text" placeholder="" value="">
                                         <label>เบอร์โทร</label>
                                     </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="form-group form--float">
-                                        <input class="form-control" type="text" placeholder="" value="">
-                                        <label>ที่อยู่ที่สามารถติดต่อได้<span class="req">*</span></label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="form-group form--float">
-                                        <input class="form-control" type="text" placeholder="" value="">
-                                        <label>เบอร์โทร<span class="req">*</span></label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
+                                </div> -->
+                                <!-- <div class="col-lg-3">
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" name="address" id="chk_address">
                                         <label class="form-check-label" for="chk_address">
                                             ที่อยู่เดียวกันกับทะเบียนบ้าน
                                         </label>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                         <div class="form-group--section">
