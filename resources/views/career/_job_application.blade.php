@@ -80,7 +80,7 @@
                             </div>
                             <div class="col-lg-3 col-4">
                             <div class="form-group form--text">
-                                    <label>วันที่เริ่มงาน</label>
+                                    <label>เริ่มงาน</label>
                                     <p>15/06/2565</p>
                                 </div>
                             </div>
@@ -169,7 +169,7 @@
                                             <p>01/01/2530</p>
                                         </div>
                                     </div> -->
-                                    <div class="col-lg-4 col-4">
+                                    <!-- <div class="col-lg-4 col-4">
                                         <div class="form-group form--text">
                                             <label>ส่วนสูง (ซม.)</label>
                                             <p>180</p>
@@ -180,7 +180,7 @@
                                             <label>น้ำหนัก (กก.)</label>
                                             <p>65</p>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -189,6 +189,12 @@
                     <div class="form-group--section">
                         <h3 class="h3 text-red mb-3">ข้อมูลติดต่อ</h3>
                         <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="form-group form--text">
+                                    <label>ที่อยู่ปัจจุบันที่สามารถติดต่อได้</label>
+                                    <p>109 ซอยหมู่บ้านมิตรภาพ 2 ถนนอ่อนนุช แขวงหนองบอน เขตประเวศ กรุงเทพมหานคร</p>
+                                </div>
+                            </div>
                             <div class="col-lg-3 col-4">
                                 <div class="form-group form--text">
                                     <label>อีเมล</label>
@@ -197,7 +203,7 @@
                             </div>
                             <div class="col-lg-3 col-4">
                                 <div class="form-group form--text">
-                                    <label>เบอร์โทรศัพท์</label>
+                                    <label>เบอร์โทรศัพท์มือถือ</label>
                                     <p>08xxxxxxxx</p>
                                 </div>
                             </div>
@@ -225,29 +231,12 @@
                                     <p>02xxxxxxx</p>
                                 </div>
                             </div> -->
-                            <div class="col-lg-6">
-                                <div class="form-group form--text">
-                                    <label>ที่อยู่ที่สามารถติดต่อได้</label>
-                                    <p>109 ซอยหมู่บ้านมิตรภาพ 2 ถนนอ่อนนุช แขวงหนองบอน เขตประเวศ กรุงเทพมหานคร</p>
-                                </div>
-                            </div>
                             <!-- <div class="col-lg-3">
                                 <div class="form-group form--text">
                                     <label>เบอร์โทร</label>
                                     <p>02xxxxxxx</p>
                                 </div>
                             </div> -->
-                        </div>
-                    </div>
-
-                    <div class="form-group--section">
-                        <div class="row">
-                            <div class="col-6">
-                                <h3 class="h3 text-red mb-3">การรับราชการทหาร (สำหรับผู้ชาย)</h3>
-                                <div class="form-group form--text">
-                                    <p>ได้รับการยกเว้น : ร่างกายไม่สมบูรณ์</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
@@ -274,6 +263,17 @@
                                 <div class="form-group form--text">
                                     <label>เบอร์โทรศัพท์</label>
                                     <p>086xxxxxxx</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group--section">
+                        <div class="row">
+                            <div class="col-6">
+                                <h3 class="h3 text-red mb-3">การรับราชการทหาร (สำหรับผู้ชาย)</h3>
+                                <div class="form-group form--text">
+                                    <p>ได้รับการยกเว้น : ร่างกายไม่สมบูรณ์</p>
                                 </div>
                             </div>
                         </div>
@@ -359,14 +359,20 @@
                         <div class="row">
                             <div class="col-lg-3 col-4">
                                 <div class="form-group form--text">
-                                    <label>ชื่อสถาบัน</label>
-                                    <p>สถาบันบัณฑิตพัฒนบริหารศาสตร์</p>
+                                    <label>ชื่อหลักสูตร</label>
+                                    <p>จิดวิทยา</p>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-4">
                                 <div class="form-group form--text">
-                                    <label>สาขา</label>
-                                    <p>จิดวิทยา 1</p>
+                                    <label>วันที่อบรม</label>
+                                    <p>17/06/2565</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div class="form-group form--text">
+                                    <label>จัดอบรมโดยสถาบัน</label>
+                                    <p>สถาบันบัณฑิตพัฒนบริหารศาสตร์</p>
                                 </div>
                             </div>
                         </div>
@@ -374,14 +380,102 @@
                         <div class="row">
                             <div class="col-lg-3 col-4">
                                 <div class="form-group form--text">
-                                    <label>ชื่อสถาบัน</label>
-                                    <p>สถาบันบัณฑิตพัฒนบริหารศาสตร์</p>
+                                    <label>ชื่อหลักสูตร</label>
+                                    <p>จิดวิทยา</p>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-4">
                                 <div class="form-group form--text">
-                                    <label>สาขา</label>
-                                    <p>จิดวิทยา 2</p>
+                                    <label>วันที่อบรม</label>
+                                    <p>17/06/2565</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div class="form-group form--text">
+                                    <label>จัดอบรมโดยสถาบัน</label>
+                                    <p>สถาบันบัณฑิตพัฒนบริหารศาสตร์</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group--section">
+                        <h3 class="h3 text-red mb-3">ประวัติการทำงาน <span class="sub-title">(เริ่มจากสถานที่ทำงานสุดท้าย)</span></h3>
+
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="form-group form--text">
+                                    <label>ชื่อสถานประกอบการ</label>
+                                    <p>ชื่อสถานประกอบการ</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div class="form-group form--text">
+                                    <label>ตำแหน่ง</label>
+                                    <p>ตำแหน่ง</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div class="form-group form--text">
+                                    <label>วันที่เริ่มต้นทำงาน</label>
+                                    <p>01/07/2560</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div class="form-group form--text">
+                                    <label>วันที่สิ้นสุดทำงาน</label>
+                                    <p>31/05/2565</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-6">
+                                <div class="form-group form--text">
+                                    <label>สาเหตุที่ออก</label>
+                                    <p>-</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-6">
+                                <div class="form-group form--text">
+                                    <label>ลักษณะงานที่รับผิดชอบ</label>
+                                    <p>-</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="form-group form--text">
+                                    <label>ชื่อสถานประกอบการ</label>
+                                    <p>ชื่อสถานประกอบการ</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div class="form-group form--text">
+                                    <label>ตำแหน่ง</label>
+                                    <p>ตำแหน่ง</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div class="form-group form--text">
+                                    <label>วันที่เริ่มต้นทำงาน</label>
+                                    <p>01/06/2555</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-4">
+                                <div class="form-group form--text">
+                                    <label>วันที่สิ้นสุดทำงาน</label>
+                                    <p>31/05/2560</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-6">
+                                <div class="form-group form--text">
+                                    <label>สาเหตุที่ออก</label>
+                                    <p>-</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-6">
+                                <div class="form-group form--text">
+                                    <label>ลักษณะงานที่รับผิดชอบ</label>
+                                    <p>-</p>
                                 </div>
                             </div>
                         </div>
@@ -502,103 +596,9 @@
                         </div>
                     </div>
 
-                    <div class="form-group--section">
-                        <h3 class="h3 text-red mb-3">ประวัติการทำงาน <span class="sub-title">(เริ่มจากสถานที่ทำงานสุดท้าย)</span></h3>
-                        <div class="row">
-                            <div class="col-lg-3 col-4">
-                                <div class="form-group form--text">
-                                    <label>อายุงานรวม (ปี)</label>
-                                    <p>10</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-4">
-                                <div class="form-group form--text">
-                                    <label>อายุงานในระดับบริหารรวม (ปี)</label>
-                                    <p>5</p>
-                                </div>
-                            </div>
-                        </div>
+                    
 
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <div class="form-group form--text">
-                                    <label>ชื่อสถานประกอบการ</label>
-                                    <p>ชื่อสถานประกอบการ</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-4">
-                                <div class="form-group form--text">
-                                    <label>ตำแหน่ง</label>
-                                    <p>ตำแหน่ง</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-4">
-                                <div class="form-group form--text">
-                                    <label>วันที่เริ่มต้นทำงาน</label>
-                                    <p>01/07/2560</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-4">
-                                <div class="form-group form--text">
-                                    <label>วันที่สิ้นสุดทำงาน</label>
-                                    <p>31/05/2565</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-4">
-                                <div class="form-group form--text">
-                                    <label>เงินเดือน</label>
-                                    <p>50,000</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-9 col-md-8 col-sm-8">
-                                <div class="form-group form--text">
-                                    <label>เหตุผลลาออก</label>
-                                    <p>-</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <div class="form-group form--text">
-                                    <label>ชื่อสถานประกอบการ</label>
-                                    <p>ชื่อสถานประกอบการ</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-4">
-                                <div class="form-group form--text">
-                                    <label>ตำแหน่ง</label>
-                                    <p>ตำแหน่ง</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-4">
-                                <div class="form-group form--text">
-                                    <label>วันที่เริ่มต้นทำงาน</label>
-                                    <p>01/06/2555</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-4">
-                                <div class="form-group form--text">
-                                    <label>วันที่สิ้นสุดทำงาน</label>
-                                    <p>31/05/2560</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-4">
-                                <div class="form-group form--text">
-                                    <label>เงินเดือน</label>
-                                    <p>30,000</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-9">
-                                <div class="form-group form--text">
-                                    <label>เหตุผลลาออก</label>
-                                    <p>-</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="form-group--section">
+                    <!-- <div class="form-group--section">
                         <div class="consent">
                             <div class="row">
                                 <div class="col-lg-12">
@@ -621,7 +621,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="form-group--section">
                         <div class="text-center">
