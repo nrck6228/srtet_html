@@ -3,6 +3,7 @@
     margin: 0;
 
     .slider__item{
+        padding: 0 10px;
         text-align: center;
         text-decoration: none;
 
@@ -24,12 +25,14 @@
 
     .slider__title{
         font-weight: bold;
+        font-size: 1.625rem;
+        line-height: 1.875rem;
         color: $red;
     }
 
     .slider__text{
         font-weight: bold;
-        font-size: 1.625rem;
+        font-size: 1.5rem;
         line-height: 1.875rem;
         color: $gray;
         transition: all 0.3s ease-in-out;
