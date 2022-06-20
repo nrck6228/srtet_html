@@ -71,7 +71,7 @@
                 <div class="card-deck">
                     <a href="#nogo" class="card card--news">
                         <div class="card__figure">
-                            <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="ข่าว">
+                            <img src="{{ asset('http://srtet-cms.siamedigital.com/upload_fm/รายงานประจำปี/2562.jpeg')}}" alt="ข่าว">
                         </div>
                         <div class="card__body">
                             <div class="card__date">6 เมษายน 2565</div>
