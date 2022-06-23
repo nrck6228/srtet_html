@@ -39,7 +39,7 @@
                 <div class="form-group-wrapper">
                     <form action="" class="form-group--section">
                         <div class="row">
-                            <div class="col-md-3 col-sm-6 col-12">
+                            <div class="col-sm-6 col-12">
                                 <div class="form-group form--float">
                                     <select class="form-select" aria-label="Default select example">
                                         <option selected="true" value="title">เลือกสถานี</option>
@@ -599,7 +599,7 @@
 
                                 <div class="row justify-content-center">
                                     <div class="col-auto">
-                                        <a href="#nogo" class="btn btn--primary">
+                                        <a href="#nogo" class="btn btn--primary mb-5 mb-lg-0">
                                             <span>อัตราค่าโดยสาร</span>
                                         </a>
                                     </div>
