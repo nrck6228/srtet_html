@@ -377,6 +377,7 @@
 
     .news--slider{
         .slick-slide{
+            outline: none;
             .card--news-slide{
                 transform: scale(0.9);
                 text-decoration: none;
@@ -438,6 +439,8 @@
                     }
                 }
             }
+
+
         }
 
         .slick-prev{
