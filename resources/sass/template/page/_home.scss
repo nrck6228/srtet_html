@@ -381,6 +381,20 @@
             .card--news-slide{
                 transform: scale(0.9);
                 text-decoration: none;
+
+                .card__figure{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    height: 379px;
+        
+                    img{
+                        width: auto;
+                        max-width: 100%;
+                        height: 100%;
+                    }
+                }
     
                 .card__body{
                     margin: 0 20px;
@@ -408,39 +422,58 @@
                     }
                 }
 
-                @include media-breakpoint-down(lg){
+                @media (max-width: 1399.98px){
+                    .card__figure{
+                        height: 319px;
+                    }
+                }
+
+                @media (max-width: 1199.98px){
+                    .card__figure{
+                        height: 259px;
+                    }
+                }
+
+                @media (max-width: 991.98px){
                     transform: scale(1);
+                    .card__figure{
+                        height: 290px;
+                    }
+                }
+
+                @media (max-width: 575.98px){
+                    .card__figure{
+                        height: 276px;
+                    }
                 }
             }
     
             &.slick-current{
                 .card--news-slide{
                     transform: scale(1);
-                }
 
-                .card__body{
-                    border-left: 2px solid $red;
-                    border-right: 2px solid $red;
-                    border-bottom: 2px solid $red;
-    
-                    &:before{
-                        content: "";
-                        display: inline-block;
-                        width: 0;
-                        height: 0;
-                        border-style: solid;
-                        border-width: 0 15px 20px 15px;
-                        border-color: transparent transparent $red transparent;
-                        position: absolute;
-                        bottom: 0;
-                        left: 0;
-                        right: 0;
-                        margin: auto;
+                    .card__body{
+                        border-left: 2px solid $red;
+                        border-right: 2px solid $red;
+                        border-bottom: 2px solid $red;
+        
+                        &:before{
+                            content: "";
+                            display: inline-block;
+                            width: 0;
+                            height: 0;
+                            border-style: solid;
+                            border-width: 0 15px 20px 15px;
+                            border-color: transparent transparent $red transparent;
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            margin: auto;
+                        }
                     }
                 }
             }
-
-
         }
 
         .slick-prev{
