@@ -272,7 +272,7 @@
                         $(this).parent().removeClass('has-data');
                     }
 
-                    $("#end_date").val('');
+                    //$("#end_date").val('');
                     var start = $('#start_date').datepicker('getDate');
                     var end = new Date();
                     var d = end.getDate();
@@ -304,7 +304,17 @@
             $("#start_date").datepicker( $.datepicker.regional["th"] );
             //$("#start_date").datepicker( "setDate", new Date());
         
-            
+            $('#end_date').datepicker({
+                maxDate: 0,
+                onSelect: function () {
+                    if($(this).val() != ''){
+                        $(this).parent().addClass('has-data');
+                    } else {
+                        $(this).parent().removeClass('has-data');
+                    }
+                },
+            });
+            $("#end_date").datepicker( $.datepicker.regional["th"] );
             //$("#start_date").datepicker( "setDate", new Date());
         });
         
