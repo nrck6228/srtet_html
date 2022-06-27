@@ -903,7 +903,7 @@
                         </div>
 
                         <div class="col-lg-8">
-                            <a href="/events-detail" class="events--item">
+                            <a href="/events-detail" class="events--item" data-src="http://127.0.0.1:8000/assets/images/events/demo-01.jpg">
                                 <div class="row align-items-center">
                                     <div class="col-md-3">
                                         <div class="events__date">
@@ -939,10 +939,9 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </a>
 
-                            <a href="/events-detail" class="events--item">
+                            <a href="/events-detail" class="events--item" data-src="http://srtet-cms.siamedigital.com/upload_fm/Calendar/3/1.jpeg">
                                 <div class="row align-items-center">
                                     <div class="col-md-3">
                                         <div class="events__date">
@@ -969,7 +968,7 @@
                                 </div>
                             </a>
 
-                            <a href="/events-detail" class="events--item">
+                            <a href="/events-detail" class="events--item" data-src="http://srtet-cms.siamedigital.com/upload_fm/Calendar/3/2.jpeg">
                                 <div class="row align-items-center">
                                     <div class="col-md-3">
                                         <div class="events__date">
@@ -1005,10 +1004,9 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </a>
 
-                            <a href="/events-detail" class="events--item">
+                            <a href="/events-detail" class="events--item" data-src="http://127.0.0.1:8000/assets/images/events/demo-01.jpg">
                                 <div class="row align-items-center">
                                     <div class="col-md-3">
                                         <div class="events__date">
@@ -1647,6 +1645,15 @@
         // Resize event
         $(window).on("resize.slickVideoPlayer", function(){  
             resizePlayer(iframes, 16/9);
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $(".events--item").hover( function() {
+                var value=$(this).attr('data-src');
+                $(".events--figure img").attr("src", value);
+            });
         });
     </script>
 
