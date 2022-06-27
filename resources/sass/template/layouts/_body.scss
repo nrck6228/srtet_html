@@ -1192,6 +1192,7 @@ html, body{
     }
 
     .card-header{
+        display: block;
         padding: 1rem;
         margin: 0 0 1rem 0;
         font-weight: bold;
@@ -1200,6 +1201,7 @@ html, body{
         color: white;
         border: none;
         border-radius: 0;
+        text-decoration: none;
         transition: all 0.4s ease-in-out;
 
         &:hover{
