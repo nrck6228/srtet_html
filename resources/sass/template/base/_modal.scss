@@ -81,9 +81,34 @@
 
     .modal--content{
         display: block;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+
         .modal__text{
             font-size: 1.5rem;
             line-height: 1.5rem;
+        }
+
+        ul{
+            list-style: none;
+            padding: 0;
+            margin: 0 0 2rem 0;
+
+            li{
+                position: relative;
+                font-size: 1.5rem;
+                line-height: 1.5rem;
+                margin-bottom: 10px;
+
+                &:before{
+                    font-family: 'icomoon' !important;
+                    content: "\e90a";
+                    font-size: 0.75rem;
+                    color: $red;
+                    display: inline-block;
+                    transform: rotate(90deg);
+                }
+            }
         }
     }
 
