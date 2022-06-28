@@ -46,19 +46,19 @@
                             <div class="col-lg-3">
                                 <div class="form-group form--float">
                                     <input class="form-control" type="text" placeholder="" value="">
-                                    <label>ชื่อ</label>
+                                    <label>ชื่อ <span class="req">*</span></label>
                                 </div>
                             </div>
                             <div class="col-lg-3">
                                 <div class="form-group form--float">
                                     <input class="form-control" type="text" placeholder="" value="">
-                                    <label>นามสกุล</label>
+                                    <label>นามสกุล <span class="req">*</span></label>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group form--float">
                                     <input class="form-control" type="text" placeholder="" value="">
-                                    <label>เลขที่บัตรประชาชน</label>
+                                    <label>เลขที่บัตรประชาชน <span class="req">*</span></label>
                                 </div>
                             </div>
                             <div class="col-lg-3">
@@ -70,7 +70,7 @@
                             <div class="col-lg-3">
                                 <div class="form-group form--float">
                                     <input class="form-control" type="text" placeholder="" value="">
-                                    <label>เบอร์โทร</label>
+                                    <label>เบอร์โทร <span class="req">*</span></label>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -118,7 +118,7 @@
                                                 <option value="2">ประเภท 2</option>
                                                 <option value="3">ประเภท 3</option>
                                             </select>
-                                            <label class="did-floating-label">ประเภท</label>
+                                            <label class="did-floating-label">ประเภท <span class="req">*</span></label>
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
