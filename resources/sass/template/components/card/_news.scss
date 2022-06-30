@@ -1,5 +1,4 @@
 .card--news{
-    
     .card__highlight{
         position: absolute;
         left: 20px;
@@ -79,6 +78,11 @@
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
         overflow: hidden;
+
+        @media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0)
+        {  
+            display: inline;
+        }
     }
 
     .card__download{
@@ -145,9 +149,6 @@
             border-bottom: 2px solid $gray;
             position: relative;
             transition: all 0.4s ease-in-out;
-            p{
-                display: inline;
-            }
         }
 
         .card__date{
@@ -179,6 +180,11 @@
             -webkit-box-orient: vertical;
             overflow: hidden;
             max-height: 2.5em;
+
+            @media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0)
+            {  
+                display: inline;
+            }
         }
 
         .card__download{
