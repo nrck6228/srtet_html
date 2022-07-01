@@ -763,6 +763,13 @@ html, body{
                 list-style-type: none;
                 list-style-image: url('../../../assets/images/icon/icon-polygon-right.svg');
                 margin-bottom: 0.5rem;
+                a{
+                    color: $darkgray;
+                    text-decoration: underline;
+                    &:hover{
+                        color: $red;
+                    }
+                }
             }
         }
 
@@ -771,6 +778,15 @@ html, body{
             margin: 0;
             list-style-position: inside;
             position: relative;
+            li{
+                a{
+                    color: $darkgray;
+                    text-decoration: underline;
+                    &:hover{
+                        color: $red;
+                    }
+                }
+            }
         }
 
         p{
