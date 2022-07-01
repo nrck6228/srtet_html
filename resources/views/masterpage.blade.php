@@ -9,7 +9,7 @@
 
         <meta name="keywords" content="@yield('keywords')" />
         <meta name="description" content="@yield('description')" />
-        <link rel="canonical" href=""/>
+        <link rel="canonical" href="http://srtet-cms.siamedigital.com/th"/>
 
         <meta property="og:url"                content="@yield('og_url')" />
         <meta property="og:type"               content="website" />
@@ -46,7 +46,7 @@
             <div class="modal-dialog modal-xl">
                 <div class="modal-content pt-5 px-4">
                     <div class="modal-header">
-                        <h3 class="modal-title text-red" id="exampleModalLabel">ค้นหา</h5>
+                        <h3 class="modal-title text-red" id="exampleModalLabel">ค้นหา</h3>
                         <button type="button" class="modal--close" data-bs-dismiss="modal" aria-label="Close">
                             <div class="btn--close">
                                 <span>ปิด <i class="icon-close"></i></span>
@@ -68,7 +68,7 @@
                                             <div class="col-lg-4 col-md-6">
                                                 <div class="form-group form--float">
                                                     <select class="form-select" aria-label="Default select example">
-                                                        <option selected="true" value="title">ข่าวสาร</option>
+                                                        <option selected="selected" value="title">ข่าวสาร</option>
                                                         <option value="" >ข่าวสาร 1</option>
                                                         <option value="">ข่าวสาร 2</option> 
                                                     </select>
