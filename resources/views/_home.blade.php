@@ -1064,7 +1064,7 @@
                     </div>
                     
                     <div id="content" class="tab-content" role="tablist" data-aos="fade-up">
-                        <div id="pane-A" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-A">
+                        <div id="pane-A" class="card tab-pane fade show active" role="tabpanel">
                             <div class="card-header" role="tab" id="heading-A" data-bs-toggle="collapse" href="#collapse-A" aria-expanded="true" aria-controls="collapse-A">
                             กิจกรรมการตลาด
                             </div>
@@ -1155,7 +1155,7 @@
                             </div>
                         </div>
 
-                        <div id="pane-B" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-B">
+                        <div id="pane-B" class="card tab-pane fade" role="tabpanel">
                             <div class="card-header" role="tab" id="heading-B" class="collapsed" data-bs-toggle="collapse" href="#collapse-B" aria-expanded="false" aria-controls="collapse-B">
                             ข่าวประชาสัมพันธ์
                             </div>
@@ -1168,9 +1168,9 @@
                                                 <img src="{{ asset('assets/images/news/img-demo-01.png')}}" alt="ข่าว">
                                             </div>
                                             <div class="card__body">
-                                                <div class="card__date">5 เมษายน 2565</div>
+                                                <div class="card__date">5 เมษายน 2565 B</div>
                                                 <div class="card__title">
-                                                    วันจักรี
+                                                    วันจักรี tab-B
                                                 </div>
                                                 <p class="card__desc">
                                                     เป็นวันระลึกถึงมหาจักรีบรมราชวงศ์ ที่พระพุทธยอดฟ้าจุฬาโลกมหาราช (รัชกาลที่ ๑) เสด็จขึ้นครองราชย์เป็นกษัตริย์พระองค์แรกแห่งราชวงศ์จักรี
@@ -1249,7 +1249,7 @@
                             </div>
                         </div>
 
-                        <div id="pane-C" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-C">
+                        <div id="pane-C" class="card tab-pane fade" role="tabpanel">
                             <div class="card-header" role="tab" id="heading-C" class="collapsed" data-bs-toggle="collapse" href="#collapse-C" aria-expanded="false" aria-controls="collapse-C">
                             ข้อปฏิบัติการใช้งาน
                             </div>
