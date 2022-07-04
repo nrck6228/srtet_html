@@ -20,3 +20,4 @@ yarn-error.log
 /.vscode
 /public/assets
 /public/datepicker
+public/aos/aos.css
