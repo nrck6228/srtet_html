@@ -252,7 +252,7 @@
             &__view{
                 position: relative;
                 min-width: min-content;
-                height: 215px;
+                height: 220px;
     
                 &.redLine{
                     display: flex;
@@ -422,7 +422,7 @@
     
                         .info__name{
                             font-weight: bold;
-                            font-size: 1.625rem;
+                            font-size: 1.375rem;
                             line-height: 1.625rem;
                             color: $darkgray;
                             text-align: center;
@@ -516,6 +516,71 @@
                     img{
                         max-width: 16px;
                     }
+                }
+            }
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        .route--container{
+            .main--station{
+                &__view{
+                    margin-right: 0.5rem;
+                    .info__icon{
+                        width: 17px;
+                        height: 17px;
+                    }
+                }
+                &__line{
+                    .redLine{
+                        width: 35px;
+                        height: 65px;
+                    }
+                    .lightredLine{
+                        width: 35px;
+                        height: 65px;
+                    }
+                }
+            }
+
+            .line--station{
+                &__view{
+                    height: 205px;
+                    &.redLine{
+                        .station--info{
+                            padding: 20px 0 20px 55px;
+                            &__top{
+                                .info__icon{
+                                    width: 17px;
+                                    height: 17px;
+                                }
+                            }
+                            &__bottom{
+                                width: 35px;
+                            }
+                            &:after{
+                                left: 12px;
+                            }
+                        }
+                    }
+                    &.lightredLine{
+                        .station--info{
+                            padding: 20px 0 20px 55px;
+                            &__top{
+                                .info__icon{
+                                    width: 17px;
+                                    height: 17px;
+                                }
+                            }
+                            &__bottom{
+                                width: 35px;
+                            }
+                            &:after{
+                                left: 12px;
+                            }
+                        }
+                    }
+                    
                 }
             }
         }

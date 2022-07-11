@@ -72,7 +72,7 @@
                 <div class="tab-content" id="myTabContent" data-aos="fade-up">
                     <div class="tab-pane fade show active" id="route" role="tabpanel" aria-labelledby="route-tab">
                         <div class="map--wrapper">
-                            <div class="title--page">
+                            <div class="title--page mb-3 mb-md-4">
                                 <h1 class="page__title">เส้นทางรถไฟฟ้าชานเมืองสายสีแดง</h1>
                             </div>
 
@@ -116,6 +116,15 @@
 
                                             <div class="station--info" data-text="3 นาที">
                                                 <div class="station--info__top">
+                                                    <div class="info__icon">
+                                                        <img src="{{ asset('assets/images/map/icons-07.png')}}" alt="รถโดยสาร">
+                                                    </div>
+                                                    <div class="info__icon">
+                                                        <img src="{{ asset('assets/images/map/icons-07.png')}}" alt="รถโดยสาร">
+                                                    </div>
+                                                    <div class="info__icon">
+                                                        <img src="{{ asset('assets/images/map/icons-07.png')}}" alt="รถโดยสาร">
+                                                    </div>
                                                     <div class="info__icon">
                                                         <img src="{{ asset('assets/images/map/icons-07.png')}}" alt="รถโดยสาร">
                                                     </div>
