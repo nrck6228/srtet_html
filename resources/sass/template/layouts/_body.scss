@@ -1276,6 +1276,9 @@ html, body{
     }
 
     @include media-breakpoint-down(md) {
+        .title--page{
+            margin-bottom: 1rem;
+        }
         .tab-pane {
             display: block !important;
             opacity: 1;

@@ -137,6 +137,8 @@
                 border: 1px solid transparent;
                 transition: all 0.4s ease-in-out;
 
+                padding-top: 15px;
+
                 p{
                     margin: 0;
                     font-size: 1.5rem;
@@ -512,10 +514,16 @@
                 padding: 0;
 
                 li{
-                    font-size: 1.25rem;
+                    font-size: 1.5rem;
+                    line-height: 1.7rem;
+                    align-items: flex-start;
 
                     img{
                         max-width: 16px;
+                        margin-right: 10px;
+
+                        position: relative;
+                        top: 3px;
                     }
                 }
             }

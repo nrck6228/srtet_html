@@ -63,9 +63,12 @@
             background-size: cover;
             background-position: center;
             transition: all .4s ease-in-out;
-
             &.show {
                 opacity: 1;
+            }
+
+            @include media-breakpoint-down(md) {
+                background-position: center right 35%;
             }
         }
 
@@ -84,19 +87,25 @@
             top: 50%;
             left: 0;
             text-align: left;
-            padding: 0 2rem;
+            padding: 1rem 2rem;
             margin: 0;
             opacity: 0;
             z-index: 1;
             transition: all 0.3s ease;
             transform: translateY(100%);
 
+            background-color: rgba($color: #fff, $alpha: 0.5);
+            backdrop-filter: blur(4px);
+            
+
             .caption__title{
                 color: $red;
+                font-size: 3rem;
             }
 
             .caption__text{
                 color: white;
+                font-size: 2rem;
             }
 
             @include media-breakpoint-up(md) {
