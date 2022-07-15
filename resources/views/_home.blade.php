@@ -293,28 +293,28 @@
                                         <div class="route--connection">
                                             <ul>
                                                 <li>
-                                                    <img src="{{ asset('assets/images/map/icons-01.png')}}" alt="รถไฟฟ้าสายสีน้ำเงิน">&nbsp;รถไฟฟ้าสายสีน้ำเงิน
+                                                    <img src="{{ asset('assets/images/map/icons-01.png')}}" alt="รถไฟฟ้าสายสีน้ำเงิน">รถไฟฟ้าสายสีน้ำเงิน
                                                 </li>
                                                 <li>
-                                                    <img src="{{ asset('assets/images/map/icons-02.png')}}" alt="รถไฟฟ้าสายสีม่วง">&nbsp;รถไฟฟ้าสายสีม่วง
+                                                    <img src="{{ asset('assets/images/map/icons-02.png')}}" alt="รถไฟฟ้าสายสีม่วง">รถไฟฟ้าสายสีม่วง
                                                 </li>
                                                 <li>
-                                                    <img src="{{ asset('assets/images/map/icons-03.png')}}" alt="รถไฟฟ้าสายสีชมพู">&nbsp;รถไฟฟ้าสายสีชมพู
+                                                    <img src="{{ asset('assets/images/map/icons-03.png')}}" alt="รถไฟฟ้าสายสีชมพู">รถไฟฟ้าสายสีชมพู
                                                 </li>
                                                 <li>
-                                                    <img src="{{ asset('assets/images/map/icons-04.png')}}" alt="รถไฟฟ้าสายสีเหลือง">&nbsp;รถไฟฟ้าสายสีเหลือง
+                                                    <img src="{{ asset('assets/images/map/icons-04.png')}}" alt="รถไฟฟ้าสายสีเหลือง">รถไฟฟ้าสายสีเหลือง
                                                 </li>
                                                 <li>
-                                                    <img src="{{ asset('assets/images/map/icons-05.png')}}" alt="ท่าอากาศยานดอนเมือง">&nbsp;ท่าอากาศยานดอนเมือง
+                                                    <img src="{{ asset('assets/images/map/icons-05.png')}}" alt="ท่าอากาศยานดอนเมือง">ท่าอากาศยานดอนเมือง
                                                 </li>
                                                 <li>
-                                                    <img src="{{ asset('assets/images/map/icons-06.png')}}" alt="รถไฟทางไกล">&nbsp;รถไฟทางไกล
+                                                    <img src="{{ asset('assets/images/map/icons-06.png')}}" alt="รถไฟทางไกล">รถไฟทางไกล
                                                 </li>
                                                 <li>
-                                                    <img src="{{ asset('assets/images/map/icons-07.png')}}" alt="รถโดยสาร">&nbsp;รถโดยสาร
+                                                    <img src="{{ asset('assets/images/map/icons-07.png')}}" alt="รถโดยสาร">รถโดยสาร
                                                 </li>
                                                 <li>
-                                                    <img src="{{ asset('assets/images/map/icons-08.png')}}" alt="จุดจอดรถ">&nbsp;จุดจอดรถ
+                                                    <img src="{{ asset('assets/images/map/icons-08.png')}}" alt="จุดจอดรถ">จุดจอดรถ
                                                 </li>
                                             </ul>
                                         </div>
@@ -914,7 +914,7 @@
                         <div class="col-lg-8">
                             <a href="/events-detail" class="events--item" data-src="http://127.0.0.1:8000/assets/images/events/demo-01.jpg">
                                 <div class="row align-items-center">
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-4">
                                         <div class="events__date">
                                             <div class="start__date">
                                                 <h2 class="h2">
@@ -937,7 +937,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-9">
+                                    <div class="col-md-8 col-8">
                                         <div class="events__content">
                                             <h3 class="h3">
                                                 บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง 
@@ -952,7 +952,7 @@
 
                             <a href="/events-detail" class="events--item" data-src="http://srtet-cms.siamedigital.com/upload_fm/Calendar/3/1.jpeg">
                                 <div class="row align-items-center">
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-4">
                                         <div class="events__date">
                                             <div class="start__date">
                                                 <h2 class="h2">
@@ -964,7 +964,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-9">
+                                    <div class="col-md-8 col-8">
                                         <div class="events__content">
                                             <h3 class="h3">
                                                 บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง 
@@ -979,7 +979,7 @@
 
                             <a href="/events-detail" class="events--item" data-src="http://srtet-cms.siamedigital.com/upload_fm/Calendar/3/2.jpeg">
                                 <div class="row align-items-center">
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-4">
                                         <div class="events__date">
                                             <div class="start__date">
                                                 <h2 class="h2">
@@ -1002,7 +1002,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-9">
+                                    <div class="col-md-8 col-8">
                                         <div class="events__content">
                                             <h3 class="h3">
                                                 บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง 
@@ -1017,7 +1017,7 @@
 
                             <a href="/events-detail" class="events--item" data-src="http://127.0.0.1:8000/assets/images/events/demo-01.jpg">
                                 <div class="row align-items-center">
-                                    <div class="col-md-3">
+                                    <div class="col-md-3 col-4">
                                         <div class="events__date">
                                             <div class="start__date">
                                                 <h2 class="h2">
@@ -1029,7 +1029,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-9">
+                                    <div class="col-md-8 col-8">
                                         <div class="events__content">
                                             <h3 class="h3">
                                                 บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง บริษัท รถไฟฟ้า ร.ฟ.ท. จำกัด หรือผู้ให้บริการรถไฟฟ้าชานเมืองสายสีแดง 

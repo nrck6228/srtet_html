@@ -332,22 +332,27 @@
                         </div>
 
                         <div class="col-md-5">
-                            <div class="contact--block">
-                                <span class="content__icon">
-                                    <i class="icon-call"></i>
-                                </span>
-                                <a href="tel:02-308-5600" class="content__text">
-                                    02-308-5600 #0
-                                </a>
-                            </div>
-
-                            <div class="contact--block">
-                                <span class="content__icon">
-                                    <i class="icon-mail"></i>
-                                </span>
-                                <a href="mailto:info@srtet.co.th" class="content__text">
-                                    info@srtet.co.th
-                                </a>
+                            <div class="row justify-content-between align-items-center">
+                                <div class="col-6 col-md-12">
+                                    <div class="contact--block">
+                                        <span class="content__icon">
+                                            <i class="icon-call"></i>
+                                        </span>
+                                        <a href="tel:02-308-5600" class="content__text">
+                                            02-308-5600 #0
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-12">
+                                    <div class="contact--block">
+                                        <span class="content__icon">
+                                            <i class="icon-mail"></i>
+                                        </span>
+                                        <a href="mailto:info@srtet.co.th" class="content__text">
+                                            info@srtet.co.th
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
