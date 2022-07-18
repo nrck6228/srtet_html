@@ -257,6 +257,32 @@
     position: relative;
     margin-bottom: 2rem;
 
+    .title--page{
+        h2.page__title{
+            position: relative;
+            //padding-right: 30px;
+            padding-bottom: 10px;
+            &::before{
+                content: '';
+                width: 50px;
+                height: 5px;
+                background-color: $red;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+            }
+            &:after{
+                content: '';
+                width: 100%;
+                height: 1px;
+                background-color: $red;
+                position: absolute;
+                left: 0;
+                bottom: 2px;
+            }
+        }
+    }
+
     .content--wrapper{
         display: block;
     }
@@ -540,6 +566,34 @@
 
         .slick-arrow{
             z-index: 9;
+        }
+    }
+}
+
+.home--service{
+    .title--page{
+        h2.page__title{
+            position: relative;
+            //padding-right: 30px;
+            padding-bottom: 10px;
+            &::before{
+                content: '';
+                width: 50px;
+                height: 5px;
+                background-color: $red;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+            }
+            &:after{
+                content: '';
+                width: 100%;
+                height: 1px;
+                background-color: $red;
+                position: absolute;
+                left: 0;
+                bottom: 2px;
+            }
         }
     }
 }
