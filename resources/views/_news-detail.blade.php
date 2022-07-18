@@ -54,8 +54,20 @@
                             <div class="item">
                                 <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="">
                             </div>
+                            <div class="item">
+                                <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="">
+                            </div>
                         </div>
                         <div class="gallery__nav">
+                            <div class="item">
+                                <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="">
+                            </div>
                             <div class="item">
                                 <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="">
                             </div>
@@ -238,7 +250,21 @@
             slidesToScroll: 1,
             asNavFor: '.gallery__for',
             dots: false,
-            focusOnSelect: true
+            focusOnSelect: true,
+            responsive: [
+                {
+                    breakpoint: 769,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                }
+            ],
         });
     </script>
 @endpush
