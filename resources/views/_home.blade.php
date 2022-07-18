@@ -1355,7 +1355,7 @@
 
         <article class="home--service">
             <div class="container">
-                <div class="title--page justify-content-between">
+                <div class="title--page justify-content-between" data-heading="Security and Service">
                     <h2 class="page__title">ความปลอดภัยและการบริการ</h2>
 
                     <a href="#nogo" title="เพิ่มเติม" class="page__readmore">
