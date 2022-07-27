@@ -22,7 +22,8 @@
                                 ยกระดับคุณภาพชีวิตชานเมือง
                             </h3>
                         </div>
-                    </div> -->
+                    </div>
+                    -->
 
                     <div class="item image">
                         <a href="https://www.google.co.th" title="รถไฟฟ้าสายสีแดง" target="_blank" class="slide-link">
@@ -54,7 +55,7 @@
                                 </h3>
                             </figcaption>
                         </a>
-                    </div>
+                    </div> 
                 </div>
             </div>
         </article>
@@ -1528,9 +1529,17 @@
             var currentSlide, slideType, startTime, player, video;
 
             currentSlide = slick.find(".slick-current");
-            slideType = currentSlide.attr("class").split(" ")[1];
+
+
+            //console.log(currentSlide.attr("class").length);
+            if( currentSlide.attr("class").length > 0){
+                slideType = currentSlide.attr("class").split(" ")[1];
+            }
+
             player = currentSlide.find("iframe").get(0);
             startTime = currentSlide.data("video-start");
+
+            
 
         if (slideType === "vimeo") {
             switch (control) {
