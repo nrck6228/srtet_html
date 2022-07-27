@@ -32,7 +32,11 @@ mix.sass('resources/sass/global.scss', 'public/css')
     .sass('resources/sass/theme/red.scss', 'public/css/theme')
     .copy('resources/fonts', 'public/fonts')
     .copy('resources/assets', 'public/assets')
+    .copy('resources/css/jquery-ui.min.css', 'public/css')
     .copy('resources/js', 'public/js')
+    .copy('resources/bootstrap', 'public/bootstrap')
     .copy('resources/spotlight', 'public/spotlight')
     .copy('resources/aos', 'public/aos')
     .copy('node_modules/slick-carousel/slick', 'public/slick')
+
+    
