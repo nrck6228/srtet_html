@@ -77,56 +77,163 @@
 
                         <li class="nav-item dropdown dropdown--navbar">
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">เกี่ยวกับเรา</a>
-                            <div class="dropdown-menu">
-                                <ul class="dropdown-nav">
-                                    <li class="dropdown-item">
-                                        <a href="/history" title="ประวัติความเป็นมา" class="dropdown-link">ประวัติความเป็นมา</a>
-                                    </li>
+                            <div class="dropdown-menu group--menu">
+                                <div class="row">
+                                <div class="col-lg-4">
+                                    <h3>เกี่ยวกับเรา</h3>
+                                    <ul class="dropdown-nav">
+                                        <li class="dropdown-item">
+                                            <a href="/history" title="ประวัติความเป็นมา" class="dropdown-link">ประวัติความเป็นมา</a>
+                                        </li>
 
-                                    <li class="dropdown-item">
-                                        <a href="/vision-mission" title="วิสัยทัศน์ พันธกิจ" class="dropdown-link">วิสัยทัศน์ พันธกิจ</a>
-                                    </li>
+                                        <li class="dropdown-item">
+                                            <a href="/vision-mission" title="วิสัยทัศน์ พันธกิจ" class="dropdown-link">วิสัยทัศน์ พันธกิจ</a>
+                                        </li>
 
-                                    <li class="dropdown-item">
-                                        <a href="/organization-chart" title="ผังโครงสร้างองค์กร" class="dropdown-link">ผังโครงสร้างองค์กร</a>
-                                    </li>
+                                        <li class="dropdown-item">
+                                            <a href="/organization-chart" title="ผังโครงสร้างองค์กร" class="dropdown-link">ผังโครงสร้างองค์กร</a>
+                                        </li>
 
-                                    <li class="dropdown-item">
-                                        <a href="/responsibility" title="ภารกิจ และหน้าที่รับผิดชอบของหน่วยงาน" class="dropdown-link">ภารกิจ และหน้าที่รับผิดชอบของหน่วยงาน</a>
-                                    </li>
+                                        <li class="dropdown-item">
+                                            <a href="/responsibility" title="ภารกิจ และหน้าที่รับผิดชอบของหน่วยงาน" class="dropdown-link">ภารกิจ และหน้าที่รับผิดชอบของหน่วยงาน</a>
+                                        </li>
 
-                                    <li class="dropdown-item">
-                                        <a href="/strategic" title="ยุทธศาสตร์ แผนปฏิบัติราชการ" class="dropdown-link">ยุทธศาสตร์ แผนปฏิบัติราชการ</a>
-                                    </li>
+                                        <li class="dropdown-item">
+                                            <a href="/strategic" title="ยุทธศาสตร์ แผนปฏิบัติราชการ" class="dropdown-link">ยุทธศาสตร์ แผนปฏิบัติราชการ</a>
+                                        </li>
 
-                                    <li class="dropdown-item">
-                                        <a href="/institute" title="หน่วยงานที่รับผิดชอบข้อมูล" class="dropdown-link">หน่วยงานที่รับผิดชอบข้อมูล</a>
-                                    </li>
+                                        <li class="dropdown-item">
+                                            <a href="/institute" title="หน่วยงานที่รับผิดชอบข้อมูล" class="dropdown-link">หน่วยงานที่รับผิดชอบข้อมูล</a>
+                                        </li>
 
-                                    <li class="dropdown-item">
-                                        <a href="/contact" title="ข้อมูลการติดต่อ" class="dropdown-link">ข้อมูลการติดต่อ</a>
-                                    </li>
+                                        <li class="dropdown-item">
+                                            <a href="/contact" title="ข้อมูลการติดต่อ" class="dropdown-link">ข้อมูลการติดต่อ</a>
+                                        </li>
 
-                                    <li class="dropdown-item">
-                                        <a href="#nogo" title="วิสัยทัศน์ และนโยบายต่างๆ ด้านเทคโนโลยีสารสนเทศ" class="dropdown-link">วิสัยทัศน์ และนโยบายต่างๆ ด้านเทคโนโลยีสารสนเทศ</a>
-                                    </li>
+                                        <li class="dropdown-item">
+                                            <a href="#nogo" title="วิสัยทัศน์ และนโยบายต่างๆ ด้านเทคโนโลยีสารสนเทศ" class="dropdown-link">วิสัยทัศน์ และนโยบายต่างๆ ด้านเทคโนโลยีสารสนเทศ</a>
+                                        </li>
 
-                                    <li class="dropdown-item">
-                                        <a href="/boards" title="คณะกรรมการ" class="dropdown-link">คณะกรรมการ</a>
-                                    </li>
+                                        <li class="dropdown-item">
+                                            <a href="/boards" title="คณะกรรมการ" class="dropdown-link">คณะกรรมการ</a>
+                                        </li>
 
-                                    <li class="dropdown-item">
-                                        <a href="/executive" title="ทำเนียบผู้บริหารระดับสูง" class="dropdown-link">ทำเนียบผู้บริหารระดับสูง</a>
-                                    </li>
+                                        <li class="dropdown-item">
+                                            <a href="/executive" title="ทำเนียบผู้บริหารระดับสูง" class="dropdown-link">ทำเนียบผู้บริหารระดับสูง</a>
+                                        </li>
 
-                                    <li class="dropdown-item">
-                                        <a href="/declaration" title="การเปิดเผยข้อมูลสาธารณะ" class="dropdown-link">การเปิดเผยข้อมูลสาธารณะ</a>
-                                    </li>
+                                        <li class="dropdown-item">
+                                            <a href="/declaration" title="การเปิดเผยข้อมูลสาธารณะ" class="dropdown-link">การเปิดเผยข้อมูลสาธารณะ</a>
+                                        </li>
 
-                                    <!-- <li class="dropdown-item">
-                                        <a href="/ITA" title="ITA" class="dropdown-link">ITA</a>
-                                    </li> -->
-                                </ul>
+                                        <!-- <li class="dropdown-item">
+                                            <a href="/ITA" title="ITA" class="dropdown-link">ITA</a>
+                                        </li> -->
+                                    </ul>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <h3>เกี่ยวกับเรา2</h3>
+                                    <ul class="dropdown-nav">
+                                        <li class="dropdown-item">
+                                            <a href="/history" title="ประวัติความเป็นมา" class="dropdown-link">ประวัติความเป็นมา</a>
+                                        </li>
+
+                                        <li class="dropdown-item">
+                                            <a href="/vision-mission" title="วิสัยทัศน์ พันธกิจ" class="dropdown-link">วิสัยทัศน์ พันธกิจ</a>
+                                        </li>
+
+                                        <li class="dropdown-item">
+                                            <a href="/organization-chart" title="ผังโครงสร้างองค์กร" class="dropdown-link">ผังโครงสร้างองค์กร</a>
+                                        </li>
+
+                                        <li class="dropdown-item">
+                                            <a href="/responsibility" title="ภารกิจ และหน้าที่รับผิดชอบของหน่วยงาน" class="dropdown-link">ภารกิจ และหน้าที่รับผิดชอบของหน่วยงาน</a>
+                                        </li>
+
+                                        <li class="dropdown-item">
+                                            <a href="/strategic" title="ยุทธศาสตร์ แผนปฏิบัติราชการ" class="dropdown-link">ยุทธศาสตร์ แผนปฏิบัติราชการ</a>
+                                        </li>
+
+                                        <li class="dropdown-item">
+                                            <a href="/institute" title="หน่วยงานที่รับผิดชอบข้อมูล" class="dropdown-link">หน่วยงานที่รับผิดชอบข้อมูล</a>
+                                        </li>
+
+                                        <li class="dropdown-item">
+                                            <a href="/contact" title="ข้อมูลการติดต่อ" class="dropdown-link">ข้อมูลการติดต่อ</a>
+                                        </li>
+
+                                        <li class="dropdown-item">
+                                            <a href="#nogo" title="วิสัยทัศน์ และนโยบายต่างๆ ด้านเทคโนโลยีสารสนเทศ" class="dropdown-link">วิสัยทัศน์ และนโยบายต่างๆ ด้านเทคโนโลยีสารสนเทศ</a>
+                                        </li>
+
+                                        <li class="dropdown-item">
+                                            <a href="/boards" title="คณะกรรมการ" class="dropdown-link">คณะกรรมการ</a>
+                                        </li>
+
+                                        <li class="dropdown-item">
+                                            <a href="/executive" title="ทำเนียบผู้บริหารระดับสูง" class="dropdown-link">ทำเนียบผู้บริหารระดับสูง</a>
+                                        </li>
+
+                                        <li class="dropdown-item">
+                                            <a href="/declaration" title="การเปิดเผยข้อมูลสาธารณะ" class="dropdown-link">การเปิดเผยข้อมูลสาธารณะ</a>
+                                        </li>
+
+                                        <!-- <li class="dropdown-item">
+                                            <a href="/ITA" title="ITA" class="dropdown-link">ITA</a>
+                                        </li> -->
+                                    </ul>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <h3>เกี่ยวกับเรา3</h3>
+                                    <ul class="dropdown-nav">
+                                        <li class="dropdown-item">
+                                            <a href="/history" title="ประวัติความเป็นมา" class="dropdown-link">ประวัติความเป็นมา</a>
+                                        </li>
+
+                                        <li class="dropdown-item">
+                                            <a href="/vision-mission" title="วิสัยทัศน์ พันธกิจ" class="dropdown-link">วิสัยทัศน์ พันธกิจ</a>
+                                        </li>
+
+                                        <li class="dropdown-item">
+                                            <a href="/organization-chart" title="ผังโครงสร้างองค์กร" class="dropdown-link">ผังโครงสร้างองค์กร</a>
+                                        </li>
+
+                                        <li class="dropdown-item">
+                                            <a href="/responsibility" title="ภารกิจ และหน้าที่รับผิดชอบของหน่วยงาน" class="dropdown-link">ภารกิจ และหน้าที่รับผิดชอบของหน่วยงาน</a>
+                                        </li>
+
+                                        <li class="dropdown-item">
+                                            <a href="/strategic" title="ยุทธศาสตร์ แผนปฏิบัติราชการ" class="dropdown-link">ยุทธศาสตร์ แผนปฏิบัติราชการ</a>
+                                        </li>
+
+                                        <li class="dropdown-item">
+                                            <a href="/institute" title="หน่วยงานที่รับผิดชอบข้อมูล" class="dropdown-link">หน่วยงานที่รับผิดชอบข้อมูล</a>
+                                        </li>
+
+                                        <li class="dropdown-item">
+                                            <a href="/contact" title="ข้อมูลการติดต่อ" class="dropdown-link">ข้อมูลการติดต่อ</a>
+                                        </li>
+
+                                        <li class="dropdown-item">
+                                            <a href="#nogo" title="วิสัยทัศน์ และนโยบายต่างๆ ด้านเทคโนโลยีสารสนเทศ" class="dropdown-link">วิสัยทัศน์ และนโยบายต่างๆ ด้านเทคโนโลยีสารสนเทศ</a>
+                                        </li>
+
+                                        <li class="dropdown-item">
+                                            <a href="/boards" title="คณะกรรมการ" class="dropdown-link">คณะกรรมการ</a>
+                                        </li>
+
+                                        <li class="dropdown-item">
+                                            <a href="/executive" title="ทำเนียบผู้บริหารระดับสูง" class="dropdown-link">ทำเนียบผู้บริหารระดับสูง</a>
+                                        </li>
+
+                                        <li class="dropdown-item">
+                                            <a href="/declaration" title="การเปิดเผยข้อมูลสาธารณะ" class="dropdown-link">การเปิดเผยข้อมูลสาธารณะ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                </div>
                             </div>
                         </li>
 
