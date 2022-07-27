@@ -792,7 +792,8 @@ html, body{
         }
 
         p{
-            word-break: break-all;
+            word-break: break-word;
+            
             a{
                 color: $darkgray;
                 text-decoration: underline;
