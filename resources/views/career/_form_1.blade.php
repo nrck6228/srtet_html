@@ -129,7 +129,7 @@
                                         </div>
                                         <div class="col-lg-9">
                                             <div class="row">
-                                                <div class="col-lg-4">
+                                                <div class="col-lg-3">
                                                     <div class="form-group form--float">
                                                         <select class="form-select" aria-label="Default select example">
                                                             <option selected="true" value="title">คำนำหน้า</option>
@@ -140,19 +140,29 @@
                                                         <label class="did-floating-label">คำนำหน้า<span class="req">*</span></label>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4">
+                                                <div class="col-lg-3">
+                                                    <div class="form-group form--float">
+                                                        <input id="prefix_other_th" class="form-control" type="text" placeholder="" value="" disabled>
+                                                        <label>ระบุ<span class="req">*</span></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-6">
                                                     <div class="form-group form--float">
                                                         <input class="form-control" type="text" placeholder="" value="">
                                                         <label>ชื่อ<span class="req">*</span></label>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4">
+                                                <div class="col-lg-6">
                                                     <div class="form-group form--float">
                                                         <input class="form-control" type="text" placeholder="" value="">
                                                         <label>นามสกุล<span class="req">*</span></label>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4">
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-3">
                                                     <div class="form-group form--float">
                                                         <select class="form-select" aria-label="Default select example">
                                                             <option value="title">Prefix</option>
@@ -163,55 +173,65 @@
                                                         <label class="did-floating-label">Prefix<span class="req">*</span></label>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4">
+                                                <div class="col-lg-3">
+                                                    <div class="form-group form--float">
+                                                        <input id="prefix_other_en" class="form-control" type="text" placeholder="" value="" disabled>
+                                                        <label>ระบุ<span class="req">*</span></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-6">
                                                     <div class="form-group form--float">
                                                         <input class="form-control" type="text" placeholder="" value="">
                                                         <label>Name<span class="req">*</span></label>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4">
+                                                <div class="col-lg-6">
                                                     <div class="form-group form--float">
                                                         <input class="form-control" type="text" placeholder="" value="">
                                                         <label>Surname<span class="req">*</span></label>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4">
+                                            </div>
+                                            <div class="row">    
+                                                <div class="col-lg-6">
                                                     <div class="form-group form--float">
                                                         <input class="form-control" type="text" placeholder="" value="">
                                                         <label>ชื่อเล่น</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4">
+                                                <div class="col-lg-6">
                                                     <div class="form-group form--float icon icon__date">
                                                         <input id="hbd_date" class="form-control hbd-date" type="text" placeholder="" value="" readonly>
                                                         <label>วันเกิด<span class="req">*</span></label>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4">
+                                                <div class="col-lg-3">
                                                     <div class="form-group form--float">
                                                         <input id="age" class="form-control" type="text" placeholder="" value="">
                                                         <label>อายุ (ปี)</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4">
+                                                <div class="col-lg-3">
                                                     <div class="form-group form--float">
                                                         <input class="form-control" type="text" placeholder="" value="">
                                                         <label>เชื้อชาติ</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4">
+                                                <div class="col-lg-3">
                                                     <div class="form-group form--float">
                                                         <input class="form-control" type="text" placeholder="" value="">
                                                         <label>สัญชาติ</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4">
+                                                <div class="col-lg-3">
                                                     <div class="form-group form--float">
                                                         <input class="form-control" type="text" placeholder="" value="">
                                                         <label>ศาสนา</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4">
+                                                <div class="col-lg-6">
                                                     <div class="form-group form--float">
                                                         <input class="form-control" type="text" placeholder="" value="">
                                                         <label>เลขที่บัตรประชาชน</label>
@@ -272,19 +292,19 @@
                                 <div class="col-lg-6">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
-                                        <label>ชื่อบุคคลและช่องทางการติดต่อสำรอง<span class="req">*</span></label>
+                                        <label></label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
-                                        <label>ความสัมพันธ์<span class="req">*</span></label>
+                                        <label>ความสัมพันธ์</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
-                                        <label>เบอร์โทรศัพท์มือถือ<span class="req">*</span></label>
+                                        <label>เบอร์โทรศัพท์มือถือ</label>
                                     </div>
                                 </div>
                                 <!-- <div class="col-lg-3">
@@ -332,7 +352,7 @@
                             <div class="row">
                                 <div class="col-lg-3">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_1" id="choice_1">
+                                        <input class="form-check-input check--only" type="checkbox" name="question_1" id="choice_1">
                                         <label class="form-check-label" for="choice_1">
                                             เกณฑ์แล้ว
                                         </label>
@@ -340,7 +360,7 @@
                                 </div>
                                 <div class="col-lg-3">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_1" id="choice_2">
+                                        <input class="form-check-input check--only" type="checkbox" name="question_1" id="choice_2">
                                         <label class="form-check-label" for="choice_2">
                                             ยังไม่เกณฑ์
                                         </label>
@@ -348,12 +368,12 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-check form-check--other">
-                                        <input class="form-check-input" type="radio" name="question_1" id="choice_3">
+                                        <input class="form-check-input check--only" type="checkbox" name="question_1" id="choice_3">
                                         <label class="form-check-label" for="choice_3">
                                             ได้รับการยกเว้น (ระบุ)
                                         </label>
                                         <span class="form-group form--float form-input-other">
-                                            <input class="form-control" type="text" placeholder="" value="" disabled>
+                                            <input id="soldier_status_other" class="form-control" type="text" placeholder="" value="" disabled>
                                             <label>ระบุ</label>
                                         </span>
                                     </div>
@@ -541,4 +561,27 @@
         
     </script>
 
+@endpush
+
+
+@push('script-custom')
+    <script>
+        $("#choice_3").click(function () {
+            var $this = $(this);
+            if($this.is(":checked")){
+                $('#soldier_status_other').prop("disabled", false);
+            } else {
+                $('#soldier_status_other').prop("disabled", true);
+            }
+        });
+
+        $(".check--only").click(function () {
+            var $this = $(this);
+            if($this.is(":checked")){
+                $(".check--only").not($this).prop({ disabled: true, checked: false });
+            } else {
+                $(".check--only").prop("disabled", false);
+            }
+        });
+    </script>
 @endpush

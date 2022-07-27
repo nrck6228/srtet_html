@@ -115,6 +115,8 @@
 
         @stack('script-inputfile')
 
+        @stack('script-custom')
+
         @stack('script-addform')
 
         @stack('script-accordion')
