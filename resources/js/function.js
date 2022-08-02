@@ -44,15 +44,15 @@ $(".hamburger").click(function(){
 
 
 $(".regularFont").click(function(){
-    $("html").css("font-size",'100' + "%");
+    $("html").css("font-size",'90' + "%");
 }); 
 
 $(".downFont").click(function(){
-    $("html").css("font-size",'90'+ "%");
+    $("html").css("font-size",'80'+ "%");
 }); 
 
 $(".upFont").click(function(){
-    $("html").css("font-size",'110' + "%");
+    $("html").css("font-size",'100' + "%");
 }); 
 
 

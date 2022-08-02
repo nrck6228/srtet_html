@@ -1,6 +1,10 @@
+html[lang=en], html[lang=th]{
+    font-size: 90%;
+}
 html, body{
     scroll-behavior: smooth;
     background-color: white;
+    
 
     @media screen and (max-width: 991.98px){
         font-size: 90%;
@@ -10,6 +14,7 @@ html, body{
         font-size: 80%;
     }
 }
+
 
 // Preloader
 .loading--page {
@@ -767,7 +772,7 @@ html, body{
                 margin-bottom: 0.5rem;
                 a{
                     color: $darkgray;
-                    text-decoration: underline;
+                    //text-decoration: underline;
                     &:hover{
                         color: $red;
                     }
@@ -783,7 +788,7 @@ html, body{
             li{
                 a{
                     color: $darkgray;
-                    text-decoration: underline;
+                    //text-decoration: underline;
                     &:hover{
                         color: $red;
                     }
@@ -796,7 +801,7 @@ html, body{
             
             a{
                 color: $darkgray;
-                text-decoration: underline;
+                //text-decoration: underline;
                 &:hover{
                     color: $red;
                 }
