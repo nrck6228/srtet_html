@@ -76,29 +76,32 @@
         }
 
         @include media-breakpoint-down(md) {
-            .icon-slide{
-                display: block;
-                width: 40px;
-                height: 40px;
-                position: absolute;
-                top: 70px;
-                opacity: .7;
-    
-                -webkit-animation: linear infinite;
-                -webkit-animation-name: run;
-                -webkit-animation-duration: 2s;
+            &.show-icon{
+                .icon-slide{
+                    display: block;
+                    width: 40px;
+                    height: 40px;
+                    position: absolute;
+                    top: 120px;
+                    opacity: .7;
+        
+                    -webkit-animation: linear infinite;
+                    -webkit-animation-name: run;
+                    -webkit-animation-duration: 2s;
+                }
             }
+            
         }
 
         @-webkit-keyframes run {
             0% {
-                right: 50px;
+                left: 50px;
             }
             50% {
-                right: 70px;
+                left: 70px;
             }
             100% {
-                right: 50px;    
+                left: 50px;    
             }
         }
     }
