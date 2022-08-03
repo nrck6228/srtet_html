@@ -77,6 +77,10 @@
                                 <h1 class="page__title">เส้นทางรถไฟฟ้าชานเมืองสายสีแดง</h1>
                             </div>
 
+                            <div class="icon-slide">
+                                <img src="{{ asset('assets/images/icon/icon-slide.svg')}}" alt="รถไฟฟ้าสายสีแดง">
+                            </div>
+
                             <div class="route--wrapper">
                                 <div class="route--container">
                                     <div class="main--station">
@@ -318,64 +322,6 @@
                                                     <img src="{{ asset('assets/images/map/icons-08.png')}}" alt="จุดจอดรถ">จุดจอดรถ
                                                 </li>
                                             </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <!-- <div class="map--figure">
-                                <a href="javascript:void(0)" class="map__link station__position">
-                                    <img class="w-100" src="{{ asset('assets/images/map/img-demo-01.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
-                                </a>
-                            </div> -->
-                            
-                            <!-- <div id="mapRoute" class="d-none d-lg-block map--figure">
-                                <div class="map--svg">
-                                    <div class="map--svg--img">
-                                        <div class="map--base">
-                                            <img src="{{ asset('assets/images/map/img-demo-01.jpg')}}" alt="รถไฟฟ้าสายสีแดง" width="1232" height="472">
-                                        </div>
-                                        <div class="station--base">
-                                            <svg version="1.1" id="stationsSvg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="1232" height="472" viewBox="0 0 1232 472" enable-background="new 0 0 1232 472" xml:space="preserve">
-                                                <title>สถานี</title>
-                                                <g id="redLine" class="stations">
-                                                    <g>
-                                                        <g id="station1" class="station__position" link="link">
-                                                            <rect x="60" y="185" opacity="1" fill="#000" width="50" height="50"></rect>
-                                                        </g>
-
-                                                        <g id="station2" class="station__position" link="link">
-                                                            <rect x="180" y="140" opacity="1" fill="#000" width="50" height="50"></rect>
-                                                        </g>
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> -->
-
-                            <div class="d-block d-lg-none map--figure">
-                                <div class="map--base-mobile">
-                                    <a href="{{ asset('assets/images/map/img-demo-01.jpg')}}" title="รถไฟฟ้าสายสีแดง" data-title="false" class="spotlight">
-                                        <img src="{{ asset('assets/images/map/img-demo-01.jpg')}}" alt="รถไฟฟ้าสายสีแดง" class="w-100">
-                                    </a>
-                                </div>
-
-                                <div class="form-filter">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="search__controls">
-                                                <select class="form-select" aria-label="Default select example">
-                                                    <option selected>-- สถานี --</option>
-                                                    <option value="1">One</option>
-                                                    <option value="2">Two</option>
-                                                    <option value="3">Three</option>
-                                                </select>
-                                            </div>    
-                                        </div>
-                                        <div class="col-md-3">
-                                            <button type="button" class="btn btn--primary w-100"><span>ค้นหา</span></button>
                                         </div>
                                     </div>
                                 </div>
