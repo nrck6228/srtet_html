@@ -195,13 +195,13 @@
                                                 </div>
                                             </div>
                                             <div class="row">    
-                                                <div class="col-lg-6">
+                                                <div class="col-lg-3">
                                                     <div class="form-group form--float">
                                                         <input class="form-control" type="text" placeholder="" value="">
                                                         <label>ชื่อเล่น</label>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-6">
+                                                <div class="col-lg-3">
                                                     <div class="form-group form--float icon icon__date">
                                                         <input id="hbd_date" class="form-control hbd-date" type="text" placeholder="" value="" readonly>
                                                         <label>วันเกิด<span class="req">*</span></label>

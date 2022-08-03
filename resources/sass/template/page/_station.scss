@@ -263,7 +263,13 @@
                     align-items: flex-end;
     
                     .station--info{
-                        padding: 20px 0 20px 70px;
+                        padding: 20px 0 20px 45px;
+
+                        &:first-of-type{
+                            &:after{    
+                                left: 17px;
+                            }
+                        }
     
                         &:before{
                             content: '';
@@ -283,7 +289,7 @@
                             line-height: 1.25rem;
                             color: $gray;
                             position: absolute;
-                            left: 20px;
+                            left: 5px;
                             bottom: 10px;
                         }
 
@@ -329,8 +335,14 @@
                     align-items: flex-start;
     
                     .station--info{
-                        padding: 20px 0 20px 70px;
+                        padding: 20px 0 20px 45px;
     
+                        &:first-of-type{
+                            &:after{    
+                                left: 17px;
+                            }
+                        }
+
                         &:before{
                             content: '';
                             width: 100%;
@@ -350,7 +362,7 @@
                             line-height: 1.25rem;
                             color: $gray;
                             position: absolute;
-                            left: 20px;
+                            left: 5px;
                             top: 10px;
                         }
 
@@ -595,3 +607,4 @@
         }
     }
 }
+
