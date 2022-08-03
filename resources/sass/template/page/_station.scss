@@ -176,22 +176,23 @@
         align-items: stretch;
         width: min-content;
         max-width: 100%;
+        overflow: none;
         overflow-x: auto;
 
-        &::-webkit-scrollbar-track
-        {
-            background-color: rgba($color: $gray, $alpha: 0.5);
-        }
-        &::-webkit-scrollbar
-        {
-            // width: 2px;
-            height: 6px;
-            background-color: rgba($color: $gray, $alpha: 0.5);
-        }
-        &::-webkit-scrollbar-thumb
-        {
-            background-color: $red;
-        }
+        // &::-webkit-scrollbar-track
+        // {
+        //     background-color: rgba($color: $gray, $alpha: 0.5);
+        // }
+        // &::-webkit-scrollbar
+        // {
+        //     // width: 2px;
+        //     height: 6px;
+        //     background-color: rgba($color: $gray, $alpha: 0.5);
+        // }
+        // &::-webkit-scrollbar-thumb
+        // {
+        //     background-color: $red;
+        // }
 
         .main--station{
             display: flex;
