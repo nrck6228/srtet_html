@@ -1618,6 +1618,25 @@
                 var value=$(this).attr('data-src');
                 $(".events--figure img").attr("src", value);
             });
+
+
+            $(function() {
+                var content = $('.map--wrapper');
+                var hieghtThreshold = $(".home--route").offset().top;
+                $(window).scroll(function() {
+                    var scroll = $(window).scrollTop();
+
+                    if (scroll >= hieghtThreshold) {
+                        content.addClass('show-icon');
+
+                        // setTimeout(function() { 
+                        //     $('.icon-slide').css('display', 'none');
+                        // }, 10000);
+                    } else {
+                        content.removeClass('show-icon');
+                    }
+                });
+            })
         });
     </script>
 
