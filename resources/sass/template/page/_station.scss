@@ -137,7 +137,8 @@
                 border: 1px solid transparent;
                 transition: all 0.4s ease-in-out;
 
-                padding-top: 15px;
+                padding-top: 20px;
+                padding-bottom: 10px;
 
                 p{
                     margin: 0;
@@ -177,22 +178,24 @@
         width: min-content;
         max-width: 100%;
         overflow: none;
-        overflow-x: auto;
+        overflow-x: scroll;
 
-        // &::-webkit-scrollbar-track
-        // {
-        //     background-color: rgba($color: $gray, $alpha: 0.5);
-        // }
-        // &::-webkit-scrollbar
-        // {
-        //     // width: 2px;
-        //     height: 6px;
-        //     background-color: rgba($color: $gray, $alpha: 0.5);
-        // }
-        // &::-webkit-scrollbar-thumb
-        // {
-        //     background-color: $red;
-        // }
+        -webkit-overflow-scrolling: touch;
+
+        &::-webkit-scrollbar-track
+        {
+            background-color: rgba($color: $gray, $alpha: 0.5);
+        }
+        &::-webkit-scrollbar
+        {
+            // width: 2px;
+            height: 6px;
+            background-color: rgba($color: $gray, $alpha: 0.5);
+        }
+        &::-webkit-scrollbar-thumb
+        {
+            background-color: $red;
+        }
 
         .main--station{
             display: flex;
@@ -545,6 +548,7 @@
 
     @include media-breakpoint-down(md) {
         .route--container{
+            width: 1024px;
             .main--station{
                 &__view{
                     margin-right: 0.5rem;
