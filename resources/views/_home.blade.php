@@ -1628,10 +1628,6 @@
 
                     if (scroll >= hieghtThreshold) {
                         content.addClass('show-icon');
-
-                        // setTimeout(function() { 
-                        //     $('.icon-slide').css('display', 'none');
-                        // }, 10000);
                     } else {
                         content.removeClass('show-icon');
                     }

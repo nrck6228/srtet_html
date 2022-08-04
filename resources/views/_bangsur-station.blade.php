@@ -175,7 +175,7 @@
                                     <div class="facilities--list">
                                         <h3>สิ่งอำนวยความสะดวก</h3>
 
-                                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                                        <div class="row row-cols-2 row-cols-lg-2 row-cols-xl-3">
                                             <div class="col">
                                                 <a href="javascript:void(0)" class="facilities__item" data-bs-toggle="modal" data-bs-target="#facilitiesModal">
                                                     <img class="img-fluid" src="{{ asset('assets/images/facilities/escalator.svg')}}" alt="รถไฟฟ้าสายสีแดง">
