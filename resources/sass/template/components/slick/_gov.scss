@@ -7,6 +7,12 @@
         justify-content: center;
         align-items: center;
         min-height: 130px;
+
+        .slider__figure{
+            .slider__image{
+                margin: auto;
+            }
+        }
     }
 
     //overwrite slick

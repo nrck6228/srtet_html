@@ -10,17 +10,22 @@
                     <div class="gov--slider">
                         <a href="#" title="" class="slider__item">
                             <div class="slider__figure">
-                                <img class="slider__image" src="{{ asset('assets/images/slider/gov/demo-01.png')}}" alt="รถไฟฟ้าสายสีแดง">
+                                <img class="slider__image" src="http://49.231.166.164/upload_fm/Partner/Logo14-02.jpg" alt="รถไฟฟ้าสายสีแดง">
                             </div>
                         </a>
                         <a href="#" title="" class="slider__item">
                             <div class="slider__figure">
-                                <img class="slider__image" src="{{ asset('assets/images/slider/gov/demo-02.png')}}" alt="รถไฟฟ้าสายสีแดง">
+                                <img class="slider__image" src="http://49.231.166.164/upload_fm/Partner/Logo16-02.jpg" alt="รถไฟฟ้าสายสีแดง">
                             </div>
                         </a>
                         <a href="#" title="" class="slider__item">
                             <div class="slider__figure">
-                                <img class="slider__image" src="{{ asset('assets/images/slider/gov/demo-03.png')}}" alt="รถไฟฟ้าสายสีแดง">
+                                <img class="slider__image" src="http://49.231.166.164/upload_fm/Partner/Logo15-02.jpg" alt="รถไฟฟ้าสายสีแดง">
+                            </div>
+                        </a>
+                        <a href="#" title="" class="slider__item">
+                            <div class="slider__figure">
+                                <img class="slider__image" src="http://49.231.166.164/upload_fm/Partner/img-infocenter.png" alt="รถไฟฟ้าสายสีแดง">
                             </div>
                         </a>
                     </div>
@@ -275,7 +280,7 @@
                     <div class="partner--slider">
                         <a href="#" title="" class="slider__item">
                             <div class="slider__figure">
-                                <img class="slider__image" src="{{ asset('assets/images/slider/partner/demo-01.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                                <img class="slider__image" src="http://49.231.166.164/upload_fm/home_banner_partner/demo-01.jpg" alt="รถไฟฟ้าสายสีแดง">
 
                                 <div class="slider__caption">
                                     กระทรวงคมนาคม
@@ -284,31 +289,16 @@
                         </a>
                         <a href="#" title="" class="slider__item">
                             <div class="slider__figure">
-                                <img class="slider__image" src="{{ asset('assets/images/slider/partner/demo-02.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                                <img class="slider__image" src="http://49.231.166.164/upload_fm/home_banner_partner/demo-03.jpg" alt="รถไฟฟ้าสายสีแดง">
                             </div>
                         </a>
                         <a href="#" title="" class="slider__item">
                             <div class="slider__figure">
-                                <img class="slider__image" src="{{ asset('assets/images/slider/partner/demo-03.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
+                                <img class="slider__image" src="http://49.231.166.164/upload_fm/home_banner_partner/demo-02.jpg" alt="รถไฟฟ้าสายสีแดง">
 
                                 <div class="slider__caption">
                                     การรถไฟแห่งประเทศไทย
                                 </div>
-                            </div>
-                        </a>
-                        <a href="#" title="" class="slider__item">
-                            <div class="slider__figure">
-                                <img class="slider__image" src="{{ asset('assets/images/slider/partner/demo-01.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
-                            </div>
-                        </a>
-                        <a href="#" title="" class="slider__item">
-                            <div class="slider__figure">
-                                <img class="slider__image" src="{{ asset('assets/images/slider/partner/demo-02.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
-                            </div>
-                        </a>
-                        <a href="#" title="" class="slider__item">
-                            <div class="slider__figure">
-                                <img class="slider__image" src="{{ asset('assets/images/slider/partner/demo-03.jpg')}}" alt="รถไฟฟ้าสายสีแดง">
                             </div>
                         </a>
                     </div>
