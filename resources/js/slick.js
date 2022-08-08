@@ -52,11 +52,23 @@ $(document).ready(function(){
         slidesToScroll: 1,
         responsive: [
             {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
                 breakpoint: 769,
                 settings: {
                     slidesToShow: 2,
-                },
+                }
             },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
         ],
     });
 
