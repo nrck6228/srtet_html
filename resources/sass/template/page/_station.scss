@@ -505,14 +505,16 @@
 
         ul{
             margin: 0;
-            padding: 0 1rem;
-            column-count: 2;
+            padding: 0;
+            // column-count: 2;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
 
             li{
                 display: flex;
                 justify-content: flex-start;
                 align-items: center;
-                margin-bottom: 1rem;
+                margin-bottom: 1.5rem;
                 font-weight: bold;
                 font-size: 1.5rem;
                 line-height: 1.875rem;
@@ -528,6 +530,7 @@
         @include media-breakpoint-down(md){
             ul{
                 padding: 0;
+                grid-template-columns: auto auto auto;
 
                 li{
                     font-size: 1.5rem;
@@ -542,6 +545,12 @@
                         top: 3px;
                     }
                 }
+            }
+        }
+
+        @include media-breakpoint-down(sm){
+            ul{
+                grid-template-columns: auto auto;
             }
         }
     }

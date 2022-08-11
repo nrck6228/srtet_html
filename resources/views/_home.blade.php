@@ -287,14 +287,14 @@
                                 </div>
                                 
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-12">
                                         <div class="route--remark">
                                             <div class="remark__left">
                                                 <span>*</span>คลิก <span class="point"></span> เพื่อดูรายละเอียดสถานี
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-12">
                                         <div class="route--connection">
                                             <ul>
                                                 <li>
