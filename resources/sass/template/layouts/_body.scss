@@ -758,8 +758,9 @@ html, body{
     */
     
     .ck-content{
-        font-size: 1.5rem;
-        line-height: 1.625rem;
+        font-family: 'Tahoma', Arial, Helvetica, sans-serif;
+        // font-size: 1.5rem;
+        // line-height: 1.625rem;
 
         ul{
             padding: 0;
@@ -797,6 +798,7 @@ html, body{
         }
 
         p{
+            font-family: 'Tahoma', Arial, Helvetica, sans-serif;
             word-break: break-word;
             
             a{

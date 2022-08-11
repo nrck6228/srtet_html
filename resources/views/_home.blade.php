@@ -22,8 +22,8 @@
                                 ยกระดับคุณภาพชีวิตชานเมือง
                             </h3>
                         </div>
-                    </div>
-                    -->
+                    </div> -->
+                   
 
                     <div class="item image">
                         <a href="https://www.google.co.th" title="รถไฟฟ้าสายสีแดง" target="_blank" class="slide-link">
@@ -1597,9 +1597,11 @@
             //start the slider
             slideWrapper.slick({
                 // fade:true,
-                autoplaySpeed:4000,
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 10000,
+                speed: 1000,
                 lazyLoad:"progressive",
-                speed:600,
                 arrows:false,
                 dots:true,
                 cssEase:"cubic-bezier(0.87, 0.03, 0.41, 0.9)"
