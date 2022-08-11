@@ -356,6 +356,7 @@
                 }
 
                 .h4{
+                    
                     color: $darkgray;
                 }
             }
@@ -415,9 +416,12 @@
             -webkit-box-orient: vertical;
             overflow: hidden;
             text-overflow: ellipsis;
-            
-            font-size: 1.5rem;
-            line-height: 1.875rem;
+            font-family: 'Tahoma', Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+            font-weight: normal;
+            // font-size: 1.5rem;
+            // line-height: 1.875rem;
             color: $gray;
         }
     }
@@ -496,7 +500,10 @@
                 }
 
                 .card__desc{
-                    font-weight: bold;
+                    font-weight: normal;
+                    font-family: 'Tahoma', Arial, Helvetica, sans-serif;
+                    font-size: 14px;
+                    line-height: 1.5;
                     color: $gray;
                     transition: all 0.4s ease-in-out;
                 }
