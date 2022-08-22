@@ -1,4 +1,7 @@
 @media print {
+    body{
+        -webkit-print-color-adjust: exact;
+    }
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
         float: left;
     }
@@ -149,9 +152,7 @@
     //form
     .d-print-block{
         // suggresstion
-        .col-lg-3 {
-            width: 50%;
-        }
+        
         //survey-detail
         .form--dynamic{
             width: calc(50% - 15px);
@@ -167,8 +168,39 @@
         
     }
     .form-group-wrapper .form-group--section{
-        margin-bottom: 10px !important;
+        margin-bottom: 15px !important;
     }
+    .form-group-wrapper .form-group--section .block-title-print{
+        display: inline-block;
+        background-color: #BC1320;
+        padding: 0 5px;
+    }
+    .form-group-wrapper .form-group--section .block-content-print{
+        background-color: #FFF2F2;
+        padding: 10px 5px;
+    }
+    .form-group-wrapper .form-group--section .block-content-print--table{
+        background-color: #FFF2F2;
+        padding: 10px 0 0 !important;
+    }
+    .form-group-wrapper .form-group--section .block-content-print .table{
+        margin-bottom: 0 !important;
+    }
+    .form-group-wrapper .form-group--section .block-content-print .table--print tbody tr td.fixed{
+        width: 300px !important;
+    }
+    .form-group-wrapper .form-group--section .block-title-print .text-red{
+        color: #fff !important;
+    }
+    .form-group-wrapper .form-group--section .block-title-print .text-red .sub-title{
+        color: #fff !important;
+    }
+    .form-group-wrapper .form-group--section .mb-3{
+        margin-bottom: 0 !important;
+    }
+    // .form-group-wrapper .form--text label{
+    //     color: #e9e9e9 !important;
+    // }
     .form-group-wrapper .form-check{
         margin-bottom: 10px;
     }
