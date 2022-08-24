@@ -73,8 +73,20 @@
                 <div class="tab-content" id="myTabContent" data-aos="fade-up">
                     <div class="tab-pane fade show active" id="route" role="tabpanel" aria-labelledby="route-tab">
                         <div class="map--wrapper">
-                            <div class="title--page mb-3 mb-md-4">
+                            <div class="title--page mb-3 mb-md-4 justify-content-between flex-wrap">
                                 <h1 class="page__title">เส้นทางรถไฟฟ้าชานเมืองสายสีแดง</h1>
+
+                                <div class="route--remark">
+                                    <div class="remark__left">
+                                        <span>*</span>คลิก 
+                                        <span class="point_cap">
+                                            <span class="up"></span>
+                                            <span class="bottom"></span>
+                                        </span>
+                                        <span class="point"></span>
+                                        เพื่อดูรายละเอียดสถานี
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="icon-slide">
@@ -287,13 +299,13 @@
                                 </div>
                                 
                                 <div class="row">
-                                    <div class="col-md-12">
+                                    <!-- <div class="col-md-12">
                                         <div class="route--remark">
                                             <div class="remark__left">
                                                 <span>*</span>คลิก <span class="point"></span> เพื่อดูรายละเอียดสถานี
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="col-md-12">
                                         <div class="route--connection">
                                             <ul>
