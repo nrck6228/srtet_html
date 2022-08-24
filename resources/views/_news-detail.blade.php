@@ -52,24 +52,30 @@
                     <div class="content__gallery">
                         <div class="gallery__for">
                             <div class="item">
-                                <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="">
+                                <img src="http://49.231.166.164/upload_fm/SMB Marketing/ภาพกิจกรรมวันแม่แห่งชาติ 65/วันแม่ 65/23.jpg" alt="">
                             </div>
                             <div class="item">
-                                <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="">
+                                <img src="http://49.231.166.164/upload_fm/SMB Marketing/ภาพกิจกรรมวันแม่แห่งชาติ 65/วันแม่ 65/24.jpg" alt="">
                             </div>
                             <div class="item">
-                                <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="">
+                                <img src="http://49.231.166.164/upload_fm/SMB Marketing/ภาพกิจกรรมวันแม่แห่งชาติ 65/วันแม่ 65/26.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="http://49.231.166.164/upload_fm/SMB Marketing/ภาพกิจกรรมวันแม่แห่งชาติ 65/วันแม่ 65/22.jpg" alt="">
                             </div>
                         </div>
                         <div class="gallery__nav">
                             <div class="item">
-                                <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="">
+                                <img src="http://49.231.166.164/upload_fm/SMB Marketing/ภาพกิจกรรมวันแม่แห่งชาติ 65/วันแม่ 65/23.jpg" alt="">
                             </div>
                             <div class="item">
-                                <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="">
+                                <img src="http://49.231.166.164/upload_fm/SMB Marketing/ภาพกิจกรรมวันแม่แห่งชาติ 65/วันแม่ 65/24.jpg" alt="">
                             </div>
                             <div class="item">
-                                <img src="{{ asset('assets/images/news/img-news1.png')}}" alt="">
+                                <img src="http://49.231.166.164/upload_fm/SMB Marketing/ภาพกิจกรรมวันแม่แห่งชาติ 65/วันแม่ 65/26.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="http://49.231.166.164/upload_fm/SMB Marketing/ภาพกิจกรรมวันแม่แห่งชาติ 65/วันแม่ 65/22.jpg" alt="">
                             </div>
                         </div>
                     </div>
