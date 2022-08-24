@@ -622,3 +622,74 @@
     }
 }
 
+.map--wrapper{
+    .route--remark{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        //margin-top: 1.5rem;
+
+        .remark__left{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            font-weight: bold;
+            font-size: 1.5rem;
+            line-height: 1.875rem;
+            color: $gray;
+
+            .point{
+                display: inline-block;
+                width: 32px;
+                height: 32px;
+                background-color: white;
+                border-radius: 50%;
+                border: 4px solid $red;
+                padding: 0.5rem;
+                margin: 0 0.5rem;
+                max-width: 100%;
+                z-index: 10;
+                position: relative;
+                transition: all .25s ease-out;
+            }
+
+            .point_cap{
+                padding-left: 10px;
+                padding-right: 10px;
+                border-right: 1px solid #D05A63;
+                .up{
+                    width: 15px;
+                    height: 15px;
+                    display: block;
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
+                    background-color: #BC1320;
+                }
+                .bottom{
+                    width: 15px;
+                    height: 15px;
+                    display: block;
+                    border-bottom-left-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                    background-color: #D05A63;
+                }
+            }
+        }
+
+        .remark__right{
+            font-weight: bold;
+            font-size: 1.5rem;
+            line-height: 1.875rem;
+            color: $gray;
+        }
+
+        @include media-breakpoint-down(md){
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-top: 5px;
+        }
+    }
+}
+
