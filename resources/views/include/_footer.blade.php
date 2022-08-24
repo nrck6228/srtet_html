@@ -529,12 +529,12 @@
         </div>
 
         <div class="modal--wrapper__body">
-            <h3 class="privacy--title">เกี่ยวกับความเป็นส่วนตัวของคุณ</h3>
+            <h3 class="privacy--title">การตั้งค่าคุกกี้</h3>
             <div class="privacy--description">
-                เราประมวลผลข้อมูลของท่านเพื่อนำเสนอเนื้อหาหรือโฆษณาและวัดผลการส่งมอบเนื้อหาหรือโฆษณาดังกล่าวเพื่อสกัดหาข้อมูลเชิงลึกเกี่ยวกับเว็บไซต์ของเรา เราแบ่งปันข้อมูลนี้กับคู่ค้าของเราโดยยึดตามความยินยอม ท่านอาจใช้สิทธิ์ของท่านในการยินยอม ตามจุดประสงค์ที่เฉพาะเจาะจงด้านล่างนี้หรือที่ระดับคู่ค้าในลิงก์ใต้แต่ละจุดประสงค์ ตัวเลือกเหล่านี้จะถูกส่งสัญญาณต่อไปถึงผู้จำหน่ายของเราที่เข้าร่วมใน Transparency and Consent Framework
-                <br><a href="#nogo" class="privacy--link">ข้อมูลเพิ่มเติม</a>
+                <!-- เราประมวลผลข้อมูลของท่านเพื่อนำเสนอเนื้อหาหรือโฆษณาและวัดผลการส่งมอบเนื้อหาหรือโฆษณาดังกล่าวเพื่อสกัดหาข้อมูลเชิงลึกเกี่ยวกับเว็บไซต์ของเรา เราแบ่งปันข้อมูลนี้กับคู่ค้าของเราโดยยึดตามความยินยอม ท่านอาจใช้สิทธิ์ของท่านในการยินยอม ตามจุดประสงค์ที่เฉพาะเจาะจงด้านล่างนี้หรือที่ระดับคู่ค้าในลิงก์ใต้แต่ละจุดประสงค์ ตัวเลือกเหล่านี้จะถูกส่งสัญญาณต่อไปถึงผู้จำหน่ายของเราที่เข้าร่วมใน Transparency and Consent Framework
+                <br><a href="#nogo" class="privacy--link">ข้อมูลเพิ่มเติม</a> -->
             </div>
-            <button id="accept-recommended-btn-handler" class="btn btn--primary" tabindex="0"><span>อนุญาตทั้งหมด</span></button>
+            <button id="accept-recommended-btn-handler" class="btn btn--primary" tabindex="0"><span>ยอมรับคุกกี้ทั้งหมด</span></button>
             <div class="privacy--group">
                 <h4>
                     จัดการการกำหนดลักษณะความยินยอม
@@ -569,6 +569,11 @@
                     </p>
                 </div>
             </div>
+
+            <div class="privacy--description" style="margin-top: 20px; font-weight: bold;">
+                รายละเอียดนโยบายการใช้คุกกี้ <a href="#nogo" class="privacy--link">เพิ่มเติม</a>
+            </div>
+
         </div>
 
         <div class="modal--wrapper__footer">
