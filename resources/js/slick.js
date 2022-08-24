@@ -94,6 +94,7 @@ $(document).ready(function(){
 
     $('.news--slider').slick({
         centerMode: true,
+        infinite: true,
         centerPadding: '20px',
         slidesToShow: 3,
         responsive: [
