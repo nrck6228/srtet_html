@@ -280,7 +280,7 @@
                     <div class="partner--slider">
                         <a href="#" title="" class="slider__item">
                             <div class="slider__figure">
-                                <img class="slider__image" src="http://49.231.166.164/upload_fm/home_banner_partner/demo-01.jpg" alt="รถไฟฟ้าสายสีแดง">
+                                <img class="slider__image" src="http://siamedigital.com:6699/assets/images/slider/partner/demo-01.jpg" alt="รถไฟฟ้าสายสีแดง">
 
                                 <div class="slider__caption">
                                     กระทรวงคมนาคม
@@ -289,18 +289,118 @@
                         </a>
                         <a href="#" title="" class="slider__item">
                             <div class="slider__figure">
-                                <img class="slider__image" src="http://49.231.166.164/upload_fm/home_banner_partner/demo-03.jpg" alt="รถไฟฟ้าสายสีแดง">
+                                <img class="slider__image" src="http://siamedigital.com:6699/assets/images/slider/partner/demo-02.jpgg" alt="รถไฟฟ้าสายสีแดง">
                             </div>
                         </a>
                         <a href="#" title="" class="slider__item">
                             <div class="slider__figure">
-                                <img class="slider__image" src="http://49.231.166.164/upload_fm/home_banner_partner/demo-02.jpg" alt="รถไฟฟ้าสายสีแดง">
+                                <img class="slider__image" src="http://siamedigital.com:6699/assets/images/slider/partner/demo-03.jpg" alt="รถไฟฟ้าสายสีแดง">
 
                                 <div class="slider__caption">
                                     การรถไฟแห่งประเทศไทย
                                 </div>
                             </div>
                         </a>
+
+                        <a href="#" title="" class="slider__item">
+                            <div class="slider__figure">
+                                <img class="slider__image" src="http://siamedigital.com:6699/assets/images/slider/partner/demo-01.jpg" alt="รถไฟฟ้าสายสีแดง">
+
+                                <div class="slider__caption">
+                                    กระทรวงคมนาคม
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" title="" class="slider__item">
+                            <div class="slider__figure">
+                                <img class="slider__image" src="http://siamedigital.com:6699/assets/images/slider/partner/demo-02.jpgg" alt="รถไฟฟ้าสายสีแดง">
+                            </div>
+                        </a>
+                        <a href="#" title="" class="slider__item">
+                            <div class="slider__figure">
+                                <img class="slider__image" src="http://siamedigital.com:6699/assets/images/slider/partner/demo-03.jpg" alt="รถไฟฟ้าสายสีแดง">
+
+                                <div class="slider__caption">
+                                    การรถไฟแห่งประเทศไทย
+                                </div>
+                            </div>
+                        </a>
+
+
+                        <a href="#" title="" class="slider__item">
+                            <div class="slider__figure">
+                                <img class="slider__image" src="http://siamedigital.com:6699/assets/images/slider/partner/demo-01.jpg" alt="รถไฟฟ้าสายสีแดง">
+
+                                <div class="slider__caption">
+                                    กระทรวงคมนาคม
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" title="" class="slider__item">
+                            <div class="slider__figure">
+                                <img class="slider__image" src="http://siamedigital.com:6699/assets/images/slider/partner/demo-02.jpgg" alt="รถไฟฟ้าสายสีแดง">
+                            </div>
+                        </a>
+                        <a href="#" title="" class="slider__item">
+                            <div class="slider__figure">
+                                <img class="slider__image" src="http://siamedigital.com:6699/assets/images/slider/partner/demo-03.jpg" alt="รถไฟฟ้าสายสีแดง">
+
+                                <div class="slider__caption">
+                                    การรถไฟแห่งประเทศไทย
+                                </div>
+                            </div>
+                        </a>
+
+
+                        <a href="#" title="" class="slider__item">
+                            <div class="slider__figure">
+                                <img class="slider__image" src="http://siamedigital.com:6699/assets/images/slider/partner/demo-01.jpg" alt="รถไฟฟ้าสายสีแดง">
+
+                                <div class="slider__caption">
+                                    กระทรวงคมนาคม
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" title="" class="slider__item">
+                            <div class="slider__figure">
+                                <img class="slider__image" src="http://siamedigital.com:6699/assets/images/slider/partner/demo-02.jpgg" alt="รถไฟฟ้าสายสีแดง">
+                            </div>
+                        </a>
+                        <a href="#" title="" class="slider__item">
+                            <div class="slider__figure">
+                                <img class="slider__image" src="http://siamedigital.com:6699/assets/images/slider/partner/demo-03.jpg" alt="รถไฟฟ้าสายสีแดง">
+
+                                <div class="slider__caption">
+                                    การรถไฟแห่งประเทศไทย
+                                </div>
+                            </div>
+                        </a>
+
+
+                        <a href="#" title="" class="slider__item">
+                            <div class="slider__figure">
+                                <img class="slider__image" src="http://siamedigital.com:6699/assets/images/slider/partner/demo-01.jpg" alt="รถไฟฟ้าสายสีแดง">
+
+                                <div class="slider__caption">
+                                    กระทรวงคมนาคม
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" title="" class="slider__item">
+                            <div class="slider__figure">
+                                <img class="slider__image" src="http://siamedigital.com:6699/assets/images/slider/partner/demo-02.jpgg" alt="รถไฟฟ้าสายสีแดง">
+                            </div>
+                        </a>
+                        <a href="#" title="" class="slider__item">
+                            <div class="slider__figure">
+                                <img class="slider__image" src="http://siamedigital.com:6699/assets/images/slider/partner/demo-03.jpg" alt="รถไฟฟ้าสายสีแดง">
+
+                                <div class="slider__caption">
+                                    การรถไฟแห่งประเทศไทย
+                                </div>
+                            </div>
+                        </a>
+
                     </div>
                 </div>
                 <div class="col">
