@@ -80,12 +80,13 @@ $(document).ready(function(){
         touchMove: false,
         speed: 1000,
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         responsive: [
             {
                 breakpoint: 769,
                 settings: {
                     slidesToShow: 2,
+                    slidesToScroll: 2,
                 },
             },
         ],
