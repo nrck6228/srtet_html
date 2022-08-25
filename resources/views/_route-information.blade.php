@@ -37,7 +37,25 @@
                     <h2 class="page__title text--primary">แผนที่สถานีรถไฟฟ้า</h2>
                 </div>
 
+                
+
                 <div class="map--wrapper">
+                    <div class="route--remark justify-content-end">
+                        <div class="remark__left">
+                            <span>*</span>คลิก 
+                            <span class="point_cap">
+                                <span class="up"></span>
+                                <span class="bottom"></span>
+                            </span>
+                            <span class="point"></span>
+                            เพื่อดูรายละเอียดสถานี
+                        </div>
+                    </div>
+
+                    <div class="icon-slide">
+                        <img src="{{ asset('assets/images/icon/icon-slide.svg')}}" alt="รถไฟฟ้าสายสีแดง">
+                    </div>
+
                     <div class="route--wrapper">
                         <div class="route--container">
                             <div class="main--station">
@@ -235,14 +253,14 @@
                         </div>
                         
                         <div class="row">
-                            <div class="col-md-6">
+                            <!-- <div class="col-md-6">
                                 <div class="route--remark">
                                     <div class="remark__left">
                                         <span>*</span>คลิก <span class="point"></span> เพื่อดูรายละเอียดสถานี
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6">
+                            </div> -->
+                            <div class="col-md-12">
                                 <div class="route--connection">
                                     <ul>
                                         <li>
@@ -317,6 +335,25 @@
             var img = $('<div style="background-color: #000000; width: 100%; height: 100%;"></div>');
             $("#img_container").html(img).offset({ top: event.pageY - 25, left: event.pageX - 25 });
         }
+
+
+
+
+
+        
+        $(function() {
+            var content = $('.map--wrapper');
+            var hieghtThreshold = $(".hero--wrapper").offset().top;
+            $(window).scroll(function() {
+                var scroll = $(window).scrollTop();
+
+                if (scroll >= hieghtThreshold) {
+                    content.addClass('show-icon');
+                } else {
+                    content.removeClass('show-icon');
+                }
+            });
+        })
     </script>   
 @endsection
 
