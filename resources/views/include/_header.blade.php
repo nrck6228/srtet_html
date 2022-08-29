@@ -40,6 +40,18 @@
                             <i class="icon-search"></i>
                         </a>
                     </div>
+                    <div class="search--block search--block__all">
+                        <div class="form-group-wrapper">
+                            <form>
+                                <div class="form-group--section">
+                                    <div class="form-group form--float icon icon__search">
+                                        <input class="form-control" type="text" placeholder="คำค้นหา" value="">
+                                    </div>
+                                    <button type="submit" class="btn btn-icon-search"><i class="icon-search"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                     <div class="language--block">
                         <a href="javascript:void(0)" class="text--link" id="topLang">EN</a>
                     </div>
@@ -477,6 +489,17 @@
                                 <img src="{{ asset('assets/images/icon/tiktok.svg')}}" alt="tiktok">
                             </a>
                         </div>
+                    </div>
+                    <div class="form-group-wrapper" style="padding: 0 15px;">
+                        <form>
+                            <div class="form-group--section">
+                                <div class="form-group form--float icon icon__search">
+                                    <input class="form-control" type="text" placeholder="" value="">
+                                    <label>คำค้นหา</label>
+                                </div>
+                                <button type="submit" class="btn btn-icon-search"><i class="icon-search"></i></button>
+                            </div>
+                        </form>
                     </div>
 
                     <div class="collapse" id="collapseMobileNav">
