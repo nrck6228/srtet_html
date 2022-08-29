@@ -101,6 +101,10 @@
             align-items: center;
 
             border-right: 1px solid rgba($color: $gray, $alpha: 0.5);
+            a{
+                padding: 0 0.3rem;
+                margin: 0 0.3rem;
+            }
         }
     
         .search--block{
@@ -112,6 +116,49 @@
 
             i{
                 font-size: 1rem;
+            }
+
+            &__all{
+                .form-group-wrapper{
+                    padding: 0 15px;
+                    
+                    form{
+                        .form-group--section{
+                            margin-bottom: 0;
+                            position: relative;
+                            .form-group{
+                                margin-bottom: 0;
+                                .form-control{
+                                    height: 35px;
+                                    max-width: 170px;
+                                    border: 1px solid #ced4da;
+                                }
+                                &.icon{
+                                    &__search{
+                                        .form-control{
+                                            padding-right: 35px;
+                                        }
+                                    }
+                                }
+                            }
+                            .btn-icon-search{
+                                padding: 0;
+                                font-size: 1rem;
+                                line-height: 1rem;
+                                color: $gray;
+                                position: absolute;
+                                z-index: 9;
+                                right: 13px;
+                                top: 50%;
+                                transform: translateY(-50%);
+                                &:hover{
+                                    color: $red;
+                                }
+                            }
+                        }
+                    }
+                    
+                }
             }
         }
     
@@ -139,8 +186,11 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-
             margin: 0;
+            a{
+                padding: 0 0.3rem;
+                margin: 0 0.3rem;
+            }
         }
     }
     
@@ -552,6 +602,62 @@
                 i{
                     font-size: 1rem;
                 }
+            }
+
+            .form-group-wrapper{
+                padding: 0 10px;
+                
+                form{
+                    .form-group--section{
+                        margin-bottom: 0;
+                        position: relative;
+                        .form-group{
+                            margin-bottom: 0;
+                            .form-control{
+                                height: 35px;
+                                border: 1px solid #ced4da;
+                            }
+                            &.icon{
+                                &__search{
+                                    .form-control{
+                                        padding-right: 35px;
+                                    }
+                                }
+                            }
+                        }
+                        .form--float{
+                            label{
+                                top: 8px;
+                            }
+                            .form-control{
+                                &:focus + label{
+                                    top: -9px;
+                                }
+                            }
+                            &.has-data{
+                                .form-control + label {
+                                    top:-9px;
+                                    
+                                }
+                            }
+                        }
+                        .btn-icon-search{
+                            padding: 0;
+                            font-size: 1rem;
+                            line-height: 1rem;
+                            color: $gray;
+                            position: absolute;
+                            z-index: 9;
+                            right: 13px;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            &:hover{
+                                color: $red;
+                            }
+                        }
+                    }
+                }
+                
             }
         }
     }

@@ -292,7 +292,7 @@
                                 <div class="col-lg-6">
                                     <div class="form-group form--float">
                                         <input class="form-control" type="text" placeholder="" value="">
-                                        <label></label>
+                                        <label>ชื่อบุคคลและช่องทางการติดต่อสำรอง</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-3">

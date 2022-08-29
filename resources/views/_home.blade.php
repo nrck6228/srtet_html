@@ -7,7 +7,7 @@
 @section('contentpage')
 
     <main class="main--wrapper">
-        <article class="home--hero">
+        <div class="home--hero">
             <div class="container">
                 <div class="main--slider">
                     <!-- <div class="item video">
@@ -31,12 +31,12 @@
                                 <img data-lazy="{{ asset('assets/images/hero/banner-demo-home.jpg')}}" class="image-entity" />
                             </div>
                             <figcaption class="caption">
-                                <h2 class="caption__title">
+                                <div class="caption__title">
                                     รถไฟฟ้าสายสีแดง
-                                </h2>
-                                <h3 class="caption__text">
+                                </div>
+                                <div class="caption__text">
                                     ยกระดับคุณภาพชีวิตชานเมือง
-                                </h3>
+                                </div>
                             </figcaption>
                         </a>
                     </div>
@@ -47,18 +47,18 @@
                                 <img data-lazy="{{ asset('assets/images/hero/banner-demo-home.jpg')}}" class="image-entity" />
                             </div>
                             <figcaption class="caption">
-                                <h2 class="caption__title">
+                                <div class="caption__title">
                                     รถไฟฟ้าสายสีแดง
-                                </h2>
-                                <h3 class="caption__text">
+                                </div>
+                                <div class="caption__text">
                                     ยกระดับคุณภาพชีวิตชานเมือง
-                                </h3>
+                                </div>
                             </figcaption>
                         </a>
                     </div> 
                 </div>
             </div>
-        </article>
+        </div>
 
         <article class="home--route">
             <div class="container">
