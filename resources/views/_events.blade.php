@@ -66,32 +66,30 @@
                                     <div class="form-group form--float">
                                         <select class="form-select" aria-label="Default select example" id="slc_months">
                                             <!-- <option selected="true" value="title">เดือน</option> -->
-                                            <option value="January" >มกราคม</option>
-                                            <option value="February">กุมภาพันธ์</option>
-                                            <option value="March" >มีนาคม</option>
-                                            <option value="April">เมษายน</option>
-                                            <option value="May" >พฤษภาคม</option>
-                                            <option value="June">มิถุนายน</option>
-                                            <option value="July" >กรกฎาคม</option>
-                                            <option value="August">สิงหาคม</option>
-                                            <option value="September">กันยายน</option>
-                                            <option value="October">ตุลาคม</option>
-                                            <option value="November" >พฤศจิกายน</option>
-                                            <option value="December">ธันวาคม</option>
+                                            <option value="1" >มกราคม</option>
+                                            <option value="2">กุมภาพันธ์</option>
+                                            <option value="3" >มีนาคม</option>
+                                            <option value="4">เมษายน</option>
+                                            <option value="5" >พฤษภาคม</option>
+                                            <option value="6">มิถุนายน</option>
+                                            <option value="7" >กรกฎาคม</option>
+                                            <option value="8">สิงหาคม</option>
+                                            <option value="9">กันยายน</option>
+                                            <option value="10">ตุลาคม</option>
+                                            <option value="11" >พฤศจิกายน</option>
+                                            <option value="12">ธันวาคม</option>
                                         </select>
                                         <!-- <label class="did-floating-label">เดือน</label> -->
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-6 col-12">
                                     <div class="form-group form--float">
-                                        <select class="form-select" aria-label="Default select example">
-                                            <option selected="true" value="title">ปี</option>
-                                            <option value="" >2565</option>
-                                            <option value="">2564</option>
-                                            <option value="" >2563</option>
-                                            <option value="">2562</option>
+                                        <select class="form-select" aria-label="Default select example" id="slc_years">
+                                            <option value="2565">2565</option>
+                                            <option value="2564">2564</option>
+                                            <option value="2563">2563</option>
+                                            <option value="2562">2562</option>
                                         </select>
-                                        <label class="did-floating-label">ปี</label>
                                     </div>
                                 </div>
                                 <div class="col-md-2 col-sm-6 col-12">
@@ -241,15 +239,17 @@
         // };
         // $.datepicker.setDefaults($.datepicker.regional['en']);
 
-        var dates = ['2022-06-24','2022-06-22','2022-06-22',];
+        var dates = ['2022-09-24','2022-09-23','2022-09-02',];
+
+
         $(document).ready(function () {
 
             $('#event_inline').datepicker({
                 //maxDate: 0,
-                inline: true,
-                updateViewDate: true,
-                defaultViewDate: {year: '2014'},
-                beforeShowDay: function (date) {
+                //inline: true,
+                //updateViewDate: true,
+                //defaultViewDate: {year: '2014'},
+                beforeShowDay: function (date) {    
                     var y = date.getFullYear().toString();
                     var m = (date.getMonth() + 1).toString();
                     var d = date.getDate().toString();
@@ -262,8 +262,10 @@
                         return [true];
                     }
                 },
+
             });
             $("#event_inline").datepicker( $.datepicker.regional["th"] );
+ 
 
             // var year = parseInt($(".ui-datepicker-year").text());
             // var numTH = 543;
@@ -271,7 +273,32 @@
             // console.log(yearTH);
 
             //$(".ui-datepicker-year").text(yearTH)
+
+            var date = $("#event_inline").datepicker('getDate');
+            // alert(date.getDate());         // Day of the month
+            // alert(date.getMonth()+1);        // Month with a zero index
+            // alert(date.getDay());          // Day of the week
+            // alert(date.getFullYear());
+
+            var m = date.getMonth()+1;
+            var y = date.getFullYear()+543;
+            console.log(m, y);
+            
+            $('#slc_months').val(m);
+            $('#slc_years').val(y);
+
+            $('#slc_months').change(function(){
+                var log_val = $(this).val();
+                console.log(log_val);
+                
+                date.setMonth(log_val-1);
+            });
+            
         });
+
+        
+        
+
         
     </script>
 
