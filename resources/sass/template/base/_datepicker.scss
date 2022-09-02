@@ -23,13 +23,17 @@
 .ui-state-default{
     font-weight: bold !important;
 }
-.ui-state-active, .ui-widget-content .ui-state-active{
-    border: 1px solid $red !important;
+.ui-datepicker-current-day .ui-state-active{
+    background-color: #D05A63 !important;
+    color: #fff !important;
+}
+.ui-datepicker-today .ui-state-highlight{
     background-color: $red !important;
+    color: $white !important;
 }
 
 .ui-state-highlight, .ui-widget-content .ui-state-highlight{
-    border-color: $red !important;
-    background-color: $red !important;
-    color: $white !important;
+    // border-color: $red !important;
+    // background-color: $red !important;
+    // color: $white !important;
 }
