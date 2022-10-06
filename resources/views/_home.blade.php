@@ -27,7 +27,7 @@
 
                     <div class="item image">
                         <a href="https://www.google.co.th" title="รถไฟฟ้าสายสีแดง" target="_blank" class="slide-link">
-                            <div class="slide-image slide-media" style="background-image:url('{{ asset('assets/images/hero/banner-demo-home.jpg')}}');">
+                            <div class="slide-image slide-media">
                                 <img data-lazy="{{ asset('assets/images/hero/banner-demo-home.jpg')}}" class="image-entity" />
                             </div>
                             <figcaption class="caption">
@@ -43,7 +43,7 @@
                     
                     <div class="item image">
                         <a href="https://www.google.co.th" title="รถไฟฟ้าสายสีแดง" target="_blank" class="slide-link">
-                            <div class="slide-image slide-media" style="background-image:url('{{ asset('assets/images/hero/banner-demo-home.jpg')}}');">
+                            <div class="slide-image slide-media">
                                 <img data-lazy="{{ asset('assets/images/hero/banner-demo-home.jpg')}}" class="image-entity" />
                             </div>
                             <figcaption class="caption">
