@@ -1,6 +1,9 @@
 .station--wrapper{
     .body--content{
         .content__gallery{
+            position: relative;
+            margin-bottom: 30px;
+
             .gallery__for{
                 margin-bottom: 15px;
                 .item{
@@ -91,6 +94,39 @@
                     z-index: 9;
                 }
             }
+
+            @include media-breakpoint-down(sm){
+                margin-bottom: 0;
+            }
+        }
+
+        .content__map{
+            position: relative;
+            width: 100%;
+            height: 250px;
+            margin-bottom: 30px;
+
+            .map--wrap{
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                text-align: left;
+                z-index: 2;
+                border-bottom: 0;
+            }
+
+            iframe{
+                width: 100%;
+                height: 100%;
+                display: block;
+                position: relative;
+            }
+        }
+
+        .station--content{
+            margin-bottom: 30px;
         }
     }
     
